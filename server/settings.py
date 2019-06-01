@@ -42,11 +42,14 @@ THIRD_APPS = [
     'django_extensions',
     'django_filters',
     'crispy_forms',
+    'mptt',
 ]
 
 APPS = [
-    # 'datamodels.common',
     'datamodels.customers',
+    'datamodels.subjects',
+    'datamodels.applications',
+    'datamodels.questions',
 ]
 
 INSTALLED_APPS += THIRD_APPS

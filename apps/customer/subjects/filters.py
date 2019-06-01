@@ -21,7 +21,6 @@ class CustomerApplicationFilter(filters.FilterSet):
             'customer': ['exact'],
             'customer__name': ['contains'],
             'subject_term': ['exact'],
-            'subject_term__parent': ['exact'],
             'update_at': ['gt', 'lt'],
             'create_at': ['gt', 'lt'],
         }

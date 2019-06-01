@@ -17,9 +17,11 @@ class Question(models.Model):
                                              default=ModelManager.Question_Type_Danxuanti,
                                              verbose_name='题型')
     content = models.TextField(verbose_name='题目内容')
-   # [{"label": "A", "content": "选项内容"}, {"label": "A", "content": "选项内容"},]
-    answer = models.CharField(
-        max_length=100, default='[]', verbose_name='正确答案')
+    choices = JSONField(verbose_name='选项列表')
+    # [{"label": "A", "content": "选项内容"}, {"label": "A", "content": "选项内容"},]
+    images = JSONField(verbose_name='图片列表')
+    # [{"url": "https:xxx.jpg", "name": "图1"}]
+    answer = JSONField(verbose_name='正确答案')
     update_at = models.DateTimeField(auto_now=True, verbose_name='更新时间')
     create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
 

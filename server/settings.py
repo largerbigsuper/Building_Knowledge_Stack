@@ -48,7 +48,6 @@ THIRD_APPS = [
 APPS = [
     'datamodels.customers',
     'datamodels.subjects',
-    'datamodels.applications',
     'datamodels.questions',
 ]
 

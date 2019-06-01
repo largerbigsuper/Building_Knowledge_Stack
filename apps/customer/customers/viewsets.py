@@ -7,7 +7,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.authtoken.models import Token
 
-from apps.customers.customers.serilizers import (CustomerProfileSerializer,
+from apps.customer.customers.serilizers import (CustomerProfileSerializer,
                                                  LoginSerializer,
                                                  MiniprogramLoginSerializer,
                                                  RegisterSerializer)

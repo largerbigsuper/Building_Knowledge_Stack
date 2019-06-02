@@ -13,7 +13,7 @@ class BaseSubjectFilter(filtes.FilterSet):
     class Meta:
         model = Subject
         fields = {
-            'name': [exact],
+            'name': [contains],
             'level': [exact],
             'parent': [exact],
         }

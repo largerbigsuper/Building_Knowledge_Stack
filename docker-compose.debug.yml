@@ -1,0 +1,22 @@
+version: '2.1'
+
+services:
+  building_knowledge_stack:
+    image: building_knowledge_stack
+    build: .
+    command: ["./run_web.sh"]
+    ports:
+      - 8000:8000
+    environment:
+      DJANGO_RUN_ENV: DEV_DOCKER
+    depends_on:
+      - db
+
+  db:
+    image: postgres:11.3
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password@123/
+      POSTGRES_USER: building_user
+      POSTGRES_DB: building_knowledge_stack_db
+

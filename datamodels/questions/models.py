@@ -1,3 +1,5 @@
+import json
+
 from django.db import models
 from django_extensions.db.fields.json import JSONField
 
@@ -10,6 +12,7 @@ class QuestionManager(ModelManager):
 
 
 class Question(models.Model):
+    """题目"""
 
     subject = models.ForeignKey('subjects.Subject',
                                 on_delete=models.SET_NULL, blank=True, null=True, verbose_name='科目')
@@ -30,6 +33,20 @@ class Question(models.Model):
     class Meta:
         db_table = DB_PREFIX + 'questions'
         ordering = ['-id']
+
+    def __str__(self):
+        return '<{qid}: {content}>'.format(qid=self.id, content=self.content[:10])
+
+    def is_correct_answer(self, answer_list):
+        """判断答案对错"""
+        upper_correct_answer = [choice.upper() for choice in list(self.answer)]
+        upper_answer_list = [choice.upper() for choice in answer_list]
+        if len(upper_correct_answer) != len(upper_answer_list):
+            return ModelManager.Answer_Result_Wrong 
+        for item in upper_correct_answer:
+            if item not in upper_answer_list:
+                return ModelManager.Answer_Result_Wrong
+        return ModelManager.Answer_Result_Correct
 
 
 class ExamManager(ModelManager):
@@ -56,11 +73,18 @@ class Exam(models.Model):
         db_table = DB_PREFIX + 'exams'
 
 
-class QuestionSubmitRecordManager(ModelManager):
-    pass
+class QuestionRecordManager(ModelManager):
+    
+    def my_records(self, customer_id, subject_id=None, exam_id=None):
+        queryset = self.filter(customer_id=customer_id)
+        if subject_id is not None:
+            queryset = queryset.filter(question__subject_id=subject_id)
+        if exam_id is not None:
+            queryset = queryset.filter(exam_id=exam_id)
+        return queryset
 
 
-class QuestionSubmitRecord(models.Model):
+class QuestionRecord(models.Model):
     """题目提交记录"""
 
     question = models.ForeignKey(
@@ -78,12 +102,12 @@ class QuestionSubmitRecord(models.Model):
                                      verbose_name='更新时间')
     create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
 
-    objects = QuestionSubmitRecordManager()
+    objects = QuestionRecordManager()
 
     class Meta:
-        db_table = DB_PREFIX + 'question_submit_records'
+        db_table = DB_PREFIX + 'question_records'
 
 
 mm_Question = Question.objects
 mm_Exam = Exam.objects
-mm_QuestionSubmitRecord = QuestionSubmitRecord.objects
+mm_QuestionRecord = QuestionRecord.objects

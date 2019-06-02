@@ -10,7 +10,7 @@ class AdminQuestionViewSet(AdminModelViewSet):
     filter_class = AdminQuestionFilter
     
     def get_serializer_class(self):
-        if self.request.method == 'GET':
+        if self.request.method == 'GET': # 获取详情或列表的时候返回类型的Json结构
             return AdminQuestionSerializer
         else:
             return AdminQuestionCreateModifySerializer

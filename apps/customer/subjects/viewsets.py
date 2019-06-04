@@ -34,7 +34,7 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
         subject_info = BaseSubjectSerializer(subject).data
         ret = {
             'subject': subject_info,
-            'data': questions_status_list
+            'questions': questions_status_list
         }
         return Response(data=ret)
     

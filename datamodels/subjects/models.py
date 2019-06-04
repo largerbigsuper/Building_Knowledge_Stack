@@ -7,8 +7,9 @@ from server.settings import DB_PREFIX
 
 
 class SubjectManager(ModelManager):
-    pass
-
+    
+    def subject_by_level(self, level=0):
+        return self.filter(level=level)
 
 class Subject(MPTTModel):
     """报考类型"""

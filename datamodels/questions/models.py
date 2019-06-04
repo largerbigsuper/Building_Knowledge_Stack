@@ -87,6 +87,7 @@ class QuestionRecordManager(ModelManager):
 class QuestionRecord(models.Model):
     """题目提交记录"""
 
+    # FIXME 修改为一题只有一条提交记录，并及时更新答题结果
     question = models.ForeignKey(
         'questions.Question', on_delete=models.DO_NOTHING, verbose_name='作业')
     customer = models.ForeignKey(

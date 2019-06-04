@@ -39,4 +39,4 @@ SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
-CSRF_TRUSTED_ORIGINS = ['servicewechat.com', 'server.lhxq.top', 'lhxq.top', '127.0.0.1', '127.0.0.1:7788']
+CSRF_TRUSTED_ORIGINS = ['servicewechat.com', 'tm.lhxq.top', 'lhxq.top', '127.0.0.1', '127.0.0.1:7788']

@@ -2,8 +2,10 @@ version: '2.1'
 
 services:
   building_knowledge_stack:
-    image: building_knowledge_stack
+    # image: building_knowledge_stack
     build: .
+    volumes:
+      - .:/app
     command: ["./run_web.sh"]
     ports:
       - 7005:8000

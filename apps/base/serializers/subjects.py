@@ -7,7 +7,7 @@ class BaseSubjectSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = mm_Subject.model
-        fields = ['id', 'parent', 'name', 'level']
+        fields = ['id', 'parent', 'name', 'level', 'image']
 
 
 class BaseSubjectTermSerializer(serializers.ModelSerializer):

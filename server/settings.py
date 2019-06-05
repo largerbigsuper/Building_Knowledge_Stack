@@ -167,3 +167,31 @@ REST_FRAMEWORK = {
         '%m/%d/%y',  # '10/25/06'
     ]
 }
+
+# ImageField
+DEFAULT_FILE_STORAGE = 'lib.storages.StorageObject'
+
+
+# session
+SESSION_ENGINE = "django.contrib.sessions.backends.db"
+SESSION_CACHE_ALIAS = "default"
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 7 * 2
+CSRF_COOKIE_AGE = 60 * 60 * 24 * 7 * 2
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
+        },
+    },
+}

@@ -15,6 +15,7 @@ class Subject(MPTTModel):
     """报考类型"""
 
     name = models.CharField(max_length=20, verbose_name='报考类型')
+    image = models.ImageField(blank=True, verbose_name='背景图')
     parent = TreeForeignKey('self', on_delete=models.CASCADE,
                             null=True, blank=True, related_name='children')
 

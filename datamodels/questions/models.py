@@ -1,6 +1,8 @@
 import json
+import random
 
 from django.db import models
+from django.db.models import Count
 from django_extensions.db.fields.json import JSONField
 
 from server.settings import DB_PREFIX
@@ -8,7 +10,15 @@ from lib.modelmanager import ModelManager
 
 
 class QuestionManager(ModelManager):
-    pass
+    
+    def get_random_questions(self, subject_id, qtype, count):
+        all_id_list = self.filter(subject_id=subject_id, qtype=qtype).values_list('id', flat=True)       
+        all_id_list = list(all_id_list)
+        if count > len(all_id_list):
+            return all_id_list
+        else:
+            return random.sample(all_id_list, count)
+
 
 
 class Question(models.Model):
@@ -20,11 +30,11 @@ class Question(models.Model):
                                              default=ModelManager.Question_Type_Danxuanti,
                                              verbose_name='题型')
     content = models.TextField(verbose_name='题目内容')
-    choices = JSONField(verbose_name='选项列表')
+    choices = JSONField(default='[]', verbose_name='选项列表')
     # [{"label": "A", "content": "选项内容"}, {"label": "A", "content": "选项内容"},]
-    images = JSONField(verbose_name='图片列表')
+    images = JSONField(default='[]',verbose_name='图片列表')
     # [{"url": "https:xxx.jpg", "name": "图1"}]
-    answer = JSONField(verbose_name='正确答案')
+    answer = JSONField(default='[]', verbose_name='正确答案')
     update_at = models.DateTimeField(auto_now=True, verbose_name='更新时间')
     create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
 
@@ -50,7 +60,41 @@ class Question(models.Model):
 
 
 class ExamManager(ModelManager):
-    pass
+    
+    def _gen_an_exam(self, customer_id, subject_id):
+        """生成试卷题目"""
+        panduan_count = danxuan_count = duoxuan_count = 1
+        panduan_list = mm_Question.get_random_questions(subject_id, self.Question_Type_Panduanti, panduan_count)
+        danxuan_list = mm_Question.get_random_questions(subject_id, self.Question_Type_Danxuanti, danxuan_count)
+        duoxuan_list = mm_Question.get_random_questions(subject_id, self.Question_Type_Duouanti, duoxuan_count)
+        questions = panduan_list + danxuan_list + duoxuan_list
+
+        exam = self.create(customer_id=customer_id, subject_id=subject_id, questions=questions)
+
+        return exam
+    
+
+    def _gen_exam_result(self, exam_id=None, exam=None):
+        """提交试卷"""
+        if exam is not None:
+            _exam = exam
+        else:
+            _exam = self.get(pk=exam_id)
+        questions = _exam.questions
+        result_list = mm_QuestionRecord.filter(pk__in=questions).values_list('is_correct').annotate(total=Count('id'))
+        result_dict = dict(result_list)
+        correct_count = result_dict.get(self.Answer_Result_Correct, 0)
+        wrong_count = result_dict.get(self.Answer_Result_Wrong, 0)
+        blank_count = len(questions) - correct_count - wrong_count
+        result = {
+            'correct_cout': correct_count,
+            'wrong_cout': wrong_count,
+            'blank_count': blank_count
+        }
+        _exam.result = result
+        _exam.save()
+        return _exam
+
 
 
 class Exam(models.Model):
@@ -58,12 +102,13 @@ class Exam(models.Model):
 
     customer = models.ForeignKey(
         'customers.Customer', on_delete=models.CASCADE, verbose_name='考试人')
-    questions = JSONField(verbose_name='题目列表')
+    subject = models.ForeignKey('subjects.Subject', on_delete=models.DO_NOTHING, verbose_name='所属科目', null=True, blank=True)
+    questions = JSONField(default='[]', verbose_name='题目列表')
     # [id1, id2,]
-    answer = JSONField(verbose_name='答案列表')
+    answer = JSONField(default='[]', verbose_name='答案列表')
     # [{"id": qid, "answer": [], "is_correct": True},]
-    result = JSONField(verbose_name='考试结果')
-    # {"correct_cout": 20, "wrong_cout": 10, "blank_count": 0, "score": 100}
+    result = JSONField(default='[]', verbose_name='考试结果')
+    # {"correct_count": 20, "wrong_cout": 10, "blank_count": 0, "score": 100}
     update_at = models.DateTimeField(auto_now=True, verbose_name='更新时间')
     create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
 

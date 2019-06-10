@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from apps.base.serializers.questions import BaseQuestionSerializer
-from datamodels.questions.models import mm_Question, mm_QuestionRecord
+from datamodels.questions.models import mm_Question, mm_QuestionRecord, mm_Exam
 
 
 class CustomerQuestionSerializer(BaseQuestionSerializer):
@@ -26,3 +26,21 @@ class CustomerQuestionRecordSerializer(serializers.ModelSerializer):
                            'read_only': True
                            }
         }
+
+
+class CustomerExamSerializer(serializers.ModelSerializer):
+
+    questions = serializers.ListField()
+    answer = serializers.ListField()
+    result = serializers.JSONField()
+
+    class Meta:
+        model = mm_Exam.model
+        fields = ['id', 'subject', 'questions', 'answer', 'result', 'create_at']
+
+
+class CustomerExamCreateSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = mm_Exam.model
+        fields = ['subject']

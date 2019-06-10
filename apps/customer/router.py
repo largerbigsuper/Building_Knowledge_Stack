@@ -2,7 +2,7 @@ from rest_framework import routers
 
 from apps.customer.customers.viewsets import CustomerViewSet
 from apps.customer.subjects.viewsets import CustomerSubjectViewSet, CustomerSubjectermViewSet
-from apps.customer.questions.viewsets import CustomerQuestionViewSet, CustomerQuestionRecordViewSet
+from apps.customer.questions.viewsets import CustomerQuestionViewSet, CustomerQuestionRecordViewSet, CustomerExamViewSet
 
 customer_router = routers.DefaultRouter()
 
@@ -11,3 +11,4 @@ customer_router.register('subject', CustomerSubjectViewSet, base_name='customer-
 customer_router.register('subject-term', CustomerSubjectermViewSet, base_name='customer-subject-term')
 customer_router.register('question', CustomerQuestionViewSet, base_name='customer-question')
 customer_router.register('question-record', CustomerQuestionRecordViewSet, base_name='customer-question-record')
+customer_router.register('exam', CustomerExamViewSet, base_name='exam')

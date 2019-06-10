@@ -11,7 +11,7 @@ class AdminQuestionSerializer(BaseQuestionSerializer):
         fields = ['id',  'subject', 'qtype', 'content', 'choices', 'images', 'answer', 'update_at', 'create_at']
 
 
-class AdminQuestionCreateModifySerializer(serializers.ModelSerializer):
+class AdminQuestionCreateModifySerializer(BaseQuestionSerializer):
 
     class Meta:
         model = mm_Question.model

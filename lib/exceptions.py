@@ -19,3 +19,8 @@ class PramsException(APIException):
     status_code = status.HTTP_400_BAD_REQUEST
     default_detail = _('参数异常')
     default_code = '参数异常'
+
+class SMSExcecption(APIException):
+    status_code = status.HTTP_400_BAD_REQUEST
+    default_detail = _('获取验证码失败')
+    default_code = '获取验证码失败'

@@ -107,7 +107,7 @@ class Exam(models.Model):
     # [id1, id2,]
     answer = JSONField(default='[]', verbose_name='答案列表')
     # [{"id": qid, "answer": [], "is_correct": True},]
-    result = JSONField(default='[]', verbose_name='考试结果')
+    result = JSONField(default='{}', verbose_name='考试结果')
     # {"correct_count": 20, "wrong_cout": 10, "blank_count": 0, "score": 100}
     update_at = models.DateTimeField(auto_now=True, verbose_name='更新时间')
     create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')

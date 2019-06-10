@@ -14,3 +14,4 @@ django-crispy-forms==1.7.2
 psycopg2==2.8.2
 django-mptt==0.10.0
 Pillow==6.0.0
+aliyun-python-sdk-core-v3==2.13.3

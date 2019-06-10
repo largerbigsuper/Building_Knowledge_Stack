@@ -51,7 +51,7 @@ class CustomerExamViewSet(CustomerModelViewSet):
         params.is_valid(raise_exception=True)
         subject_id = params.validated_data['subject'].id
         exam = mm_Exam._gen_an_exam(customer_id=self.request.user.customer.id, subject_id=subject_id)
-        serializer = self.serializer_class(exam)
+        serializer = CustomerExamSerializer(exam)
         
         return Response(data=serializer.data)
 

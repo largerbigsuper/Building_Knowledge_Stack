@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 from apps.base.serializers.questions import BaseQuestionSerializer
+from apps.base.serializers.subjects import BaseSubjectSerializer
 from datamodels.questions.models import mm_Question, mm_QuestionRecord, mm_Exam
 
 
@@ -30,6 +31,7 @@ class CustomerQuestionRecordSerializer(serializers.ModelSerializer):
 
 class CustomerExamSerializer(serializers.ModelSerializer):
 
+    subject = BaseSubjectSerializer()
     questions = serializers.ListField()
     answer = serializers.ListField()
     result = serializers.JSONField()

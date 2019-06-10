@@ -37,3 +37,10 @@ class QiNiuSettings:
         'image': 'http://lhxq.top/',
         'video': 'http://video.lhxq.top/'
     }
+
+
+class AliYunSMS:
+    ACCESS_KEY_ID = "LTAILW2rTviNT3NS"
+    ACCESS_KEY_SECRET = "exfqW4cxb7QrE3CExWqF4B7TKzifxr"
+    SMS_TEMPLATE_NAME = '邯郸鼎典'
+    SMS_TEMPLATE_ID = 'SMS_160861562'

@@ -28,6 +28,13 @@ class Const(object):
         (Answer_Result_Correct, '正确')
     )
     
+    Publish_Unpublish = 0
+    Publish_Published = 1
+
+    Publish_Status = (
+        (Publish_Unpublish, '未发布'),
+        (Publish_Published, '已发布'),
+    )
 
 
 class ModelManager(models.Manager, Const):

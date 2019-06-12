@@ -4,6 +4,7 @@ from apps.customer.customers.viewsets import CustomerViewSet
 from apps.customer.subjects.viewsets import CustomerSubjectViewSet, CustomerSubjectermViewSet
 from apps.customer.questions.viewsets import CustomerQuestionViewSet, CustomerQuestionRecordViewSet, CustomerExamViewSet
 from apps.customer.sms.viewsets import CustomerSMSViewSet
+from apps.customer.articles.viewsets import CustomerArticleViewSet
 
 customer_router = routers.DefaultRouter()
 
@@ -14,3 +15,4 @@ customer_router.register('question', CustomerQuestionViewSet, base_name='custome
 customer_router.register('question-record', CustomerQuestionRecordViewSet, base_name='customer-question-record')
 customer_router.register('exam', CustomerExamViewSet, base_name='exam')
 customer_router.register('sms', CustomerSMSViewSet, base_name='sms')
+customer_router.register('article', CustomerArticleViewSet, base_name='article')

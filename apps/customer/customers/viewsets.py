@@ -12,6 +12,7 @@ from apps.customer.customers.serilizers import (CustomerProfileSerializer,
                                                  MiniprogramLoginSerializer,
                                                  RegisterSerializer)
 from datamodels.customers.models import mm_Customer
+from datamodels.sms.models import mm_SMSCode
 from server import settings
 from lib.common import common_logout, customer_login
 
@@ -55,6 +56,8 @@ class CustomerViewSet(viewsets.ModelViewSet):
         serializer.is_valid(raise_exception=True)
         account = serializer.validated_data['account']
         password = serializer.validated_data['password']
+        code = serializer.validated_data['code']
+        mm_SMSCode.is_effective(account, code)
         customer = mm_Customer.add(account=account, password=password)
         return Response(data={'account': account})
 

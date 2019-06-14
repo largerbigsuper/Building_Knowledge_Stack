@@ -1,7 +1,7 @@
 from rest_framework import routers
 
 from apps.customer.customers.viewsets import CustomerViewSet
-from apps.customer.subjects.viewsets import CustomerSubjectViewSet, CustomerSubjectermViewSet
+from apps.customer.subjects.viewsets import CustomerSubjectViewSet, CustomerSubjectermViewSet, CustomerApplicationViewSet
 from apps.customer.questions.viewsets import CustomerQuestionViewSet, CustomerQuestionRecordViewSet, CustomerExamViewSet
 from apps.customer.sms.viewsets import CustomerSMSViewSet
 from apps.customer.articles.viewsets import CustomerArticleViewSet, CustomerTagViewSet
@@ -17,3 +17,4 @@ customer_router.register('exam', CustomerExamViewSet, base_name='exam')
 customer_router.register('sms', CustomerSMSViewSet, base_name='sms')
 customer_router.register('tag', CustomerTagViewSet, base_name='tag')
 customer_router.register('article', CustomerArticleViewSet, base_name='article')
+customer_router.register('application', CustomerApplicationViewSet, base_name='application')

@@ -36,6 +36,20 @@ class Const(object):
         (Publish_Published, '已发布'),
     )
 
+    Pay_Status_Unpaid = 0
+    Pay_Status_Paid = 1
+
+    Pay_Status_Choice = (
+        (Pay_Status_Unpaid, '未付款'),
+        (Pay_Status_Paid, '已付款')
+    )
+
+    Pay_Type_Wechat = 0
+    Pay_Type_Alipay = 1
+    Pay_Type_Choice = (
+        (Pay_Type_Wechat, '微信支付'),
+        (Pay_Type_Alipay, '支付宝')
+    )
 
 class ModelManager(models.Manager, Const):
     

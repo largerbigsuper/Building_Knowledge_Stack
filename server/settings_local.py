@@ -1,3 +1,4 @@
+import os
 
 DATABASES = {
     'default': {
@@ -44,3 +45,19 @@ class AliYunSMS:
     ACCESS_KEY_SECRET = "exfqW4cxb7QrE3CExWqF4B7TKzifxr"
     SMS_TEMPLATE_NAME = '邯郸鼎典'
     SMS_TEMPLATE_ID = 'SMS_160861562'
+
+
+class AlipaySettings:
+    _root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    APP_ID = '2019013063154821'
+    APP_PRIVATE_KEY = os.path.join(_root_dir, 'config/alipay/test_app_private.txt')
+    ALIPAY_PUBLIC_KEY = os.path.join(_root_dir, 'config/alipay/test_alipay_public_key_sha256.txt')
+    VIRTUAL_SERVICE_NOTIFY_URI = 'https://tm.lhxq.top/application/alipay/notify/'
+
+
+class WeChatPaySettings:
+    WEIXIN_APP_ID = 'wx502707dff6e8ce6c'
+    WEIXIN_APP_SECRET = '7968e86926fc96525807d0256edaadff'
+    WEIXIN_MCH_ID = '1527643731'
+    WEIXIN_MCH_KEY = 'handanxiaohongniang1234567890000'
+    WEIXIN_NOTIFY_URL = 'https://tm.lhxq.top/application/wechatpay/notify/'

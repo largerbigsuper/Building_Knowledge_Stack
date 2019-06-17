@@ -11,12 +11,13 @@ from apps.base.viewsets import CustomerReadOnlyModelViewSet, CustomerModelViewSe
 from apps.base.serializers.subjects import BaseSubjectSerializer
 from apps.base.filters.subjects import BaseSubjectFilter
 from datamodels.subjects.models import mm_Subject, mm_SubjectTerm, mm_Application
-from apps.customer.subjects.serializers import CustomerSubjectTermSerializer, CustomerApplicationSerializer
+from apps.customer.subjects.serializers import CustomerSubjectTermSerializer, CustomerApplicationSerializer, CustomerSubmitApplicationSerializer
 from apps.customer.subjects.filters import CustomerSubjectTermFilter
 from datamodels.questions.models import mm_Question, mm_QuestionRecord
 from lib import pay
 
 pay_logger = logging.getLogger('pay')
+
 
 class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
 
@@ -58,11 +59,21 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
     def create_alipay_order(self, request, pk=None):
         """提交报名"""
         # application = mm_Application.create_alipay_order(customer_id=request.session['cid'], subject_term_id=pk)
-        pay_from = request.POST.get('pay_from', 'APP')
+        # pay_from = request.POST.get('pay_from', 'APP')
+        s = CustomerSubmitApplicationSerializer(data=request.data)
+        s.is_valid(raise_exception=True)
+        pay_from = s.validated_data['pay_from']
+        name = s.validated_data['name']
+        tel = s.validated_data['tel']
+        id_number = s.validated_data['id_number']
         order_string = ''
         if pay_from == 'APP':
             order_string = mm_Application.create_alipay_order(
-                customer_id=request.user.customer.id, subject_term_id=pk)
+                customer_id=request.user.customer.id,
+                subject_term_id=pk,
+                name=name,
+                tel=tel,
+                id_number=id_number,)
         data = {
             'order_string': order_string
         }
@@ -72,15 +83,27 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
     def create_wechat_order(self, request, pk=None):
         """提交报名"""
 
-        pay_type = int(request.POST.get('pay_type', 0))
-        pay_from = request.POST.get('pay_from', 'APP')
+        # pay_type = int(request.POST.get('pay_type', 0))
+        # pay_from = request.POST.get('pay_from', 'APP')
+        s = CustomerSubmitApplicationSerializer(data=request.data)
+        s.is_valid(raise_exception=True)
+        pay_type = s.validated_data['pay_type']
+        pay_from = s.validated_data['pay_from']
+        name = s.validated_data['name']
+        tel = s.validated_data['tel']
+        id_number = s.validated_data['id_number']
 
         order_string = ''
         spbill_create_ip = request.META.get('HTTP_X_FORWARDED_FOR',
                                             request.META.get('REMOTE_ADDR', '')).split(',')[-1].strip()
         if pay_from == 'APP':
             order_string = mm_Application.create_wechat_order(
-                customer_id=request.user.customer.id, subject_term_id=pk, spbill_create_ip=spbill_create_ip)
+                customer_id=request.user.customer.id,
+                subject_term_id=pk,
+                spbill_create_ip=spbill_create_ip,
+                name=name,
+                tel=tel,
+                id_number=id_number,)
         data = {
             'order_string': order_string
         }
@@ -90,10 +113,10 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
 class CustomerApplicationViewSet(CustomerModelViewSet):
 
     serializer_class = CustomerApplicationSerializer
-    
+
     def get_queryset(self):
         return mm_Application.filter(customer_id=self.request.session['cid'])
-    
+
     @action(detail=False, methods=['post'], authentication_classes=[])
     @transaction.atomic()
     def alipay_notify(self, request):
@@ -115,8 +138,8 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                 out_trade_no = data['out_trade_no']
                 total_amount = float(data['buyer_pay_amount'])
                 order = mm_Application.filter(union_trade_no=out_trade_no,
-                                        total_amount=total_amount
-                                        ).first()
+                                              total_amount=total_amount
+                                              ).first()
                 if order:
                     order.status = mm_Application.Pay_Status_Paid
                     order.trade_no = data['trade_no']
@@ -129,8 +152,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                 return Response('success')
         else:
             return Response('failed')
- 
-    
+
     @action(detail=False, methods=['post'], authentication_classes=[])
     @transaction.atomic()
     def wechatpay_notify(self, request):
@@ -145,13 +167,11 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
         total_fee = int(data['total_fee'])
         out_trade_no = data['out_trade_no']
         order = mm_Application.filter(union_trade_no=out_trade_no,
-                                total_amount=total_fee/100
-                                ).first()
+                                      total_amount=total_fee/100
+                                      ).first()
         if order:
             order.status = mm_Application.Pay_Status_Paid
             order.trade_no = data['transaction_id']
             order.pay_at = datetime.now()
             order.save()
         return pay.wechatpay_serve.reply("OK", True)
-
-    

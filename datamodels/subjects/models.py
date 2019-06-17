@@ -66,16 +66,19 @@ class SubjectTerm(models.Model):
 class ApplicationManager(ModelManager):
 
     def add(self, customer_id, subject_term_id,
-            union_trade_no, subject_term_name, total_amount, status=ModelManager.Pay_Status_Unpaid):
+            union_trade_no, subject_term_name, total_amount, name, tel, id_number, status=ModelManager.Pay_Status_Unpaid):
         return self.create(customer_id=customer_id,
                            subject_term_id=subject_term_id,
                            union_trade_no=union_trade_no,
                            subject_term_name=subject_term_name,
                            total_amount=total_amount,
-                           status=status
+                           status=status,
+                           name=name,
+                           tel=tel,
+                           id_number=id_number,
                            )
 
-    def create_alipay_order(self, customer_id, subject_term_id, pay_from='APP'):
+    def create_alipay_order(self, customer_id, subject_term_id, name, tel, id_number, pay_from='APP',):
         subject_term = mm_SubjectTerm.get(pk=subject_term_id)
         total_amount = subject_term.price
         subject = subject_term.name
@@ -85,6 +88,9 @@ class ApplicationManager(ModelManager):
                          union_trade_no=out_trade_no,
                          subject_term_name=subject_term.name,
                          total_amount=total_amount,
+                         name=name,
+                         tel=tel,
+                         id_number=id_number,
                          )
         order_string = None
         if pay_from == 'APP':
@@ -97,7 +103,7 @@ class ApplicationManager(ModelManager):
             )
         return order_string
 
-    def create_wechat_order(self, customer_id, subject_term_id, pay_from='APP', spbill_create_ip=None):
+    def create_wechat_order(self, customer_id, subject_term_id, name, tel, id_number, pay_from='APP', spbill_create_ip=None):
         subject_term = mm_SubjectTerm.get(pk=subject_term_id)
         subject = subject_term.name
         total_amount = subject_term.price
@@ -107,6 +113,9 @@ class ApplicationManager(ModelManager):
                          union_trade_no=out_trade_no,
                          subject_term_name=subject_term.name,
                          total_amount=total_amount,
+                         name=name,
+                         tel=tel,
+                         id_number=id_number,
                          )
         order_string = None
         if pay_from == 'APP':
@@ -153,6 +162,10 @@ class Application(models.Model):
         verbose_name='流水号', max_length=100, blank=True, null=True)
     subject_term_name = models.CharField(verbose_name='批次名', max_length=100, blank=True)
     total_amount = models.FloatField(verbose_name='总额', default=0)
+    name = models.CharField(max_length=40, verbose_name='报名人')
+    tel = models.CharField(max_length=11, verbose_name='联系电话')
+    id_number = models.CharField(max_length=40, verbose_name='身份证号码')
+
 
     objects = ApplicationManager()
 

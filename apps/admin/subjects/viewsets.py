@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from apps.base.viewsets import AdminModelViewSet
 from apps.base.serializers.subjects import BaseSubjectSerializer
 from apps.base.filters.subjects import BaseSubjectFilter
-from apps.admin.subjects.serializers import AdminSubjectTermSerializer, AdminApplicationSerializer
+from apps.admin.subjects.serializers import AdminSubjectTermSerializer, AdminApplicationSerializer, AdminSubjectTermCreateSerializer
 from apps.admin.subjects.filters import AdminSubjectTermFilter, AdminApplicationFilter
 
 from datamodels.subjects.models import mm_Subject, mm_SubjectTerm, mm_Application
@@ -35,9 +35,15 @@ class AdminSubjectViewSet(AdminModelViewSet):
 class AdminSubjectTermViewSet(AdminModelViewSet):
     """批次管理"""
 
-    serializer_class= AdminSubjectTermSerializer
+    # serializer_class= AdminSubjectTermSerializer
     queryset = mm_SubjectTerm.all()
     filter_class = AdminSubjectTermFilter
+
+    def get_serializer_class(self):
+        if self.request.method == 'GET':
+            return AdminSubjectTermSerializer
+        else:
+            return AdminSubjectTermCreateSerializer
 
 
 class AdminApplicationViewSet(AdminModelViewSet):

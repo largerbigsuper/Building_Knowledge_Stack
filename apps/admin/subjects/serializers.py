@@ -13,6 +13,14 @@ class AdminSubjectTermSerializer(serializers.ModelSerializer):
                   'status', 'update_at', 'create_at']
 
 
+class AdminSubjectTermCreateSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = mm_SubjectTerm.model
+        fields = ['id', 'subject', 'name', 'price', 'price_info', 'subject_info',
+                  'status', 'update_at', 'create_at']
+
+
 class AdminApplicationSerializer(serializers.ModelSerializer):
 
     customer = CustomerForeginKeySerializer()

@@ -8,6 +8,8 @@ class CustomerQuestionFilter(filters.FilterSet):
         model = mm_Question.model
         fields = {
             'subject': ['exact'],
+            'qtype': ['exact'],
+            'content': ['contains']
         }
 
 

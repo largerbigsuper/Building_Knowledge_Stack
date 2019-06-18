@@ -5,6 +5,7 @@ import traceback
 
 from rest_framework.decorators import action
 from rest_framework.response import Response
+from rest_framework import status
 from django.db import transaction
 
 from apps.base.viewsets import CustomerReadOnlyModelViewSet, CustomerModelViewSet
@@ -13,6 +14,7 @@ from apps.base.filters.subjects import BaseSubjectFilter
 from datamodels.subjects.models import mm_Subject, mm_SubjectTerm, mm_Application
 from apps.customer.subjects.serializers import CustomerSubjectTermSerializer, CustomerApplicationSerializer, CustomerSubmitApplicationSerializer
 from apps.customer.subjects.filters import CustomerSubjectTermFilter
+from apps.customer.questions.filters import CustomerQuestionFilter
 from datamodels.questions.models import mm_Question, mm_QuestionRecord
 from lib import pay
 
@@ -25,12 +27,16 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
     queryset = mm_Subject.all()
     filter_class = BaseSubjectFilter
 
-    @action(detail=True, methods=['get'], queryset=mm_Subject.subject_by_level(2))
+    @action(detail=True, methods=['get'], queryset=mm_Subject.all())
     def question_list(self, request, pk=None, format=None):
         """三级科目下所有的题目和我的做题状态"""
         subject = self.get_object()
-        all_qid_list = mm_Question.filter(
-            subject=subject).values_list('id', flat=True)
+        questions = mm_Question.filter(
+            subject=subject)
+        filter = CustomerQuestionFilter(request.GET, queryset=questions)
+        if filter.errors:
+            return Response(data=filter.errors, status=status.HTTP_400_BAD_REQUEST)
+        all_qid_list = filter.qs.values_list('id', flat=True)
         all_answered_question = mm_QuestionRecord.exclude(exam_id=None).filter(
             question__subject_id=subject.id).values_list('id', 'is_correct')
         answer_dict = dict(all_answered_question)

@@ -62,4 +62,15 @@ class CustomerExamViewSet(CustomerModelViewSet):
         result = mm_Exam._gen_exam_result(exam=exam)
         serializer = self.serializer_class(result)
         return Response(serializer.data)
-    
+
+    def retrieve(self, request, *args, **kwargs):
+        exam = self.get_object()
+        questions = []
+        for q in exam.questions:
+            questions.append(mm_Question.get_question(q))
+        serializer = self.serializer_class(exam)
+        data = serializer.data.copy()
+        data['questions'] = questions
+        return Response(data=data)
+        
+        

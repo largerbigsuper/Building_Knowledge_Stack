@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.cache import cache
 
 
 class Const(object):
@@ -54,6 +55,7 @@ class Const(object):
 class ModelManager(models.Manager, Const):
     
     Default_Password = '888888'
+    cache = cache
     
 
 

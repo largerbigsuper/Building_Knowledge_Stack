@@ -7,18 +7,35 @@ from django_extensions.db.fields.json import JSONField
 
 from server.settings import DB_PREFIX
 from lib.modelmanager import ModelManager
+from lib.common import strtime
 
 
 class QuestionManager(ModelManager):
-    
+
+    cache_key = 'q_{pk}'
+
     def get_random_questions(self, subject_id, qtype, count):
-        all_id_list = self.filter(subject_id=subject_id, qtype=qtype).values_list('id', flat=True)       
+        all_id_list = self.filter(
+            subject_id=subject_id, qtype=qtype).values_list('id', flat=True)
         all_id_list = list(all_id_list)
         if count > len(all_id_list):
             return all_id_list
         else:
             return random.sample(all_id_list, count)
 
+    def get_question(self, pk, use_cache=True):
+        if use_cache is True:
+            cached = self.cache.get(self.cache_key.format(pk=pk))
+            if not cached:
+                q = self.filter(pk=pk).first()
+                if q is None:
+                    data = {}
+                else:
+                    data = q.dict
+                self.cache.set(self.cache_key.format(pk=pk), data)
+                return data
+            else:
+                return cached
 
 
 class Question(models.Model):
@@ -32,7 +49,7 @@ class Question(models.Model):
     content = models.TextField(verbose_name='题目内容')
     choices = JSONField(default='[]', verbose_name='选项列表')
     # [{"label": "A", "content": "选项内容"}, {"label": "A", "content": "选项内容"},]
-    images = JSONField(default='[]',verbose_name='图片列表')
+    images = JSONField(default='[]', verbose_name='图片列表')
     # [{"url": "https:xxx.jpg", "name": "图1"}]
     answer = JSONField(default='[]', verbose_name='正确答案')
     update_at = models.DateTimeField(auto_now=True, verbose_name='更新时间')
@@ -52,27 +69,45 @@ class Question(models.Model):
         upper_correct_answer = [choice.upper() for choice in list(self.answer)]
         upper_answer_list = [choice.upper() for choice in answer_list]
         if len(upper_correct_answer) != len(upper_answer_list):
-            return ModelManager.Answer_Result_Wrong 
+            return ModelManager.Answer_Result_Wrong
         for item in upper_correct_answer:
             if item not in upper_answer_list:
                 return ModelManager.Answer_Result_Wrong
         return ModelManager.Answer_Result_Correct
 
+    @property
+    def dict(self):
+        data = {
+            'id': self.id,
+            'subject_id': self.subject_id,
+            'qtype': self.qtype,
+            'content': self.content,
+            'choices': self.choices,
+            'images': self.images,
+            'answer': self.answer,
+            'update_at': strtime(self.update_at),
+            'create_at': strtime(self.create_at)
+        }
+        return data
+
 
 class ExamManager(ModelManager):
-    
+
     def _gen_an_exam(self, customer_id, subject_id):
         """生成试卷题目"""
         panduan_count = danxuan_count = duoxuan_count = 1
-        panduan_list = mm_Question.get_random_questions(subject_id, self.Question_Type_Panduanti, panduan_count)
-        danxuan_list = mm_Question.get_random_questions(subject_id, self.Question_Type_Danxuanti, danxuan_count)
-        duoxuan_list = mm_Question.get_random_questions(subject_id, self.Question_Type_Duouanti, duoxuan_count)
+        panduan_list = mm_Question.get_random_questions(
+            subject_id, self.Question_Type_Panduanti, panduan_count)
+        danxuan_list = mm_Question.get_random_questions(
+            subject_id, self.Question_Type_Danxuanti, danxuan_count)
+        duoxuan_list = mm_Question.get_random_questions(
+            subject_id, self.Question_Type_Duouanti, duoxuan_count)
         questions = panduan_list + danxuan_list + duoxuan_list
 
-        exam = self.create(customer_id=customer_id, subject_id=subject_id, questions=questions)
+        exam = self.create(customer_id=customer_id,
+                           subject_id=subject_id, questions=questions)
 
         return exam
-    
 
     def _gen_exam_result(self, exam_id=None, exam=None):
         """提交试卷"""
@@ -81,7 +116,8 @@ class ExamManager(ModelManager):
         else:
             _exam = self.get(pk=exam_id)
         questions = _exam.questions
-        result_list = mm_QuestionRecord.filter(pk__in=questions).values_list('is_correct').annotate(total=Count('id'))
+        result_list = mm_QuestionRecord.filter(pk__in=questions).values_list(
+            'is_correct').annotate(total=Count('id'))
         result_dict = dict(result_list)
         correct_count = result_dict.get(self.Answer_Result_Correct, 0)
         wrong_count = result_dict.get(self.Answer_Result_Wrong, 0)
@@ -96,13 +132,13 @@ class ExamManager(ModelManager):
         return _exam
 
 
-
 class Exam(models.Model):
     """模拟考试"""
 
     customer = models.ForeignKey(
         'customers.Customer', on_delete=models.CASCADE, verbose_name='考试人')
-    subject = models.ForeignKey('subjects.Subject', on_delete=models.DO_NOTHING, verbose_name='所属科目', null=True, blank=True)
+    subject = models.ForeignKey(
+        'subjects.Subject', on_delete=models.DO_NOTHING, verbose_name='所属科目', null=True, blank=True)
     questions = JSONField(default='[]', verbose_name='题目列表')
     # [id1, id2,]
     answer = JSONField(default='[]', verbose_name='答案列表')
@@ -119,7 +155,7 @@ class Exam(models.Model):
 
 
 class QuestionRecordManager(ModelManager):
-    
+
     def my_records(self, customer_id, subject_id=None, exam_id=None):
         queryset = self.filter(customer_id=customer_id)
         if subject_id is not None:

@@ -16,6 +16,7 @@ class CustomerSubmitApplicationSerializer(serializers.Serializer):
     """用户报名"""
 
     pay_from = serializers.CharField(default='APP')
+    pay_type = serializers.IntegerField(default=0)
     name = serializers.CharField(max_length=40, required=True)
     tel = serializers.CharField(required=True)
     id_number = serializers.CharField(required=True)

@@ -45,7 +45,7 @@ class AliYunSMS:
 
 class AlipaySettings:
     _root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    APP_ID = '2019013063154821'
+    APP_ID = '2019061765593239'
     APP_PRIVATE_KEY = os.path.join(_root_dir, 'config/alipay/test_app_private.txt')
     ALIPAY_PUBLIC_KEY = os.path.join(_root_dir, 'config/alipay/test_alipay_public_key_sha256.txt')
     VIRTUAL_SERVICE_NOTIFY_URI = 'https://tm.lhxq.top/application/alipay_notify/'

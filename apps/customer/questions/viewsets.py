@@ -4,7 +4,7 @@ from rest_framework.response import Response
 
 from apps.base.viewsets import CustomerReadOnlyModelViewSet, CustomerModelViewSet
 from apps.customer.questions.filters import CustomerQuestionFilter, CustomerQuestionRecordFilter
-from apps.customer.questions.serializers import CustomerQuestionSerializer, CustomerQuestionRecordSerializer, CustomerExamSerializer, CustomerExamCreateSerializer
+from apps.customer.questions.serializers import CustomerQuestionSerializer, CustomerQuestionRecordSerializer, CustomerExamSerializer, CustomerExamCreateSerializer, CustomerQuestionMarkSerializer
 from datamodels.questions.models import mm_Question, mm_QuestionRecord, mm_Exam
 
 
@@ -13,6 +13,45 @@ class CustomerQuestionViewSet(CustomerReadOnlyModelViewSet):
     serializer_class = CustomerQuestionSerializer
     queryset = mm_Question.all()
     filter_class = CustomerQuestionFilter
+
+    def get_serializer_context(self):
+        context = super().get_serializer_context()
+        answer_dcit = mm_QuestionRecord.my_records_dict(customer_id=self.request.user.customer.id)
+        context['answer_dict'] = answer_dcit
+        marked_list = mm_Question.get_marked_questions_list(customer_id=self.request.user.customer.id)
+        context['marked_list'] = marked_list
+        return context
+
+    @action(detail=True, methods=['post'], serializer_class=CustomerQuestionMarkSerializer)
+    def add_mark(self, request, pk=None):
+        """添加收藏
+        """
+        question = self.get_object()
+        question.markers.add(request.user.customer)
+        return Response()
+
+    @action(detail=True, methods=['post'], serializer_class=CustomerQuestionMarkSerializer)
+    def remove_mark(self, request, pk=None):
+        """添加收藏
+        """
+        question = self.get_object()
+        question.markers.remove(request.user.customer)
+        return Response()
+
+    @action(detail=False, methods=['get'])
+    def mark_list(self, request):
+        """收藏列表
+        """
+        queryset = request.user.customer.question_set.all()
+        queryset = self.filter_queryset(queryset)
+
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
 
 
 class CustomerQuestionRecordViewSet(CustomerModelViewSet):

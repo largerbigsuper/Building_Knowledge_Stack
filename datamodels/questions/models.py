@@ -36,6 +36,13 @@ class QuestionManager(ModelManager):
                 return data
             else:
                 return cached
+    
+    def get_marked_questions(self, customer_id):
+        return self.filter(markers__id=customer_id)
+    
+    def get_marked_questions_list(self, customer_id):
+        marked_list = self.get_marked_questions(customer_id=customer_id).values_list('id', flat=True)
+        return marked_list
 
 
 class Question(models.Model):
@@ -54,6 +61,7 @@ class Question(models.Model):
     answer = JSONField(default='[]', verbose_name='正确答案')
     update_at = models.DateTimeField(auto_now=True, verbose_name='更新时间')
     create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
+    markers = models.ManyToManyField('customers.Customer', verbose_name='收藏人')
 
     objects = QuestionManager()
 
@@ -163,6 +171,18 @@ class QuestionRecordManager(ModelManager):
         if exam_id is not None:
             queryset = queryset.filter(exam_id=exam_id)
         return queryset
+    
+    def my_records_dict(self, customer_id):
+        vl = ['question_id', 'answer', 'is_correct']
+        records = self.my_records(customer_id=customer_id).values_list(*vl)
+        answer_dict = {}
+        for question_id, answer, is_correct in records:
+            d = {
+                'my_answer': answer,
+                'is_correct': is_correct
+            }
+            answer_dict[question_id] = d
+        return answer_dict
 
 
 class QuestionRecord(models.Model):

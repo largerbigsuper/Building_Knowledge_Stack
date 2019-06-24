@@ -15,6 +15,7 @@ from datamodels.customers.models import mm_Customer
 from datamodels.sms.models import mm_SMSCode
 from server import settings
 from lib.common import common_logout, customer_login
+from lib.qiniucloud import QiniuService
 
 
 class CustomerViewSet(viewsets.ModelViewSet):
@@ -106,3 +107,13 @@ class CustomerViewSet(viewsets.ModelViewSet):
                 return Response(data=serializer.data)
             else:
                 return Response(data=serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(detail=False, methods=['get'], permission_classes=[IsAuthenticated,])
+    def qiniutoken(self, request):
+        """获取七牛token
+        """
+        file_type = request.query_params.get('file_type', 'image')
+        bucket_name = QiniuService.get_bucket_name(file_type)
+        token = QiniuService.gen_app_upload_token(bucket_name)
+        data = {'token': token}
+        return Response(data=data)

@@ -8,7 +8,7 @@ from qiniu import Auth
 from server.settings import QiNiuSettings
 
 
-class QiniuServe:
+class QiniuService:
     # 构建鉴权对象
     access_key = QiNiuSettings.ACCESS_KEY
     secret_key = QiNiuSettings.SECRET_KEY

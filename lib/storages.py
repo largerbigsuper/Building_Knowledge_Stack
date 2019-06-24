@@ -4,7 +4,7 @@ import uuid
 from django.core.files.storage import Storage
 from qiniu import put_data
 
-from lib.qiniucloud import QiniuServe
+from lib.qiniucloud import QiniuService
 
 
 class StorageObject(Storage):
@@ -25,15 +25,15 @@ class StorageObject(Storage):
         上传文件到七牛
         """
         # 构建鉴权对象
-        # q = QiniuServe.qiniuAuth
-        # token = q.upload_token(QiniuServe.get_bucket_name('iamge'))
-        token = QiniuServe.gen_app_upload_token(QiniuServe.get_bucket_name('image'))
+        # q = QiniuService.qiniuAuth
+        # token = q.upload_token(QiniuService.get_bucket_name('iamge'))
+        token = QiniuService.gen_app_upload_token(QiniuService.get_bucket_name('image'))
         self.file = content
         file_data = content.file
         ret, info = put_data(token, self._new_name(name), file_data.read())
 
         if info.status_code == 200:
-            base_url = '%s%s' % (QiniuServe.bucket_domain_dict['image'], ret.get("key"))
+            base_url = '%s%s' % (QiniuService.bucket_domain_dict['image'], ret.get("key"))
             # 表示上传成功, 返回文件名
             return base_url
         else:

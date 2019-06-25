@@ -63,6 +63,15 @@ class Const(object):
         (Tag_Notice_Application, '报名通知'),
     )
 
+    Feedback_Unread = 0
+    Feedback_accepted = 1
+
+    Feedback_Status = (
+        (Feedback_Unread, '未处理'),
+        (Feedback_accepted, '已处理')
+    )
+
+
 class ModelManager(models.Manager, Const):
     
     Default_Password = '888888'

@@ -15,6 +15,8 @@ class CustomerQuestionViewSet(CustomerReadOnlyModelViewSet):
     filter_class = CustomerQuestionFilter
 
     def get_serializer_context(self):
+        """返回该用户所有的做题记录和收藏记录
+        """
         context = super().get_serializer_context()
         answer_dcit = mm_QuestionRecord.my_records_dict(customer_id=self.request.user.customer.id)
         context['answer_dict'] = answer_dcit
@@ -91,8 +93,14 @@ class CustomerExamViewSet(CustomerModelViewSet):
         subject_id = params.validated_data['subject'].id
         exam = mm_Exam._gen_an_exam(customer_id=self.request.user.customer.id, subject_id=subject_id)
         serializer = CustomerExamSerializer(exam)
+        questions = []
+        for q in exam.questions:
+            questions.append(mm_Question.get_question(q))
+        serializer = self.serializer_class(exam)
+        data = serializer.data.copy()
+        data['questions'] = questions
         
-        return Response(data=serializer.data)
+        return Response(data=data)
 
     @action(detail=True, methods=['get'])
     def complete_exam(self, request, pk=None):

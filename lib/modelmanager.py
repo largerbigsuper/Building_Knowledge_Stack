@@ -52,6 +52,17 @@ class Const(object):
         (Pay_Type_Alipay, '支付宝')
     )
 
+    Tag_AD_Question = 1
+    Tag_AD_Application = 2
+    Tag_Notice_Question = 3
+    Tag_Notice_Application = 4
+    Tag_Choice = (
+        (Tag_AD_Question, '题库广告'),
+        (Tag_AD_Application, '报名广告'),
+        (Tag_Notice_Application, '题库通知'),
+        (Tag_Notice_Application, '报名通知'),
+    )
+
 class ModelManager(models.Manager, Const):
     
     Default_Password = '888888'

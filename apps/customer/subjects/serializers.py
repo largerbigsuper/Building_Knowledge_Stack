@@ -20,6 +20,8 @@ class CustomerSubmitApplicationSerializer(serializers.Serializer):
     name = serializers.CharField(max_length=40, required=True)
     tel = serializers.CharField(required=True)
     id_number = serializers.CharField(required=True)
+    id_card_front = serializers.CharField(required=False)
+    id_card_back = serializers.CharField(required=False)
 
 
 class CustomerApplicationSerializer(serializers.ModelSerializer):
@@ -30,4 +32,6 @@ class CustomerApplicationSerializer(serializers.ModelSerializer):
         model = mm_Application.model
         fields = ['id', 'subject_term', 'update_at', 'create_at', 'pay_at',
         'pay_type', 'status', 
-        'union_trade_no', 'subject_term_name', 'total_amount', 'name', 'tel', 'id_number']
+        'union_trade_no', 'subject_term_name', 'total_amount', 
+        'name', 'tel', 'id_number',
+        'id_card_front', 'id_card_back']

@@ -18,9 +18,13 @@ class CustomerQuestionViewSet(CustomerReadOnlyModelViewSet):
         """返回该用户所有的做题记录和收藏记录
         """
         context = super().get_serializer_context()
-        answer_dcit = mm_QuestionRecord.my_records_dict(customer_id=self.request.user.customer.id)
+        if self.request.user.is_authenticated:
+            answer_dcit = mm_QuestionRecord.my_records_dict(customer_id=self.request.user.customer.id)
+            marked_list = mm_Question.get_marked_questions_list(customer_id=self.request.user.customer.id)
+        else:
+            answer_dcit = {}
+            marked_list = []
         context['answer_dict'] = answer_dcit
-        marked_list = mm_Question.get_marked_questions_list(customer_id=self.request.user.customer.id)
         context['marked_list'] = marked_list
         return context
 

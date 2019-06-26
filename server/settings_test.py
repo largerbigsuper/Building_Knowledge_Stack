@@ -52,10 +52,10 @@ class AlipaySettings:
 
 
 class WeChatPaySettings:
-    WEIXIN_APP_ID = 'wx502707dff6e8ce6c'
-    WEIXIN_APP_SECRET = '7968e86926fc96525807d0256edaadff'
-    WEIXIN_MCH_ID = '1527643731'
-    WEIXIN_MCH_KEY = 'handanxiaohongniang1234567890000'
+    WEIXIN_APP_ID = 'wxee8929e07022b5b0'
+    WEIXIN_APP_SECRET = 'aa920bd33ef6b19c1f30cc424294204c'
+    WEIXIN_MCH_ID = '1540995301'
+    WEIXIN_MCH_KEY = 'tm012345678901234567890123456789'
     WEIXIN_NOTIFY_URL = 'https://tm.lhxq.top/application/wechatpay_notify/'
 
 

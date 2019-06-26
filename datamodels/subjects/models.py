@@ -66,7 +66,7 @@ class SubjectTerm(models.Model):
 class ApplicationManager(ModelManager):
 
     def add(self, customer_id, subject_term_id,
-            union_trade_no, subject_term_name, total_amount, name, tel, id_number, id_card_front=None, id_card_back=None, status=ModelManager.Pay_Status_Unpaid):
+            union_trade_no, subject_term_name, total_amount, name, tel, id_number, id_card_front=None, id_card_back=None, status=ModelManager.Pay_Status_Unpaid, **kwargs):
         return self.create(customer_id=customer_id,
                            subject_term_id=subject_term_id,
                            union_trade_no=union_trade_no,
@@ -77,10 +77,11 @@ class ApplicationManager(ModelManager):
                            tel=tel,
                            id_number=id_number,
                            id_card_front=id_card_front,
-                           id_card_back=id_card_back
+                           id_card_back=id_card_back,
+                           **kwargs
                            )
 
-    def create_alipay_order(self, customer_id, subject_term_id, name, tel, id_number, pay_from='APP', id_card_front=None, id_card_back=None):
+    def create_alipay_order(self, customer_id, subject_term_id, name, tel, id_number, pay_from='APP', id_card_front=None, id_card_back=None, **kwargs):
         subject_term = mm_SubjectTerm.get(pk=subject_term_id)
         total_amount = subject_term.price
         subject = subject_term.name
@@ -94,7 +95,8 @@ class ApplicationManager(ModelManager):
                          tel=tel,
                          id_number=id_number,
                          id_card_front=id_card_front,
-                         id_card_back=id_card_back
+                         id_card_back=id_card_back,
+                         **kwargs
                          )
         order_string = None
         if pay_from.upper() == 'APP':
@@ -107,7 +109,7 @@ class ApplicationManager(ModelManager):
             )
         return order_string
 
-    def create_wechat_order(self, customer_id, subject_term_id, name, tel, id_number, pay_from='APP', spbill_create_ip=None, id_card_front=None, id_card_back=None):
+    def create_wechat_order(self, customer_id, subject_term_id, name, tel, id_number, pay_from='APP', spbill_create_ip=None, id_card_front=None, id_card_back=None, **kwargs):
         subject_term = mm_SubjectTerm.get(pk=subject_term_id)
         subject = subject_term.name
         total_amount = subject_term.price
@@ -121,7 +123,8 @@ class ApplicationManager(ModelManager):
                          tel=tel,
                          id_number=id_number,
                          id_card_front=id_card_front,
-                         id_card_back=id_card_back
+                         id_card_back=id_card_back,
+                         **kwargs
                          )
         order_string = None
         if pay_from.upper() == 'APP':
@@ -174,6 +177,8 @@ class Application(models.Model):
     id_number = models.CharField(max_length=40, verbose_name='身份证号码')
     id_card_front = models.ImageField(blank=True, verbose_name='身份证正面')
     id_card_back = models.ImageField(blank=True, verbose_name='身份证反面')
+    email = models.CharField(blank=True, null=True,
+                             max_length=40, verbose_name='邮箱')
 
     objects = ApplicationManager()
 

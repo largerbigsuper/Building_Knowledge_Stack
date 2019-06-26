@@ -72,6 +72,10 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
         name = s.validated_data['name']
         tel = s.validated_data['tel']
         id_number = s.validated_data['id_number']
+        id_card_back = s.validated_data.get('id_card_back')
+        id_card_front = s.validated_data.get('id_card_front')
+        email = s.validated_data.get('email')
+
         order_string = ''
         if pay_from == 'APP':
             order_string = mm_Application.create_alipay_order(
@@ -79,7 +83,10 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 subject_term_id=pk,
                 name=name,
                 tel=tel,
-                id_number=id_number,)
+                id_number=id_number,
+                id_card_front=id_card_front,
+                id_card_back=id_card_back,
+                email=email)
         data = {
             'order_string': order_string
         }
@@ -98,6 +105,9 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
         name = s.validated_data['name']
         tel = s.validated_data['tel']
         id_number = s.validated_data['id_number']
+        id_card_front = s.validated_data.get('id_card_front')
+        id_card_back = s.validated_data.get('id_card_back')
+        email = s.validated_data.get('email')
 
         order_string = ''
         spbill_create_ip = request.META.get('HTTP_X_FORWARDED_FOR',
@@ -109,7 +119,10 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 spbill_create_ip=spbill_create_ip,
                 name=name,
                 tel=tel,
-                id_number=id_number,)
+                id_number=id_number,
+                id_card_front=id_card_front,
+                id_card_back=id_card_back,
+                email=email)
         data = {
             'order_string': order_string
         }

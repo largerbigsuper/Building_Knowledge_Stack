@@ -86,4 +86,4 @@ class CustomerExamCreateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = mm_Exam.model
-        fields = ['subject']
+        fields = ['id', 'subject']

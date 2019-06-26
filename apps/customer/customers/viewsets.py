@@ -10,7 +10,9 @@ from rest_framework.authtoken.models import Token
 from apps.customer.customers.serilizers import (CustomerProfileSerializer,
                                                  LoginSerializer,
                                                  MiniprogramLoginSerializer,
-                                                 RegisterSerializer)
+                                                 RegisterSerializer,
+                                                 PasswordSerializer,
+                                                 )
 from datamodels.customers.models import mm_Customer
 from datamodels.sms.models import mm_SMSCode
 from server import settings
@@ -117,4 +119,22 @@ class CustomerViewSet(viewsets.ModelViewSet):
         token = QiniuService.gen_app_upload_token(bucket_name)
         data = {'token': token}
         return Response(data=data)
-    
+
+    @action(detail=False, methods=['post'], permission_classes=[IsAuthenticated,], serializer_class=PasswordSerializer)
+    def reset_password(self, request):
+        
+        serializer = self.serializer_class(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        account = serializer.validated_data['account']
+        password = serializer.validated_data['password']
+        code = serializer.validated_data['code']
+        _code = mm_SMSCode.cache.get(account)
+        if _code == code:
+            mm_Customer.reset_password(account, password)
+            return Response()
+        else:
+            data = {
+                'detail': '验证码错误'
+            }
+            return Response(data=data, status=status.HTTP_400_BAD_REQUEST)
+        

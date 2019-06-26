@@ -24,6 +24,16 @@ class LoginSerializer(serializers.Serializer):
     password = serializers.CharField()
 
 
+class PasswordSerializer(serializers.ModelSerializer):
+
+    account = serializers.CharField()
+    password = serializers.CharField()
+    code = serializers.CharField()
+
+    class Meta:
+        model = Customer
+        fields = ['account', 'password', 'code']
+
 class CustomerProfileSerializer(serializers.ModelSerializer):
 
     class Meta:

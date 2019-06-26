@@ -39,7 +39,7 @@ class CustomerManager(ModelManager):
                 user = self._add_user(account, password)
                 customer = self.create(user=user, account=account, **kwargs)
                 customer.save()
-
+                self.cache.delete(account)
                 return customer
         except IntegrityError:
             raise DBException('账号已注册')
@@ -67,6 +67,18 @@ class CustomerManager(ModelManager):
         user = User.objects.create_user(username=account, password=password)
         return user
 
+    def reset_password(self, account, password):
+        """重置密码
+        
+        Arguments:
+            cid {int} -- 用户id
+        """
+        # customer = self.filter(account=account).first()
+        user = User.objects.filter(username=account).first()
+        if user:
+            user.set_password(password)
+            user.save()
+            self.cache.delete(account)
 
 class Customer(CommonInfo):
 

@@ -21,7 +21,8 @@ class CustomerSMSViewSet(mixins.CreateModelMixin, GenericViewSet):
         code = smsserver.gen_code()
         response = smsserver.send_sms(account, code)
         if response['Code'] == 'OK':
-            mm_SMSCode.add(account, code)
+            # mm_SMSCode.add(account, code)
+            mm_SMSCode.cache.set(account, code, 60 * 5)
             return Response()
         else:
             raise SMSExcecption(response['Message'])

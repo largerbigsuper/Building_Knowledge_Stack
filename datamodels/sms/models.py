@@ -14,17 +14,22 @@ class SMSCodeManager(ModelManager):
         return self.create(tel=tel, code=code, expire_at=expire_at)
 
     def can_get_new_code(self, tel):
-        return not self.filter(tel=tel, expire_at__gt=datetime.now()).exists()
+        return False if self.cache.get(tel) else True
 
     def is_effective(self, tel, code):
-        try:
-            if code == '8888':
-                return
-            record = self.get(tel=tel, code=code)
-            if record.expire_at < datetime.now():
-                raise DBException('验证码已失效')
-        except self.model.DoesNotExist:
-            raise DBException('验证码不存在')
+        if code == '8888':
+            return
+        if code != self.cache.get(tel):
+            raise DBException('验证码不存在或已失效')
+            
+        # try:
+        #     if code == '8888':
+        #         return
+        #     record = self.get(tel=tel, code=code)
+        #     if record.expire_at < datetime.now():
+        #         raise DBException('验证码已失效')
+        # except self.model.DoesNotExist:
+        #     raise DBException('验证码不存在')
 
 
 class SMSCode(models.Model):

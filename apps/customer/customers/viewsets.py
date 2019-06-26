@@ -117,3 +117,4 @@ class CustomerViewSet(viewsets.ModelViewSet):
         token = QiniuService.gen_app_upload_token(bucket_name)
         data = {'token': token}
         return Response(data=data)
+    

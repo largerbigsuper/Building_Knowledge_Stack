@@ -193,7 +193,7 @@ class QuestionRecord(models.Model):
         'questions.Question', on_delete=models.DO_NOTHING, verbose_name='作业')
     customer = models.ForeignKey(
         'customers.Customer', on_delete=models.CASCADE, verbose_name='提交人')
-    answer = JSONField(verbose_name='考生答案')
+    answer = JSONField(default='[]', verbose_name='考生答案')
     is_correct = models.PositiveSmallIntegerField(choices=ModelManager.Answer_Result,
                                                   default=ModelManager.Answer_Result_Correct,
                                                   verbose_name='正确/错误')

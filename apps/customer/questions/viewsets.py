@@ -4,7 +4,12 @@ from rest_framework.response import Response
 
 from apps.base.viewsets import CustomerReadOnlyModelViewSet, CustomerModelViewSet
 from apps.customer.questions.filters import CustomerQuestionFilter, CustomerQuestionRecordFilter
-from apps.customer.questions.serializers import CustomerQuestionSerializer, CustomerQuestionRecordSerializer, CustomerExamSerializer, CustomerExamCreateSerializer, CustomerQuestionMarkSerializer
+from apps.customer.questions.serializers import (CustomerQuestionSerializer,
+                                                 CustomerQuestionRecordSerializer,
+                                                 CustomerExamSerializer,
+                                                 CustomerExamCreateSerializer,
+                                                 CustomerQuestionMarkSerializer,
+                                                 CustomerQuestionRecordListSerializer)
 from datamodels.questions.models import mm_Question, mm_QuestionRecord, mm_Exam
 
 
@@ -19,8 +24,10 @@ class CustomerQuestionViewSet(CustomerReadOnlyModelViewSet):
         """
         context = super().get_serializer_context()
         if self.request.user.is_authenticated:
-            answer_dcit = mm_QuestionRecord.my_records_dict(customer_id=self.request.user.customer.id)
-            marked_list = mm_Question.get_marked_questions_list(customer_id=self.request.user.customer.id)
+            answer_dcit = mm_QuestionRecord.my_records_dict(
+                customer_id=self.request.user.customer.id)
+            marked_list = mm_Question.get_marked_questions_list(
+                customer_id=self.request.user.customer.id)
         else:
             answer_dcit = {}
             marked_list = []
@@ -63,9 +70,14 @@ class CustomerQuestionViewSet(CustomerReadOnlyModelViewSet):
 class CustomerQuestionRecordViewSet(CustomerModelViewSet):
     """用户提交题目答案"""
 
-    serializer_class = CustomerQuestionRecordSerializer
+    def get_serializer_class(self):
+        if self.request.method == 'POST':
+            return CustomerQuestionRecordSerializer
+        else:
+            return CustomerQuestionRecordListSerializer
+
     filter_class = CustomerQuestionRecordFilter
-    # queryset = mm_QuestionRecord.all()
+
     def get_queryset(self):
         # mm_QuestionRecord.my_records(customer_id=self.request.session['cid'])
         return mm_QuestionRecord.my_records(customer_id=self.request.user.customer.id)
@@ -78,24 +90,25 @@ class CustomerQuestionRecordViewSet(CustomerModelViewSet):
         is_correct = q.is_correct_answer(answer)
         serializer.validated_data['is_correct'] = is_correct
         serializer.validated_data['answer'] = upper_answer
-        serializer.save()
+        serializer.save(customer=self.request.user.customer)
 
 
 class CustomerExamViewSet(CustomerModelViewSet):
 
     serializer_class = CustomerExamSerializer
-    
+
     def get_queryset(self):
         return mm_Exam.filter(customer=self.request.user.customer)
         # return mm_Exam.filter(customer_id=self.request.session['cid'])
-    
+
     @action(detail=False, methods=['post'], serializer_class=CustomerExamCreateSerializer)
     def create_exam(self, request):
         """创建考试"""
         params = self.serializer_class(data=request.data)
         params.is_valid(raise_exception=True)
         subject_id = params.validated_data['subject'].id
-        exam = mm_Exam._gen_an_exam(customer_id=self.request.user.customer.id, subject_id=subject_id)
+        exam = mm_Exam._gen_an_exam(
+            customer_id=self.request.user.customer.id, subject_id=subject_id)
         serializer = CustomerExamSerializer(exam)
         questions = []
         for q in exam.questions:
@@ -103,7 +116,7 @@ class CustomerExamViewSet(CustomerModelViewSet):
         serializer = self.serializer_class(exam)
         data = serializer.data.copy()
         data['questions'] = questions
-        
+
         return Response(data=data)
 
     @action(detail=True, methods=['get'])
@@ -123,5 +136,3 @@ class CustomerExamViewSet(CustomerModelViewSet):
         data = serializer.data.copy()
         data['questions'] = questions
         return Response(data=data)
-        
-        

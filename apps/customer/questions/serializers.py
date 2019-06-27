@@ -53,20 +53,35 @@ class CustomerQuestionSerializer(BaseQuestionSerializer):
             return 0
 
 
+class SimpleQuestionSerializer(BaseQuestionSerializer):
+
+    class Meta:
+        model = mm_Question.model
+        fields = ['id',  'subject', 'qtype', 'content', 'choices',
+                  'images', 'answer', 'update_at', 'create_at']
+
 class CustomerQuestionRecordSerializer(serializers.ModelSerializer):
 
     answer = serializers.ListField()
-    # is_correct = serializers.IntegerField(source='is_correct', default=1)
 
     class Meta:
         model = mm_QuestionRecord.model
         fields = ['id', 'question', 'answer', 'exam',
-                  'is_correct', 'update_at', 'create_at', 'customer']
+                  'is_correct', 'update_at', 'create_at']
         extra_kwargs = {
             'is_correct': {'default': mm_QuestionRecord.Answer_Result_Correct,
                            'read_only': True
                            }
         }
+
+class CustomerQuestionRecordListSerializer(serializers.ModelSerializer):
+
+    answer = serializers.ListField()
+    question = SimpleQuestionSerializer()
+
+    class Meta:
+        model = mm_QuestionRecord.model
+        fields = ['id', 'answer', 'question', 'exam', 'is_correct', 'update_at', 'create_at']
 
 
 class CustomerExamSerializer(serializers.ModelSerializer):

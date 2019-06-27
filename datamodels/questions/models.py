@@ -124,7 +124,7 @@ class ExamManager(ModelManager):
         else:
             _exam = self.get(pk=exam_id)
         questions = _exam.questions
-        result_list = mm_QuestionRecord.filter(pk__in=questions).values_list(
+        result_list = mm_QuestionRecord.filter(question_id__in=questions, exam_id=_exam.id).values_list(
             'is_correct').annotate(total=Count('id'))
         result_dict = dict(result_list)
         correct_count = result_dict.get(self.Answer_Result_Correct, 0)

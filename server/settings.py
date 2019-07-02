@@ -3,7 +3,9 @@ import os
 from .server_settings import *
 
 ENV = os.getenv('DJANGO_RUN_ENV', 'DEV')
-if ENV == 'TEST':
+if ENV == 'PRODUCTION':
+    from .settings_production import *
+elif ENV == 'TEST':
     from .settings_test import *
     DEBUG = True
 elif ENV == 'DEV_DOCKER':

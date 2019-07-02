@@ -1,3 +1,4 @@
+import os
 
 DATABASES = {
     'default': {
@@ -37,3 +38,26 @@ class QiNiuSettings:
         'image': 'http://lhxq.top/',
         'video': 'http://video.lhxq.top/'
     }
+
+
+class AliYunSMS:
+    ACCESS_KEY_ID = "LTAIg1VpIb5ah7aK"
+    ACCESS_KEY_SECRET = "avnP9AWfnoZ0eWvXQku7cwUPagTtNt"
+    SMS_TEMPLATE_NAME = '浙江建筑宝典'
+    SMS_TEMPLATE_ID = 'SMS_168875146'
+
+
+class AlipaySettings:
+    _root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    APP_ID = '2019061765593239'
+    APP_PRIVATE_KEY = os.path.join(_root_dir, 'config/alipay/test_app_private.txt')
+    ALIPAY_PUBLIC_KEY = os.path.join(_root_dir, 'config/alipay/test_alipay_public_key_sha256.txt')
+    VIRTUAL_SERVICE_NOTIFY_URI = 'https://tm.lhxq.top/application/alipay_notify/'
+
+
+class WeChatPaySettings:
+    WEIXIN_APP_ID = 'wxee8929e07022b5b0'
+    WEIXIN_APP_SECRET = 'aa920bd33ef6b19c1f30cc424294204c'
+    WEIXIN_MCH_ID = '1540995301'
+    WEIXIN_MCH_KEY = 'tm012345678901234567890123456789'
+    WEIXIN_NOTIFY_URL = 'https://tm.lhxq.top/application/wechatpay_notify/'

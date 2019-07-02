@@ -3,10 +3,14 @@ import os
 from .server_settings import *
 
 ENV = os.getenv('DJANGO_RUN_ENV', 'DEV')
-if ENV == 'TEST':
+if ENV == 'PRODUCTION':
+    from .settings_production import *
+elif ENV == 'TEST':
     from .settings_test import *
     DEBUG = True
-
+elif ENV == 'DEV_DOCKER':
+    from .settings_local_docker import *
+    DEBUG = True
 else:
     from .settings_local import *
     DEBUG = True
@@ -42,11 +46,16 @@ THIRD_APPS = [
     'django_extensions',
     'django_filters',
     'crispy_forms',
+    'mptt',
 ]
 
 APPS = [
-    # 'datamodels.common',
     'datamodels.customers',
+    'datamodels.subjects',
+    'datamodels.questions',
+    'datamodels.sms',
+    'datamodels.articles',
+    'datamodels.feedback',
 ]
 
 INSTALLED_APPS += THIRD_APPS
@@ -117,6 +126,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
@@ -163,3 +173,34 @@ REST_FRAMEWORK = {
         '%m/%d/%y',  # '10/25/06'
     ]
 }
+
+# ImageField
+DEFAULT_FILE_STORAGE = 'lib.storages.StorageObject'
+
+
+# session
+SESSION_ENGINE = "django.contrib.sessions.backends.db"
+SESSION_CACHE_ALIAS = "default"
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 7 * 2
+CSRF_COOKIE_AGE = 60 * 60 * 24 * 7 * 2
+
+from .logging_config import *
+
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'handlers': {
+#         'console': {
+#             'class': 'logging.StreamHandler',
+#         },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers': ['console'],
+#             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
+#         },
+#     },
+# }
+
+

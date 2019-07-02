@@ -2,7 +2,7 @@ FROM python:3.7.0
 
 LABEL Name=building_knowledge_stack Version=0.0.1
 
-RUN mkdir /app
+RUN mkdir -p /app/logs
 
 ADD requirements.txt /app
 

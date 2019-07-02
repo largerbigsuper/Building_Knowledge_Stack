@@ -34,7 +34,7 @@ LOGGING = {
         "django_file": {
             "level": "INFO",
             "class": "logging.handlers.RotatingFileHandler",
-            "filename": "./logs/access.log",
+            "filename": "logs/access.log",
             "maxBytes": 1024 * 1024 * 10,  # 10MB
             "backupCount": 10,
             "formatter": "verbose"
@@ -42,7 +42,7 @@ LOGGING = {
         "request_file": {
             "level": "ERROR",
             "class": "logging.handlers.RotatingFileHandler",
-            "filename": "./logs/requests.log",
+            "filename": "logs/requests.log",
             "maxBytes": 1024 * 1024 * 10,  # 10MB
             "backupCount": 10,
             "formatter": "verbose"
@@ -50,7 +50,7 @@ LOGGING = {
         "customers_file": {
             "level": "INFO",
             "class": "logging.handlers.RotatingFileHandler",
-            "filename": "./logs/customers.log",
+            "filename": "logs/customers.log",
             "maxBytes": 1024 * 1024 * 10,  # 10MB
             "backupCount": 10,
             "formatter": "verbose"
@@ -58,7 +58,7 @@ LOGGING = {
         "pay_file": {
             "level": "INFO",
             "class": "logging.handlers.RotatingFileHandler",
-            "filename": "./logs/pay.log",
+            "filename": "logs/pay.log",
             "maxBytes": 1024 * 1024 * 10,  # 10MB
             "backupCount": 10,
             "formatter": "verbose"

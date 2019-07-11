@@ -5,8 +5,10 @@ from django.urls import path, include
 
 from apps.customer.router import customer_router
 from apps.admin.router import admin_router
+from server import views
 
 urlpatterns = [
+    path('', views.about_us),
     path('api-auth/', include('rest_framework.urls')),
     path('admin/', admin.site.urls),
     path('customer/', include(customer_router.urls)),

@@ -1,0 +1,1970 @@
+[{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "事故隐患指生产系统中存在的导致事故发生的人的不安全行为、物的不安全状态以及管理的缺陷"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "安全教育培训制度是企业安全生产、劳动保护制度的核心"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "目前，建筑行政主管部门主要对在房屋建筑和装饰装修施工现场从事建筑施工特种作业的人员进行管理"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "从事建筑施工特种作业人员必须要有初中以上学历"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "季节性安全教育主要是指在夏冬季施工中，针对气候特点可能对施工安全带来危害而组织的安全教育"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "<<建筑施工特种作业操作资格证书>>正本中必须注明证书使用期"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "从事施工升降机安装拆卸的特种作业人员可以从事塔式起重机的安装拆卸作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "建筑施工企业必须根据作业人员的自身素质、施工环境，按照规定配发安全防护用品"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "<<安全生产法>>属于法律范畴"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全网主要有平网和立网两种"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "引起煤气中毒的主要原因是超量吸入二氧化碳"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "升降吊篮应由专业的、在高空作业的抹灰工担任"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "禁止出租检测不合格的机械设备"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "二氧化碳灭火剂不但能够灭火，还具有一定的冷却作用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "特种作业人员上岗前要接受本工种专门的安全操作技能培训，培训内容为安全技理论"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "参加安全技术理论考核之前，必须先经医院体验合格"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "建筑施工特种作业操作资格证书有效期为3年"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "各工种的安全技术交底一般与分部分项安全技术交底分开进行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "超过一定规模的危险性较大的分部分项工程专项方案应由建设单位组织召开专家论证会"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "特种作业操作资格证书有效期满需要延期的，持证人应当于期满前三个月向考核发证机关办理延期复核手续"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "班前安全教育的内容包括岗前安全隐患检查及整改"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全专项施工方案是指在施工过程中，施工单位在编制安全技术措施的时候，对危险性较大的分部分项工程单独编制有针对性的安全技术措施文件"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "为了确保自己和伤病者的安全，急救现场环境评估首先要确定有无危害急救者及伤病员的危险因素"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "有危险因素时应首先将其排除，无法排除时应呼叫资源，并立刻设法进入事故现场抢险"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "安全帽使用时，允许在安全帽内在佩戴其他帽子"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全防护用品的发放和管理，坚持“谁用工谁负责”的原则"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全防护用品要专人管理、定期检查、发现不合格产品应及时进行更换"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "如发现员工有集体发烧、咳嗽等不良症状，应立即报告现场负责人和有关部门，对患者进行治疗，同时启动应急救援方案"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全带上的各种部件不得任意拆除，更换新绳时要注意加绳套"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "护目镜要专人使用，防止交叉传染眼病"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场集体宿舍禁止使用电炉"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "从事架体搭设、起重机械拆装等高处作业的人员只要体检合格，达到法定劳动年龄，具有一定文化程度，接受安全教育就可以上党"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "遇浓雾天气不得进行露天高处作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "临边作业的主要防护措施是防护栏和移动梯"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "水平面上的洞口，25〜50cm的洞口应在四周设置防护栏杆"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "以作业位置为中心，可能堕落范围半径为半径划成的水平面积，成为可能坠落范围"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "垂直面上的洞口也可采用栏杆加档脚板（笆）防护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "手持式II类电动工具，在防止触电的保护方面不仅依靠基本绝缘，而且还提供双重绝缘或者加强绝缘的附加安全预防措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "支模、砌筑、粉刷等立体交叉施工时，有些时间、场合允许在同一垂直方向进行作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "油漆是可燃物质"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "登高用梯踏板应当采用具有防滑性能的材料"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "建筑施工现场动火区域一般可分为两个等级"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "造成10人死亡的火灾属于重大火灾"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "泡沫是一种体积较小，表面被液体围成的气泡群，是扑救易燃、可燃气体火灾的有效灭火剂"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "二氧化碳灭火剂适用于扑救图书档案火灾"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "总平面超过1200m2的大型临时设施，应当配备不少于2套的取水桶、消防铣、消防钩"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "乙二胺一旦发生火灾，要用泡沫、二氧化碳、干粉灭火剂以及砂土、雾状水灭火"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "锅炉正面与墙的距离不小于3m，锅炉与锅炉之间应保持不小于1m的距离"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场的木工作业场所，严禁动用明火"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在整个施工现场临时用电工程中，总配电箱中必须装设漏电保护器，而开关箱中可以不装设漏电保护器"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "手持式I类电动工具，在防止触电的保护方面依靠安全特低电压供电和在工具内部不含产生比安全特低电压高的电压"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "施工现场开挖沟槽边缘与外电埋地电缆沟槽边缘之间的距离不得小于1.0m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "电缆线路必须采用电缆埋地方式引入在建工程内，严禁穿越脚手架引入"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场临时用电工程的接地保护，采用的是保护零线(PE?线)与工作零线（N?线）分开设置，电源中性点直接接地的三相四线制低压电力系统"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "配电箱、开关箱必须按照开关箱-分配电箱-总配电箱的顺序操作送电，按照总配电箱-分配电箱-开关箱的顺序操作停电"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "总配电箱中漏电保护器的额定漏电动作电流与额定漏电动作时间的乘积不应大于30m对.s"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "通常按照降水强度的大小将降雨划分为小雨、中雨、大雨、暴雨、大暴雨、特大暴雨共六个等级"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "雷暴日数，就是在一月内该地区发生雷暴的天数，用以表示雷电活动频繁程度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "雨量是用来表示降水强度的物理量，用积水的体积来表示"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "雨期施工准备工作包括合理组织施工和做好施工现场排水两项工作"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "大风大雨后，要组织人员检查脚手架是否牢固，如有倾斜、下沉、松扣、崩扣和安全网脱落、开绳等现象，要及时进行处理"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "为了确保雨期施工用电安全，在潮湿和易触及带电体场所的照明电源电压不得大于20V；在特别潮湿的场所或金属容器内工作的照明电源电压不得大于10V"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "冬期施工与冬季施工是两个相同的概念，都是指寒冷状况下的工程作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "雨期施工中使用的集体宿舍应设专人负责，夜间值班"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "夏季施工卫生保健很重要，应提供符合卫生标准饮用水，高温作业场所要供给含盐饮料，避免多人共用一个饮水器皿"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "冬期爆破施工要离建筑物100m以外，距高压电线100m以外"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "为冬期施工起重机械设备安全使用，缆风绳地锚应当埋置在冻土层以上"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场常用的禁止标志是禁止吸烟和禁止通行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "设置安全标志的目的是提醒、警示施工作业人员，时刻认识到所处环境的危险性"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "警告标志的几何图形为白底黑色图案加三角形黑边"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场常用的指令标志是必须系安全带和必须戴安全帽"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "提示防火的标志图形是以长方形、绿底白线条加文字说明"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "表示危险的信号旗的安全色是红色"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "对比色是使安全色更加醒目的反衬色，包括黑色和白色"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "应在施工现场入口处设置必须戴好安全帽等警告标志"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场急救目的是：应用急救知识和最简单的急救技术进行现场初级救生，最大程度的稳定伤病员的伤情病情，维护伤病员的最基本的生命特征，防止伤病恶化，减少并发症"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "对可能出现传染病病因的场所进行隔离、消毒，严格控制疾病的再次传播"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "施工班组的班前活动由项目技术负责人组织实施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "触电紧急救护时，体外心脏挤压法每分钟进行60次，即每秒一次"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在井(地)下施工中有人发生毒气中毒时，必须先向工地负责人和有关部门报告"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "建筑施工现场应当成立以企业负责人为组长、各部门参加的消防安全领导小组"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "事故发生后，有关单位和人员应妥善保护事故现场"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "事故调查处理应当坚持实事求是、公平公正的原则"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "事故调查组有权向有关单位和个人了解与事故有关的情况，并要求其提供相关文件资料，有关单位和个人不得拒绝"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "事故调查组成员可随时发布有关事故的信息"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "事故调查中需要进行技术鉴定的，技术鉴定所需时间不记入事故调查期限"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "强令工人冒险作业，这是违法行为"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "为了保证工程进度，对发生的事故可以采取迟报"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "设置安全标志可引起人们对重大危险源的识别，防止发生事故"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "暂时停止施工的现场，施工单位应当做好现场防护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "力是标量，力的合成与分解都遵从平行四边形法则"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "在国际计量单位制中，力矩单位用牛顿X米"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "转矩是确定轴的材料及结构尺寸的一个重要依据，他与功率成反比，与转速成正比"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "一般的机械传动机构，在大多数情况下采用多级传动，以获得较大的传动比"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "功率因数是有功功率和无功功率的比值"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "电压和电流的大小和方向随时间作周期性变化的电路，叫直流电路"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "在并联电路中，各负载的电流比等于它们的电阻的倒数，又称为电导比"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在串联电路中，各负载的电压比等于它们的电阻比，电阻分流器就是按此原理制作的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "闭合电路的一部分导体，在磁场中做切割磁感应线运动时，导体中就会产生电流，这种现象叫做电磁感应现象"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "电阻在电路中不仅起着限制电流的作用，而且要消耗电能并转化为热能，这种现象叫做电流的热效应"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "电气图，也称电气系统图，图中的辅助文字符号用来表示电气设备、装置、元器件的功能、状态和特征"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "电功率就是电流单位时间内所做的功，电功率的单位是瓦特"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "电流强度是指单位时间面积内，通过的电流大小单位为安培／平方毫米"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "阅读电气原理图，阅读的方法可以归纳为：从机到电，先主后控，化整为零，连成系统"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "穿过漏电保护器的N线可作PE线作用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "熔断器选用时首先应考虑对熔体额定电流的选择，要同时保证在短路电流和启动冲击电流熔体能及时熔断"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "接触器和继电器的主要区别是接触器可以通很大的电流，大规格还有灭弧装置"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "使用在潮湿和有腐蚀介质场所的漏电保护器，?在作为对人身直接触电保护时，应采用防溅型产品，其额定漏电动作电流应不大于15m对，额定漏电动作时间应不大于0.1s"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "漏电保护器投入运行后要严格管理，每半个月至少要试验一次"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "建筑施工现场多数由建设单位直接将500\/380V?低压电源接入施工现场的总配置电室（箱），由施工现场在进行供电分配"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "目前，我国380\/220V低压配电系统采用中性点间接接地方式"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "防雷接地的设置主要用于雷击时将雷电流泄入大地，从而保护设备、设施和人员安全"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "对于安全保护来说，希望故障点对地电压越小，故障电流越小越有利"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "建筑施工现场可以采取TN-S?保护系统"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场与外电线路共用同一系统时，电气设备的接地接零保持应与原系统保持一致"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "重复接地连接线应选用黑色绝缘多股软铜线"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "使用安全电压是不会触电的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "在施工现场专用的380\/220V三相四线制的电力线路中必须采用TN-S接零保护系统"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "保护零线上可以接熔断器"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "所谓自备发配电系统是指发电机作为电源与配电装置、配电线路、接地装置组合的供配电系统"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场一般用电力电缆，电力电缆型号按其电缆结构的排列一般次序为绝缘材料、导体材料、内护层、外护层"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "压管套接法适用于室内、外负荷较小的铝线街头的连接"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "导线连接的基本要求是：电接触良好，机械强度足够，接头美观，且绝缘恢复正常"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "电缆的类型应根据其敷设和环境条件选择，埋地敷设时，宜选用铠装电缆，架空时宜选用无铠装护套电缆"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "按允许温升初选电缆芯线截面，同样应使其长期连续负荷允许的载流量Iy大于或等于线路的计算电流Ij?"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "施工现场架空线和室内配线必须采用裸导线，严禁采用绝缘导线"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "电缆埋设时，直埋电缆的街头应设在地面上的接线盒内，在地下可以有接头"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "配电箱、开关箱可以不加装N、PE接线端子板连接，PE线通过PE接线端子板连接"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "当总配电箱设置漏电保护器时，还应该装设总隔离开关、分路隔离开关以及总断路器、分断路器或总熔断器、分路熔断器"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "分配电箱的电器配置在采用二级漏电保护的配电系统中，分配电箱中不要求设置漏电保护器"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "配电箱、开关箱内必须设置在任何情况下能够分段、隔离电源的开关电器，手动隔离开关一般用作负载通电工况下，通断电路"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "开关箱与用电设备之间实行一闸多机，防止一机一闸带来的意外伤害事故"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "配电装置送电时，操作顺序为开关箱??分配电箱??总配电箱（配电柜）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "配电装置停电时，操作顺序为?总配电箱（配电柜）??分配电箱?开关箱"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "塔式起重机的机体必须做防雷接地"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "物料提升机的电动机正、反转应借助于接触器用按钮控制，不得采用手动倒顺开关控制"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "夯土机械使用时应有人调整电缆，且电缆长度不应大于60m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "潜水电动机入水、出水和移动时可直接拽拉电缆，但电缆头一定要加固"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "夯土机械使用过程严禁电缆缠绕、扭结和被机体跨越"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "被混凝土搅拌机进行清理、检查、维修，必须先将开关箱分闸断电，隔离开关呈现明显断开点，并将开关门上锁"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "点焊机械的二次线的地线可以利用金属构件或结构钢筋代替"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "严禁徒手打捞带电掉入水中的手持式电动工具"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "轨道式塔式起重机电缆可以随机拖地行走"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "导轨上下极限位置均应设置限位开关"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "卤钨灯的安装必须保持水平，倾斜角不得超过6℃"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "白炽灯吸收的电能只有不到10%被转化了光能，其余的均被转化为红外线和热能浪费了，所以它的发光效率较低"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "荧光灯因为安装有镇流器，所以其功率因数低"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "白炽灯荧光灯都是热辐射光源"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "碘钨灯与白炽灯相比具有体积小、光通稳定、光效高、耐振性高的特点"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "塔式起重机起重臂跨越施工现场配电线路上方可以不做防护隔离措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "静止电荷聚集到一定程度时，不一般不会对人体造成伤害，不必将产生静电的设备接地使其中和"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在一般情况下，穿过高压线下方的道路，其高压线下方必须做保护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "接闪器防直击雷保护范围是按滚球法确定的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "多支避雷针和多根避雷针的保护范围可按现行的国家标准<<建筑物防雷设计规范>>G错50057的规定执行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "万用表用毕，应置于直流电最大档位"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "没有兆欧表时，可用万用表R?x?10K?档测量电气设备的绝缘电阻"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "500V的兆欧表开路试验，转速到120r\/min时、表示“E”、“L”两端电压为500V"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "电压互感器的铁心和副绕组的一端必须接地，副绕组不允许短路"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "使用验电笔时，验电笔要先到有电的带电体上检验一下验电笔是否正常"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "临时用电检查验收表上必须有设计（总包）、审核（监理）、使用（分包）等相关单位检查验收意见"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "施工单位必须为电工作业人员配备绝缘鞋、手套等个人安全防护用品"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "电工作业人员应根据工作条件选用适当的安全工具，不得用其他工具代替安全防护用具"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "确需带电工作时，必须由两人以上进行，有专人负责监护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "特别潮湿或危险场所带电操作时，要特别注意安全"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "漏电保护开关可以拆卸和调换零部件，以便改变原有技术参数灵活配用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "移动式配电装置迁移位置时，必须先将其前一级电源隔离开关分闸断电，严谨带电搬运"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "所有进现场的变配电装置，配电线，缆，用电设备，必须预先经过检验、测试合格后方可使用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "停、送电操作必须有两人进行，一人操作，一人监护，并穿戴绝缘防护用品"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "配电箱、开关箱遇到临时停电或停工时，只要锁好箱门，电工就无安全责任"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "熔断器的熔体更换时，找不到复合原规格熔体，可选择细铜丝代替"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "发现有人触电时，经请示有关领导同意后，才能拉闸停电"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "电流对人体的作用时间越长，对生命的威胁越大"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "登在人字梯上操作时，宜采用骑马式站立"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "环境温度过高，电气设备温升也增高，引起绝缘老化加快"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "电弧是一种少见的放电现象，它能量集中、温度高、易导电，破坏力大"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "在正常情况下用电设备允许电压有一定的波动范围"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "空气大气压降低，空气密度将下降，空气的绝缘强度上升"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "动力和照明可以合用一组熔断器和开关"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "接线端子标记中，三相电动机定子绕组手首端分别用U1、V1、W1标记，绕组尾端分别用U3、V3、W3标记，电动机绕组中间抽头分别用U2?、V2、W2标记。"
+	}
+]

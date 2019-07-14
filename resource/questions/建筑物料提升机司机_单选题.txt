@@ -1,0 +1,3044 @@
+[{
+		"choices": [{
+			"label": "A",
+			"content": "安全生产机构管理负责人"
+		}, {
+			"label": "B",
+			"content": "分管安全工作的副经理"
+		}, {
+			"label": "C",
+			"content": "法定代表人"
+		}, {
+			"label": "D",
+			"content": "企业技术负责人"
+		}],
+		"answer": ["C"],
+		"content": "建筑施工企业必须建立以（ ）为第一责任人的安全生产责任制度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "政府统一领导、部门依法监管、企业全面参与、群众参与监督"
+		}, {
+			"label": "B",
+			"content": "部门统一领导、政府依法监管、企业全面参与、群众参与监督"
+		}, {
+			"label": "C",
+			"content": "政府统一领导、部门依法负责、企业全面监管、群众参与监督"
+		}, {
+			"label": "D",
+			"content": "政府统一领导、部门依法监督、企业全面负责、群众参与监督"
+		}],
+		"answer": ["D"],
+		"content": "安全生产是个系统工程，只有构建（ ）全社会广泛支持的安全生产格局，采取综合措施才能达到安全生产的目的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "群防群治制度"
+		}, {
+			"label": "B",
+			"content": "安全生产责任制度"
+		}, {
+			"label": "C",
+			"content": "安全教育培训制度"
+		}, {
+			"label": "D",
+			"content": "安全生产检查制度"
+		}],
+		"answer": ["B"],
+		"content": "企业中最基本的一项安全制度，也是企业安全生产、劳动保护制度的核心，这是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "群策群力制度"
+		}, {
+			"label": "B",
+			"content": "安全生产责任制度"
+		}, {
+			"label": "C",
+			"content": "安全生产教育培训制度"
+		}, {
+			"label": "D",
+			"content": "安全生产检查制度"
+		}],
+		"answer": ["A"],
+		"content": "建筑生产中的安全管理制度不包括是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "立即"
+		}, {
+			"label": "B",
+			"content": "1小时内"
+		}, {
+			"label": "C",
+			"content": "2小时"
+		}, {
+			"label": "D",
+			"content": "24小时内"
+		}],
+		"answer": ["A"],
+		"content": "发生事故后，事故现场有关人员应当（ ）向本单位负责人报告"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "立即"
+		}, {
+			"label": "B",
+			"content": "1小时内"
+		}, {
+			"label": "C",
+			"content": "2小时"
+		}, {
+			"label": "D",
+			"content": "24小时"
+		}],
+		"answer": ["B"],
+		"content": "事故发生单位负责人接到事故报告后，应当于（ ）内向事故发生地县级以上有关部门报告"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一个月"
+		}, {
+			"label": "B",
+			"content": "三个月"
+		}, {
+			"label": "C",
+			"content": "六个月"
+		}, {
+			"label": "D",
+			"content": "一年"
+		}],
+		"answer": ["B"],
+		"content": "首次取得《建筑施工特种作业操作资格证书》人员必须要有不少于（ ）的实习操作"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全文化"
+		}, {
+			"label": "B",
+			"content": "安全投入"
+		}, {
+			"label": "C",
+			"content": "安全法制"
+		}, {
+			"label": "D",
+			"content": "安全责任心"
+		}],
+		"answer": ["D"],
+		"content": "安全生产的核心是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "塔式起重机、施工升降机、物料提升机"
+		}, {
+			"label": "B",
+			"content": "塔式起重机、履带式起重机、施工升降机"
+		}, {
+			"label": "C",
+			"content": "施工升降机、塔式起重机、汽车式起重机"
+		}, {
+			"label": "D",
+			"content": "物料提升机、塔式起重机、履带式起重机"
+		}],
+		"answer": ["A"],
+		"content": "建筑起重机械司机指的是（ ）司机"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "建设主管部门"
+		}, {
+			"label": "B",
+			"content": "所在单位"
+		}, {
+			"label": "C",
+			"content": "行业协会"
+		}, {
+			"label": "D",
+			"content": "劳动主管部门"
+		}],
+		"answer": ["A"],
+		"content": "建筑施工特种作业人员必须经（ ）考核合格，取得建筑施工特种作业人员操作资格证书，方可上岗从事相应作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "证号"
+		}, {
+			"label": "B",
+			"content": "身份证号"
+		}, {
+			"label": "C",
+			"content": "工作单位"
+		}, {
+			"label": "D",
+			"content": "劳动主管部门"
+		}],
+		"answer": ["C"],
+		"content": "《建筑施工特种作业操作资格证书》正本中不包含（ ）的内容"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一个月"
+		}, {
+			"label": "B",
+			"content": "二个月"
+		}, {
+			"label": "C",
+			"content": "三个月"
+		}, {
+			"label": "D",
+			"content": "六个月"
+		}],
+		"answer": ["C"],
+		"content": "特种作业操作资格证书有效期需要延期的，持证人应当于期满前（ ）向考核发证机关办理延期复核手续"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "12"
+		}, {
+			"label": "B",
+			"content": "18"
+		}, {
+			"label": "C",
+			"content": "24"
+		}, {
+			"label": "D",
+			"content": "30"
+		}],
+		"answer": ["C"],
+		"content": "根据住房和城乡建设部规定，特种作业人员参加年度安全教育培训的时间不少于（ ）学时"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "专职安全生产管理人员"
+		}, {
+			"label": "B",
+			"content": "施工员"
+		}, {
+			"label": "C",
+			"content": "项目技术负责人"
+		}, {
+			"label": "D",
+			"content": "专人"
+		}],
+		"answer": ["D"],
+		"content": "首次取得资格证书的特种作业人员实习期间，用人单位要指定（ ）指导和监督作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "两年"
+		}, {
+			"label": "B",
+			"content": "三年"
+		}, {
+			"label": "C",
+			"content": "四年"
+		}, {
+			"label": "D",
+			"content": "五年"
+		}],
+		"answer": ["A"],
+		"content": "建筑施工特种作业操作资格证书有效期为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "甲发现了安全事故隐患后没有向现场安全管理人员报告后发生事故"
+		}, {
+			"label": "B",
+			"content": "乙发现脚手架要倒塌，在没有采取其他措施情况下迅速逃离现场"
+		}, {
+			"label": "C",
+			"content": "项目经理强行要求有“恐高症”的丙高空作业"
+		}, {
+			"label": "D",
+			"content": "丁没有按照本单位要求在施工现场戴安全帽"
+		}],
+		"answer": ["B"],
+		"content": "下列行为中没有违反《安全生产法》的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "110"
+		}, {
+			"label": "B",
+			"content": "114"
+		}, {
+			"label": "C",
+			"content": "119"
+		}, {
+			"label": "D",
+			"content": "120"
+		}],
+		"answer": ["C"],
+		"content": "发生火灾时，需拨打的火警电话是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "企业法定代表人、项目负责人、班组长"
+		}, {
+			"label": "B",
+			"content": "公司、项目、班组"
+		}, {
+			"label": "C",
+			"content": "总公司、总包单位、分包单位"
+		}, {
+			"label": "D",
+			"content": "建设单位、施工单位、监理单位"
+		}],
+		"answer": ["B"],
+		"content": "三级安全教育指的是（ ）级安全教育"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "公司级"
+		}, {
+			"label": "B",
+			"content": "项目级"
+		}, {
+			"label": "C",
+			"content": "班组级"
+		}, {
+			"label": "D",
+			"content": "班前活动"
+		}],
+		"answer": ["B"],
+		"content": "学习施工现场紧急情况和重大事故应急预案属于（ ）安全教育内容"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "24m"
+		}, {
+			"label": "B",
+			"content": "36m"
+		}, {
+			"label": "C",
+			"content": "48m"
+		}, {
+			"label": "D",
+			"content": "50m"
+		}],
+		"answer": ["D"],
+		"content": "搭设高度（ ）及以上落地式钢管脚手架工程，属于专家论证的安全专项施工方案范围"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "项目负责人"
+		}, {
+			"label": "B",
+			"content": "负责项目管理的技术人员"
+		}, {
+			"label": "C",
+			"content": "专职安全生产管理人员"
+		}, {
+			"label": "D",
+			"content": "企业技术负责人"
+		}],
+		"answer": ["B"],
+		"content": "安全技术交底由施工单位（ ）向施工班组、作业人员进行交底"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "五"
+		}, {
+			"label": "B",
+			"content": "六"
+		}, {
+			"label": "C",
+			"content": "七"
+		}, {
+			"label": "D",
+			"content": "八"
+		}],
+		"answer": ["D"],
+		"content": "安全防护用品按照防护部位分为（ ）类"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "制作材料"
+		}, {
+			"label": "B",
+			"content": "使用时间"
+		}, {
+			"label": "C",
+			"content": "电压等级"
+		}, {
+			"label": "D",
+			"content": "使用环境"
+		}],
+		"answer": ["C"],
+		"content": "绝缘手套要根据（ ）选用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2"
+		}, {
+			"label": "B",
+			"content": "3"
+		}, {
+			"label": "C",
+			"content": "1"
+		}, {
+			"label": "D",
+			"content": "半"
+		}],
+		"answer": ["A"],
+		"content": "安全带在使用（ ）年后应抽检一次"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "淋灰作业"
+		}, {
+			"label": "B",
+			"content": "接触酸碱作业"
+		}, {
+			"label": "C",
+			"content": "筛灰作业"
+		}, {
+			"label": "D",
+			"content": "搅拌混凝土作业"
+		}],
+		"answer": ["B"],
+		"content": "下面哪种作业需要戴防护手套（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3"
+		}, {
+			"label": "B",
+			"content": "2"
+		}, {
+			"label": "C",
+			"content": "1.5"
+		}, {
+			"label": "D",
+			"content": "3."
+		}],
+		"answer": ["B"],
+		"content": "建筑施工处于高处作业状态，高度超过（ ）米的悬空作业，必须系好安全带"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全通道"
+		}, {
+			"label": "B",
+			"content": "防护棚"
+		}, {
+			"label": "C",
+			"content": "安全出口"
+		}, {
+			"label": "D",
+			"content": "联锁装置的安全门"
+		}],
+		"answer": ["B"],
+		"content": "塔式起重机回转半径以内区域的加工作业区，应当设置（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "戴防护手套"
+		}, {
+			"label": "B",
+			"content": "系好安全带"
+		}, {
+			"label": "C",
+			"content": "戴防尘口罩"
+		}, {
+			"label": "D",
+			"content": "戴防护眼镜"
+		}],
+		"answer": ["B"],
+		"content": "安装外墙门、窗时，作业人员一定要（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "防滑"
+		}, {
+			"label": "B",
+			"content": "防水"
+		}, {
+			"label": "C",
+			"content": "防晒"
+		}, {
+			"label": "D",
+			"content": "防火"
+		}],
+		"answer": ["A"],
+		"content": "登高用梯踏板应当采用（ ）性能的材料"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "顶部"
+		}, {
+			"label": "B",
+			"content": "低部"
+		}, {
+			"label": "C",
+			"content": "左边"
+		}, {
+			"label": "D",
+			"content": "右边"
+		}],
+		"answer": ["A"],
+		"content": "达到一定高度的交叉作业，防护棚、安全通道的（ ）应设置双层防护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "最小值"
+		}, {
+			"label": "B",
+			"content": "平均值"
+		}, {
+			"label": "C",
+			"content": "任意值"
+		}, {
+			"label": "D",
+			"content": "最大值"
+		}],
+		"answer": ["D"],
+		"content": "作业区各作业位置至相应坠落高度基准面的垂直距离中的（ ），称为该作业区的高处作业高度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2〜5m"
+		}, {
+			"label": "B",
+			"content": "15〜30m"
+		}, {
+			"label": "C",
+			"content": "5〜15m"
+		}, {
+			"label": "D",
+			"content": "30〜50m"
+		}],
+		"answer": ["B"],
+		"content": "高处作业按作业点可能坠落的坠落高度划分为四个等级，三级高处作业，坠落高度是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3"
+		}, {
+			"label": "B",
+			"content": "1"
+		}, {
+			"label": "C",
+			"content": "2"
+		}, {
+			"label": "D",
+			"content": "半"
+		}],
+		"answer": ["C"],
+		"content": "安全通道附近的各类洞口与场地上深度在（ ）米以上的洞口等处，除设置防护设施与安全标志，夜间还应设置红灯示警"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全第一，预防为主"
+		}, {
+			"label": "B",
+			"content": "质量第一，预防为主"
+		}, {
+			"label": "C",
+			"content": "以防为主，防治结合"
+		}, {
+			"label": "D",
+			"content": "预防为主，防消结合"
+		}],
+		"answer": ["D"],
+		"content": "我国消防工作的方针是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2"
+		}, {
+			"label": "B",
+			"content": "3"
+		}, {
+			"label": "C",
+			"content": "4"
+		}, {
+			"label": "D",
+			"content": "5"
+		}],
+		"answer": ["A"],
+		"content": "高层建筑施工安全要求，脚手架内的作业层应畅通，并搭设不少于（ ）处与主体建筑内相衔接的通道"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一"
+		}, {
+			"label": "B",
+			"content": "两"
+		}, {
+			"label": "C",
+			"content": "三"
+		}, {
+			"label": "D",
+			"content": "四"
+		}],
+		"answer": ["B"],
+		"content": "一般临时设施区域，配电室、动火处、食堂、宿舍等重点防火部门，每100┫应当配备（ ）个10L灭火器"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全通道"
+		}, {
+			"label": "B",
+			"content": "检修口"
+		}, {
+			"label": "C",
+			"content": "防护栏杠"
+		}, {
+			"label": "D",
+			"content": "木盖板"
+		}],
+		"answer": ["C"],
+		"content": "边长大于150cm的大洞口应在四周设置（ ），并在洞口下方设置安全平网"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "乙炔瓶应安装回火防止器，防止氧气倒回发生事故"
+		}, {
+			"label": "B",
+			"content": "乙炔瓶放置在距离明火10m以外的地方，严禁倒放"
+		}, {
+			"label": "C",
+			"content": "使用时乙炔瓶和氧气瓶的距离不得小于3m"
+		}, {
+			"label": "D",
+			"content": "每天操作前都必须对乙炔瓶和氧气瓶进行认真检查"
+		}],
+		"answer": ["C"],
+		"content": "有关焊割作业防火安全要求，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "在建工程阳台、雨篷边缘"
+		}, {
+			"label": "B",
+			"content": "土方开挖形式的基坑周边"
+		}, {
+			"label": "C",
+			"content": "垂直运输设备与各层面接口的接料平台"
+		}, {
+			"label": "D",
+			"content": "施工升降机吊笼上料通道口"
+		}],
+		"answer": ["D"],
+		"content": "下列不属于施工现场临边作业的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "通道处不得堆放障碍物"
+		}, {
+			"label": "B",
+			"content": "不得在室内配置用于防腐、防水、装饰的危险化学品溶液"
+		}, {
+			"label": "C",
+			"content": "施工人员吸烟和动火应先申请"
+		}, {
+			"label": "D",
+			"content": "不得同时进行水暖、电气安装的金属焊接作业"
+		}],
+		"answer": ["C"],
+		"content": "有关地下工程施工防火安全要求，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "易引起火灾的仓库，应将库房内、外分段设立防火墙，划分防火单元"
+		}, {
+			"label": "B",
+			"content": "根据季节风向的变化，仓库应在上风方向"
+		}, {
+			"label": "C",
+			"content": "仓库应在水源充足、消防车能驶到的地方"
+		}, {
+			"label": "D",
+			"content": "易燃易爆物品仓库应设两个以上的大门，大门应向外开启"
+		}],
+		"answer": ["B"],
+		"content": "有关易燃易爆物品防火要求，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "二氧化碳灭火器约为2.5m"
+		}, {
+			"label": "B",
+			"content": "四氯化碳灭火器约为3m"
+		}, {
+			"label": "C",
+			"content": "干粉灭火器约为4.5m"
+		}, {
+			"label": "D",
+			"content": "1211灭火器约为7m"
+		}],
+		"answer": ["C"],
+		"content": "下列有关灭火器射程的说法正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "5"
+		}, {
+			"label": "B",
+			"content": "8"
+		}, {
+			"label": "C",
+			"content": "10"
+		}, {
+			"label": "D",
+			"content": "12"
+		}],
+		"answer": ["C"],
+		"content": "当发现电线坠地和设备漏电时，不得随意跑动和触摸金属物体，并保护（ ）m以上距离"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一般采用冷轧铁板或阻燃材料制作"
+		}, {
+			"label": "B",
+			"content": "开关箱箱体钢板厚度一般不得小于1.2mm"
+		}, {
+			"label": "C",
+			"content": "配电箱箱体钢板厚度一般不得小于2.0mm"
+		}, {
+			"label": "D",
+			"content": "箱体表面应做防腐处理"
+		}],
+		"answer": ["C"],
+		"content": "有关配电箱的制作，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "必须按规定穿戴绝缘手套和绝缘鞋等安全用品"
+		}, {
+			"label": "B",
+			"content": "电缆长度不应大于50m，有专人调整电缆"
+		}, {
+			"label": "C",
+			"content": "多台夯土机械工作时，左右间距不得小于10m，前后间距不得小于5m"
+		}, {
+			"label": "D",
+			"content": "操作扶手必须绝缘"
+		}],
+		"answer": ["C"],
+		"content": "有关夯土机械使用时应注意的事项，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1211灭火剂"
+		}, {
+			"label": "B",
+			"content": "Bc类干粉"
+		}, {
+			"label": "C",
+			"content": "D类干粉"
+		}, {
+			"label": "D",
+			"content": "二氧化碳"
+		}],
+		"answer": ["C"],
+		"content": "适用于扑救金属火灾的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "使用移动梯和折梯"
+		}, {
+			"label": "B",
+			"content": "安装外墙门窗"
+		}, {
+			"label": "C",
+			"content": "交叉作业中拆卸模版、脚手架"
+		}, {
+			"label": "D",
+			"content": "给水平面洞口设置封口盖板"
+		}],
+		"answer": ["D"],
+		"content": "以下操作不需要有专人看管、监护的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "在潮湿场所和金属构架上严禁使用Ⅱ类手持式电动工具"
+		}, {
+			"label": "B",
+			"content": "狭窄场所必须选用由安全隔离变压器供电的Ⅲ类手持式电动工具"
+		}, {
+			"label": "C",
+			"content": "外壳、手柄、插头、开关、负荷线等必须完好无损"
+		}, {
+			"label": "D",
+			"content": "负荷线应采用耐气候的橡皮护套铜芯软电缆，并不得有接头"
+		}],
+		"answer": ["A"],
+		"content": "有关手持式电动工具使用时应注意的事项，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一定要有良好的通风条件"
+		}, {
+			"label": "B",
+			"content": "照明电气设备必须使用防爆灯头"
+		}, {
+			"label": "C",
+			"content": "严禁吸烟"
+		}, {
+			"label": "D",
+			"content": "周围动火作业要距离15m以外"
+		}],
+		"answer": ["C"],
+		"content": "下列有关油漆室内作业时的说法，不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "现金"
+		}, {
+			"label": "B",
+			"content": "货币"
+		}, {
+			"label": "C",
+			"content": "实物"
+		}, {
+			"label": "D",
+			"content": "其他用品"
+		}],
+		"answer": ["C"],
+		"content": "安全防护用品必须以（ ）形式发放"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "36V"
+		}, {
+			"label": "B",
+			"content": "24V"
+		}, {
+			"label": "C",
+			"content": "12V"
+		}, {
+			"label": "D",
+			"content": "6V"
+		}],
+		"answer": ["C"],
+		"content": "在金属容器内施工，照明电源电压不应大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2m"
+		}, {
+			"label": "B",
+			"content": "2.5m"
+		}, {
+			"label": "C",
+			"content": "3.5m"
+		}, {
+			"label": "D",
+			"content": "3m"
+		}],
+		"answer": ["D"],
+		"content": "室外220V灯具距地面不得低于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "200mm"
+		}, {
+			"label": "B",
+			"content": "300mm"
+		}, {
+			"label": "C",
+			"content": "400mm"
+		}, {
+			"label": "D",
+			"content": "500mm"
+		}],
+		"answer": ["B"],
+		"content": "白炽灯和日光灯等普通灯具距易燃物距离不宜小于（ ），且不得直接照射易燃物"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "生活区应当建立消防责任制"
+		}, {
+			"label": "B",
+			"content": "生活区内应设置消火栓或不小于20m3容量的蓄水池蓄水"
+		}, {
+			"label": "C",
+			"content": "宿舍内严禁作用电炉等电加热器具"
+		}, {
+			"label": "D",
+			"content": "宿舍内严禁吸烟"
+		}],
+		"answer": ["D"],
+		"content": "有关施工现场生活区消防管理，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "-5℃"
+		}, {
+			"label": "B",
+			"content": "0℃"
+		}, {
+			"label": "C",
+			"content": "5℃"
+		}, {
+			"label": "D",
+			"content": "3℃"
+		}],
+		"answer": ["C"],
+		"content": "根据当地多年气象资料统计，当室外日平均气温连续五天稳定低于（ ）即进入冬期施工"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "100mm"
+		}, {
+			"label": "B",
+			"content": "50mm"
+		}, {
+			"label": "C",
+			"content": "30mm"
+		}, {
+			"label": "D",
+			"content": "200mm"
+		}],
+		"answer": ["B"],
+		"content": "落地式钢管脚手架底部，应当高出自然地坪（ ），周围应设置排水设施，防止雨水浸泡脚手架"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "-10℃"
+		}, {
+			"label": "B",
+			"content": "-5℃"
+		}, {
+			"label": "C",
+			"content": "-20℃"
+		}, {
+			"label": "D",
+			"content": "0℃"
+		}],
+		"answer": ["C"],
+		"content": "钢筋混凝土工程冬期施工，当温度低于（ ）时，严禁对低合金钢筋进行冷弯"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "大于"
+		}, {
+			"label": "B",
+			"content": "等于"
+		}, {
+			"label": "C",
+			"content": "小于"
+		}, {
+			"label": "D",
+			"content": "大于等于"
+		}],
+		"answer": ["A"],
+		"content": "上下操作隔断的横向安全距离，应（ ）相应高度的坠落半径"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "10cm"
+		}, {
+			"label": "B",
+			"content": "25"
+		}, {
+			"label": "C",
+			"content": "mB25cmC30cm"
+		}, {
+			"label": "D",
+			"content": "20cm"
+		}],
+		"answer": ["C"],
+		"content": "砖砌火炉壁厚不得小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2.0"
+		}, {
+			"label": "B",
+			"content": "2.5"
+		}, {
+			"label": "C",
+			"content": "3.0"
+		}, {
+			"label": "D",
+			"content": "4."
+		}],
+		"answer": ["B"],
+		"content": "室内明敷主干电线距地面高度不得小于（ ）m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "20cm"
+		}, {
+			"label": "B",
+			"content": "70"
+		}, {
+			"label": "C",
+			"content": "mB70cmC30cm"
+		}, {
+			"label": "D",
+			"content": "60cm"
+		}],
+		"answer": ["B"],
+		"content": "已做防护保护层的火炉距可燃物的距离不得小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "裂缝"
+		}, {
+			"label": "B",
+			"content": "倾斜"
+		}, {
+			"label": "C",
+			"content": "沉降"
+		}, {
+			"label": "D",
+			"content": "积水"
+		}],
+		"answer": ["C"],
+		"content": "为确保冬期施工起重机械设备安全使用，春季冻土融化，应当随时观察设备基础是否发生（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "向内"
+		}, {
+			"label": "B",
+			"content": "向外"
+		}, {
+			"label": "C",
+			"content": "向前"
+		}, {
+			"label": "D",
+			"content": "向东"
+		}],
+		"answer": ["B"],
+		"content": "锅炉房门的开启方向应是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全符号"
+		}, {
+			"label": "B",
+			"content": "安全信息"
+		}, {
+			"label": "C",
+			"content": "安全警告"
+		}, {
+			"label": "D",
+			"content": "安全提示"
+		}],
+		"answer": ["B"],
+		"content": "安全标志由图形符号、安全色、几何图形（边框）或文字构成，是用以表达（ ）的标志"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "人不安全行为"
+		}, {
+			"label": "B",
+			"content": "物不安全状态"
+		}, {
+			"label": "C",
+			"content": "管理严重缺陷"
+		}, {
+			"label": "D",
+			"content": "存在安全隐患"
+		}],
+		"answer": ["A"],
+		"content": "禁止标志的含义是禁止（ ）的图形标志"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "告诫"
+		}, {
+			"label": "B",
+			"content": "提醒"
+		}, {
+			"label": "C",
+			"content": "强制"
+		}, {
+			"label": "D",
+			"content": "通知"
+		}],
+		"answer": ["C"],
+		"content": "指令标志的含义是（ ）人们必须做出某种动作或采用防范措施的图形标志"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "提示"
+		}, {
+			"label": "B",
+			"content": "指令"
+		}, {
+			"label": "C",
+			"content": "警告"
+		}, {
+			"label": "D",
+			"content": "禁止"
+		}],
+		"answer": ["D"],
+		"content": "安全色为红色表示（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "红色"
+		}, {
+			"label": "B",
+			"content": "黄色"
+		}, {
+			"label": "C",
+			"content": "绿色"
+		}, {
+			"label": "D",
+			"content": "蓝色"
+		}],
+		"answer": ["B"],
+		"content": "对比色为黑色的安全色是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "红色"
+		}, {
+			"label": "B",
+			"content": "黄色"
+		}, {
+			"label": "C",
+			"content": "绿色"
+		}, {
+			"label": "D",
+			"content": "蓝色"
+		}],
+		"answer": ["D"],
+		"content": "表示必须遵守规定的信息是（ ）与白色相间的条纹"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "硫磺贮存、运输和施工时，严禁与木炭、硝石相混"
+		}, {
+			"label": "B",
+			"content": "乙二胺遇火种、高温和氧化剂有燃烧的危险"
+		}, {
+			"label": "C",
+			"content": "乙二胺贮存、运输时不能盖盖子，应尽量通风"
+		}, {
+			"label": "D",
+			"content": "树脂类防腐材料施工时，要避免高温，不得置于太阳下长时间曝晒"
+		}],
+		"answer": ["C"],
+		"content": "有关防腐作业防火安全要求，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "10"
+		}, {
+			"label": "B",
+			"content": "15"
+		}, {
+			"label": "C",
+			"content": "20"
+		}, {
+			"label": "D",
+			"content": "25"
+		}],
+		"answer": ["B"],
+		"content": "使用于潮湿场所开关箱中的漏电保护器，其额定漏电动作电流不应大于（ ）mA，动作时间不应大于0.1s"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0℃"
+		}, {
+			"label": "B",
+			"content": "10℃"
+		}, {
+			"label": "C",
+			"content": "3℃"
+		}, {
+			"label": "D",
+			"content": "5℃"
+		}],
+		"answer": ["D"],
+		"content": "根据当地多年气象资料统计，当室外日平均气温连续五天高于（ ）时解除冬期施工"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "110"
+		}, {
+			"label": "B",
+			"content": "114"
+		}, {
+			"label": "C",
+			"content": "119"
+		}, {
+			"label": "D",
+			"content": "120"
+		}],
+		"answer": ["D"],
+		"content": "急救现场申请急救服务，首先要拨打急救电话（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "不要重复"
+		}, {
+			"label": "B",
+			"content": "重复一次"
+		}, {
+			"label": "C",
+			"content": "重复2次"
+		}, {
+			"label": "D",
+			"content": "复述一次"
+		}],
+		"answer": ["B"],
+		"content": "急救现场申请急救服务，拨打急救电话时，要求接听者将内容（ ），确保信息准确无误"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "下风"
+		}, {
+			"label": "B",
+			"content": "积烟"
+		}, {
+			"label": "C",
+			"content": "上风"
+		}, {
+			"label": "D",
+			"content": "上人口"
+		}],
+		"answer": ["C"],
+		"content": "火灾使下行楼梯受阻，疏散通道被大火阻断，确认无法逃生地面时，可撤退至楼顶施工层的（ ）处，求得暂时性的自我保护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "37℃"
+		}, {
+			"label": "B",
+			"content": "38℃"
+		}, {
+			"label": "C",
+			"content": "39℃"
+		}, {
+			"label": "D",
+			"content": "40℃"
+		}],
+		"answer": ["D"],
+		"content": "中暑的医学特征之一是体温上升，可达（ ）或以上"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "半径"
+		}, {
+			"label": "B",
+			"content": "直径"
+		}, {
+			"label": "C",
+			"content": "长度"
+		}, {
+			"label": "D",
+			"content": "周长"
+		}],
+		"answer": ["A"],
+		"content": "金属烟囱一节插入另一节的尺寸不得小于烟囱的（ ），且衔接要牢固"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "家具"
+		}, {
+			"label": "B",
+			"content": "书籍"
+		}, {
+			"label": "C",
+			"content": "带电设备"
+		}, {
+			"label": "D",
+			"content": "服装"
+		}],
+		"answer": ["C"],
+		"content": "水是最常用的灭火剂，取用方便，资源丰富，但要注意水不能用于扑救（ ）的火灾"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "绝缘铜线"
+		}, {
+			"label": "B",
+			"content": "防水橡皮护套铜芯软电缆"
+		}, {
+			"label": "C",
+			"content": "绝缘铝线"
+		}, {
+			"label": "D",
+			"content": "绝缘导线和结构钢筋（作为地线）"
+		}],
+		"answer": ["B"],
+		"content": "交流电焊设备应配装防二次侧触电保护器，二次线应采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "脱离电源和正确地实行人工呼吸和心脏按摩"
+		}, {
+			"label": "B",
+			"content": "拖延时间"
+		}, {
+			"label": "C",
+			"content": "动作迟缓"
+		}, {
+			"label": "D",
+			"content": "救护不当"
+		}],
+		"answer": ["A"],
+		"content": "触电者的生命能否获救，在绝大多数情况下取决于能否迅速（ ）：否则，都可能造成死亡"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "在无人照料下离开伤病者"
+		}, {
+			"label": "B",
+			"content": "丢弃呕吐物"
+		}, {
+			"label": "C",
+			"content": "丢弃排泄物"
+		}, {
+			"label": "D",
+			"content": "禁食"
+		}],
+		"answer": ["D"],
+		"content": "消化道出血及需要手术处理的伤病员应当（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "特别重大火灾"
+		}, {
+			"label": "B",
+			"content": "重大火灾"
+		}, {
+			"label": "C",
+			"content": "较大火灾"
+		}, {
+			"label": "D",
+			"content": "一般火灾"
+		}],
+		"answer": ["B"],
+		"content": "造成5500万元直接财产损失的火灾属于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "特别重大事故"
+		}, {
+			"label": "B",
+			"content": "重大事故"
+		}, {
+			"label": "C",
+			"content": "较大事故"
+		}, {
+			"label": "D",
+			"content": "一般事故"
+		}],
+		"answer": ["B"],
+		"content": "造成10人以上30人以下死亡，或者50人以上100人以下重伤，或者5000万元以上1亿元以下直接经济损失的事故是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "禁止标志"
+		}, {
+			"label": "B",
+			"content": "警告标志"
+		}, {
+			"label": "C",
+			"content": "指令标志"
+		}, {
+			"label": "D",
+			"content": "提示标志"
+		}],
+		"answer": ["A"],
+		"content": "白底黑色图案加带斜杆的红色圆环的几何图形，是（ ）的图形"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "5日"
+		}, {
+			"label": "B",
+			"content": "10日"
+		}, {
+			"label": "C",
+			"content": "20日"
+		}, {
+			"label": "D",
+			"content": "30日"
+		}],
+		"answer": ["D"],
+		"content": "自事故发生之日起（ ）内，事故造成的伤亡人数发生变化的，应当及时补报"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "建设单位"
+		}, {
+			"label": "B",
+			"content": "监理单位"
+		}, {
+			"label": "C",
+			"content": "总承包单位"
+		}, {
+			"label": "D",
+			"content": "分包单位"
+		}],
+		"answer": ["C"],
+		"content": "实行施工总承包的建设工程，由（ ）负责上报事故"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "绝缘鞋"
+		}, {
+			"label": "B",
+			"content": "防滑鞋"
+		}, {
+			"label": "C",
+			"content": "帆布鞋"
+		}, {
+			"label": "D",
+			"content": "高跟鞋"
+		}],
+		"answer": ["D"],
+		"content": "进入施工现场严禁穿（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全提示标志"
+		}, {
+			"label": "B",
+			"content": "安全宣传标志"
+		}, {
+			"label": "C",
+			"content": "安全指示标志"
+		}, {
+			"label": "D",
+			"content": "安全警示标志"
+		}],
+		"answer": ["D"],
+		"content": "施工单位应当在施工现场的危险部位设置明显的（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一般事故"
+		}, {
+			"label": "B",
+			"content": "较大事故"
+		}, {
+			"label": "C",
+			"content": "重大事故"
+		}, {
+			"label": "D",
+			"content": "特别重大事故"
+		}],
+		"answer": ["A"],
+		"content": "事故发生单位对事故发生负有责任的，发生（ ）的，处10万以上50万以下的罚款"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "购买施工安全防护用具"
+		}, {
+			"label": "B",
+			"content": "安全设施的更新"
+		}, {
+			"label": "C",
+			"content": "安全施工措施的落实"
+		}, {
+			"label": "D",
+			"content": "职工安全事故的赔偿"
+		}],
+		"answer": ["D"],
+		"content": "施工单位的安全生产费用不应该用于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "30mA"
+		}, {
+			"label": "B",
+			"content": "50mA"
+		}, {
+			"label": "C",
+			"content": "45mA"
+		}, {
+			"label": "D",
+			"content": "35mA"
+		}],
+		"answer": ["A"],
+		"content": "用于防止人为触电的漏电保护器，其动作电流不得大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "工作部分"
+		}, {
+			"label": "B",
+			"content": "传动部分"
+		}, {
+			"label": "C",
+			"content": "原动部分"
+		}, {
+			"label": "D",
+			"content": "转动部分"
+		}],
+		"answer": ["C"],
+		"content": "机器基本上都是原动部分，工作部分和传动部分组成的，而（ ）是机器动力的来源"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "100Hz"
+		}, {
+			"label": "B",
+			"content": "50Hz"
+		}, {
+			"label": "C",
+			"content": "80Hz"
+		}, {
+			"label": "D",
+			"content": "65Hz"
+		}],
+		"answer": ["B"],
+		"content": "我国工业上普通采用频率为（ ）的正弦交流电"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "异步电动机"
+		}, {
+			"label": "B",
+			"content": "短机座"
+		}, {
+			"label": "C",
+			"content": "铁芯长度号"
+		}, {
+			"label": "D",
+			"content": "电动机的极数"
+		}],
+		"answer": ["A"],
+		"content": "三相异步电动机的铭牌上都标有产品型号，如：Y-132S-2，其中，Y表示（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "过盈配合"
+		}, {
+			"label": "B",
+			"content": "楔键"
+		}, {
+			"label": "C",
+			"content": "平键"
+		}, {
+			"label": "D",
+			"content": "花键"
+		}],
+		"answer": ["A"],
+		"content": "在有振动、冲击和不需要经常装拆的场合，可使用（ ）连接"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "齿数成正比"
+		}, {
+			"label": "B",
+			"content": "齿数成反比"
+		}, {
+			"label": "C",
+			"content": "齿轮转速成正比"
+		}, {
+			"label": "D",
+			"content": "齿轮转速成反比"
+		}],
+		"answer": ["B"],
+		"content": "齿轮转动比就是主动齿轮与从动吃力吗转速（角速度）之比，与其（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "齿面磨损"
+		}, {
+			"label": "B",
+			"content": "齿面塑性变形"
+		}, {
+			"label": "C",
+			"content": "齿面胶合"
+		}, {
+			"label": "D",
+			"content": "轮齿折断"
+		}],
+		"answer": ["D"],
+		"content": "当短时意外严重过载时，会引起齿轮失效情况的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "螺栓"
+		}, {
+			"label": "B",
+			"content": "销"
+		}, {
+			"label": "C",
+			"content": "联轴器"
+		}, {
+			"label": "D",
+			"content": "轴承"
+		}],
+		"answer": ["B"],
+		"content": "可用来固定零件间的相互位置，传递不大的载荷，还可作为安全装置中的过载剪短元件是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "联轴器"
+		}, {
+			"label": "B",
+			"content": "轴承"
+		}, {
+			"label": "C",
+			"content": "轴"
+		}, {
+			"label": "D",
+			"content": "轴瓦"
+		}],
+		"answer": ["A"],
+		"content": "一般动力机大豆借助于（ ）与工作机相连接"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "水泥钉"
+		}, {
+			"label": "B",
+			"content": "轴承"
+		}, {
+			"label": "C",
+			"content": "销"
+		}, {
+			"label": "D",
+			"content": "螺母"
+		}],
+		"answer": ["D"],
+		"content": "螺栓是由头部和螺杆两部分组成的一类紧固件，需与（ ）配合，用于坚固连接两个带有通孔的零件"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "金属芯"
+		}, {
+			"label": "B",
+			"content": "石棉芯"
+		}, {
+			"label": "C",
+			"content": "麻芯"
+		}, {
+			"label": "D",
+			"content": "有机芯"
+		}],
+		"answer": ["A"],
+		"content": "钢丝绳的选用，高温或多层缠绕的场合宜选用（ ）钢丝绳"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "15号"
+		}, {
+			"label": "B",
+			"content": "20号"
+		}, {
+			"label": "C",
+			"content": "30号"
+		}, {
+			"label": "D",
+			"content": "45号"
+		}],
+		"answer": ["D"],
+		"content": "销的材料一般采用（ ）钢"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "40号"
+		}, {
+			"label": "B",
+			"content": "50号"
+		}, {
+			"label": "C",
+			"content": "20号"
+		}, {
+			"label": "D",
+			"content": "30号"
+		}],
+		"answer": ["A"],
+		"content": "我国生产的槽钢一般长度为5〜19m，最大型号为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "25mm"
+		}, {
+			"label": "B",
+			"content": "40mm"
+		}, {
+			"label": "C",
+			"content": "50mm"
+		}, {
+			"label": "D",
+			"content": "75mm"
+		}],
+		"answer": ["B"],
+		"content": "截断钢丝绳时，要在截分处进行扎结，产扎宽度随钢丝绳直径大小而定，直径为25〜30mm的钢丝绳，其扎结宽度应不小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "平垫圈"
+		}, {
+			"label": "B",
+			"content": "弹簧垫圈"
+		}, {
+			"label": "C",
+			"content": "带翅垫圈"
+		}, {
+			"label": "D",
+			"content": "双层垫圈"
+		}],
+		"answer": ["B"],
+		"content": "螺栓、螺母、垫圈配合使用时，高强度螺栓绝不允许采用（ ），塔身高强度螺栓必须采用双螺母防松"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "钢材材料"
+		}, {
+			"label": "B",
+			"content": "焊接时间"
+		}, {
+			"label": "C",
+			"content": "焊接温度"
+		}, {
+			"label": "D",
+			"content": "焊接方式"
+		}],
+		"answer": ["C"],
+		"content": "钢结构的脆性破坏，在焊接结构中常常发生，焊接引起钢材变脆的原因是多方面的，其中主要是（ ）影响"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "25mm"
+		}, {
+			"label": "B",
+			"content": "40mm"
+		}, {
+			"label": "C",
+			"content": "50mm"
+		}, {
+			"label": "D",
+			"content": "75mm"
+		}],
+		"answer": ["D"],
+		"content": "截断钢丝绳时，要在截分处进行扎结，缠扎宽度随钢丝绳直径大小而定，直径为45〜51mm的钢丝绳，其扎结宽度不得小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "金属芯"
+		}, {
+			"label": "B",
+			"content": "石棉芯"
+		}, {
+			"label": "C",
+			"content": "麻芯"
+		}, {
+			"label": "D",
+			"content": "有机芯"
+		}],
+		"answer": ["B"],
+		"content": "钢丝绳的选用，高温、腐蚀严重的场合宜用（ ）钢丝绳"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "钢丝绳股钢丝的绕向相同"
+		}, {
+			"label": "B",
+			"content": "钢丝绳股钢丝的绕向相反"
+		}, {
+			"label": "C",
+			"content": "钢丝绳股的绕向相同"
+		}, {
+			"label": "D",
+			"content": "钢丝绳股的绕向相反"
+		}],
+		"answer": ["D"],
+		"content": "截断钢丝绳时，要在截分处进行扎结，扎结绕向必须与（ ），扎结须紧固，以免钢丝绳在断头处松开"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3〜5"
+		}, {
+			"label": "B",
+			"content": "5〜6"
+		}, {
+			"label": "C",
+			"content": "6〜7"
+		}, {
+			"label": "D",
+			"content": "8〜9"
+		}],
+		"answer": ["B"],
+		"content": "钢丝绳用于机动起重设备时，其选用的安全系数为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "25mm"
+		}, {
+			"label": "B",
+			"content": "40mm"
+		}, {
+			"label": "C",
+			"content": "50mm"
+		}, {
+			"label": "D",
+			"content": "75mm"
+		}],
+		"answer": ["C"],
+		"content": "截断钢丝绳时，要在截分处进行扎结，缠扎宽度随钢丝绳直径大小而定，直径为31〜44mm的钢丝绳，其扎结宽度不得小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "5倍"
+		}, {
+			"label": "B",
+			"content": "10倍"
+		}, {
+			"label": "C",
+			"content": "15倍"
+		}, {
+			"label": "D",
+			"content": "20倍"
+		}],
+		"answer": ["C"],
+		"content": "钢丝绳与其他零构件连接采用编结连接，编结长度不应小于钢丝绳直径的（ ），且不应小于300mm"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "不小于75%"
+		}, {
+			"label": "B",
+			"content": "约为75%~85%"
+		}, {
+			"label": "C",
+			"content": "不小于85%"
+		}, {
+			"label": "D",
+			"content": "大致等同"
+		}],
+		"answer": ["B"],
+		"content": "钢丝绳与其他零构件连接或固定应达到相应的强度，其中楔块连接的连接强度（ ）钢丝绳破断拉力"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1%"
+		}, {
+			"label": "B",
+			"content": "3%"
+		}, {
+			"label": "C",
+			"content": "5%"
+		}, {
+			"label": "D",
+			"content": "7%"
+		}],
+		"answer": ["D"],
+		"content": "磨损使钢丝绳的断面积减小而强度降低，当钢丝绳直径相对于公称直径减小（ ）或更多时，即使未发现断丝，该钢丝绳也应报废"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1%"
+		}, {
+			"label": "B",
+			"content": "3%"
+		}, {
+			"label": "C",
+			"content": "5%"
+		}, {
+			"label": "D",
+			"content": "10%"
+		}],
+		"answer": ["B"],
+		"content": "对于抗扭钢丝绳而言，引起钢丝绳实测直径（互相垂直的两个直径测量的平均值）相对公称直径减少（ ），即使未发现断丝该钢丝绳也应予以报废"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "5倍"
+		}, {
+			"label": "B",
+			"content": "10倍"
+		}, {
+			"label": "C",
+			"content": "15倍"
+		}, {
+			"label": "D",
+			"content": "20倍"
+		}],
+		"answer": ["D"],
+		"content": "卷扬机的布置，在卷扬机正前方应设置导向滑车，导向滑车至无槽卷筒轴线的距离，应大于卷筒宽度的（ ），以免钢丝绳与导向滑车槽缘产生过度磨损"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "笼状畸形"
+		}, {
+			"label": "B",
+			"content": "绳股挤出"
+		}, {
+			"label": "C",
+			"content": "钢丝挤出"
+		}, {
+			"label": "D",
+			"content": "扭结"
+		}],
+		"answer": ["D"],
+		"content": "由于钢丝绳成环状在不可能绕其轴线转动的情况下被拉紧而造成的一种变形，称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "10m"
+		}, {
+			"label": "B",
+			"content": "20m"
+		}, {
+			"label": "C",
+			"content": "30m"
+		}, {
+			"label": "D",
+			"content": "40m"
+		}],
+		"answer": ["C"],
+		"content": "龙门架的刚度和稳定性较差，提升高度一般在（ ）以下"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3~5"
+		}, {
+			"label": "B",
+			"content": "5~6"
+		}, {
+			"label": "C",
+			"content": "6~7"
+		}, {
+			"label": "D",
+			"content": "8~9"
+		}],
+		"answer": ["C"],
+		"content": "钢丝绳用作吊索、无弯曲使用时，其选用的安全系数为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3~5"
+		}, {
+			"label": "B",
+			"content": "5~6"
+		}, {
+			"label": "C",
+			"content": "6~7"
+		}, {
+			"label": "D",
+			"content": "8~9"
+		}],
+		"answer": ["D"],
+		"content": "钢丝绳用作捆绑吊索使用时，其选用的安全系数为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "S"
+		}, {
+			"label": "B",
+			"content": "BSB2"
+		}, {
+			"label": "C",
+			"content": "SB3"
+		}, {
+			"label": "D",
+			"content": "M"
+		}],
+		"answer": ["C"],
+		"content": "停止按钮的符号是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "不小于75%"
+		}, {
+			"label": "B",
+			"content": "约为75%~85%"
+		}, {
+			"label": "C",
+			"content": "不小于85%"
+		}, {
+			"label": "D",
+			"content": "大致等同"
+		}],
+		"answer": ["C"],
+		"content": "钢丝绳与其他零构件连接或固定应达到相应的强度，其中绳夹连接的连接强度（ ）钢丝绳破断拉力"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "直径检查"
+		}, {
+			"label": "B",
+			"content": "磨损检查"
+		}, {
+			"label": "C",
+			"content": "断丝检查"
+		}, {
+			"label": "D",
+			"content": "润滑检查"
+		}],
+		"answer": ["B"],
+		"content": "通过对钢丝绳的（ ），可以反映出钢丝绳与匹配轮槽的接触状况"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "拉应力"
+		}, {
+			"label": "B",
+			"content": "压应力"
+		}, {
+			"label": "C",
+			"content": "切应力"
+		}, {
+			"label": "D",
+			"content": "切应力、力矩"
+		}],
+		"answer": ["A"],
+		"content": "吊钩钩尾螺纹的退刀槽断面是吊钩的危险断面之一，该部分受（ ）作用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一个"
+		}, {
+			"label": "B",
+			"content": "二个"
+		}, {
+			"label": "C",
+			"content": "三个"
+		}, {
+			"label": "D",
+			"content": "四个"
+		}],
+		"answer": ["C"],
+		"content": "通过对吊钩的受力分析，可以了解吊钩的危险断面有（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1%"
+		}, {
+			"label": "B",
+			"content": "3%"
+		}, {
+			"label": "C",
+			"content": "5%"
+		}, {
+			"label": "D",
+			"content": "10%"
+		}],
+		"answer": ["D"],
+		"content": "吊钩挂绳处截面磨损量超过原高度的（ ），应予以报废"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "15%"
+		}, {
+			"label": "B",
+			"content": "10%"
+		}, {
+			"label": "C",
+			"content": "7%"
+		}, {
+			"label": "D",
+			"content": "5%"
+		}],
+		"answer": ["A"],
+		"content": "吊钩开口度比原尺寸增加（ ），应予以报废"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2"
+		}, {
+			"label": "B",
+			"content": "2.5"
+		}, {
+			"label": "C",
+			"content": "3"
+		}, {
+			"label": "D",
+			"content": "3.5"
+		}],
+		"answer": ["D"],
+		"content": "高架的提升机缆风绳应保证安全系数不小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "5倍"
+		}, {
+			"label": "B",
+			"content": "10倍"
+		}, {
+			"label": "C",
+			"content": "15倍"
+		}, {
+			"label": "D",
+			"content": "20倍"
+		}],
+		"answer": ["C"],
+		"content": "卷扬机的布置，在卷扬机正前方应设置向滑车，导向滑车至带槽卷筒轴线的距离，应不小于卷筒宽度的（ ），以免钢丝绳与导向滑车槽缘产生过度的磨损"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3°"
+		}, {
+			"label": "B",
+			"content": "6°"
+		}, {
+			"label": "C",
+			"content": "8°"
+		}, {
+			"label": "D",
+			"content": "10°"
+		}],
+		"answer": ["B"],
+		"content": "钢丝绳绕入卷筒的方向应与卷筒轴线垂直，其垂直度允许偏差为（ ），这样能使钢丝绳圈排列整齐，不致斜绕和互相错叠挤压"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1Ω"
+		}, {
+			"label": "B",
+			"content": "3Ω"
+		}, {
+			"label": "C",
+			"content": "6Ω"
+		}, {
+			"label": "D",
+			"content": "10Ω"
+		}],
+		"answer": ["D"],
+		"content": "卷扬机必须有良好的接地或接零装置，接地电阻不得大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "脚手架"
+		}, {
+			"label": "B",
+			"content": "物料提升机"
+		}, {
+			"label": "C",
+			"content": "小推车"
+		}, {
+			"label": "D",
+			"content": "电梯"
+		}],
+		"answer": ["B"],
+		"content": "施工现场用来进行物料垂直运输的一种简易设备是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "80%"
+		}, {
+			"label": "B",
+			"content": "85%"
+		}, {
+			"label": "C",
+			"content": "90%"
+		}, {
+			"label": "D",
+			"content": "95%"
+		}],
+		"answer": ["C"],
+		"content": "卡车超载限制器应在荷载达到额定荷载的（ ）时即发出警报，以引起司机和运料人员的注意，超过额定荷载时即切断起升电源"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "500kg"
+		}, {
+			"label": "B",
+			"content": "1000kg"
+		}, {
+			"label": "C",
+			"content": "1500kg"
+		}, {
+			"label": "D",
+			"content": "2000kg"
+		}],
+		"answer": ["D"],
+		"content": "按现行的国家行业标准，龙门架及井架物料提升机是额定起重量在（ ）以下，以地面卷扬机为动力，沿导轨做垂直运动的起重机械设备"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "500kg"
+		}, {
+			"label": "B",
+			"content": "1000kg"
+		}, {
+			"label": "C",
+			"content": "1500kg"
+		}, {
+			"label": "D",
+			"content": "2000kg"
+		}],
+		"answer": ["C"],
+		"content": "井架受到结构强度及吊笼的限制，仅适用于较小载重量的场合，额定载重量一般在（ ）以下"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "11~50m"
+		}, {
+			"label": "B",
+			"content": "21~100m"
+		}, {
+			"label": "C",
+			"content": "31~150m"
+		}, {
+			"label": "D",
+			"content": "41~200m"
+		}],
+		"answer": ["C"],
+		"content": "高架式物料提升机的提升高度在（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "架体"
+		}, {
+			"label": "B",
+			"content": "底架"
+		}, {
+			"label": "C",
+			"content": "吊笼"
+		}, {
+			"label": "D",
+			"content": "天梁"
+		}],
+		"answer": ["A"],
+		"content": "是物料提升机最重要的钢结构构件，是支承天梁的结构件，承载吊笼的垂直荷载，承担着载物重量，兼有运行导向和整体稳固的功能，这是指（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "架体"
+		}, {
+			"label": "B",
+			"content": "底架"
+		}, {
+			"label": "C",
+			"content": "吊笼"
+		}, {
+			"label": "D",
+			"content": "天梁"
+		}],
+		"answer": ["D"],
+		"content": "物料提升机的主要受力构件是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.5m"
+		}, {
+			"label": "B",
+			"content": "1m"
+		}, {
+			"label": "C",
+			"content": "1.5m"
+		}, {
+			"label": "D",
+			"content": "2m"
+		}],
+		"answer": ["B"],
+		"content": "吊笼的安全门及两侧围挡一般用钢网片或钢栅栏制成，高度应不小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "扭矩最大"
+		}, {
+			"label": "B",
+			"content": "扭矩最小"
+		}, {
+			"label": "C",
+			"content": "力最大"
+		}, {
+			"label": "D",
+			"content": "力最小"
+		}],
+		"answer": ["B"],
+		"content": "为了减少结构尺寸和较好的制动效果，一般制动器应装设在（ ）处"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3"
+		}, {
+			"label": "B",
+			"content": "5"
+		}, {
+			"label": "C",
+			"content": "6"
+		}, {
+			"label": "D",
+			"content": "8"
+		}],
+		"answer": ["C"],
+		"content": "物料提升机自检时，要求附墙后提升机自由端高度应符合说明书要求，且应不大于（ ）m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "多机一闸一漏"
+		}, {
+			"label": "B",
+			"content": "两机一闸一漏"
+		}, {
+			"label": "C",
+			"content": "一机一闸一漏"
+		}, {
+			"label": "D",
+			"content": "一机一闸多漏"
+		}],
+		"answer": ["C"],
+		"content": "物料提升机应双笼载物需要配置多台卷扬机的，则应分立设置控制电路，实施（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "导电材料"
+		}, {
+			"label": "B",
+			"content": "半导体材料"
+		}, {
+			"label": "C",
+			"content": "绝缘材料"
+		}, {
+			"label": "D",
+			"content": "任意材料"
+		}],
+		"answer": ["C"],
+		"content": "固定式电气控制箱必须安装牢靠，电器元件的安装基板必须采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "功能元件"
+		}, {
+			"label": "B",
+			"content": "控制元件"
+		}, {
+			"label": "C",
+			"content": "操作元件"
+		}, {
+			"label": "D",
+			"content": "保护元件"
+		}],
+		"answer": ["D"],
+		"content": "能保障各元件在电器系统有异常时不受损或停止工作的元件是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "五芯电缆线"
+		}, {
+			"label": "B",
+			"content": "四芯电缆线"
+		}, {
+			"label": "C",
+			"content": "单芯电缆"
+		}, {
+			"label": "D",
+			"content": "任意材料"
+		}],
+		"answer": ["A"],
+		"content": "物料提升机的接入电源应使用电缆线，宜使用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2m"
+		}, {
+			"label": "B",
+			"content": "3m"
+		}, {
+			"label": "C",
+			"content": "4m"
+		}, {
+			"label": "D",
+			"content": "5m"
+		}],
+		"answer": ["C"],
+		"content": "架空导线离地面的直接距离、离建筑物或脚手架的安全距离均应大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电力"
+		}, {
+			"label": "B",
+			"content": "水力"
+		}, {
+			"label": "C",
+			"content": "人力"
+		}, {
+			"label": "D",
+			"content": "机械"
+		}],
+		"answer": ["A"],
+		"content": "施工现场的物料提升机一般用（ ）作为源动力，通过其转换为机械能，实现作功，来完成载物运输过程"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "S"
+		}, {
+			"label": "B",
+			"content": "BSB2"
+		}, {
+			"label": "C",
+			"content": "SB3"
+		}, {
+			"label": "D",
+			"content": "M"
+		}],
+		"answer": ["A"],
+		"content": "紧急断电开关的符号（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "S"
+		}, {
+			"label": "B",
+			"content": "BSB2"
+		}, {
+			"label": "C",
+			"content": "SB3"
+		}, {
+			"label": "D",
+			"content": "M"
+		}],
+		"answer": ["D"],
+		"content": "电动机的符号是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "S"
+		}, {
+			"label": "B",
+			"content": "BSB2"
+		}, {
+			"label": "C",
+			"content": "SA3"
+		}, {
+			"label": "D",
+			"content": "M"
+		}],
+		"answer": ["C"],
+		"content": "下限位开关的符号是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "S"
+		}, {
+			"label": "B",
+			"content": "BQS"
+		}, {
+			"label": "C",
+			"content": "SB3"
+		}, {
+			"label": "D",
+			"content": "M"
+		}],
+		"answer": ["B"],
+		"content": "电路总开关的符号是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "麻绳"
+		}, {
+			"label": "B",
+			"content": "钢丝绳"
+		}, {
+			"label": "C",
+			"content": "弹簧"
+		}, {
+			"label": "D",
+			"content": "摩擦"
+		}],
+		"answer": ["B"],
+		"content": "物料提升机的摇臂把杆是依靠（ ）牵引力来完成吊物提升的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1m"
+		}, {
+			"label": "B",
+			"content": "3m"
+		}, {
+			"label": "C",
+			"content": "5m"
+		}, {
+			"label": "D",
+			"content": "7m"
+		}],
+		"answer": ["C"],
+		"content": "保持物料提升机与基坑边缘（ ）以上的距离，尽量避免在其旁边进行较大的振动施工工作"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "钢丝绳"
+		}, {
+			"label": "B",
+			"content": "钢丝"
+		}, {
+			"label": "C",
+			"content": "钢筋"
+		}, {
+			"label": "D",
+			"content": "麻绳"
+		}],
+		"answer": ["A"],
+		"content": "高架的提升机缆风绳应使用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "架体"
+		}, {
+			"label": "B",
+			"content": "麻绳"
+		}, {
+			"label": "C",
+			"content": "地锚"
+		}, {
+			"label": "D",
+			"content": "弹簧"
+		}],
+		"answer": ["C"],
+		"content": "提供给架体缆风绳和卷扬机拽引的锚索钢丝绳的栓固物体的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "超载限制器"
+		}, {
+			"label": "B",
+			"content": "断绳保护装置"
+		}, {
+			"label": "C",
+			"content": "安全停靠装置"
+		}, {
+			"label": "D",
+			"content": "缓冲器"
+		}],
+		"answer": ["C"],
+		"content": "当吊笼运行到位、出料门打开后，如突然发生钢丝绳断裂，能使吊笼可靠地悬挂在架体上，从而起到避免发生吊笼坠落、保护施工人员安全装置，称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "超载限制器"
+		}, {
+			"label": "B",
+			"content": "断绳保护装置"
+		}, {
+			"label": "C",
+			"content": "安全停靠装置"
+		}, {
+			"label": "D",
+			"content": "缓冲器"
+		}],
+		"answer": ["B"],
+		"content": "当钢丝绳突然断裂或或钢丝绳尾部的固定松脱，装置能立刻动作使吊笼可靠停住并固定在架体上，以阻止吊笼坠落，该装置称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.1m"
+		}, {
+			"label": "B",
+			"content": "0.5m"
+		}, {
+			"label": "C",
+			"content": "1m"
+		}, {
+			"label": "D",
+			"content": "1.5m"
+		}],
+		"answer": ["C"],
+		"content": "任何形式的防坠安全装置，当断绳或固定松脱时，吊笼锁住前的最大滑行距离，在满载情况下，不得超过（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "弹闸式防坠装置"
+		}, {
+			"label": "B",
+			"content": "夹钳式断绳保护装置"
+		}, {
+			"label": "C",
+			"content": "旋撑制动保护装置"
+		}, {
+			"label": "D",
+			"content": "惯性楔块断绳保护装置"
+		}],
+		"answer": ["B"],
+		"content": "当起升钢丝绳突然发生断裂，吊笼处于坠落状态时，吊笼顶部带有滑轮的平衡梁在吊笼两端长孔耳板内由于自重作用下移，此时防坠装置的一对制动夹钳在弹簧力的推动下，迅速加紧在导轨架上，从而避免了吊笼坠落，该装置称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "弹闸式防坠装置"
+		}, {
+			"label": "B",
+			"content": "夹钳式断绳保护装置"
+		}, {
+			"label": "C",
+			"content": "旋撑制动保护装置"
+		}, {
+			"label": "D",
+			"content": "惯性楔块断绳保护装置"
+		}],
+		"answer": ["C"],
+		"content": "主要是利用惯性原理，在吊笼突然发生钢丝绳断裂下坠时，使得防坠装置的制动块能紧紧夹在导轨架上，该装置称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "弹闸式防坠装置"
+		}, {
+			"label": "B",
+			"content": "夹钳式断绳保护装置"
+		}, {
+			"label": "C",
+			"content": "旋撑制动保护装置"
+		}, {
+			"label": "D",
+			"content": "惯性楔块断绳保护装置"
+		}],
+		"answer": ["A"],
+		"content": "下列断绳保护装置作用时，对架体缀杆和吊笼产生极大的冲击力，易造成架体缀杆和吊笼损伤的装置是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.5m"
+		}, {
+			"label": "B",
+			"content": "1m"
+		}, {
+			"label": "C",
+			"content": "2m"
+		}, {
+			"label": "D",
+			"content": "3m"
+		}],
+		"answer": ["A"],
+		"content": "吊笼上升达到的极限位置，应在吊笼顶的最高处离天梁最低处距离不小于（ ）的地方，该距离称为吊笼的越城距离"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全停靠装置"
+		}, {
+			"label": "B",
+			"content": "下极限位装置"
+		}, {
+			"label": "C",
+			"content": "超载限制器"
+		}, {
+			"label": "D",
+			"content": "缓冲器"
+		}],
+		"answer": ["D"],
+		"content": "为缓解吊笼超过最低极限位置或意外下坠时产生的冲击，在架体底部设置的一种弹性装置，该装置称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3Ω"
+		}, {
+			"label": "B",
+			"content": "10Ω"
+		}, {
+			"label": "C",
+			"content": "20Ω"
+		}, {
+			"label": "D",
+			"content": "30Ω正确答案：D"
+		}],
+		"answer": ["D"],
+		"content": "物料提升机防雷装置的冲击接地电阻值不得大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "张力"
+		}, {
+			"label": "B",
+			"content": "拉力"
+		}, {
+			"label": "C",
+			"content": "压力"
+		}, {
+			"label": "D",
+			"content": "弹力"
+		}],
+		"answer": ["A"],
+		"content": "卷扬机一般都采用电磁铁闸制动器，影响制动效果的因素主要是主弹簧的（ ）及制动块与制动轮的间隙"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.8〜1.5"
+		}, {
+			"label": "B",
+			"content": "1〜5"
+		}, {
+			"label": "C",
+			"content": "3〜10"
+		}, {
+			"label": "D",
+			"content": "5〜"
+		}],
+		"answer": ["D"],
+		"content": "说明书没有明确要求的，调整时，物料提升机导靴与导轨间隙可控制在（ ）mm以内"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1%"
+		}, {
+			"label": "B",
+			"content": "2%"
+		}, {
+			"label": "C",
+			"content": "3%"
+		}, {
+			"label": "D",
+			"content": "5%"
+		}],
+		"answer": ["A"],
+		"content": "物料提升机缆风绳的垂度不应大于缆风绳长度的（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "将吊笼降至离地面200mm处，逐步加载"
+		}, {
+			"label": "B",
+			"content": "当载荷达到额定载荷80%应能报警"
+		}, {
+			"label": "C",
+			"content": "当载荷达到额定载荷90%应能报警"
+		}, {
+			"label": "D",
+			"content": "超过额定载荷时，即自动切断电源，吊笼不能启动"
+		}],
+		"answer": ["B"],
+		"content": "有关物料提升机超载限制器调试，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "调整导靴与导轨间隙"
+		}, {
+			"label": "B",
+			"content": "调整行程开头或撞铁的位置"
+		}, {
+			"label": "C",
+			"content": "调整楔块间隙"
+		}, {
+			"label": "D",
+			"content": "调节螺栓螺母改变弹簧的预压缩量"
+		}],
+		"answer": ["D"],
+		"content": "物料提升机超载限制器不符合要求时，应通过（ ）来进行调整"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3"
+		}, {
+			"label": "B",
+			"content": "5"
+		}, {
+			"label": "C",
+			"content": "6"
+		}, {
+			"label": "D",
+			"content": "9"
+		}],
+		"answer": ["D"],
+		"content": "物料提升机自检时，要求附着装置间距应符合说明书要求，且应不大于（ ）m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "30°"
+		}, {
+			"label": "B",
+			"content": "45°"
+		}, {
+			"label": "C",
+			"content": "60°"
+		}, {
+			"label": "D",
+			"content": "75°"
+		}],
+		"answer": ["C"],
+		"content": "物料提升机自检时，要求缆风绳安装符合说明书要求，与地夹角应不大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "提升机高度20m及以下时，不小于1组3根；提升机高度大于20m时，不小于2组6根"
+		}, {
+			"label": "B",
+			"content": "提升机高度20m及以下时，不小于1组4根；提升机高度大于20m时，不小于2组8根"
+		}, {
+			"label": "C",
+			"content": "提升机高度20m及以下时，不小于1组4根；提升机高度大于20m时，不小于2组6根"
+		}, {
+			"label": "D",
+			"content": "提升机高度20m及以下时，不小于1组3根；提升机高度大于20m时，不小于2组8根"
+		}],
+		"answer": ["B"],
+		"content": "物料提升机自检时，下列对缆风绳数量的要求正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "供电阻抗过大"
+		}, {
+			"label": "B",
+			"content": "断绳保护装置误动作"
+		}, {
+			"label": "C",
+			"content": "制动器未彻底分离"
+		}, {
+			"label": "D",
+			"content": "超载或超高"
+		}],
+		"answer": ["B"],
+		"content": "物料提升机吊笼不能正常下降原因是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "定人、定机、定岗位责任"
+		}, {
+			"label": "B",
+			"content": "定人、定机、定安全责任"
+		}, {
+			"label": "C",
+			"content": "定人、定机、定责任人"
+		}, {
+			"label": "D",
+			"content": "定人、定机、定时"
+		}],
+		"answer": ["A"],
+		"content": "物料提升机使用管理的“三定”制度是指（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "企业责任人"
+		}, {
+			"label": "B",
+			"content": "企业技术负责人"
+		}, {
+			"label": "C",
+			"content": "项目负责人"
+		}, {
+			"label": "D",
+			"content": "设备负责人"
+		}],
+		"answer": ["B"],
+		"content": "物料提升机安全操作规程的制定，应由（ ）组织、会同设备和安全人员共同编制"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "注轴"
+		}, {
+			"label": "B",
+			"content": "注润滑油"
+		}, {
+			"label": "C",
+			"content": "紧固"
+		}, {
+			"label": "D",
+			"content": "功能测试"
+		}],
+		"answer": ["D"],
+		"content": "每班开始工作前，应当对物料提升机进行检查和维护保养，包括目测检查和（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "钢丝绳"
+		}, {
+			"label": "B",
+			"content": "销轴"
+		}, {
+			"label": "C",
+			"content": "架体"
+		}, {
+			"label": "D",
+			"content": "制动器"
+		}],
+		"answer": ["C"],
+		"content": "物料提升机应定期维护保养，下列部位只需每月维护保养一次的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "清洁"
+		}, {
+			"label": "B",
+			"content": "紧固"
+		}, {
+			"label": "C",
+			"content": "调整"
+		}, {
+			"label": "D",
+			"content": "试验"
+		}],
+		"answer": ["D"],
+		"content": "下列不是物料提升机维护保养的方法是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "油箱内的油量应保持在油针或油镜的标定范围"
+		}, {
+			"label": "B",
+			"content": "润滑部位一般一个月应加油一次"
+		}, {
+			"label": "C",
+			"content": "轴承的温升不应高于60℃"
+		}, {
+			"label": "D",
+			"content": "箱体内的油液温升不超过100℃"
+		}],
+		"answer": ["D"],
+		"content": "有关减速机的维护保养，下列说法不正确的是（ ）"
+	}
+]

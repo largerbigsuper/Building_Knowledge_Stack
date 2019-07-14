@@ -1,0 +1,2101 @@
+[{
+		"choices": [{
+			"label": "A",
+			"content": "同时报废"
+		}, {
+			"label": "B",
+			"content": "同时设计"
+		}, {
+			"label": "C",
+			"content": "同时施工"
+		}, {
+			"label": "D",
+			"content": "同时投入生产和使用"
+		}, {
+			"label": "E",
+			"content": "同时竣工"
+		}],
+		"answer": ["B", "C", "D"],
+		"content": "安全生产的“三同时”原则指的是生产经营单位新建、改建、扩建工程项目的安全设施，必须与主体工程（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全第一"
+		}, {
+			"label": "B",
+			"content": "防治结合"
+		}, {
+			"label": "C",
+			"content": "预防为主"
+		}, {
+			"label": "D",
+			"content": "综合治理"
+		}, {
+			"label": "E",
+			"content": "管生产必须管安全"
+		}],
+		"answer": ["A", "C", "D"],
+		"content": "我国的安全生产工作方针是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "获得安全防护用具"
+		}, {
+			"label": "B",
+			"content": "法律法规"
+		}, {
+			"label": "C",
+			"content": "操作规程"
+		}, {
+			"label": "D",
+			"content": "强制性标准"
+		}, {
+			"label": "E",
+			"content": "规章制度"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "作业人员有遵守安全施工（ ）的义务"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "新技术"
+		}, {
+			"label": "B",
+			"content": "新结构"
+		}, {
+			"label": "C",
+			"content": "新工艺"
+		}, {
+			"label": "D",
+			"content": "新材料"
+		}, {
+			"label": "E",
+			"content": "新设备"
+		}],
+		"answer": ["A", "C", "D", "E"],
+		"content": "在采用（ ）的工程，施工单位要对作业人员进行教育培训"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "年满18周岁且符合相应特种作业规定的年龄要求"
+		}, {
+			"label": "B",
+			"content": "近半年内经二级乙等以上医院体检合格且无妨碍从事相应特种作业的疾病和生理缺陷"
+		}, {
+			"label": "C",
+			"content": "初中及以上学历"
+		}, {
+			"label": "D",
+			"content": "经培训机构安全理论知识培训合格"
+		}, {
+			"label": "E",
+			"content": "符合相应特种作业规定的其他条件"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "申请参加特种作业人员考核的人员应具备下列（ ）等基本条件"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "监理单位"
+		}, {
+			"label": "B",
+			"content": "用人单位"
+		}, {
+			"label": "C",
+			"content": "建设单位"
+		}, {
+			"label": "D",
+			"content": "建设管理部门"
+		}, {
+			"label": "E",
+			"content": "劳动主管部门"
+		}],
+		"answer": ["A", "B", "D"],
+		"content": "特种作业人员进行作业时，应当随身携带资格证书，并自觉接受（ ）的监督检查"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "本工种涉及的机械设备、电气设施及施工机具的正确使用和安全防护要求"
+		}, {
+			"label": "B",
+			"content": "建筑施工人员安全生产方面的权利和义务"
+		}, {
+			"label": "C",
+			"content": "常用劳动防护用品佩戴、使用的基本知识"
+		}, {
+			"label": "D",
+			"content": "本班组劳动纪律和安全生产、文明施工要求"
+		}, {
+			"label": "E",
+			"content": "本班组作业环境、作业特点和危险源"
+		}],
+		"answer": ["A", "D", "E"],
+		"content": "以下内容中，属于班组级安全教育的内容是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "违章指挥"
+		}, {
+			"label": "B",
+			"content": "强令冒险"
+		}, {
+			"label": "C",
+			"content": "违章作业"
+		}, {
+			"label": "D",
+			"content": "财产损失"
+		}, {
+			"label": "E",
+			"content": "伤亡事故发生"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "安全技术交底制度是施工单位有效预防（ ）的一种有效措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "施工单位技术负责人"
+		}, {
+			"label": "B",
+			"content": "施工单位项目负责人"
+		}, {
+			"label": "C",
+			"content": "项目总监理工程师"
+		}, {
+			"label": "D",
+			"content": "建设单位项目负责人"
+		}, {
+			"label": "E",
+			"content": "设计单位项目负责人"
+		}],
+		"answer": ["A", "C", "D"],
+		"content": "施工单位应当根据专家组提出的论证报告修改完善专项方案，并经（ ）签字后，方可组织实施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "绝缘手套"
+		}, {
+			"label": "B",
+			"content": "安全帽"
+		}, {
+			"label": "C",
+			"content": "防滑鞋"
+		}, {
+			"label": "D",
+			"content": "防火服"
+		}, {
+			"label": "E",
+			"content": "脚手架"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "下列属于安全防护用品的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "防护罩"
+		}, {
+			"label": "B",
+			"content": "安全帽"
+		}, {
+			"label": "C",
+			"content": "工作帽"
+		}, {
+			"label": "D",
+			"content": "防噪声帽"
+		}, {
+			"label": "E",
+			"content": "防毒面具"
+		}],
+		"answer": ["B", "C"],
+		"content": "下列属于头部防护类防护用品的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "生产许可证"
+		}, {
+			"label": "B",
+			"content": "产品合格证"
+		}, {
+			"label": "C",
+			"content": "安全生产许可证"
+		}, {
+			"label": "D",
+			"content": "卫生许可证"
+		}, {
+			"label": "E",
+			"content": "营业执照"
+		}],
+		"answer": ["A", "B"],
+		"content": "购置安全帽、安全带等安全防护用品，施工单位应当查验其（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "填挖土方"
+		}, {
+			"label": "B",
+			"content": "构建吊装"
+		}, {
+			"label": "C",
+			"content": "预应力现场张拉"
+		}, {
+			"label": "D",
+			"content": "门窗安装"
+		}, {
+			"label": "E",
+			"content": "管道安装"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "下列属于建筑施工现场悬空作业的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "封口盖板"
+		}, {
+			"label": "B",
+			"content": "防护栏杆"
+		}, {
+			"label": "C",
+			"content": "安全网"
+		}, {
+			"label": "D",
+			"content": "安全通道"
+		}, {
+			"label": "E",
+			"content": "栅门"
+		}],
+		"answer": ["A", "B", "C", "E"],
+		"content": "洞口作业的防护措施，主要有设置（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "临街"
+		}, {
+			"label": "B",
+			"content": "人流密集处"
+		}, {
+			"label": "C",
+			"content": "50〜100cm洞口"
+		}, {
+			"label": "D",
+			"content": "斜坡屋面处"
+		}, {
+			"label": "E",
+			"content": "施工升降机的接料平台"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "下面地方应自上而下加挂密目式安全网的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "设置足够的照明"
+		}, {
+			"label": "B",
+			"content": "正确佩戴使用安全带"
+		}, {
+			"label": "C",
+			"content": "设置安全防护设施"
+		}, {
+			"label": "D",
+			"content": "设置通信装置"
+		}, {
+			"label": "E",
+			"content": "同时三人操作"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "进行高处作业施工需要（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "搭设脚手架高处作业"
+		}, {
+			"label": "B",
+			"content": "拆装机械高处作业"
+		}, {
+			"label": "C",
+			"content": "夜间高处作业"
+		}, {
+			"label": "D",
+			"content": "悬空高处作业"
+		}, {
+			"label": "E",
+			"content": "带电高处作业"
+		}],
+		"answer": ["A", "B"],
+		"content": "下列不属于特殊高处作业的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "封口盖板"
+		}, {
+			"label": "B",
+			"content": "开关式防护门"
+		}, {
+			"label": "C",
+			"content": "固定式防护门"
+		}, {
+			"label": "D",
+			"content": "栏杆加挡脚板防护"
+		}, {
+			"label": "E",
+			"content": "设有联锁装置的安全门"
+		}],
+		"answer": ["B", "C", "D"],
+		"content": "垂直面上的洞口，一般采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "塑料"
+		}, {
+			"label": "B",
+			"content": "植物产品"
+		}, {
+			"label": "C",
+			"content": "油脂"
+		}, {
+			"label": "D",
+			"content": "煤"
+		}, {
+			"label": "E",
+			"content": "硫化铁"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "在一般情况下，下列物质中（ ）能自燃"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "在生产或者贮存易燃易爆物品场区内进行施工作业"
+		}, {
+			"label": "B",
+			"content": "施工现场内贮存易燃易爆危险物品的仓库"
+		}, {
+			"label": "C",
+			"content": "登高焊接或者金属切割作业区"
+		}, {
+			"label": "D",
+			"content": "木结构临时职工食堂的炉灶区"
+		}, {
+			"label": "E",
+			"content": "施工现场燃煤茶炉处"
+		}],
+		"answer": ["A", "B"],
+		"content": "在建筑施工现场凡属下列（ ）情况之一的，均属禁火区域"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "动火地点"
+		}, {
+			"label": "B",
+			"content": "火时间"
+		}, {
+			"label": "C",
+			"content": "动火人"
+		}, {
+			"label": "D",
+			"content": "现场监护人"
+		}, {
+			"label": "E",
+			"content": "责任人"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "动火证必须注明（ ）、批准人和防火措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "报警人的姓名"
+		}, {
+			"label": "B",
+			"content": "报警人的联系电话"
+		}, {
+			"label": "C",
+			"content": "起火的部位"
+		}, {
+			"label": "D",
+			"content": "燃烧的物质"
+		}, {
+			"label": "E",
+			"content": "火灾的程度"
+		}],
+		"answer": ["C", "D", "E"],
+		"content": "火警电话拨通后，要讲清起火的单位和详细地址，讲清（ ）以及着火的周边环境等情况"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "本工种涉及的机械设备、电气设施及施工机具的正确使用和安全防护要求"
+		}, {
+			"label": "B",
+			"content": "建筑施工人员安全生产方面的权利和义务"
+		}, {
+			"label": "C",
+			"content": "常用劳动防护用品佩戴、使用的基本知识"
+		}, {
+			"label": "D",
+			"content": "本班组劳动纪律和安全生产、文明施工要求"
+		}, {
+			"label": "E",
+			"content": "本班组作业环境、作业特点和危险源"
+		}],
+		"answer": ["A", "D", "E"],
+		"content": "以下内容中，属于班组级安全教育的内容是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "违章指挥"
+		}, {
+			"label": "B",
+			"content": "强令冒险"
+		}, {
+			"label": "C",
+			"content": "违章作业"
+		}, {
+			"label": "D",
+			"content": "财产损失"
+		}, {
+			"label": "E",
+			"content": "伤亡事故发生"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "安全技术交底制度是施工单位有效预防（ ）的一种有效措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "施工单位技术负责人"
+		}, {
+			"label": "B",
+			"content": "施工单位项目负责人"
+		}, {
+			"label": "C",
+			"content": "项目总监理工程师"
+		}, {
+			"label": "D",
+			"content": "建设单位项目负责人"
+		}, {
+			"label": "E",
+			"content": "设计单位项目负责人"
+		}],
+		"answer": ["A", "C", "D"],
+		"content": "施工单位应当根据专家组提出的论证报告修改完善专项方案，并经（ ）签字后，方可组织实施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "绝缘手套"
+		}, {
+			"label": "B",
+			"content": "安全帽"
+		}, {
+			"label": "C",
+			"content": "防滑鞋"
+		}, {
+			"label": "D",
+			"content": "防火服"
+		}, {
+			"label": "E",
+			"content": "脚手架"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "下列属于安全防护用品的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "防护罩"
+		}, {
+			"label": "B",
+			"content": "安全帽"
+		}, {
+			"label": "C",
+			"content": "工作帽"
+		}, {
+			"label": "D",
+			"content": "防噪声帽"
+		}, {
+			"label": "E",
+			"content": "防毒面具"
+		}],
+		"answer": ["B", "C"],
+		"content": "下列属于头部防护类防护用品的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "生产许可证"
+		}, {
+			"label": "B",
+			"content": "产品合格证"
+		}, {
+			"label": "C",
+			"content": "安全生产许可证"
+		}, {
+			"label": "D",
+			"content": "卫生许可证"
+		}, {
+			"label": "E",
+			"content": "营业执照"
+		}],
+		"answer": ["A", "B"],
+		"content": "购置安全帽、安全带等安全防护用品，施工单位应当查验其（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "填挖土方"
+		}, {
+			"label": "B",
+			"content": "构建吊装"
+		}, {
+			"label": "C",
+			"content": "预应力现场张拉"
+		}, {
+			"label": "D",
+			"content": "门窗安装"
+		}, {
+			"label": "E",
+			"content": "管道安装"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "下列属于建筑施工现场悬空作业的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "封口盖板"
+		}, {
+			"label": "B",
+			"content": "防护栏杆"
+		}, {
+			"label": "C",
+			"content": "安全网"
+		}, {
+			"label": "D",
+			"content": "安全通道"
+		}, {
+			"label": "E",
+			"content": "栅门"
+		}],
+		"answer": ["A", "B", "C", "E"],
+		"content": "洞口作业的防护措施，主要有设置（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "临街"
+		}, {
+			"label": "B",
+			"content": "人流密集处"
+		}, {
+			"label": "C",
+			"content": "50〜100cm洞口"
+		}, {
+			"label": "D",
+			"content": "斜坡屋面处"
+		}, {
+			"label": "E",
+			"content": "施工升降机的接料平台"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "下面地方应自上而下加挂密目式安全网的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "设置足够的照明"
+		}, {
+			"label": "B",
+			"content": "正确佩戴使用安全带"
+		}, {
+			"label": "C",
+			"content": "设置安全防护设施"
+		}, {
+			"label": "D",
+			"content": "设置通信装置"
+		}, {
+			"label": "E",
+			"content": "同时三人操作"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "进行高处作业施工需要（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "搭设脚手架高处作业"
+		}, {
+			"label": "B",
+			"content": "拆装机械高处作业"
+		}, {
+			"label": "C",
+			"content": "夜间高处作业"
+		}, {
+			"label": "D",
+			"content": "悬空高处作业"
+		}, {
+			"label": "E",
+			"content": "带电高处作业"
+		}],
+		"answer": ["A", "B"],
+		"content": "下列不属于特殊高处作业的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "封口盖板"
+		}, {
+			"label": "B",
+			"content": "开关式防护门"
+		}, {
+			"label": "C",
+			"content": "固定式防护门"
+		}, {
+			"label": "D",
+			"content": "栏杆加挡脚板防护"
+		}, {
+			"label": "E",
+			"content": "设有联锁装置的安全门"
+		}],
+		"answer": ["B", "C", "D"],
+		"content": "垂直面上的洞口，一般采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "塑料"
+		}, {
+			"label": "B",
+			"content": "植物产品"
+		}, {
+			"label": "C",
+			"content": "油脂"
+		}, {
+			"label": "D",
+			"content": "煤"
+		}, {
+			"label": "E",
+			"content": "硫化铁"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "在一般情况下，下列物质中（ ）能自燃"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "在生产或者贮存易燃易爆物品场区内进行施工作业"
+		}, {
+			"label": "B",
+			"content": "施工现场内贮存易燃易爆危险物品的仓库"
+		}, {
+			"label": "C",
+			"content": "登高焊接或者金属切割作业区"
+		}, {
+			"label": "D",
+			"content": "木结构临时职工食堂的炉灶区"
+		}, {
+			"label": "E",
+			"content": "施工现场燃煤茶炉处"
+		}],
+		"answer": ["A", "B"],
+		"content": "在建筑施工现场凡属下列（ ）情况之一的，均属禁火区域"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "动火地点"
+		}, {
+			"label": "B",
+			"content": "动火时间"
+		}, {
+			"label": "C",
+			"content": "动火人"
+		}, {
+			"label": "D",
+			"content": "现场监护人"
+		}, {
+			"label": "E",
+			"content": "责任人"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "动火证必须注明（ ）、批准人和防火措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "报警人的姓名"
+		}, {
+			"label": "B",
+			"content": "报警人的联系电话"
+		}, {
+			"label": "C",
+			"content": "起火的部位"
+		}, {
+			"label": "D",
+			"content": "燃烧的物质"
+		}, {
+			"label": "E",
+			"content": "火灾的程度"
+		}],
+		"answer": ["C", "D", "E"],
+		"content": "火警电话拨通后，要讲清起火的单位和详细地址，讲清（ ）以及着火的周边环境等情况"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "测温人员"
+		}, {
+			"label": "B",
+			"content": "保温人员"
+		}, {
+			"label": "C",
+			"content": "行政人员"
+		}, {
+			"label": "D",
+			"content": "能源工"
+		}, {
+			"label": "E",
+			"content": "管理人员"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "冬期施工安全教育培训的主要对象是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电焊机的绝缘电阻不得小于1MΩ"
+		}, {
+			"label": "B",
+			"content": "电焊机的接线柱、接线孔等应装在绝缘板上，并有防护罩保护"
+		}, {
+			"label": "C",
+			"content": "焊接导线可搭在氧气瓶上，严禁搭在易燃易爆设备上"
+		}, {
+			"label": "D",
+			"content": "焊接作业前危险区内的一切易燃易爆物品都必须移走"
+		}, {
+			"label": "E",
+			"content": "大雾天气和六级风时应当停止高层金属焊割作业"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "有关焊割作业防火安全要求，下列说法正确的有（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "临时性"
+		}, {
+			"label": "B",
+			"content": "长期性"
+		}, {
+			"label": "C",
+			"content": "固定性"
+		}, {
+			"label": "D",
+			"content": "流动性"
+		}, {
+			"label": "E",
+			"content": "危险性"
+		}],
+		"answer": ["A", "D", "E"],
+		"content": "施工现场用电与一般工业或居民用电相比具有下列（ ）的特点"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "采用三级配电系统"
+		}, {
+			"label": "B",
+			"content": "采用TN-S接零保护系统"
+		}, {
+			"label": "C",
+			"content": "采用二级漏电保护系统"
+		}, {
+			"label": "D",
+			"content": "采用三相五线制"
+		}, {
+			"label": "E",
+			"content": "“一机一箱”制"
+		}],
+		"answer": ["A", "B", "C", "E"],
+		"content": "施工现场临时用电系统的特点包括（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "木杆"
+		}, {
+			"label": "B",
+			"content": "数木"
+		}, {
+			"label": "C",
+			"content": "钢筋混凝土杆"
+		}, {
+			"label": "D",
+			"content": "脚手架"
+		}, {
+			"label": "E",
+			"content": "高大机械"
+		}],
+		"answer": ["A", "C"],
+		"content": "架空线缆可以架设在（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电源电压不大于220V"
+		}, {
+			"label": "B",
+			"content": "灯体与手柄应坚固、绝缘良好并耐热耐潮湿"
+		}, {
+			"label": "C",
+			"content": "灯头与灯体结合牢固，灯头无开关"
+		}, {
+			"label": "D",
+			"content": "灯泡外部有金属保护网"
+		}, {
+			"label": "E",
+			"content": "金属网、反光罩、悬吊挂钩固定在灯具的绝缘部位上"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "有关使用行灯的要求，下列说法正确的有（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "口服"
+		}, {
+			"label": "B",
+			"content": "吸入"
+		}, {
+			"label": "C",
+			"content": "皮肤吸收"
+		}, {
+			"label": "D",
+			"content": "注射"
+		}, {
+			"label": "E",
+			"content": "接触"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "一般来说，中毒途径有（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "人面感觉有风"
+		}, {
+			"label": "B",
+			"content": "树叶微响"
+		}, {
+			"label": "C",
+			"content": "寻常的风向标转动"
+		}, {
+			"label": "D",
+			"content": "渔船张帆时，可随风移动"
+		}, {
+			"label": "E",
+			"content": "举伞有困难"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "风级表上，轻风的海岸及地表象征标准是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "防雨（电焊机特别应加防护雨罩）"
+		}, {
+			"label": "B",
+			"content": "防潮"
+		}, {
+			"label": "C",
+			"content": "防淹"
+		}, {
+			"label": "D",
+			"content": "防风"
+		}, {
+			"label": "E",
+			"content": "防雷"
+		}],
+		"answer": ["A", "B", "C", "E"],
+		"content": "为了确保雨期施工用电安全，用电设备（配电盘、闸箱、电焊机、水泵等）应有可靠的防护措施，包括（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "尽量不单独使用亚硝酸钠作为防冻剂。"
+		}, {
+			"label": "B",
+			"content": "会辨认亚硝酸钠"
+		}, {
+			"label": "C",
+			"content": "建立严格的出入库手续"
+		}, {
+			"label": "D",
+			"content": "建立严格的配制使用程序"
+		}, {
+			"label": "E",
+			"content": "实行专人看管"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "亚硝酸钠是冬期施工常用的防冻剂、阻锈剂，人体摄入10mg亚硝酸钠，即可导致死亡"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "火炉必须由取得特种作业资格证书人员看守"
+		}, {
+			"label": "B",
+			"content": "移动火炉时，必须先将火熄灭后方准移动"
+		}, {
+			"label": "C",
+			"content": "掏出的炉灰必须随时用水浇灭后倒在指定地点"
+		}, {
+			"label": "D",
+			"content": "禁止用易燃、可燃液体点火"
+		}, {
+			"label": "E",
+			"content": "不准在火炉上熬炼油料、烘烤易燃物品"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "以下内容属于火炉使用要求的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "建立健全防火预警机制"
+		}, {
+			"label": "B",
+			"content": "建立消防组织体系"
+		}, {
+			"label": "C",
+			"content": "成立义务消防队"
+		}, {
+			"label": "D",
+			"content": "编制消防预案"
+		}, {
+			"label": "E",
+			"content": "组织消防检查"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "消防组织管理措施包括（ ）和消防安全教育、建立动火审批制度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "禁止标志"
+		}, {
+			"label": "B",
+			"content": "警告标志"
+		}, {
+			"label": "C",
+			"content": "指令标志"
+		}, {
+			"label": "D",
+			"content": "醒目标志"
+		}, {
+			"label": "E",
+			"content": "提示标志"
+		}],
+		"answer": ["A", "B", "C", "E"],
+		"content": "安全标志分为（ ）等类型"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "红"
+		}, {
+			"label": "B",
+			"content": "黑"
+		}, {
+			"label": "C",
+			"content": "黄"
+		}, {
+			"label": "D",
+			"content": "蓝"
+		}, {
+			"label": "E",
+			"content": "绿"
+		}],
+		"answer": ["A", "C", "D", "E"],
+		"content": "安全色分为（ ）等颜色"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "高度"
+		}, {
+			"label": "B",
+			"content": "角度"
+		}, {
+			"label": "C",
+			"content": "位置"
+		}, {
+			"label": "D",
+			"content": "顺序"
+		}, {
+			"label": "E",
+			"content": "大小"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "安全标志设置方式包括（ ）和固定等"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "食物中毒"
+		}, {
+			"label": "B",
+			"content": "饮水中毒"
+		}, {
+			"label": "C",
+			"content": "燃料中毒"
+		}, {
+			"label": "D",
+			"content": "毒气中毒"
+		}, {
+			"label": "E",
+			"content": "药物中毒"
+		}],
+		"answer": ["A", "C", "D"],
+		"content": "施工现场发生的中毒主要有（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "年龄及身体状况"
+		}, {
+			"label": "B",
+			"content": "毒品名称及剂量"
+		}, {
+			"label": "C",
+			"content": "中毒时间"
+		}, {
+			"label": "D",
+			"content": "曾否呕吐"
+		}, {
+			"label": "E",
+			"content": "清醒程度"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "急性中毒申请急救医疗服务时，要提供患者的以下信息（ ）等"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "重大事故"
+		}, {
+			"label": "B",
+			"content": "一般事故"
+		}, {
+			"label": "C",
+			"content": "伤亡事故"
+		}, {
+			"label": "D",
+			"content": "重伤事故"
+		}, {
+			"label": "E",
+			"content": "轻伤事故"
+		}],
+		"answer": ["C", "D", "E"],
+		"content": "生产安全事故按照伤害程度可以分为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "死亡2人"
+		}, {
+			"label": "B",
+			"content": "死亡3人"
+		}, {
+			"label": "C",
+			"content": "死亡9人"
+		}, {
+			"label": "D",
+			"content": "死亡10人"
+		}, {
+			"label": "E",
+			"content": "无死亡，但重伤10人"
+		}],
+		"answer": ["B", "C", "E"],
+		"content": "有以下条件之一的，即可判定为较大事故（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "事故发生单位概况"
+		}, {
+			"label": "B",
+			"content": "事故发生时间、地点以及事故现场情况"
+		}, {
+			"label": "C",
+			"content": "事故简要经过"
+		}, {
+			"label": "D",
+			"content": "已经采取的措施"
+		}, {
+			"label": "E",
+			"content": "事故处理结果"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "报告事故应当包括（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "事故原因没有查清不放过"
+		}, {
+			"label": "B",
+			"content": "事故责任者没有严肃处理不放过"
+		}, {
+			"label": "C",
+			"content": "生命和财产损失不公示不放过"
+		}, {
+			"label": "D",
+			"content": "广大群众没有受到教育不放过"
+		}, {
+			"label": "E",
+			"content": "防范措施没有落实不放过"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "生产安全事故的调查处理必须坚持（ ）的原则"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "迟报"
+		}, {
+			"label": "B",
+			"content": "补报"
+		}, {
+			"label": "C",
+			"content": "漏报"
+		}, {
+			"label": "D",
+			"content": "谎报"
+		}, {
+			"label": "E",
+			"content": "瞒报"
+		}],
+		"answer": ["A", "C", "D", "E"],
+		"content": "事故报告应当及时、准确、完整，任何单位和个人对事故不得(ACDE)"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "张某可要求享受工伤保险"
+		}, {
+			"label": "B",
+			"content": "张某有权要求本单位赔偿"
+		}, {
+			"label": "C",
+			"content": "张某享受工伤保险，但不得要求单位赔偿"
+		}, {
+			"label": "D",
+			"content": "张某享受工伤保险，还可要求单位赔偿"
+		}, {
+			"label": "E",
+			"content": "张某向保险公司主张人身意外伤害保险索赔时,就不得要求工伤社会保险"
+		}],
+		"answer": ["A", "B", "D"],
+		"content": "张某系某施工单位工人，在从事某工程外墙面装修时，不慎跌落，造成三级残废，下列表述中正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "对象"
+		}, {
+			"label": "B",
+			"content": "作用线"
+		}, {
+			"label": "C",
+			"content": "大小"
+		}, {
+			"label": "D",
+			"content": "方向"
+		}, {
+			"label": "E",
+			"content": "作用点"
+		}],
+		"answer": ["C", "D", "E"],
+		"content": "力的三要素指的是力的（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "齿数"
+		}, {
+			"label": "B",
+			"content": "齿距"
+		}, {
+			"label": "C",
+			"content": "模数"
+		}, {
+			"label": "D",
+			"content": "传动比"
+		}, {
+			"label": "E",
+			"content": "压力角"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "齿廓形状是由（ ）等因素决定的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".平型带"
+		}, {
+			"label": "B",
+			"content": ".U型带"
+		}, {
+			"label": "C",
+			"content": ".V型带"
+		}, {
+			"label": "D",
+			"content": ".W型带"
+		}, {
+			"label": "E",
+			"content": ".同步齿型带"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "带传动可分为（ ）传动等"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "啮合式"
+		}, {
+			"label": "B",
+			"content": "滑移式"
+		}, {
+			"label": "C",
+			"content": "摩擦式"
+		}, {
+			"label": "D",
+			"content": "电磁式"
+		}, {
+			"label": "E",
+			"content": "螺旋式"
+		}],
+		"answer": ["A", "C", "D"],
+		"content": "离合器根据工作原理的不同，可分为（ ）等多种形式"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "带式制动器"
+		}, {
+			"label": "B",
+			"content": "链式制动器"
+		}, {
+			"label": "C",
+			"content": "锥形制动式"
+		}, {
+			"label": "D",
+			"content": "球式制动器"
+		}, {
+			"label": "E",
+			"content": "电磁制动器"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "最常用的制动器类型是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "曲轴"
+		}, {
+			"label": "B",
+			"content": "心轴"
+		}, {
+			"label": "C",
+			"content": "转轴"
+		}, {
+			"label": "D",
+			"content": "传动轴"
+		}, {
+			"label": "E",
+			"content": "阶梯轴"
+		}],
+		"answer": ["B", "C", "D"],
+		"content": "按照轴所受载荷的不同，轴可分为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "坐标法"
+		}, {
+			"label": "B",
+			"content": "量尺法"
+		}, {
+			"label": "C",
+			"content": "比例法"
+		}, {
+			"label": "D",
+			"content": "悬挂法"
+		}, {
+			"label": "E",
+			"content": "称重法"
+		}],
+		"answer": ["D", "E"],
+		"content": "如果物体的形状复杂或分部不均匀，则其重心位置常用（ ）等实验方法确定"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "耐高温"
+		}, {
+			"label": "B",
+			"content": "耐重压"
+		}, {
+			"label": "C",
+			"content": "硬度大"
+		}, {
+			"label": "D",
+			"content": "易弯曲"
+		}, {
+			"label": "E",
+			"content": "钢丝间摩擦小"
+		}],
+		"answer": ["A", "B", "C"],
+		"content": "金属芯的钢丝绳，其优点是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "能承受所要求的压力，保证足够的安全系数"
+		}, {
+			"label": "B",
+			"content": "能保证受力后不发生扭转"
+		}, {
+			"label": "C",
+			"content": "与使用环境无关"
+		}, {
+			"label": "D",
+			"content": "耐疲劳"
+		}, {
+			"label": "E",
+			"content": "耐磨性能好"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "钢丝绳能选用原则，包括（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "钢丝绳的标准强度超过钢丝绳本身的强度"
+		}, {
+			"label": "B",
+			"content": "使用产生附加载荷"
+		}, {
+			"label": "C",
+			"content": "质量缺陷"
+		}, {
+			"label": "D",
+			"content": "滑轮摩擦阻力作用"
+		}, {
+			"label": "E",
+			"content": "使用中超载影响"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "起重用钢丝绳必须预留足够的安全系数，其原因有（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "润滑"
+		}, {
+			"label": "B",
+			"content": "断丝"
+		}, {
+			"label": "C",
+			"content": "磨损"
+		}, {
+			"label": "D",
+			"content": "腐蚀"
+		}, {
+			"label": "E",
+			"content": "变形"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "钢丝绳的报废应考虑（ ）等情况"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "直径"
+		}, {
+			"label": "B",
+			"content": "几股几丝"
+		}, {
+			"label": "C",
+			"content": "芯材"
+		}, {
+			"label": "D",
+			"content": "钢丝强度"
+		}, {
+			"label": "E",
+			"content": "安全系数"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "钢丝绳的最小破断拉力是钢丝绳最重要的力学性能参数，其大小与钢丝绳的（ ）有关"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "用肉眼观察表面有裂纹"
+		}, {
+			"label": "B",
+			"content": "挂绳处截面磨损量超过原高度的10%"
+		}, {
+			"label": "C",
+			"content": "挂绳处截面磨损量超过原高度的5%"
+		}, {
+			"label": "D",
+			"content": "开口度比原尺寸增加15%"
+		}, {
+			"label": "E",
+			"content": "开口度比原尺寸增加5%"
+		}],
+		"answer": ["B", "D"],
+		"content": "有以下情况之一的，吊钩应报废（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "滑车组是由一定数量的定滑车和动滑车及绕过它们的绳索组成的简单起重工具"
+		}, {
+			"label": "B",
+			"content": "动滑车能省力也能改变力的方向"
+		}, {
+			"label": "C",
+			"content": "动滑车能省力但不能改变力的方向"
+		}, {
+			"label": "D",
+			"content": "滑轮出现裂纹应报废"
+		}, {
+			"label": "E",
+			"content": "滑轮轮缘出现破损应报废"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "下列说法正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电动机"
+		}, {
+			"label": "B",
+			"content": "千斤顶"
+		}, {
+			"label": "C",
+			"content": "齿轮减速器"
+		}, {
+			"label": "D",
+			"content": "卷筒"
+		}, {
+			"label": "E",
+			"content": "制动器"
+		}],
+		"answer": ["A", "C", "D", "E"],
+		"content": "卷扬机是由（ ）等构成"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "卷扬机使用前要先作空载正、反转试验"
+		}, {
+			"label": "B",
+			"content": "作业中，任何人不得跨越正在作业的卷扬钢丝绳"
+		}, {
+			"label": "C",
+			"content": "操作者视线仰角应大于45°"
+		}, {
+			"label": "D",
+			"content": "卷筒上的钢丝绳全部放出时应留有不少于2圈"
+		}, {
+			"label": "E",
+			"content": "卷筒上的钢丝绳全部放出时应留有不少于3圈"
+		}],
+		"answer": ["A", "B", "E"],
+		"content": "下列关于卷扬机使用正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "质地柔软"
+		}, {
+			"label": "B",
+			"content": "携带方便"
+		}, {
+			"label": "C",
+			"content": "容易绑扎"
+		}, {
+			"label": "D",
+			"content": "强度较高"
+		}, {
+			"label": "E",
+			"content": "保养方便"
+		}],
+		"answer": ["A", "B", "C"],
+		"content": "白棕绳是起重作业中常用的轻便绳索，具有（ ）等特点"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "固定式"
+		}, {
+			"label": "B",
+			"content": "外爬式"
+		}, {
+			"label": "C",
+			"content": "内爬式"
+		}, {
+			"label": "D",
+			"content": "履带式"
+		}, {
+			"label": "E",
+			"content": "轨道行走式"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "建筑施工现场常用的塔式起重机，主要有（ ）等形式"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "千斤顶"
+		}, {
+			"label": "B",
+			"content": "滑车"
+		}, {
+			"label": "C",
+			"content": "举升机"
+		}, {
+			"label": "D",
+			"content": "起重葫芦"
+		}, {
+			"label": "E",
+			"content": "卷扬机"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "根据起重机分类GB\/T20776-2006的规定，轻小型起重设备指的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "起重量"
+		}, {
+			"label": "B",
+			"content": "起升高度"
+		}, {
+			"label": "C",
+			"content": "起重力矩"
+		}, {
+			"label": "D",
+			"content": "幅度"
+		}, {
+			"label": "E",
+			"content": "行走速度"
+		}],
+		"answer": ["A", "B", "C", "D"],
+		"content": "起重机的基本参数，包括（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "冲撞"
+		}, {
+			"label": "B",
+			"content": "手提"
+		}, {
+			"label": "C",
+			"content": "肩扛"
+		}, {
+			"label": "D",
+			"content": "背驮"
+		}, {
+			"label": "E",
+			"content": "拖拉"
+		}],
+		"answer": ["A", "C", "D", "E"],
+		"content": "装卸危险品时，必须轻拿轻放，不得（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "能够附着固定，达到较高的工作高度"
+		}, {
+			"label": "B",
+			"content": "由于塔身不回转，可简化塔身下部结构"
+		}, {
+			"label": "C",
+			"content": "重心低，稳定性好"
+		}, {
+			"label": "D",
+			"content": "塔身所受弯矩较小"
+		}, {
+			"label": "E",
+			"content": "顶升加节方便"
+		}],
+		"answer": ["A", "B", "E"],
+		"content": "上回转式塔式起重机的优点是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "租赁和报废"
+		}, {
+			"label": "B",
+			"content": "维修保养"
+		}, {
+			"label": "C",
+			"content": "检查检验"
+		}, {
+			"label": "D",
+			"content": "安全操作"
+		}, {
+			"label": "E",
+			"content": "交接班"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "起重设备安全管理内容中有制度建设，要建立健全起重机械设备的（ ）等制度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "起升高度限位器"
+		}, {
+			"label": "B",
+			"content": "幅度限位器"
+		}, {
+			"label": "C",
+			"content": "弹簧缓冲器"
+		}, {
+			"label": "D",
+			"content": "起重力矩限制器"
+		}, {
+			"label": "E",
+			"content": "起重量限制器"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "塔式起重机的安全装置包括（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "钢钎校正法"
+		}, {
+			"label": "B",
+			"content": "拉钢丝法"
+		}, {
+			"label": "C",
+			"content": "反推法"
+		}, {
+			"label": "D",
+			"content": "仪器放线法"
+		}, {
+			"label": "E",
+			"content": "边吊边校法"
+		}],
+		"answer": ["B", "D"],
+		"content": "单层工业厂房吊装中，中小型吊车梁平面位置校正可用（ ）校正"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "运货"
+		}, {
+			"label": "B",
+			"content": "挖土"
+		}, {
+			"label": "C",
+			"content": "夯土"
+		}, {
+			"label": "D",
+			"content": "打桩"
+		}, {
+			"label": "E",
+			"content": "压路"
+		}],
+		"answer": ["B", "C", "D"],
+		"content": "履带起重机除可进行吊装作业外，还可以进行（ ）等多种作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "长方形构件"
+		}, {
+			"label": "B",
+			"content": "弯曲性构件"
+		}, {
+			"label": "C",
+			"content": "无横向对称面构件"
+		}, {
+			"label": "D",
+			"content": "无纵向对称面构件"
+		}, {
+			"label": "E",
+			"content": "体形复杂构件"
+		}],
+		"answer": ["C", "D", "E"],
+		"content": "外形不规则构件，在绑扎不当，在起吊后构件易倾斜，安装就会十分困难这类构件根据其外形特点，大致分为（C D E）。"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "有人指挥"
+		}, {
+			"label": "B",
+			"content": "同时喊号"
+		}, {
+			"label": "C",
+			"content": "协调一致"
+		}, {
+			"label": "D",
+			"content": "着装统一"
+		}, {
+			"label": "E",
+			"content": "同起同落"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "多人抬运同一物件时，必须（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "易燃、易爆物品"
+		}, {
+			"label": "B",
+			"content": "有毒、有腐蚀物品"
+		}, {
+			"label": "C",
+			"content": "有放射性物品"
+		}, {
+			"label": "D",
+			"content": "贵重药物"
+		}, {
+			"label": "E",
+			"content": "压缩气体或液化气体气瓶"
+		}],
+		"answer": ["A", "B", "C", "E"],
+		"content": "应先了解性质、包装情况和操作要求才能进行装卸作业的危险物品包括（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "施工成本低"
+		}, {
+			"label": "B",
+			"content": "施工方法先进"
+		}, {
+			"label": "C",
+			"content": "施工周期短"
+		}, {
+			"label": "D",
+			"content": "施工作业方便"
+		}, {
+			"label": "E",
+			"content": "施工技术可靠"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "起重吊装专项施工方案编制原则是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "准备阶段"
+		}, {
+			"label": "B",
+			"content": "编写阶段"
+		}, {
+			"label": "C",
+			"content": "讨论阶段"
+		}, {
+			"label": "D",
+			"content": "印刷阶段"
+		}, {
+			"label": "E",
+			"content": "审核批准阶段"
+		}],
+		"answer": ["A", "B", "E"],
+		"content": "起重吊装专项施工方案编制程序有（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "吊钩"
+		}, {
+			"label": "B",
+			"content": "绳索"
+		}, {
+			"label": "C",
+			"content": "其他起重工具"
+		}, {
+			"label": "D",
+			"content": "卷扬机"
+		}, {
+			"label": "E",
+			"content": "油泵"
+		}],
+		"answer": ["A", "B", "C"],
+		"content": "司索人员的职责之一，是要掌握（ ）性能和报废标准"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "要主钩"
+		}, {
+			"label": "B",
+			"content": "要副钩"
+		}, {
+			"label": "C",
+			"content": "吊钩上升"
+		}, {
+			"label": "D",
+			"content": "微动范围"
+		}, {
+			"label": "E",
+			"content": "吊钩下降"
+		}],
+		"answer": ["A", "B", "D"],
+		"content": "指挥人员在发出（ ）手势或旗语时，要目视司机，同时可发出“预备”音响信号，司机接到信号后，要准确操作"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "体积"
+		}, {
+			"label": "B",
+			"content": "强度"
+		}, {
+			"label": "C",
+			"content": "刚度"
+		}, {
+			"label": "D",
+			"content": "稳定性"
+		}, {
+			"label": "E",
+			"content": "吊索的允许拉力"
+		}],
+		"answer": ["B", "C", "D", "E"],
+		"content": "在起吊物体时，吊点的多少必须根据被吊物体的（ ）来确定"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "双支单圈穿套结索法"
+		}, {
+			"label": "B",
+			"content": "单支双圈穿套结索法"
+		}, {
+			"label": "C",
+			"content": "双支双圈穿套结索法"
+		}, {
+			"label": "D",
+			"content": "吊篮式结索法"
+		}, {
+			"label": "E",
+			"content": "兜挂法"
+		}],
+		"answer": ["A", "C", "D"],
+		"content": "两个吊点的平行吊装绑扎法，常采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "柱子的绑扎点"
+		}, {
+			"label": "B",
+			"content": "起重机回转中心"
+		}, {
+			"label": "C",
+			"content": "柱脚中心"
+		}, {
+			"label": "D",
+			"content": "柱子大面"
+		}, {
+			"label": "E",
+			"content": "杯口中心"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "单层工业厂房柱子采用单机旋转法吊装时，为在吊升过程中保持一定的回转半径，在预置或堆放柱子时，应使（ ）三点共圆弧"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "单侧布置"
+		}, {
+			"label": "B",
+			"content": "双侧布置"
+		}, {
+			"label": "C",
+			"content": "跨内布置"
+		}, {
+			"label": "D",
+			"content": ".U形布置"
+		}, {
+			"label": "E",
+			"content": "环形布置"
+		}],
+		"answer": ["A", "B", "C", "E"],
+		"content": "装配式框架结构采用行走式塔式起重机吊装方案时，起重机的布置一般有（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "缆风绳"
+		}, {
+			"label": "B",
+			"content": "支撑"
+		}, {
+			"label": "C",
+			"content": "钢钎"
+		}, {
+			"label": "D",
+			"content": "屋架校正器"
+		}, {
+			"label": "E",
+			"content": "楔子"
+		}],
+		"answer": ["A", "B", "D"],
+		"content": "门式刚架在纵轴线方向的倾斜，用（ ）校正"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "分条（块）吊装法"
+		}, {
+			"label": "B",
+			"content": "用滑车调整位置的吊装法"
+		}, {
+			"label": "C",
+			"content": "整体吊装法"
+		}, {
+			"label": "D",
+			"content": "高空滑移法"
+		}, {
+			"label": "E",
+			"content": "整体提升法"
+		}],
+		"answer": ["A", "C", "D", "E"],
+		"content": "网架的吊装常采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "采用行走式塔式起重机吊装方案时，吊装物体的现场布置尽可能布置在起重半径范围内，以免二次搬运"
+		}, {
+			"label": "B",
+			"content": "采用行走式塔式起重机吊装方案时，吊装物体的现场布置，中小型构件布置在重型构件内侧"
+		}, {
+			"label": "C",
+			"content": "采用履带式起重机吊装方案时，履带起重机的开行路线，有跨内开行和跨外开行两种"
+		}, {
+			"label": "D",
+			"content": "采用自升式塔式起重机吊装时，自升式塔式起重机可布置在房屋内，亦可附着在房屋外侧"
+		}, {
+			"label": "E",
+			"content": "采用自升式塔式起重机吊装时，多层框架结构的安装方法只能使用分件安装法"
+		}],
+		"answer": ["A", "C", "D"],
+		"content": "在装配式框架结构的吊装中，下列说法正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "可以减少构件的堆放设施"
+		}, {
+			"label": "B",
+			"content": "需用较多的插放架"
+		}, {
+			"label": "C",
+			"content": "要有严密的施工组织管理"
+		}, {
+			"label": "D",
+			"content": "能充分利用机械设备"
+		}, {
+			"label": "E",
+			"content": "需要较多的墙板运输车"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "以下有关直接吊装法的说法，正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "超高层建筑"
+		}, {
+			"label": "B",
+			"content": "小型工程"
+		}, {
+			"label": "C",
+			"content": "大型工程"
+		}, {
+			"label": "D",
+			"content": "高层建筑"
+		}, {
+			"label": "E",
+			"content": "大型多机吊运"
+		}],
+		"answer": ["A", "C", "E"],
+		"content": "起重吊装指挥语言主要应用在（ ）的指挥和工作联络"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "发现自己不能完全控制操纵的设备时"
+		}, {
+			"label": "B",
+			"content": "预感到起重机在运行过程中会发生事故时"
+		}, {
+			"label": "C",
+			"content": "发现指挥人员发出的信号错误时"
+		}, {
+			"label": "D",
+			"content": "知道有与其他设备或障碍物相碰撞的可能时"
+		}, {
+			"label": "E",
+			"content": "预感到所吊运的负载对地面人员的安全有威胁时"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "起重机司机（ ）情况应发出长声音响信号，以警告有关人员"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "吊钩下降"
+		}, {
+			"label": "B",
+			"content": "降臂"
+		}, {
+			"label": "C",
+			"content": "伸臂"
+		}, {
+			"label": "D",
+			"content": "缩臂"
+		}, {
+			"label": "E",
+			"content": "释放"
+		}],
+		"answer": ["A", "B", "D", "E"],
+		"content": "在发出“下降”音响时，可分别与（ ）手势或旗语相配合"
+	}
+]

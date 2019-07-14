@@ -1,0 +1,3061 @@
+[{
+		"choices": [{
+			"label": "A",
+			"content": "《建筑法》"
+		}, {
+			"label": "B",
+			"content": "《安全生产法》"
+		}, {
+			"label": "C",
+			"content": "《建设工程安全生产管理条例》"
+		}, {
+			"label": "D",
+			"content": "《安全生产许可证条列》"
+		}],
+		"answer": ["A"],
+		"content": "我国第一部规范建筑活动的部门法律是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "全国人民代表大会"
+		}, {
+			"label": "B",
+			"content": "国务院"
+		}, {
+			"label": "C",
+			"content": "全国人大常委会"
+		}, {
+			"label": "D",
+			"content": "国务院组成部门及其直属机构"
+		}],
+		"answer": ["B"],
+		"content": "行政法规是由（ ）制定的法律规范性文件"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "《建筑起重机械安全监督管理制度》"
+		}, {
+			"label": "B",
+			"content": "《安全生产法》"
+		}, {
+			"label": "C",
+			"content": "《特种设备安全监督条例》"
+		}, {
+			"label": "D",
+			"content": "《浙江省安全生产条例》"
+		}],
+		"answer": ["A"],
+		"content": "以下属于部门规章的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "地方标准"
+		}, {
+			"label": "B",
+			"content": "行业标准"
+		}, {
+			"label": "C",
+			"content": "国家标准"
+		}, {
+			"label": "D",
+			"content": "企业标准"
+		}],
+		"answer": ["A"],
+		"content": "《建筑施工扣件式钢管模板支架技术规程》（DB33\/1035-2006）是一部（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全生产责任制度"
+		}, {
+			"label": "B",
+			"content": "特种作业人员考核制度"
+		}, {
+			"label": "C",
+			"content": "生产安全事故应急救援制度"
+		}, {
+			"label": "D",
+			"content": "安全生产教育培训制度"
+		}],
+		"answer": ["A"],
+		"content": "施工企业最比本的安全管理制度是（ ），它是施工企业安全生产管理的核心和中心环节"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "多个"
+		}, {
+			"label": "B",
+			"content": "一个"
+		}, {
+			"label": "C",
+			"content": "二个"
+		}, {
+			"label": "D",
+			"content": "视情况而定"
+		}],
+		"answer": ["B"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员应当受聘于（ ）建筑施工企业或者建筑机械出租单位，方可从事相应的特种作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "建设主管部门"
+		}, {
+			"label": "B",
+			"content": "所在单位"
+		}, {
+			"label": "C",
+			"content": "行业协会"
+		}, {
+			"label": "D",
+			"content": "劳动主管部门"
+		}],
+		"answer": ["A"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员必须经（ ）考核合格，取得建筑施工特种作业人员操作资格证书，方可上岗从事相应作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "初中"
+		}, {
+			"label": "B",
+			"content": "高中"
+		}, {
+			"label": "C",
+			"content": "大专"
+		}, {
+			"label": "D",
+			"content": "小学"
+		}],
+		"answer": ["A"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，申请从事建筑施工特种作业的人员，应当具备（ ）及以上学历"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1"
+		}, {
+			"label": "B",
+			"content": "3"
+		}, {
+			"label": "C",
+			"content": "6"
+		}, {
+			"label": "D",
+			"content": "12"
+		}],
+		"answer": ["B"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，首次取得建筑施工特种作业人员操作资格证书的人员，用人单位应当在其正式上岗前安排不少于（ ）个月的实习操作"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "48"
+		}, {
+			"label": "B",
+			"content": "24"
+		}, {
+			"label": "C",
+			"content": "12"
+		}, {
+			"label": "D",
+			"content": "60"
+		}],
+		"answer": ["A"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员应当参加年度安全教育培训或继续教育，一个有效期内，不少于（ ）学时"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "设计图纸"
+		}, {
+			"label": "B",
+			"content": "以往经验"
+		}, {
+			"label": "C",
+			"content": "技术标准"
+		}, {
+			"label": "D",
+			"content": "口头指令"
+		}],
+		"answer": ["C"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员应当严格按照（ ）、规范和规程作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "作业工具"
+		}, {
+			"label": "B",
+			"content": "劳动标识"
+		}, {
+			"label": "C",
+			"content": "生产用品"
+		}, {
+			"label": "D",
+			"content": "安全劳动防护用品"
+		}],
+		"answer": ["D"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员应当正确佩戴和使用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "不服从所在单位、项目总承包单位、监理单位和各级政府监督人员管理的"
+		}, {
+			"label": "B",
+			"content": "将证书出借给他人，允许让人以自己名义从事特种作业的"
+		}, {
+			"label": "C",
+			"content": "存在严重违章作业行为的"
+		}, {
+			"label": "D",
+			"content": "在监督检查中，被发现不符合考核发证条件的"
+		}],
+		"answer": ["A"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员（ ）情况的，建设行政主管部门可暂扣其证书"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "15天"
+		}, {
+			"label": "B",
+			"content": "一个月"
+		}, {
+			"label": "C",
+			"content": "二个月"
+		}, {
+			"label": "D",
+			"content": "三个月"
+		}],
+		"answer": ["B"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员操作资格证书遗失的，应当（ ）内在原发证机关所在单位设区市以上报刊上声明作废，由本人持身份证原件及复印件，到原发证机关申请补证"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "可以"
+		}, {
+			"label": "B",
+			"content": "经备案后"
+		}, {
+			"label": "C",
+			"content": "不允许"
+		}, {
+			"label": "D",
+			"content": "延期复核后"
+		}],
+		"answer": ["C"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，操作资格证书上的姓名、身份证号、操作类别等信息（ ）变更"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1个月"
+		}, {
+			"label": "B",
+			"content": "3个月"
+		}, {
+			"label": "C",
+			"content": "6个月"
+		}, {
+			"label": "D",
+			"content": "15天"
+		}],
+		"answer": ["B"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员应当于有效期期满前（ ）内向原考核发证机关申请办理延期复核手续"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1"
+		}, {
+			"label": "B",
+			"content": "2"
+		}, {
+			"label": "C",
+			"content": "3"
+		}, {
+			"label": "D",
+			"content": "5"
+		}],
+		"answer": ["B"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员应当于期满前3个月内向原发证机关申请办理延期复核手续，延期复核合格的，资格证书有效期延期（ ）年"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "擅自违章作业的"
+		}, {
+			"label": "B",
+			"content": "将证书出借给他人，允许他人以自己名义从事特种作业的"
+		}, {
+			"label": "C",
+			"content": "存在严重违章作业行为的"
+		}, {
+			"label": "D",
+			"content": "在监督检查中，被发现不符合考核发证条件的"
+		}],
+		"answer": ["A"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员（ ）情况的，建设行政管理部门可暂扣其证书"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "10天至30天"
+		}, {
+			"label": "B",
+			"content": "20天至60天"
+		}, {
+			"label": "C",
+			"content": "30天至60天"
+		}, {
+			"label": "D",
+			"content": "30天至90天"
+		}],
+		"answer": ["D"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员违反有关规定，建设行政主管部门可暂扣其证书，暂扣期为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "证书持有人不再具有完全民事行为能力的"
+		}, {
+			"label": "B",
+			"content": "因违章作业造成对自己或他人伤害或发生事故，负有一定责任的"
+		}, {
+			"label": "C",
+			"content": "对检查人员提出的整改要求不认真履行整改义务的"
+		}, {
+			"label": "D",
+			"content": "在未签订劳动合同的单位从事特种作业的"
+		}],
+		"answer": ["B"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员（ ）情况的，建设行政主管本门可收回证书"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "半年"
+		}, {
+			"label": "B",
+			"content": "一年"
+		}, {
+			"label": "C",
+			"content": "二年"
+		}, {
+			"label": "D",
+			"content": "三年"
+		}],
+		"answer": ["B"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，申请安全技术理论考试的人员凡发现代考或其他作弊行为的，（ ）内不得再次参加考试"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "行业协会"
+		}, {
+			"label": "B",
+			"content": "社会培训机构"
+		}, {
+			"label": "C",
+			"content": "用人单位"
+		}, {
+			"label": "D",
+			"content": "建设主管部门"
+		}],
+		"answer": ["C"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，（ ）按规定注重特种作业人员参加年度安全教育培训或者继续教育"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "不得"
+		}, {
+			"label": "B",
+			"content": "可以"
+		}, {
+			"label": "C",
+			"content": "经备案后可以"
+		}, {
+			"label": "D",
+			"content": "经安全生产教育培训后可以"
+		}],
+		"answer": ["A"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，持有省外《资格证书》的特种作业人员，（ ）以省内企业的名义在浙江省内从事特种作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "身份证号码"
+		}, {
+			"label": "B",
+			"content": "所在单位"
+		}, {
+			"label": "C",
+			"content": "操作类别"
+		}, {
+			"label": "D",
+			"content": "初次领证日期"
+		}],
+		"answer": ["B"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，《资格证书》不列明持证人（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "伪造"
+		}, {
+			"label": "B",
+			"content": "变更"
+		}, {
+			"label": "C",
+			"content": "涂改"
+		}, {
+			"label": "D",
+			"content": "挂靠"
+		}],
+		"answer": ["C"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，建筑施工特种作业人员不得非法（ ）、倒卖、出租、出借或者以其他形式转让资格证书"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "县"
+		}, {
+			"label": "B",
+			"content": "设区市"
+		}, {
+			"label": "C",
+			"content": "省"
+		}, {
+			"label": "D",
+			"content": "国家"
+		}],
+		"answer": ["B"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，《资格证书》遗失的，应当一个月内在原发证机关所在地（ ）级以上报刊上声明作废，由本人持身份证原件及复印件，到原发证机关申请补证"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "单位经办人"
+		}, {
+			"label": "B",
+			"content": "有资质的代理机构工作人员"
+		}, {
+			"label": "C",
+			"content": "本人"
+		}, {
+			"label": "D",
+			"content": "证书出有人授权委托的人员"
+		}],
+		"answer": ["C"],
+		"content": "根据《浙江省建筑施工特种作业人员管理方法（试行）》，证书持有人需要申请证书注销的，应由（ ）持身份证原件（复印件），到相关考核机关办理注销手续"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "意外伤害保险"
+		}, {
+			"label": "B",
+			"content": "工伤社会保险"
+		}, {
+			"label": "C",
+			"content": "失业保险"
+		}, {
+			"label": "D",
+			"content": "医疗保险"
+		}],
+		"answer": ["A"],
+		"content": "建筑施工企业应当为施工现场从事危险作业的人员办理（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "从业人员取得《建筑施工特种作业人员操作资格证书》之日起"
+		}, {
+			"label": "B",
+			"content": "建设单位取得施工许可证日起"
+		}, {
+			"label": "C",
+			"content": "工程项目开工之日至工程竣工验收合格后15日"
+		}, {
+			"label": "D",
+			"content": "工程项目开工之日至工程竣工验收合格之日"
+		}],
+		"answer": ["D"],
+		"content": "建筑意外伤害保险的保险期限应涵盖（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "主体结构"
+		}, {
+			"label": "B",
+			"content": "主要结构"
+		}, {
+			"label": "C",
+			"content": "整体结构"
+		}, {
+			"label": "D",
+			"content": "所有工程"
+		}],
+		"answer": ["A"],
+		"content": "根据《建设工程安全生产管理条例》,总承包单位应当自行完成建设工程（ ）的施工"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "每季至少进行一次"
+		}, {
+			"label": "B",
+			"content": "每月至少进行一次"
+		}, {
+			"label": "C",
+			"content": "每年至少进行一次"
+		}, {
+			"label": "D",
+			"content": "每年至少进行二次"
+		}],
+		"answer": ["C"],
+		"content": "根据《建设工程安全生产管理条例》，施工单位应当对管理人员和作业人员（ ）安全生产教育培训"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "企业主要负责人"
+		}, {
+			"label": "B",
+			"content": "负责项目管理的技术人员"
+		}, {
+			"label": "C",
+			"content": "项目负责人"
+		}, {
+			"label": "D",
+			"content": "专职安全生产管理人员"
+		}],
+		"answer": ["B"],
+		"content": "建设工程施工前，施工单位（ ）应当对有关安全施工的技术要求向施工作业班组、作业人员作出详细说明，并由双方签字确认"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "新技术、新工艺、新设备、新材料"
+		}, {
+			"label": "B",
+			"content": "新技术、新工艺、新设备、新原料"
+		}, {
+			"label": "C",
+			"content": "新方法、新工艺、新设备、新材料"
+		}, {
+			"label": "D",
+			"content": "新技术、新工艺、新结构、新材料"
+		}],
+		"answer": ["A"],
+		"content": "施工单位在采用（ ）时，应当对作业人员进行相应的安全生产教育培训"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "企业法定代表人、项目负责人、班组长"
+		}, {
+			"label": "B",
+			"content": "公司、项目部、班组"
+		}, {
+			"label": "C",
+			"content": "总包单位、分包单位、班组"
+		}, {
+			"label": "D",
+			"content": "建设单位、监理单位、施工单位"
+		}],
+		"answer": ["B"],
+		"content": "三级安全教育指的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "建设单位"
+		}, {
+			"label": "B",
+			"content": "使用单位"
+		}, {
+			"label": "C",
+			"content": "安装单位"
+		}, {
+			"label": "D",
+			"content": "检测单位"
+		}],
+		"answer": ["C"],
+		"content": "根据《建筑起重机械安全监督管理规定》，建筑起重机械安装完毕后，（ ）应当按照安全技术标准及安装使用说明书的有关要求对建筑起重机械进行自检、调试和试运转"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "项目负责人"
+		}, {
+			"label": "B",
+			"content": "班组长"
+		}, {
+			"label": "C",
+			"content": "值班人员"
+		}, {
+			"label": "D",
+			"content": "专业技术人员"
+		}],
+		"answer": ["D"],
+		"content": "根据《建筑起重机械安全监督管理规定》，安装单位安装、拆卸建筑起重机械时，安装单位的（ ）、专职安全生产管理人员应当进行现场监督，技术负责人应当定期巡查"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.25"
+		}, {
+			"label": "B",
+			"content": "0.6"
+		}, {
+			"label": "C",
+			"content": "2.0"
+		}, {
+			"label": "D",
+			"content": "2,.1"
+		}],
+		"answer": ["C"],
+		"content": "碳素钢中碳、硅、锰、硫、磷等元素的总含量应为（ ）%以下"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.6"
+		}, {
+			"label": "B",
+			"content": "0.7"
+		}, {
+			"label": "C",
+			"content": "0.8"
+		}, {
+			"label": "D",
+			"content": "1.0"
+		}],
+		"answer": ["C"],
+		"content": "如果碳素钢中锰的含量超过（ ）%，或硅的含量超过0.5%，则这种钢称为合金钢"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "沸腾钢"
+		}, {
+			"label": "B",
+			"content": "镇静钢"
+		}, {
+			"label": "C",
+			"content": "特殊镇静钢"
+		}, {
+			"label": "D",
+			"content": "不锈钢"
+		}],
+		"answer": ["A"],
+		"content": "用代号“F”表示的钢材是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "塑性"
+		}, {
+			"label": "B",
+			"content": "强度"
+		}, {
+			"label": "C",
+			"content": "刚度"
+		}, {
+			"label": "D",
+			"content": "硬度"
+		}],
+		"answer": ["C"],
+		"content": "弹性模量反应钢材的（ ），是钢材在受力条件下计算结构变形的重要指标"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "压力"
+		}, {
+			"label": "B",
+			"content": "重力"
+		}, {
+			"label": "C",
+			"content": "应力"
+		}, {
+			"label": "D",
+			"content": "拉力"
+		}],
+		"answer": ["C"],
+		"content": "强度是钢材在外力作用下抵抗破坏的性能，用（ ）表示"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "力学性能"
+		}, {
+			"label": "B",
+			"content": "使用性能"
+		}, {
+			"label": "C",
+			"content": "化学性能"
+		}, {
+			"label": "D",
+			"content": "工艺性能"
+		}],
+		"answer": ["D"],
+		"content": "焊接性能属于钢材（ ）的范畴"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊接性能"
+		}, {
+			"label": "B",
+			"content": "力学性能"
+		}, {
+			"label": "C",
+			"content": "物理性能"
+		}, {
+			"label": "D",
+			"content": "化学性能"
+		}],
+		"answer": ["A"],
+		"content": "钢材以下性能中属于工艺性能的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "越大；越小"
+		}, {
+			"label": "B",
+			"content": "越大；越大"
+		}, {
+			"label": "C",
+			"content": "越小；越大"
+		}, {
+			"label": "D",
+			"content": "越小；越小"
+		}],
+		"answer": ["A"],
+		"content": "弯曲角度______，弯曲直径对试件厚度和直径的比值______，说明钢材的冷弯性能越好，下列说法正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "越小"
+		}, {
+			"label": "B",
+			"content": "越大"
+		}, {
+			"label": "C",
+			"content": "恒定"
+		}, {
+			"label": "D",
+			"content": "任意变化"
+		}],
+		"answer": ["A"],
+		"content": "屈强比用Re\/Rm表示，屈强比（ ），说明钢材受力超过屈服强度工作时的可靠性越大因而结构的安全性高"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "变好"
+		}, {
+			"label": "B",
+			"content": "变差"
+		}, {
+			"label": "C",
+			"content": "不变"
+		}, {
+			"label": "D",
+			"content": "无法确定"
+		}],
+		"answer": ["B"],
+		"content": "当含碳量超过0.25%后，钢的可焊性（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "脆性破坏"
+		}, {
+			"label": "B",
+			"content": "冲击破坏"
+		}, {
+			"label": "C",
+			"content": "疲劳破坏"
+		}, {
+			"label": "D",
+			"content": "塑性破坏"
+		}],
+		"answer": ["C"],
+		"content": "刚才在交变荷载反复作用下，常常在远小于其屈服点应力作用下而突然破坏，这种破坏称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "硅"
+		}, {
+			"label": "B",
+			"content": "锰"
+		}, {
+			"label": "C",
+			"content": "磷"
+		}, {
+			"label": "D",
+			"content": "硫"
+		}],
+		"answer": ["D"],
+		"content": "杂质含量增多，会使可焊性能降低，特别是（ ）能使焊缝处产生热烈纹并硬脆，这种现象称为热脆性"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "降低"
+		}, {
+			"label": "B",
+			"content": "提高"
+		}, {
+			"label": "C",
+			"content": "不变"
+		}, {
+			"label": "D",
+			"content": "无法确定"
+		}],
+		"answer": ["A"],
+		"content": "普通碳素结构钢中含碳量增加时，可焊性（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "降低"
+		}, {
+			"label": "B",
+			"content": "提高"
+		}, {
+			"label": "C",
+			"content": "不变"
+		}, {
+			"label": "D",
+			"content": "无法确定"
+		}],
+		"answer": ["A"],
+		"content": "普通碳素结构钢中含碳量增加时，塑性和冲击韧性（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "压力加工用钢、切削加工用钢"
+		}, {
+			"label": "B",
+			"content": "优质钢、高级优质钢"
+		}, {
+			"label": "C",
+			"content": "沸腾钢、镇静钢"
+		}, {
+			"label": "D",
+			"content": "耐酸钢、耐热钢"
+		}],
+		"answer": ["A"],
+		"content": "优质碳素结构钢按应用加工方法不同分为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".Q195"
+		}, {
+			"label": "B",
+			"content": ".Q215"
+		}, {
+			"label": "C",
+			"content": ".Q235"
+		}, {
+			"label": "D",
+			"content": ".Q275"
+		}],
+		"answer": ["C"],
+		"content": "广泛用于建筑结构中的钢结构制作、桥梁及钢筋混凝土结构中的配筋的普通碳素结构钢为（ ）号钢"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".Q235"
+		}, {
+			"label": "B",
+			"content": ".HPB235"
+		}, {
+			"label": "C",
+			"content": ".HRB335"
+		}, {
+			"label": "D",
+			"content": ",HRBF335"
+		}],
+		"answer": ["B"],
+		"content": "以下号牌中（ ）为热扎光圆钢筋"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "大于3mm"
+		}, {
+			"label": "B",
+			"content": "大于4mm"
+		}, {
+			"label": "C",
+			"content": "大于5mm"
+		}, {
+			"label": "D",
+			"content": "大于6mm"
+		}],
+		"answer": ["B"],
+		"content": "热扎钢板中，厚度（ ）的板称为厚板"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊接钢管"
+		}, {
+			"label": "B",
+			"content": "无缝钢管"
+		}, {
+			"label": "C",
+			"content": "镀锌管"
+		}, {
+			"label": "D",
+			"content": ".PVC管"
+		}],
+		"answer": ["B"],
+		"content": "作为传输天然气的高压管道应采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "位置"
+		}, {
+			"label": "B",
+			"content": "距离"
+		}, {
+			"label": "C",
+			"content": "大小"
+		}, {
+			"label": "D",
+			"content": "状态"
+		}],
+		"answer": ["D"],
+		"content": "按照焊接过程中金属所处的（ ）不同，可以把焊接方法分为熔化焊、压力焊、和钎焊三种类型"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电阻点焊"
+		}, {
+			"label": "B",
+			"content": "电渣压力焊"
+		}, {
+			"label": "C",
+			"content": "埋弧电弧焊"
+		}, {
+			"label": "D",
+			"content": "手工电弧焊"
+		}],
+		"answer": ["D"],
+		"content": "生产中应用最为广泛的焊接方法是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".Q235"
+		}, {
+			"label": "B",
+			"content": ".HPB235."
+		}, {
+			"label": "C",
+			"content": ".HRB335"
+		}, {
+			"label": "D",
+			"content": ".HRBF335"
+		}],
+		"answer": ["D"],
+		"content": "以下牌号中（ ）为细晶粒热轧带肋钢筋"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电阻焊"
+		}, {
+			"label": "B",
+			"content": "电渣焊"
+		}, {
+			"label": "C",
+			"content": "埋弧电弧焊"
+		}, {
+			"label": "D",
+			"content": "手工电弧焊"
+		}],
+		"answer": ["C"],
+		"content": "特别适用于梁、柱、板等的大批量拼装、制作焊缝的焊接方法是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "平焊"
+		}, {
+			"label": "B",
+			"content": "横焊"
+		}, {
+			"label": "C",
+			"content": "立焊"
+		}, {
+			"label": "D",
+			"content": "仰焊"
+		}],
+		"answer": ["A"],
+		"content": "埋弧焊主要实用于（ ）位置"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "增大"
+		}, {
+			"label": "B",
+			"content": "减小"
+		}, {
+			"label": "C",
+			"content": "不变"
+		}, {
+			"label": "D",
+			"content": "仰焊"
+		}],
+		"answer": ["B"],
+		"content": "接触电阻的大小与电阻压力、材料性质、焊件表面状况及温度有关，任何能够增大实际接触面积的因素，都会（ ）接触电阻"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "闪光对焊"
+		}, {
+			"label": "B",
+			"content": "电阻对焊"
+		}, {
+			"label": "C",
+			"content": "电渣焊"
+		}, {
+			"label": "D",
+			"content": "焊条电弧焊"
+		}],
+		"answer": ["A"],
+		"content": "对焊的主要方式是（ ），在钢筋焊接中应用较为广泛"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "环境因素"
+		}, {
+			"label": "B",
+			"content": "工艺参数"
+		}, {
+			"label": "C",
+			"content": "动作电流"
+		}, {
+			"label": "D",
+			"content": "焊接时间"
+		}],
+		"answer": ["B"],
+		"content": "焊接施工应通过选择合适的（ ）来避免或减缓热影响区的淬硬"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "气体火焰热切割"
+		}, {
+			"label": "B",
+			"content": "气体放电热切割"
+		}, {
+			"label": "C",
+			"content": "束流热切割"
+		}, {
+			"label": "D",
+			"content": "激光热切割"
+		}],
+		"answer": ["A"],
+		"content": "按照加热能源的不同，金属热切割大致可分为气体火焰的热切割、气体放电的热切割和束流的热切割等，在建筑施工现场一般采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "低合金"
+		}, {
+			"label": "B",
+			"content": "中合金"
+		}, {
+			"label": "C",
+			"content": "高合金"
+		}, {
+			"label": "D",
+			"content": "中高合金"
+		}],
+		"answer": ["A"],
+		"content": "16Mn属于普通（ ）高强度钢"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "酸性焊条"
+		}, {
+			"label": "B",
+			"content": "中性焊条"
+		}, {
+			"label": "C",
+			"content": "碱性焊条"
+		}, {
+			"label": "D",
+			"content": "碳性焊条"
+		}],
+		"answer": ["C"],
+		"content": "工艺性能差，引弧困难，电弧稳定性差，飞溅较大，不易脱渣的焊条是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "埋弧焊"
+		}, {
+			"label": "B",
+			"content": "电渣焊"
+		}, {
+			"label": "C",
+			"content": "气体保护焊"
+		}, {
+			"label": "D",
+			"content": "气焊"
+		}],
+		"answer": ["D"],
+		"content": "在电力供应不足的地方需要焊接时，（ ）可发挥一定的作用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊条"
+		}, {
+			"label": "B",
+			"content": "焊丝"
+		}, {
+			"label": "C",
+			"content": "焊剂"
+		}, {
+			"label": "D",
+			"content": "焊极"
+		}],
+		"answer": ["A"],
+		"content": "涂有药皮的供手弧焊用的熔化电极叫（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "低氢钠型"
+		}, {
+			"label": "B",
+			"content": "钛钙型"
+		}, {
+			"label": "C",
+			"content": "铁粉钛钙型"
+		}, {
+			"label": "D",
+			"content": "氧化铁型"
+		}],
+		"answer": ["A"],
+		"content": "可全位置焊接，焊接电流为直流反接的是（ ）药皮"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "设备简单"
+		}, {
+			"label": "B",
+			"content": "生产效率高"
+		}, {
+			"label": "C",
+			"content": "有较好焊接性"
+		}, {
+			"label": "D",
+			"content": "自动化程度高"
+		}],
+		"answer": ["A"],
+		"content": "以下关于气焊有点说法正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".“T”"
+		}, {
+			"label": "B",
+			"content": ".“H”"
+		}, {
+			"label": "C",
+			"content": ".“G”"
+		}, {
+			"label": "D",
+			"content": ".“J”"
+		}],
+		"answer": ["B"],
+		"content": "焊芯的牌号用（ ）表示"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "酸性焊条"
+		}, {
+			"label": "B",
+			"content": "中性焊条"
+		}, {
+			"label": "C",
+			"content": "碱性焊条"
+		}, {
+			"label": "D",
+			"content": "碳性焊条"
+		}],
+		"answer": ["A"],
+		"content": "焊接工艺性较好，对弧长、铁锈不敏感，且焊缝成形好，脱渣性好，广泛用于一般结构的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".5"
+		}, {
+			"label": "B",
+			"content": ".50"
+		}, {
+			"label": "C",
+			"content": ".500"
+		}, {
+			"label": "D",
+			"content": ",5000"
+		}],
+		"answer": ["C"],
+		"content": "E5015中的50表示熔敷金属抗拉强度最小值为（ ）MPa"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".-204℃"
+		}, {
+			"label": "B",
+			"content": ".-184℃"
+		}, {
+			"label": "C",
+			"content": ".-164℃"
+		}, {
+			"label": "D",
+			"content": ".-124℃"
+		}],
+		"answer": ["B"],
+		"content": "氩气可在低于（ ）温度以下以液态形式贮存和运送"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊条"
+		}, {
+			"label": "B",
+			"content": "焊剂"
+		}, {
+			"label": "C",
+			"content": "焊丝"
+		}, {
+			"label": "D",
+			"content": "焊药"
+		}],
+		"answer": ["B"],
+		"content": "埋弧焊与电渣焊时，能够熔化形成熔渣和气体，对熔化金属起保护并进行复杂的冶金反应的一种颗粒状物质叫（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊接电压"
+		}, {
+			"label": "B",
+			"content": "焊接工艺"
+		}, {
+			"label": "C",
+			"content": "焊接电流"
+		}, {
+			"label": "D",
+			"content": "焊接速度"
+		}],
+		"answer": ["C"],
+		"content": "决定电弧焊焊缝有效厚度的主要因素是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "低硅低氟"
+		}, {
+			"label": "B",
+			"content": "中硅低氟"
+		}, {
+			"label": "C",
+			"content": "高硅低氟"
+		}, {
+			"label": "D",
+			"content": "中硅中氟"
+		}],
+		"answer": ["C"],
+		"content": "HJ431中的第二位“3”表示（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "无锰"
+		}, {
+			"label": "B",
+			"content": "低锰"
+		}, {
+			"label": "C",
+			"content": "中锰"
+		}, {
+			"label": "D",
+			"content": "高锰"
+		}],
+		"answer": ["D"],
+		"content": "HJ431中的第一位“4”表示MnO的含量，属于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".对接接头"
+		}, {
+			"label": "B",
+			"content": ".T型接头"
+		}, {
+			"label": "C",
+			"content": ".角接接头"
+		}, {
+			"label": "D",
+			"content": ".搭接接头"
+		}],
+		"answer": ["A"],
+		"content": "在各种焊接结构中，（ ）是采用最多的一种接头型式"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".8mm"
+		}, {
+			"label": "B",
+			"content": ".6mm"
+		}, {
+			"label": "C",
+			"content": ".5mm"
+		}, {
+			"label": "D",
+			"content": ".4mm"
+		}],
+		"answer": ["B"],
+		"content": "在对接接头中，钢板厚度在（ ）以下，除重要结构外，一般不开坡口"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".对接接头"
+		}, {
+			"label": "B",
+			"content": ".T型接头"
+		}, {
+			"label": "C",
+			"content": ".角接接头"
+		}, {
+			"label": "D",
+			"content": ".搭接接头"
+		}],
+		"answer": ["B"],
+		"content": "一焊件的端面与另一焊件表面构成直角或近似直角的接头称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".对接接头"
+		}, {
+			"label": "B",
+			"content": ".T型接头"
+		}, {
+			"label": "C",
+			"content": ".角接接头"
+		}, {
+			"label": "D",
+			"content": ".搭接接头"
+		}],
+		"answer": ["C"],
+		"content": "两焊件端面间构成大于30度，并小于135度夹角的接头，称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电工与输出电流"
+		}, {
+			"label": "B",
+			"content": "电压与输出电流"
+		}, {
+			"label": "C",
+			"content": "电压与输入电流"
+		}, {
+			"label": "D",
+			"content": "电工与输入电流"
+		}],
+		"answer": ["B"],
+		"content": "焊接电源在其他参数不变的情况下，其电弧（ ）间的关系，称为焊接电源的外特性"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "导电、导气两大部分"
+		}, {
+			"label": "B",
+			"content": "导电、导气及导丝三大部分"
+		}, {
+			"label": "C",
+			"content": "导电、导丝两大部分"
+		}, {
+			"label": "D",
+			"content": "导气及导丝两大部分"
+		}],
+		"answer": ["A"],
+		"content": "焊枪的主要作用是导电、导气及导丝，焊枪主要是由（ ）组成"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "宽而深"
+		}, {
+			"label": "B",
+			"content": "窄而深"
+		}, {
+			"label": "C",
+			"content": "宽而浅"
+		}, {
+			"label": "D",
+			"content": "窄而浅"
+		}],
+		"answer": ["B"],
+		"content": "焊缝成形系数值小，则表示焊缝（ ），这样的焊缝中容易产生气孔和裂纹"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "不变"
+		}, {
+			"label": "B",
+			"content": "越大"
+		}, {
+			"label": "C",
+			"content": "越小"
+		}, {
+			"label": "D",
+			"content": "不一定"
+		}],
+		"answer": ["C"],
+		"content": "物体受到相同的外力作用时，截面面积越大，则应力（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "减小使用电流"
+		}, {
+			"label": "B",
+			"content": "将动铁心手柄固定"
+		}, {
+			"label": "C",
+			"content": "减小导线长度"
+		}, {
+			"label": "D",
+			"content": "检查电路或磁路中的绝缘情况排除故障"
+		}],
+		"answer": ["D"],
+		"content": "弧焊变压器焊机输出电流反常（过大或过小）故障排除方法正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "弧焊发电机"
+		}, {
+			"label": "B",
+			"content": "弧焊整流机"
+		}, {
+			"label": "C",
+			"content": "弧焊变压器"
+		}, {
+			"label": "D",
+			"content": "三相感应电动机"
+		}],
+		"answer": ["C"],
+		"content": "下列选项中，（ ）是一种以交流电形式向焊接电弧输送电能的焊接电流"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电渣焊采用交流电源"
+		}, {
+			"label": "B",
+			"content": "空载电压低、感抗小的平特性电源"
+		}, {
+			"label": "C",
+			"content": "变压器必须二相供电、二次测压电的调节范围要小"
+		}, {
+			"label": "D",
+			"content": "因为焊接时间长，中间不能停顿，所以要按暂载率100%考虑"
+		}],
+		"answer": ["C"],
+		"content": "下列有关丝极电渣焊设备电源的说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "对于主要用作手工焊的弧焊机，选定的工作周期为5分钟，如果在5分钟内，焊接的时间为2分钟，则负载持续率为60%"
+		}, {
+			"label": "B",
+			"content": "一般来说，弧焊机输出的电流主要是受弧焊机的发热情况所限制"
+		}, {
+			"label": "C",
+			"content": "发热不仅取决于焊接电流的大小，同时也取决于负荷的状态"
+		}, {
+			"label": "D",
+			"content": "选用过高额定值的弧焊机，使用时设备更趋安全"
+		}],
+		"answer": ["A"],
+		"content": "下列有关弧焊机的主要技术指标的说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "弧焊发电机"
+		}, {
+			"label": "B",
+			"content": "硅整流焊机"
+		}, {
+			"label": "C",
+			"content": "交流弧焊机"
+		}, {
+			"label": "D",
+			"content": "逆变焊机"
+		}],
+		"answer": ["C"],
+		"content": "具有构造简单、维修方便、节省电能与材料、焊接时不产生磁偏差等优点的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "空载电压过低"
+		}, {
+			"label": "B",
+			"content": "电流调节失灵"
+		}, {
+			"label": "C",
+			"content": "电流不稳定"
+		}, {
+			"label": "D",
+			"content": "风扇电机不转"
+		}],
+		"answer": ["D"],
+		"content": "弧焊整流器开关接触不良会造成（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "空载损耗极小，一般只有几瓦"
+		}, {
+			"label": "B",
+			"content": "整机重量仅为传统式弧焊电源的1\/5到1\/10左右"
+		}, {
+			"label": "C",
+			"content": "调节速度快，所有焊接参数均可无级调速"
+		}, {
+			"label": "D",
+			"content": "由于金属飞溅少，因而有利于提高机器人焊接的生产率"
+		}],
+		"answer": ["A"],
+		"content": "逆变弧焊电源（又成逆变焊机）被称为第四代弧焊电源，它是利用逆变技术研制而成的一种具有发展前景的新型和焊电源，下列有关逆变焊机说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "传导电流"
+		}, {
+			"label": "B",
+			"content": "输送氩气"
+		}, {
+			"label": "C",
+			"content": "夹持钨极"
+		}, {
+			"label": "D",
+			"content": "导丝"
+		}],
+		"answer": ["D"],
+		"content": "下列不属于氩弧焊枪的作用的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "低压干燥器"
+		}, {
+			"label": "B",
+			"content": "减压器"
+		}, {
+			"label": "C",
+			"content": "流量计"
+		}, {
+			"label": "D",
+			"content": "预热器"
+		}],
+		"answer": ["D"],
+		"content": "右图为半自动二氧化碳气体保护焊设备图，图中5所指的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊枪较轻，送丝距离长，结构较复杂"
+		}, {
+			"label": "B",
+			"content": "送丝距离长，但两动力需同步，结构较复杂"
+		}, {
+			"label": "C",
+			"content": "焊枪较重，劳动强度较高，仅适用于细丝焊"
+		}, {
+			"label": "D",
+			"content": "焊枪结构简单，操作方便，但送丝距离较短"
+		}],
+		"answer": ["D"],
+		"content": "CO2气体保护焊通常采用等速送丝系统，目前生产中应用最广的是推丝式，其使用特地是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "单相工频焊机"
+		}, {
+			"label": "B",
+			"content": "二次整流焊机"
+		}, {
+			"label": "C",
+			"content": "三相低频焊机逆变式焊机"
+		}, {
+			"label": "D",
+			"content": "逆变式焊机"
+		}],
+		"answer": ["A"],
+		"content": "电阻焊依据不同的用途和要求，品种很多，（ ）是使用最广泛的焊机"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".1类为高压导率，中等硬度的铜及铜合金"
+		}, {
+			"label": "B",
+			"content": ".2类为具有较高电导率，硬度高于1类的合金"
+		}, {
+			"label": "C",
+			"content": ".3类为电导率低于1类和2类，硬度高于2类的合金"
+		}, {
+			"label": "D",
+			"content": ".4类为导电、导热性相对降低，强度、硬度高的锆铌铜混合烧结材料"
+		}],
+		"answer": ["D"],
+		"content": "对电极材料的要求是导电性能好、硬度较强，不易磨损等，下列有关四类电极材料说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊过程中经常清理和修错电锉可以提高电极使用寿命"
+		}, {
+			"label": "B",
+			"content": "平面电极通过用砂布修整工作表面"
+		}, {
+			"label": "C",
+			"content": "球面电极通常用砂纸包住15~20mm的硬橡皮，对工作表面进行修整"
+		}, {
+			"label": "D",
+			"content": "平面电极、球面电极均用手锉修整工作表面"
+		}],
+		"answer": ["D"],
+		"content": "下列有关电极的清理和修整的说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "测量各个带电部位对机身的绝缘电阻是否符合要求"
+		}, {
+			"label": "B",
+			"content": "检查控制设备各个按钮与开关操作是否正常"
+		}, {
+			"label": "C",
+			"content": "进行不通焊接电流下的机械动作运行"
+		}, {
+			"label": "D",
+			"content": "启动焊机，检查工作程序和加压过程"
+		}],
+		"answer": ["A"],
+		"content": "电阻焊机设备的调试要求中，（ ）是通电前的检查工作内容"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "乙炔自爆，通常指乙炔气体并没有和其他气体混合而自行爆炸"
+		}, {
+			"label": "B",
+			"content": "聚合过程是放热反应，乙炔气温越高，其聚合速度越大D"
+		}, {
+			"label": "C",
+			"content": "当压力为147kpa表压而温度超过580℃时，乙炔就产生爆炸分解压力越高，聚合作用能够转化为乙炔爆炸分解所必需的温度越高"
+		}, {
+			"label": "D",
+			"content": "C当压力为147kpa表压而温度超过580℃时，乙炔就产生爆炸分解压力越高，聚合作用能够转化为乙炔爆炸分解所必需的温度越高"
+		}],
+		"answer": ["D"],
+		"content": "下列有关纯乙炔的自爆的说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "白帆布工作服"
+		}, {
+			"label": "B",
+			"content": "黄帆布工作服"
+		}, {
+			"label": "C",
+			"content": "黑帆布工作服"
+		}, {
+			"label": "D",
+			"content": "帆布工作服"
+		}],
+		"answer": ["A"],
+		"content": "为防止电焊工被弧光和飞溅物灼伤身体及防止触电，焊接时应穿戴（ ）手套、工作帽、脚盖、绝缘鞋等，另外，在清除焊渣时还应戴平光眼镜"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "甲烷"
+		}, {
+			"label": "B",
+			"content": "乙烷"
+		}, {
+			"label": "C",
+			"content": "丙烷"
+		}, {
+			"label": "D",
+			"content": "丁烷"
+		}],
+		"answer": ["A"],
+		"content": "天然气是无毒无味的气体，主要成分是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "瓶阀"
+		}, {
+			"label": "B",
+			"content": "瓶帽"
+		}, {
+			"label": "C",
+			"content": "瓶箍"
+		}, {
+			"label": "D",
+			"content": "防震圈"
+		}],
+		"answer": ["C"],
+		"content": "右图为氧气瓶的构造图，图中3是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "公称工作压力"
+		}, {
+			"label": "B",
+			"content": "水压试验压力"
+		}, {
+			"label": "C",
+			"content": "瓶体设计壁厚"
+		}, {
+			"label": "D",
+			"content": "实际重量"
+		}],
+		"answer": ["B"],
+		"content": "下图为氧气瓶钢印标记的顺序和位置图，图中3标记的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "检验时间至少每三年进行一次"
+		}, {
+			"label": "B",
+			"content": "检验项目包括外部检查，壁厚测定和化学成分试验等"
+		}, {
+			"label": "C",
+			"content": "检验合格时，标明检验单位代号，检验日期和下次检验日期"
+		}, {
+			"label": "D",
+			"content": "检验不合格时，标明检验单位代号和报废标记"
+		}],
+		"answer": ["B"],
+		"content": "下列有关乙炔瓶定期技术检验的说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "调换垫圈"
+		}, {
+			"label": "B",
+			"content": "调换减压活门"
+		}, {
+			"label": "C",
+			"content": "去除垃圾和调换密封垫料"
+		}, {
+			"label": "D",
+			"content": "加大瓶阀开启程度"
+		}],
+		"answer": ["C"],
+		"content": "减压器由于使用不当或其他因素会产生各种故障，减压器使用时，遇到压力下降过大的消除方法是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".H是指焊炬"
+		}, {
+			"label": "B",
+			"content": ".01是指换管式"
+		}, {
+			"label": "C",
+			"content": ".12是指可焊接的最大厚度"
+		}, {
+			"label": "D",
+			"content": ".适用于乙炔的压力为0.001~0.1MPa"
+		}],
+		"answer": ["B"],
+		"content": "射吸式焊炬的型号为H01-12，则下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "变形、漏气和磨损（包括烧损）"
+		}, {
+			"label": "B",
+			"content": "堵塞、漏气和使用不当"
+		}, {
+			"label": "C",
+			"content": "堵塞、漏气和磨损（包括烧损）"
+		}, {
+			"label": "D",
+			"content": "变形、漏气和使用不当"
+		}],
+		"answer": ["C"],
+		"content": "焊割炬的故障主要是由于（ ）三个基本原因造成的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".G是指割炬"
+		}, {
+			"label": "B",
+			"content": ".为等压式割炬"
+		}, {
+			"label": "C",
+			"content": ".300是指可切割低碳钢的最大厚度"
+		}, {
+			"label": "D",
+			"content": ".可换割嘴的个数为4个"
+		}],
+		"answer": ["B"],
+		"content": "割炬的型号为G01-300，则下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "切割氧气阀"
+		}, {
+			"label": "B",
+			"content": "乙炔调节阀"
+		}, {
+			"label": "C",
+			"content": "预热氧调节阀"
+		}, {
+			"label": "D",
+			"content": "混合气体调节阀"
+		}],
+		"answer": ["B"],
+		"content": "右图是射吸式焊炬的构造图，图中5所指的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "氧气胶管为红色，允许工作压力为1.5MPa"
+		}, {
+			"label": "B",
+			"content": "乙炔胶管为红色，允许工作压力为0.5MPa"
+		}, {
+			"label": "C",
+			"content": "通常，氧气管的内径为8mm，乙炔管的内径为10mm"
+		}, {
+			"label": "D",
+			"content": "焊割炬用胶管禁止接触油污及漏气，并且严禁互换使用"
+		}],
+		"answer": ["B"],
+		"content": "氧气瓶和乙炔瓶中的气体须用胶管输送到焊炬和割炬中，下列有关胶管的说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".1次"
+		}, {
+			"label": "B",
+			"content": ".2次"
+		}, {
+			"label": "C",
+			"content": ".3次"
+		}, {
+			"label": "D",
+			"content": ".4次"
+		}],
+		"answer": ["B"],
+		"content": "焊条重复烘干次数不宜超过（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "较高"
+		}, {
+			"label": "B",
+			"content": "较低"
+		}, {
+			"label": "C",
+			"content": "相似"
+		}, {
+			"label": "D",
+			"content": "无要求"
+		}],
+		"answer": ["B"],
+		"content": "碳素钢与低合金高强度钢采用埋弧焊接时，一般可选用强度等级（ ），抗裂性能较好的焊丝"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "前者高"
+		}, {
+			"label": "B",
+			"content": "后者高"
+		}, {
+			"label": "C",
+			"content": "一样"
+		}, {
+			"label": "D",
+			"content": "不确定"
+		}],
+		"answer": ["A"],
+		"content": "碱性焊条的发烟量与酸性焊条的发言量相比（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "直径较小的焊条"
+		}, {
+			"label": "B",
+			"content": "直径较大的焊条"
+		}, {
+			"label": "C",
+			"content": "酸性焊条"
+		}, {
+			"label": "D",
+			"content": "碱性焊条"
+		}],
+		"answer": ["B"],
+		"content": "焊接厚度较大的焊件，应选用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "直径较小的焊条"
+		}, {
+			"label": "B",
+			"content": "直径较大的焊条"
+		}, {
+			"label": "C",
+			"content": "酸性焊条"
+		}, {
+			"label": "D",
+			"content": "碱性焊条"
+		}],
+		"answer": ["A"],
+		"content": "在进行多层焊时，第一层焊道应采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "从两端向中间"
+		}, {
+			"label": "B",
+			"content": "从一端向另一端"
+		}, {
+			"label": "C",
+			"content": "从中间向两边"
+		}, {
+			"label": "D",
+			"content": "无顺序要求"
+		}],
+		"answer": ["A"],
+		"content": "气焊前，应对焊件进行定为焊，较厚板的定位焊（ ）进行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "起焊点处"
+		}, {
+			"label": "B",
+			"content": "起焊点后面15~20mm处"
+		}, {
+			"label": "C",
+			"content": "起焊点前面15~20mm处"
+		}, {
+			"label": "D",
+			"content": "起焊点前面或后面15~20mm处"
+		}],
+		"answer": ["C"],
+		"content": "施焊开始引弧或施焊中因换焊条厚的重新引弧，均应在（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "允许"
+		}, {
+			"label": "B",
+			"content": "不允许"
+		}, {
+			"label": "C",
+			"content": "加铁板后"
+		}, {
+			"label": "D",
+			"content": "加焊丝后"
+		}],
+		"answer": ["B"],
+		"content": "用堆焊方法修补重要工件时，（ ）在焊件上引弧"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".3~5mm"
+		}, {
+			"label": "B",
+			"content": ".5~10mm"
+		}, {
+			"label": "C",
+			"content": ".12~20mm"
+		}, {
+			"label": "D",
+			"content": ".20~30mm"
+		}],
+		"answer": ["B"],
+		"content": "采用钨极氩弧焊时，喷嘴至焊件的距离通常以（ ）为宜"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "黑色"
+		}, {
+			"label": "B",
+			"content": "红灰色"
+		}, {
+			"label": "C",
+			"content": "蓝色"
+		}, {
+			"label": "D",
+			"content": "金黄色"
+		}],
+		"answer": ["D"],
+		"content": "观察不锈钢焊缝氩气保护效果最好的颜色是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "较短时间内通以较大的焊接电流"
+		}, {
+			"label": "B",
+			"content": "较长时间内通以较小的焊接电流"
+		}, {
+			"label": "C",
+			"content": "较短时间内通以较小的焊接电流"
+		}, {
+			"label": "D",
+			"content": "较长时间内通以较大的焊接电流"
+		}],
+		"answer": ["A"],
+		"content": "电阻电焊中的硬参数是指（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".1小时"
+		}, {
+			"label": "B",
+			"content": ".2小时"
+		}, {
+			"label": "C",
+			"content": ".3小时"
+		}, {
+			"label": "D",
+			"content": ".4小时"
+		}],
+		"answer": ["B"],
+		"content": "电渣焊焊剂使用前必须在250℃的温度下烘烤（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "从两端向中间"
+		}, {
+			"label": "B",
+			"content": "从一端向另一端"
+		}, {
+			"label": "C",
+			"content": "从中间向两边"
+		}, {
+			"label": "D",
+			"content": "无顺序要求"
+		}],
+		"answer": ["C"],
+		"content": "气焊前，应对焊件进行定为焊，薄板的定位焊（ ）进行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "预热火焰能率要大"
+		}, {
+			"label": "B",
+			"content": "预热火焰能率要小"
+		}, {
+			"label": "C",
+			"content": "割嘴与割件两侧的夹角成90度"
+		}, {
+			"label": "D",
+			"content": "割嘴与割件两侧的夹角不成90度"
+		}],
+		"answer": ["C"],
+		"content": "为了提高气割质量，应（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".0~2mm"
+		}, {
+			"label": "B",
+			"content": ".1~3mm"
+		}, {
+			"label": "C",
+			"content": ".3~5mm"
+		}, {
+			"label": "D",
+			"content": ".5~10mm"
+		}],
+		"answer": ["C"],
+		"content": "割嘴离割件表面的距离一般为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "适用于现浇混泥土结构中竖向钢筋的连接"
+		}, {
+			"label": "B",
+			"content": "在雨季应慎用"
+		}, {
+			"label": "C",
+			"content": "钢筋一经夹紧不得晃动"
+		}, {
+			"label": "D",
+			"content": "焊接时对电流电压要求不高"
+		}],
+		"answer": ["D"],
+		"content": "关于钢筋电渣压力焊，下列说法错误的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊缝根部背面或焊缝背面"
+		}, {
+			"label": "B",
+			"content": "焊缝根部背面或焊缝表面"
+		}, {
+			"label": "C",
+			"content": "焊缝根部表面或焊缝背面"
+		}, {
+			"label": "D",
+			"content": "焊缝根部表面或焊缝表面"
+		}],
+		"answer": ["B"],
+		"content": "焊瘤是指焊接过程中，在（ ），出现熔化金属流淌到焊缝之外未熔化的母材上所形成的金属瘤"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "液化裂纹"
+		}, {
+			"label": "B",
+			"content": "焊接裂纹"
+		}, {
+			"label": "C",
+			"content": "结晶裂纹"
+		}, {
+			"label": "D",
+			"content": "再热裂纹"
+		}],
+		"answer": ["B"],
+		"content": "在焊接应力及其他致脆因素的共同作用下，焊接过程中或焊接后，焊接接头中局部区域（焊缝或焊接热影响区）的金属原子结合力遭到破坏而出现的新界面所产生的缝隙，称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".再热裂纹"
+		}, {
+			"label": "B",
+			"content": ".SR裂纹"
+		}, {
+			"label": "C",
+			"content": ".冷裂纹"
+		}, {
+			"label": "D",
+			"content": ".液化裂纹"
+		}],
+		"answer": ["C"],
+		"content": "焊接接头在焊后冷却到较低温度下（200℃左右）所产生的焊接裂纹，称为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "拉力"
+		}, {
+			"label": "B",
+			"content": "拉伸应力"
+		}, {
+			"label": "C",
+			"content": "压力"
+		}, {
+			"label": "D",
+			"content": "压缩应力"
+		}],
+		"answer": ["B"],
+		"content": "层状撕裂多产生在T形接头盒角接接头中，受垂直于钢板表面方向（ ）的作用而产生"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "结晶裂纹"
+		}, {
+			"label": "B",
+			"content": "再热裂纹"
+		}, {
+			"label": "C",
+			"content": "冷裂纹"
+		}, {
+			"label": "D",
+			"content": "层状撕裂"
+		}],
+		"answer": ["D"],
+		"content": "一种焊接时沿钢板扎制方向平行于表面呈阶梯状“平台”开裂的冷裂纹是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "压力试验"
+		}, {
+			"label": "B",
+			"content": "力学性能试验"
+		}, {
+			"label": "C",
+			"content": "金相试验"
+		}, {
+			"label": "D",
+			"content": "化学分析试验"
+		}],
+		"answer": ["A"],
+		"content": "以下哪种焊接检验方法属于非破坏性检验（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "金相分析"
+		}, {
+			"label": "B",
+			"content": "化学分析试验"
+		}, {
+			"label": "C",
+			"content": "拉伸试验"
+		}, {
+			"label": "D",
+			"content": "力学性能试验"
+		}],
+		"answer": ["D"],
+		"content": "测定材料在一定环境条件下受力或能量作用时所表现出的特性的试验是（ ），它又称机械性能试验"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "弯曲试验"
+		}, {
+			"label": "B",
+			"content": "拉伸试验"
+		}, {
+			"label": "C",
+			"content": "硬度试验"
+		}, {
+			"label": "D",
+			"content": "冲击试验"
+		}],
+		"answer": ["A"],
+		"content": "按规定尺度弯心，将试样弯曲至规定程度，以此检验金属承受塑性变形的能力，并显示其冶金或焊接缺陷的试验是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "抗弯强度"
+		}, {
+			"label": "B",
+			"content": "抗拉强度"
+		}, {
+			"label": "C",
+			"content": "抗压强度"
+		}, {
+			"label": "D",
+			"content": "抗折强度"
+		}],
+		"answer": ["A"],
+		"content": "弯曲试验主要用于测定材料的（ ）并能反映塑性指标的挠度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊接加工"
+		}, {
+			"label": "B",
+			"content": "工艺因素"
+		}, {
+			"label": "C",
+			"content": "使用性能"
+		}, {
+			"label": "D",
+			"content": "化学成分"
+		}],
+		"answer": ["C"],
+		"content": "金属的焊接性是指金属材料对（ ）的适应性"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "整体变形"
+		}, {
+			"label": "B",
+			"content": "局部变形"
+		}, {
+			"label": "C",
+			"content": "残余应力和残余变形"
+		}, {
+			"label": "D",
+			"content": "残余变形"
+		}],
+		"answer": ["C"],
+		"content": "焊接热过程是一个不均匀加热的过程，以致在焊接过程中出现应力和变形，焊后便导致焊接结构产生（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "目视检验"
+		}, {
+			"label": "B",
+			"content": "致密性试验"
+		}, {
+			"label": "C",
+			"content": "金相试验"
+		}, {
+			"label": "D",
+			"content": "压力试验"
+		}],
+		"answer": ["C"],
+		"content": "以下常见焊接检验方法中属于破坏性检验的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "接触带电体"
+		}, {
+			"label": "B",
+			"content": "三硝基甲苯中毒"
+		}, {
+			"label": "C",
+			"content": "高温作业"
+		}, {
+			"label": "D",
+			"content": "产生噪声"
+		}],
+		"answer": ["B"],
+		"content": "下列有害因素，不属于焊接切割作业的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "高处坠落"
+		}, {
+			"label": "B",
+			"content": "触电"
+		}, {
+			"label": "C",
+			"content": "中暑"
+		}, {
+			"label": "D",
+			"content": "急性中毒"
+		}],
+		"answer": ["D"],
+		"content": "在检修补焊装有毒物质的容器，管道或系统时，易发生（ ）事故"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "铅中毒"
+		}, {
+			"label": "B",
+			"content": "锰中毒"
+		}, {
+			"label": "C",
+			"content": "苯中毒"
+		}, {
+			"label": "D",
+			"content": "金属烟热病"
+		}],
+		"answer": ["D"],
+		"content": "焊割作业时，大量吸入新鲜细粒的金属蒸汽可能引发（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".1000~3000K"
+		}, {
+			"label": "B",
+			"content": ".3000~6000K"
+		}, {
+			"label": "C",
+			"content": ".6000~10000K"
+		}, {
+			"label": "D",
+			"content": ".10000~20000K"
+		}],
+		"answer": ["C"],
+		"content": "二氧化碳气体保护焊的电弧温度高达（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "防护面罩"
+		}, {
+			"label": "B",
+			"content": "安全帽"
+		}, {
+			"label": "C",
+			"content": "护目镜"
+		}, {
+			"label": "D",
+			"content": "防护服"
+		}],
+		"answer": ["B"],
+		"content": "焊工在高层交叉作业现场，除常用的焊接防护用具外，还应佩戴（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "合成纤维织物"
+		}, {
+			"label": "B",
+			"content": "棉帆布"
+		}, {
+			"label": "C",
+			"content": "粗毛呢"
+		}, {
+			"label": "D",
+			"content": "皮革"
+		}],
+		"answer": ["A"],
+		"content": "焊工用工作服，一般不能用（ ）制作"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "防尘口罩"
+		}, {
+			"label": "B",
+			"content": "防毒面具"
+		}, {
+			"label": "C",
+			"content": "护目镜"
+		}, {
+			"label": "D",
+			"content": "防渣眼镜"
+		}],
+		"answer": ["C"],
+		"content": "焊工在气焊或者气割中必须佩戴（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊工尘肺"
+		}, {
+			"label": "B",
+			"content": "矽肺"
+		}, {
+			"label": "C",
+			"content": "锰中毒"
+		}, {
+			"label": "D",
+			"content": "苯中毒"
+		}],
+		"answer": ["A"],
+		"content": "焊工长期吸入超过规定浓度的电焊烟尘，可引起的（ ）职业病"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".1"
+		}, {
+			"label": "B",
+			"content": ".4"
+		}, {
+			"label": "C",
+			"content": ".7"
+		}, {
+			"label": "D",
+			"content": ".10"
+		}],
+		"answer": ["D"],
+		"content": "在TN-S接零保护系统中重复地应与保护零线连接，每处重复接地电阻值不应大于（ ）Ω"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "绝缘"
+		}, {
+			"label": "B",
+			"content": "自动断电"
+		}, {
+			"label": "C",
+			"content": "防护"
+		}, {
+			"label": "D",
+			"content": "保护"
+		}],
+		"answer": ["B"],
+		"content": "在弧焊机上安装（ ）装置，使弧焊机引弧时电源开关自动闭合，停止焊接时电源开关自动断电，以保证焊工在更换焊条时避免触电"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正面"
+		}, {
+			"label": "B",
+			"content": "背面"
+		}, {
+			"label": "C",
+			"content": "侧面"
+		}, {
+			"label": "D",
+			"content": "都可以"
+		}],
+		"answer": ["C"],
+		"content": "接通或切断电源开关时，必须站在电源开关的（ ），防止意外烧伤"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "切断电源"
+		}, {
+			"label": "B",
+			"content": "抢救人员"
+		}, {
+			"label": "C",
+			"content": "扑火"
+		}, {
+			"label": "D",
+			"content": "寻找水源"
+		}],
+		"answer": ["A"],
+		"content": "因电气走火引起发火灾时，必须首先（ ），以免在抢救中发生触电伤亡事故"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".10"
+		}, {
+			"label": "B",
+			"content": ".20"
+		}, {
+			"label": "C",
+			"content": ".30"
+		}, {
+			"label": "D",
+			"content": ".50"
+		}],
+		"answer": ["C"],
+		"content": "焊、割作业点与易燃易爆物品的距离不得少于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "申报制度"
+		}, {
+			"label": "B",
+			"content": "审批制度"
+		}, {
+			"label": "C",
+			"content": "审查制度"
+		}, {
+			"label": "D",
+			"content": "备案制度"
+		}],
+		"answer": ["B"],
+		"content": "凡在禁火区内动火或进行易产生火花的焊接、气割等工作，均必须执行（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".60"
+		}, {
+			"label": "B",
+			"content": ".80"
+		}, {
+			"label": "C",
+			"content": ".100"
+		}, {
+			"label": "D",
+			"content": ".120"
+		}],
+		"answer": ["B"],
+		"content": "胸外按压要以均匀的频率度进行，每分钟（ ）次左右，每次按压和放松的时间相等"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "手弧焊"
+		}, {
+			"label": "B",
+			"content": "氩弧焊"
+		}, {
+			"label": "C",
+			"content": "埋弧自动焊"
+		}, {
+			"label": "D",
+			"content": "电渣焊"
+		}],
+		"answer": ["C"],
+		"content": "电弧在焊剂层下燃烧并且利用机械装置自动控制送丝和移动电话的焊接方法是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电阻焊"
+		}, {
+			"label": "B",
+			"content": "氩弧焊"
+		}, {
+			"label": "C",
+			"content": "埋弧自动焊"
+		}, {
+			"label": "D",
+			"content": "电渣焊"
+		}],
+		"answer": ["A"],
+		"content": "利用电流通过焊件时产生的电阻热源加热焊件进行焊接的接触焊的一种焊接方法是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".2m2"
+		}, {
+			"label": "B",
+			"content": ".3m2"
+		}, {
+			"label": "C",
+			"content": ".4m2"
+		}, {
+			"label": "D",
+			"content": ".5m2"
+		}],
+		"answer": ["C"],
+		"content": "每个焊工作业面积不应小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".1m"
+		}, {
+			"label": "B",
+			"content": ".2m"
+		}, {
+			"label": "C",
+			"content": ".3m"
+		}, {
+			"label": "D",
+			"content": ".4m"
+		}],
+		"answer": ["C"],
+		"content": "登高作业时在接近10KV高压线或裸导线排时，无措施时水平，垂直距离不得小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".五级"
+		}, {
+			"label": "B",
+			"content": ".六级"
+		}, {
+			"label": "C",
+			"content": ".七级"
+		}, {
+			"label": "D",
+			"content": ".八级"
+		}],
+		"answer": ["B"],
+		"content": "（ ）以上大风、雨、雪及雾等气候条件下，无措施时应禁止登高焊割作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".5m"
+		}, {
+			"label": "B",
+			"content": ".10m"
+		}, {
+			"label": "C",
+			"content": ".15m"
+		}, {
+			"label": "D",
+			"content": ".20m"
+		}],
+		"answer": ["A"],
+		"content": "当氧气瓶与可燃气瓶并排放置时，氧气瓶与可燃气瓶必须相距（ ）以上"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".0-50V"
+		}, {
+			"label": "B",
+			"content": ".60-90V"
+		}, {
+			"label": "C",
+			"content": ".100-150V"
+		}, {
+			"label": "D",
+			"content": ".150-200V"
+		}],
+		"answer": ["B"],
+		"content": "焊条电弧焊的弧焊机的空载电压一般在（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".1mm"
+		}, {
+			"label": "B",
+			"content": ".3mm"
+		}, {
+			"label": "C",
+			"content": ".5mm"
+		}, {
+			"label": "D",
+			"content": ".7mm"
+		}],
+		"answer": ["C"],
+		"content": "等离子弧的工作人员脚下要垫（ ）以上的绝缘胶板"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".1Ω"
+		}, {
+			"label": "B",
+			"content": ".5Ω"
+		}, {
+			"label": "C",
+			"content": ".10Ω"
+		}, {
+			"label": "D",
+			"content": ".4Ω"
+		}],
+		"answer": ["D"],
+		"content": "焊割设备保护接地的对地电阻应小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "保护对象"
+		}, {
+			"label": "B",
+			"content": "保护介质"
+		}, {
+			"label": "C",
+			"content": "电离介质"
+		}, {
+			"label": "D",
+			"content": "工作介质"
+		}],
+		"answer": ["B"],
+		"content": "CO2气体保护焊是采用CO2气体作为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".3m"
+		}, {
+			"label": "B",
+			"content": ".4m"
+		}, {
+			"label": "C",
+			"content": ".5m"
+		}, {
+			"label": "D",
+			"content": ".6m"
+		}],
+		"answer": ["A"],
+		"content": "弧焊机的电源线长度不超过（ ），如确需使用较长的电源线时应采取沿墙架空的方法"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "越小"
+		}, {
+			"label": "B",
+			"content": "越大"
+		}, {
+			"label": "C",
+			"content": "无关"
+		}, {
+			"label": "D",
+			"content": "无规律"
+		}],
+		"answer": ["A"],
+		"content": "可燃物质的自燃点越高，发生着火爆炸的危险性（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "切断电源"
+		}, {
+			"label": "B",
+			"content": "拖走焊机"
+		}, {
+			"label": "C",
+			"content": "用干砂抛洒"
+		}, {
+			"label": "D",
+			"content": "用水冲"
+		}],
+		"answer": ["A"],
+		"content": "电焊机着火时首先要做的事是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "消除氧化剂"
+		}, {
+			"label": "B",
+			"content": "消除可燃物"
+		}, {
+			"label": "C",
+			"content": "消除着火源"
+		}, {
+			"label": "D",
+			"content": "降温"
+		}],
+		"answer": ["B"],
+		"content": "防火技术采取通风良好的措施是为了（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "泡沫灭火器"
+		}, {
+			"label": "B",
+			"content": "干粉灭火器"
+		}, {
+			"label": "C",
+			"content": "二氧化碳灭火器"
+		}, {
+			"label": "D",
+			"content": ".干砂"
+		}],
+		"answer": ["A"],
+		"content": "遇水燃烧物质的火灾不得采用（ ）进行扑救"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".40℃"
+		}, {
+			"label": "B",
+			"content": ".45℃"
+		}, {
+			"label": "C",
+			"content": ".50℃"
+		}, {
+			"label": "D",
+			"content": ".55℃"
+		}],
+		"answer": ["A"],
+		"content": "乙炔瓶在使用、运输和储存时，环境温度一般不超过（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "二氧化碳"
+		}, {
+			"label": "B",
+			"content": "一氧化碳"
+		}, {
+			"label": "C",
+			"content": "硫化氢"
+		}, {
+			"label": "D",
+			"content": "氯气"
+		}],
+		"answer": ["B"],
+		"content": "在火灾中，由于中毒造成人员死亡的罪魁祸首是（ ），火灾中有一半的人员死亡是由它造成的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": ".MFT20"
+		}, {
+			"label": "B",
+			"content": ".MFT30"
+		}, {
+			"label": "C",
+			"content": ".MFT70"
+		}, {
+			"label": "D",
+			"content": ".MFT100"
+		}],
+		"answer": ["D"],
+		"content": "MFT推车式干粉灭火器中有效喷射时间最长的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "可燃物"
+		}, {
+			"label": "B",
+			"content": "化合物"
+		}, {
+			"label": "C",
+			"content": "助燃物"
+		}, {
+			"label": "D",
+			"content": "着火源"
+		}],
+		"answer": ["A"],
+		"content": "焊割作业中的防火防爆措施主要是控制（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "水、二氧化碳"
+		}, {
+			"label": "B",
+			"content": "干粉、二氧化碳"
+		}, {
+			"label": "C",
+			"content": "干粉、干沙"
+		}, {
+			"label": "D",
+			"content": "泡沫、水"
+		}],
+		"answer": ["C"],
+		"content": "由电气、电石、乙炔气引起火灾，下列哪些灭火器材均可使用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊条随意放置"
+		}, {
+			"label": "B",
+			"content": "金属火星飞溅"
+		}, {
+			"label": "C",
+			"content": "可燃气体聚集"
+		}, {
+			"label": "D",
+			"content": "环境通风不畅"
+		}],
+		"answer": ["B"],
+		"content": "在焊接切割作业中，（ ）是引起火灾和爆炸的主要原因"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "灭火剂量"
+		}, {
+			"label": "B",
+			"content": "有效喷射时间"
+		}, {
+			"label": "C",
+			"content": "有效喷射距离"
+		}, {
+			"label": "D",
+			"content": "使用温度范围"
+		}],
+		"answer": ["A"],
+		"content": "MF5手提式干粉灭火器的数字“5”表示的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "切断电源"
+		}, {
+			"label": "B",
+			"content": "停止气焊"
+		}, {
+			"label": "C",
+			"content": "停止电焊"
+		}, {
+			"label": "D",
+			"content": "报告"
+		}],
+		"answer": ["A"],
+		"content": "电弧焊焊接时，一旦发生人员及设备事故，应立即（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "焊具"
+		}, {
+			"label": "B",
+			"content": "安全帽"
+		}, {
+			"label": "C",
+			"content": "头罩"
+		}, {
+			"label": "D",
+			"content": "工具"
+		}],
+		"answer": ["B"],
+		"content": "高空施焊时必须使用标准的防火安全带，戴好（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "支撑物"
+		}, {
+			"label": "B",
+			"content": "导线"
+		}, {
+			"label": "C",
+			"content": "连接件"
+		}, {
+			"label": "D",
+			"content": "绝缘体"
+		}],
+		"answer": ["B"],
+		"content": "电焊时禁止利用金属结构、管道、轨道和其他金属连接作（ ）用。"
+	}
+]

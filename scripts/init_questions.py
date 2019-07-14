@@ -16,8 +16,8 @@ Question_Type_DICT = {
 
 
 def import_questions_from_files(files=None):
-    mm_Exam.all().delete()
     mm_QuestionRecord.all().delete()
+    mm_Exam.all().delete()
     mm_Question.all().delete()
     for path in files:
         fname = os.path.basename(path).split('.')[0]

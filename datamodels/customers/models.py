@@ -100,12 +100,16 @@ class Customer(CommonInfo):
     
     def set_invite_code(self):
         while True:
+            if self.invite_code:
+                break
             try:
                 self.invite_code = mm_Customer.gen_code()
                 self.save()
                 break
             except:
                 continue
+        return self.invite_code
 
+        
 mm_Customer = Customer.objects
 

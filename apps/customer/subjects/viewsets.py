@@ -16,6 +16,7 @@ from apps.customer.subjects.serializers import CustomerSubjectTermSerializer, Cu
 from apps.customer.subjects.filters import CustomerSubjectTermFilter
 from apps.customer.questions.filters import CustomerQuestionFilter
 from datamodels.questions.models import mm_Question, mm_QuestionRecord
+from datamodels.invite.models import mm_InviteRecord
 from lib import pay
 
 pay_logger = logging.getLogger('pay')
@@ -76,6 +77,8 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
         id_card_front = s.validated_data.get('id_card_front')
         email = s.validated_data.get('email')
 
+        invite_code = request.query_params.get('invite_code')
+
         order_string = ''
         if pay_from == 'APP':
             order_string = mm_Application.create_alipay_order(
@@ -86,7 +89,9 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 id_number=id_number,
                 id_card_front=id_card_front,
                 id_card_back=id_card_back,
-                email=email)
+                email=email,
+                invite_code=invite_code,
+                )
         data = {
             'order_string': order_string
         }
@@ -109,6 +114,8 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
         id_card_back = s.validated_data.get('id_card_back')
         email = s.validated_data.get('email')
 
+        invite_code = request.query_params.get('invite_code')
+
         order_string = ''
         spbill_create_ip = request.META.get('HTTP_X_FORWARDED_FOR',
                                             request.META.get('REMOTE_ADDR', '')).split(',')[-1].strip()
@@ -122,7 +129,9 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 id_number=id_number,
                 id_card_front=id_card_front,
                 id_card_back=id_card_back,
-                email=email)
+                email=email,
+                invite_code=invite_code,
+                ) 
         data = {
             'order_string': order_string
         }
@@ -164,6 +173,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                     order.trade_no = data['trade_no']
                     order.pay_at = datetime.now()
                     order.save()
+                    mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code, action_type=mm_InviteRecord.Invite_Action_Buy)
 
             except:
                 pay_logger.error('Error: %s ' % traceback.format_exc())
@@ -193,4 +203,5 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
             order.trade_no = data['transaction_id']
             order.pay_at = datetime.now()
             order.save()
+            mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code, action_type=mm_InviteRecord.Invite_Action_Buy)
         return pay.wechatpay_serve.reply("OK", True)

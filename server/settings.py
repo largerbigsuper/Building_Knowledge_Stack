@@ -56,6 +56,7 @@ APPS = [
     'datamodels.sms',
     'datamodels.articles',
     'datamodels.feedback',
+    'datamodels.invite',
 ]
 
 INSTALLED_APPS += THIRD_APPS

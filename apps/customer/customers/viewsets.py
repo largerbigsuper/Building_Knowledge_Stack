@@ -15,6 +15,7 @@ from apps.customer.customers.serilizers import (CustomerProfileSerializer,
                                                  )
 from datamodels.customers.models import mm_Customer
 from datamodels.sms.models import mm_SMSCode
+from datamodels.invite.models import mm_InviteRecord
 from server import settings
 from lib.common import common_logout, customer_login
 from lib.qiniucloud import QiniuService
@@ -59,9 +60,11 @@ class CustomerViewSet(viewsets.ModelViewSet):
         serializer.is_valid(raise_exception=True)
         account = serializer.validated_data['account']
         password = serializer.validated_data['password']
+        invite_code = serializer.validated_data.pop('invite_code', None)
         code = serializer.validated_data['code']
         mm_SMSCode.is_effective(account, code)
         customer = mm_Customer.add(account=account, password=password)
+        mm_InviteRecord.add_record(customer_id=customer.id, invite_code=invite_code)
         return Response(data={'account': account})
 
     @action(detail=False, methods=['post'], serializer_class=LoginSerializer, authentication_classes=[])

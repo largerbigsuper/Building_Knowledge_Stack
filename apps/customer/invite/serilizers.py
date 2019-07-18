@@ -10,4 +10,4 @@ class MyInviteRecordSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = mm_InviteRecord.model
-        fields = ['id', 'invited', 'action_type', 'create_at']
+        fields = ['id', 'invited', 'action_type', 'rewards', 'create_at']

@@ -17,14 +17,19 @@ class InviteRecordManager(ModelManager):
         (Invite_Action_Buy, '购买科目'),
     )
 
-    def add_record(self, customer_id, invite_code=None, action_type=Invite_Action_Enroll):
+    def add_record(self, customer_id, invite_code=None, action_type=Invite_Action_Enroll, total_fee=None):
         if not invite_code:
             return
         inviter = mm_Customer.get(invite_code=invite_code)
+        if action_type == self.Invite_Action_Enroll:
+            rewards = 2.0
+        else:
+            rewards = total_fee * 0.1
         kwargs = {
             'inviter_id': inviter.id,
             'invited_id': customer_id,
-            'action_type': action_type
+            'action_type': action_type,
+            'rewards': rewards
         }
         InviteRecord(**kwargs).save()
 
@@ -41,6 +46,7 @@ class InviteRecord(models.Model):
     action_type = models.PositiveSmallIntegerField(choices=InviteRecordManager.Invite_Action_Choice,
                                                    default=InviteRecordManager.Invite_Action_Enroll,
                                                    verbose_name='类型')
+    rewards = models.FloatField(default=0, verbose_name='提成')
     create_at = models.DateTimeField(auto_now_add=True)
 
     objects = InviteRecordManager()

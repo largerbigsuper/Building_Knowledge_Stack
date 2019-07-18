@@ -91,7 +91,7 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 id_card_back=id_card_back,
                 email=email,
                 invite_code=invite_code,
-                )
+            )
         data = {
             'order_string': order_string
         }
@@ -131,7 +131,7 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 id_card_back=id_card_back,
                 email=email,
                 invite_code=invite_code,
-                ) 
+            )
         data = {
             'order_string': order_string
         }
@@ -173,7 +173,8 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                     order.trade_no = data['trade_no']
                     order.pay_at = datetime.now()
                     order.save()
-                    mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code, action_type=mm_InviteRecord.Invite_Action_Buy)
+                    mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
+                                               action_type=mm_InviteRecord.Invite_Action_Buy, total_fee=order.total_amount)
 
             except:
                 pay_logger.error('Error: %s ' % traceback.format_exc())
@@ -203,5 +204,6 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
             order.trade_no = data['transaction_id']
             order.pay_at = datetime.now()
             order.save()
-            mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code, action_type=mm_InviteRecord.Invite_Action_Buy)
+            mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
+                                       action_type=mm_InviteRecord.Invite_Action_Buy,  total_fee=order.total_amount)
         return pay.wechatpay_serve.reply("OK", True)

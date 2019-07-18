@@ -123,6 +123,14 @@ class CustomerViewSet(viewsets.ModelViewSet):
         data = {'token': token}
         return Response(data=data)
 
+    @action(detail=False, methods=['get'], permission_classes=[IsAuthenticated,])
+    def get_invite_code(self, request):
+        """获取七牛token
+        """
+        invite_code = request.user.customer.set_invite_code()
+        data = {'invite_code': invite_code}
+        return Response(data=data)
+
     @action(detail=False, methods=['post'], permission_classes=[IsAuthenticated,], serializer_class=PasswordSerializer)
     def reset_password(self, request):
         

@@ -6,7 +6,7 @@ from apps.customer.questions.viewsets import CustomerQuestionViewSet, CustomerQu
 from apps.customer.sms.viewsets import CustomerSMSViewSet
 from apps.customer.articles.viewsets import CustomerArticleViewSet, CustomerTagViewSet
 from apps.customer.feedback.viewsets import CustomerFeedbackViewSet
-from apps.customer.invite.viewsets import CustomerInviteRecordViewSet
+from apps.customer.invite.viewsets import CustomerInviteRecordViewSet, CustomerBlanceRecordViewSet, CustomerWithDrawRecordViewSet
 
 customer_router = routers.DefaultRouter()
 
@@ -22,3 +22,5 @@ customer_router.register('article', CustomerArticleViewSet, base_name='article')
 customer_router.register('application', CustomerApplicationViewSet, base_name='application')
 customer_router.register('feedback', CustomerFeedbackViewSet, base_name='feedback')
 customer_router.register('invite_record', CustomerInviteRecordViewSet, base_name='invite_record')
+customer_router.register('blance_record', CustomerBlanceRecordViewSet, base_name='blance_record')
+customer_router.register('withdraw_record', CustomerWithDrawRecordViewSet, base_name='withdraw_record')

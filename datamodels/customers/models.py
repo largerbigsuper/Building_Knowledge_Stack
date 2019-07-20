@@ -97,6 +97,9 @@ class Customer(CommonInfo):
 
     class Meta:
         db_table = DB_PREFIX + 'customers'
+
+    def __str__(self):
+        return self.account
     
     def set_invite_code(self):
         while True:

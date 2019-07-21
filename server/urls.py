@@ -9,6 +9,8 @@ from server import views
 
 urlpatterns = [
     path('', views.about_us),
+    path('register/', views.register),
+    path('protocol/', views.protocol),
     path('api-auth/', include('rest_framework.urls')),
     path('admin/', admin.site.urls),
     path('customer/', include(customer_router.urls)),

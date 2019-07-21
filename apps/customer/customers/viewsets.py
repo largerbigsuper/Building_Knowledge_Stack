@@ -131,7 +131,7 @@ class CustomerViewSet(viewsets.ModelViewSet):
         data = {'invite_code': invite_code}
         return Response(data=data)
 
-    @action(detail=False, methods=['post'], permission_classes=[IsAuthenticated,], serializer_class=PasswordSerializer)
+    @action(detail=False, methods=['post'], permission_classes=[], serializer_class=PasswordSerializer)
     def reset_password(self, request):
         
         serializer = self.serializer_class(data=request.data)

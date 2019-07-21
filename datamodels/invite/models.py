@@ -63,8 +63,8 @@ class CustomerBlanceManager(ModelManager):
     Action_Blance_In = 0
     Action_Blance_Out = 1
     Action_Blance_Choice = (
-        (Action_Blance_In, '增加'),
-        (Action_Blance_Out, '减少'),
+        (Action_Blance_In, '余额增加'),
+        (Action_Blance_Out, '余额减少'),
     )
 
     def add_record(self, customer_id, amount, action_type=Action_Blance_In):

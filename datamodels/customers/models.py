@@ -84,8 +84,8 @@ class CustomerManager(ModelManager):
         Arguments:
             cid {int} -- 用户id
         """
-        # customer = self.filter(account=account).first()
-        user = User.objects.filter(username=account).first()
+        customer = self.filter(account=account).first()
+        user = User.objects.filter(id=customer.user.id).first()
         if user:
             user.set_password(password)
             user.save()

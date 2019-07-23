@@ -4,10 +4,14 @@ import random
 from django.db import models
 from django.db.models import Count
 from django_extensions.db.fields.json import JSONField
+from rest_framework import status
+from rest_framework.response import Response
 
 from server.settings import DB_PREFIX
 from lib.modelmanager import ModelManager
 from lib.common import strtime
+from lib.exceptions import CommonException
+from datamodels.subjects.models import mm_SubjectConfig, mm_Subject
 
 
 class QuestionManager(ModelManager):
@@ -103,7 +107,16 @@ class ExamManager(ModelManager):
 
     def _gen_an_exam(self, customer_id, subject_id):
         """生成试卷题目"""
-        panduan_count = danxuan_count = duoxuan_count = 1
+        subject = mm_Subject.get(pk=subject_id)
+        p_subject = subject.parent
+        subject_config = mm_SubjectConfig.filter(subject=p_subject).first()
+        if not subject_config:
+            raise CommonException('科目未设置题目数量')
+
+        panduan_count = subject_config.panduan_count
+        danxuan_count = subject_config.danxuan_count
+        duoxuan_count = subject_config.duoxuan_count        
+
         panduan_list = mm_Question.get_random_questions(
             subject_id, self.Question_Type_Panduanti, panduan_count)
         danxuan_list = mm_Question.get_random_questions(
@@ -124,16 +137,30 @@ class ExamManager(ModelManager):
         else:
             _exam = self.get(pk=exam_id)
         questions = _exam.questions
-        result_list = mm_QuestionRecord.filter(question_id__in=questions, exam_id=_exam.id).values_list(
-            'is_correct').annotate(total=Count('id'))
-        result_dict = dict(result_list)
-        correct_count = result_dict.get(self.Answer_Result_Correct, 0)
-        wrong_count = result_dict.get(self.Answer_Result_Wrong, 0)
+        questions_list = mm_QuestionRecord.filter(question_id__in=questions, exam_id=_exam.id).select_related('question')
+        correct_count = 0
+        wrong_count = 0
+        total_score = 0
+        for q in questions_list:
+            if q.is_correct:
+                correct_count += 1
+                if q.question.qtype == mm_Question.Question_Type_Panduanti:
+                    total_score += 1
+                elif q.question.qtype == mm_Question.Question_Type_Danxuanti:
+                    total_score += 1
+                elif q.question.qtype == mm_Question.Question_Type_Duouanti:
+                    total_score += 2
+                else:
+                    pass
+            else:
+                wrong_count += 1
+
         blank_count = len(questions) - correct_count - wrong_count
         result = {
             'correct_cout': correct_count,
             'wrong_cout': wrong_count,
-            'blank_count': blank_count
+            'blank_count': blank_count,
+            'total_score': total_score
         }
         _exam.result = result
         _exam.save()

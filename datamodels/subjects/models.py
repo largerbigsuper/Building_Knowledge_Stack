@@ -195,6 +195,36 @@ class OrderManager(ModelManager):
     ORDER_STATU_DONE = 1
 
 
+class SubjectConfigManager(ModelManager):
+    
+    def get_subjects_show_index(self):
+        qs = self.filter(show_index=True).select_related('subject')
+        subjects = [obj.subject for obj in qs]
+        return subjects
+
+
+class SubjectConfig(models.Model):
+    """科目配置"""
+
+    subject = models.OneToOneField(Subject, on_delete=models.CASCADE, verbose_name='科目')
+    danxuan_count = models.PositiveSmallIntegerField(default=0, verbose_name='试卷单选题个数')
+    duoxuan_count = models.PositiveSmallIntegerField(default=0, verbose_name='试卷多选选题个数')
+    panduan_count = models.PositiveSmallIntegerField(default=0, verbose_name='试卷判断题个数')
+    show_index = models.BooleanField(default=True, verbose_name='首页显示')
+    order_number = models.PositiveIntegerField(default=0, verbose_name='排序值（越到越靠前）')
+    # terms = models.ManyToManyField(SubjectTerm, verbose_name='报名科目')
+
+    objects = SubjectConfigManager()
+
+    class Meta:
+        db_table = DB_PREFIX + 'subject_config'
+        ordering = ['-order_number', 'id']
+    
+    def __str__(self):
+        return self.subject.name
+
+
 mm_Subject = Subject.objects
 mm_SubjectTerm = SubjectTerm.objects
 mm_Application = Application.objects
+mm_SubjectConfig = SubjectConfig.objects

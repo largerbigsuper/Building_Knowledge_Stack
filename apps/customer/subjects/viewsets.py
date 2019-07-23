@@ -11,7 +11,7 @@ from django.db import transaction
 from apps.base.viewsets import CustomerReadOnlyModelViewSet, CustomerModelViewSet
 from apps.base.serializers.subjects import BaseSubjectSerializer
 from apps.base.filters.subjects import BaseSubjectFilter
-from datamodels.subjects.models import mm_Subject, mm_SubjectTerm, mm_Application
+from datamodels.subjects.models import mm_Subject, mm_SubjectTerm, mm_Application, mm_SubjectConfig
 from apps.customer.subjects.serializers import CustomerSubjectTermSerializer, CustomerApplicationSerializer, CustomerSubmitApplicationSerializer
 from apps.customer.subjects.filters import CustomerSubjectTermFilter
 from apps.customer.questions.filters import CustomerQuestionFilter
@@ -54,6 +54,15 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
             'questions': questions_status_list
         }
         return Response(data=ret)
+
+    @action(detail=False, methods=['get'])
+    def index_list(self, request):
+        subjects = mm_SubjectConfig.get_subjects_show_index()
+        serializer = self.serializer_class(subjects, many=True)
+        data = serializer.data
+        return Response(data=data)
+
+        
 
 
 class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):

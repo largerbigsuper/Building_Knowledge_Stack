@@ -159,7 +159,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
     def get_queryset(self):
         return mm_Application.filter(customer_id=self.request.session['cid'])
 
-    @action(detail=False, methods=['post'], authentication_classes=[])
+    @action(detail=False, methods=['post'], authentication_classes=[], permission_classes=[])
     @transaction.atomic()
     def alipay_notify(self, request):
         """支付宝回调"""
@@ -198,7 +198,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
         else:
             return Response('failed')
 
-    @action(detail=False, methods=['post'], authentication_classes=[])
+    @action(detail=False, methods=['post'], authentication_classes=[], permission_classes=[])
     @transaction.atomic()
     def wechatpay_notify(self, request):
         """微信支付回调"""

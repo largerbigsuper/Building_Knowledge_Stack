@@ -66,7 +66,7 @@ class AlipaySettings:
     APP_ID = '2019061765593239'
     APP_PRIVATE_KEY = os.path.join(_root_dir, 'config/alipay/test_app_private.txt')
     ALIPAY_PUBLIC_KEY = os.path.join(_root_dir, 'config/alipay/test_alipay_public_key_sha256.txt')
-    VIRTUAL_SERVICE_NOTIFY_URI = 'https://tm.lhxq.top/application/alipay_notify/'
+    VIRTUAL_SERVICE_NOTIFY_URI = 'https://tm.lhxq.top/customer/application/alipay_notify/'
 
 
 class WeChatPaySettings:
@@ -74,4 +74,4 @@ class WeChatPaySettings:
     WEIXIN_APP_SECRET = 'aa920bd33ef6b19c1f30cc424294204c'
     WEIXIN_MCH_ID = '1540995301'
     WEIXIN_MCH_KEY = 'tm012345678901234567890123456789'
-    WEIXIN_NOTIFY_URL = 'https://tm.lhxq.top/application/wechatpay_notify/'
+    WEIXIN_NOTIFY_URL = 'https://tm.lhxq.top/customer/application/wechatpay_notify/'

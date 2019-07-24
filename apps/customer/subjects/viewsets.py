@@ -59,7 +59,10 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
     def index_list(self, request):
         subjects = mm_SubjectConfig.get_subjects_show_index()
         serializer = self.serializer_class(subjects, many=True)
-        data = serializer.data
+        data = {
+            'results': serializer.data
+        }
+        
         return Response(data=data)
 
         

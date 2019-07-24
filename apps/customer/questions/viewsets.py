@@ -35,6 +35,23 @@ class CustomerQuestionViewSet(CustomerReadOnlyModelViewSet):
         context['marked_list'] = marked_list
         return context
 
+
+    def list(self, request, *args, **kwargs):
+        # list 返回增加 question_count 字段
+        queryset = self.filter_queryset(self.get_queryset())
+        question_count = queryset.count()
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            data = {
+                'question_count': question_count,
+                'results': serializer.data
+            }
+            return self.get_paginated_response(data)
+
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
+
     @action(detail=True, methods=['post'], serializer_class=CustomerQuestionMarkSerializer)
     def add_mark(self, request, pk=None):
         """添加收藏

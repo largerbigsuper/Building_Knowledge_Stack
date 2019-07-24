@@ -18,6 +18,8 @@ from apps.customer.questions.filters import CustomerQuestionFilter
 from datamodels.questions.models import mm_Question, mm_QuestionRecord
 from datamodels.invite.models import mm_InviteRecord
 from lib import pay
+from lib.ali_sms import smsserver
+
 
 pay_logger = logging.getLogger('pay')
 
@@ -185,6 +187,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                     order.trade_no = data['trade_no']
                     order.pay_at = datetime.now()
                     order.save()
+                    smsserver.send_order_sms(account=order.customer.account, name=order.subject_term.name)
                     mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
                                                action_type=mm_InviteRecord.Invite_Action_Buy, total_fee=order.total_amount)
 
@@ -216,6 +219,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
             order.trade_no = data['transaction_id']
             order.pay_at = datetime.now()
             order.save()
+            smsserver.send_order_sms(account=order.customer.account, name=order.subject_term.name)
             mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
                                        action_type=mm_InviteRecord.Invite_Action_Buy,  total_fee=order.total_amount)
         return pay.wechatpay_serve.reply("OK", True)

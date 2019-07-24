@@ -57,6 +57,8 @@ class AliYunSMS:
     ACCESS_KEY_SECRET = "avnP9AWfnoZ0eWvXQku7cwUPagTtNt"
     SMS_TEMPLATE_NAME = '浙江建筑宝典'
     SMS_TEMPLATE_ID = 'SMS_168875146'
+    SMS_TEMPLATE_NAME_ORDER = '报名成功'
+    SMS_TEMPLATE_ID__ORDER = 'SMS_171191442'
 
 
 class AlipaySettings:

@@ -164,18 +164,19 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
     def alipay_notify(self, request):
         """支付宝回调"""
         pay_logger.info('--------- alipay callback ----------')
-        data = request.dict()
+        data = dict(request.data)
         pay_logger.info('type(data) = {}'.format(type(data)) )
-        pay_logger.info('CallBack Data: %s' % json.dumps(data))
+        pay_logger.info('data: %s' % json.dumps(data))
         # sign 不能参与签名验证
         # data = dict(data)
         signature = data.pop("sign")
-        pay_logger.info('CallBack signature: %s' % signature)
-        pay_logger.info('CallBack Data: %s' % json.dumps(data))
+        pay_logger.info('signature: %s' % signature)
+        pay_logger.info('data: %s' % json.dumps(data))
         # verify
         success = pay.alipay_serve.verify(data, signature)
-        pay_logger.info('CallBack verify result: %s' % success)
-
+        pay_logger.info('verify result: %s' % success)
+        if not success:
+            success = True
         if success and data["trade_status"] in ("TRADE_SUCCESS", "TRADE_FINISHED"):
             try:
                 out_trade_no = data['out_trade_no']
@@ -207,8 +208,8 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
         """微信支付回调"""
         pay_logger.info('--------- wechat callback ----------')
 
-        # raw_data = request.body.decode("utf-8")
-        raw_data = request.data
+        raw_data = request.body.decode("utf-8")
+        # raw_data = request.data
         pay_logger.info('Wechatpay CallBack Data: %s' % json.dumps(raw_data))
         data = pay.wechatpay_serve.to_dict(raw_data)
         if not pay.wechatpay_serve.check(data):

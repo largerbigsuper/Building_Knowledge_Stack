@@ -157,14 +157,17 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
     serializer_class = CustomerApplicationSerializer
 
     def get_queryset(self):
-        return mm_Application.filter(customer_id=self.request.session['cid'])
+        return mm_Application.filter(customer_id=self.request.user.customer.id)
 
     @action(detail=False, methods=['post'], authentication_classes=[], permission_classes=[])
     @transaction.atomic()
     def alipay_notify(self, request):
         """支付宝回调"""
         pay_logger.info('--------- alipay callback ----------')
-        data = dict(request.data)
+        data = dict(request.data.dict())
+        pay_logger.info('data: %s' % data)
+        data_post = request.POST
+        pay_logger.info('data_post: %s' % data_post)
         pay_logger.info('type(data) = {}'.format(type(data)) )
         pay_logger.info('data: %s' % json.dumps(data))
         # sign 不能参与签名验证
@@ -190,7 +193,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                     order.pay_at = datetime.now()
                     order.save()
                     pay_logger.info('start send msg...')
-                    smsserver.send_order_sms(account=order.customer.account, name=order.subject_term.name)
+                    smsserver.send_order_sms(phone=order.customer.account, name=order.subject_term.name)
                     pay_logger.info('start add record...')
                     mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
                                                action_type=mm_InviteRecord.Invite_Action_Buy, total_fee=order.total_amount)
@@ -209,7 +212,6 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
         pay_logger.info('--------- wechat callback ----------')
 
         raw_data = request.body.decode("utf-8")
-        # raw_data = request.data
         pay_logger.info('Wechatpay CallBack Data: %s' % json.dumps(raw_data))
         data = pay.wechatpay_serve.to_dict(raw_data)
         if not pay.wechatpay_serve.check(data):
@@ -228,7 +230,9 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
             order.trade_no = data['transaction_id']
             order.pay_at = datetime.now()
             order.save()
-            smsserver.send_order_sms(account=order.customer.account, name=order.subject_term.name)
+            pay_logger.info('start send msg...')
+            smsserver.send_order_sms(phone=order.customer.account, name=order.subject_term.name)
+            pay_logger.info('start add record...')
             mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
                                        action_type=mm_InviteRecord.Invite_Action_Buy,  total_fee=order.total_amount)
         return pay.wechatpay_serve.reply("OK", True)

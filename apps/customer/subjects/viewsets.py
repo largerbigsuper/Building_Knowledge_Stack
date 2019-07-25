@@ -165,8 +165,10 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
         """支付宝回调"""
         pay_logger.info('--------- alipay callback ----------')
         data = request.data
+        pay_logger.info('type(data) = {}'.format(type(data)) )
         pay_logger.info('CallBack Data: %s' % json.dumps(data))
         # sign 不能参与签名验证
+        data = dict(data)
         signature = data.pop("sign")
         pay_logger.info('CallBack signature: %s' % signature)
         pay_logger.info('CallBack Data: %s' % json.dumps(data))
@@ -186,7 +188,9 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                     order.trade_no = data['trade_no']
                     order.pay_at = datetime.now()
                     order.save()
+                    pay_logger.info('start send msg...')
                     smsserver.send_order_sms(account=order.customer.account, name=order.subject_term.name)
+                    pay_logger.info('start add record...')
                     mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
                                                action_type=mm_InviteRecord.Invite_Action_Buy, total_fee=order.total_amount)
 

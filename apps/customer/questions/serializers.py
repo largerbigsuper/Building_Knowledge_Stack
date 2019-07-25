@@ -16,7 +16,7 @@ class CustomerQuestionSerializer(BaseQuestionSerializer):
 
     default_answer = {
         'my_answer': [],
-        'is_correct': 0
+        'is_correct': -1
     }
 
     my_answer = serializers.SerializerMethodField()

@@ -5,7 +5,8 @@ from django.urls import path, include
 
 from apps.customer.router import customer_router
 from apps.admin.router import admin_router
-from server import views, pay_views
+from server import views
+from datamodels.subjects import views as pay_views
 
 urlpatterns = [
     path('', views.about_us),

@@ -163,14 +163,13 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
     @transaction.atomic()
     def alipay_notify(self, request):
         """支付宝回调"""
-        data = request.data.dict()
+        pay_logger.info('--------- alipay callback ----------')
+        data = request.data
+        pay_logger.info('CallBack Data: %s' % json.dumps(data))
         # sign 不能参与签名验证
         signature = data.pop("sign")
-
-        print(json.dumps(data))
-        print(signature)
-        pay_logger.info('CallBack Data: %s' % json.dumps(data))
         pay_logger.info('CallBack signature: %s' % signature)
+        pay_logger.info('CallBack Data: %s' % json.dumps(data))
         # verify
         success = pay.alipay_serve.verify(data, signature)
         pay_logger.info('CallBack verify result: %s' % success)
@@ -202,11 +201,16 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
     @transaction.atomic()
     def wechatpay_notify(self, request):
         """微信支付回调"""
-        raw_data = request.body.decode("utf-8")
+        pay_logger.info('--------- wechat callback ----------')
+
+        # raw_data = request.body.decode("utf-8")
+        raw_data = request.data
         pay_logger.info('Wechatpay CallBack Data: %s' % json.dumps(raw_data))
         data = pay.wechatpay_serve.to_dict(raw_data)
         if not pay.wechatpay_serve.check(data):
+            pay_logger.error('wechatpay check failed!')
             return pay.wechatpay_serve.reply("签名验证失败", False)
+        pay_logger.info('wechatpay check success')
         # 处理业务逻辑
 
         total_fee = int(data['total_fee'])

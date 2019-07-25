@@ -5,7 +5,7 @@ from django.urls import path, include
 
 from apps.customer.router import customer_router
 from apps.admin.router import admin_router
-from server import views
+from server import views, pay_views
 
 urlpatterns = [
     path('', views.about_us),
@@ -19,6 +19,8 @@ urlpatterns = [
 
 urls = [
     # path('qiniutoken/', UploadTokenView.as_view()),
+    path('alipay_notify/', pay_views.AliPayNotifyView.as_view()),
+    path('wechatpay_notify/', pay_views.WechatPayNotifyView.as_view()),
 ]
 
 urlpatterns += urls

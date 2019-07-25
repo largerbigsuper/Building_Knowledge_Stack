@@ -5,7 +5,6 @@ from datetime import datetime
 
 from django.db import transaction
 from django.http import HttpResponse
-from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from datamodels.subjects.models import mm_Application
@@ -33,7 +32,6 @@ class AliPayNotifyView(APIView):
         data = dict(request.data.dict())
         pay_logger.info('data: %s' % json.dumps(data))
         # sign 不能参与签名验证
-        # data = dict(data)
         signature = data.pop("sign")
         pay_logger.info('signature: %s' % signature)
         pay_logger.info('data: %s' % json.dumps(data))
@@ -59,14 +57,14 @@ class AliPayNotifyView(APIView):
                     pay_logger.info('start add record...')
                     mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
                                                action_type=mm_InviteRecord.Invite_Action_Buy, total_fee=order.total_amount)
-                    return Response('success')
+                    return HttpResponse('success')
             except:
                 pay_logger.error('Error: %s ' % traceback.format_exc())
-                return Response('failed')
+                return HttpResponse('failed')
             finally:
-                return Response('success')
+                return HttpResponse('success')
         else:
-            return Response('failed')
+            return HttpResponse('failed')
 
 
 class WechatPayNotifyView(APIView):

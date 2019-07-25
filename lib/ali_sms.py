@@ -48,7 +48,7 @@ class SMSServer:
         request.set_version('2017-05-25')
         request.set_action_name('SendSms')
 
-        request.add_query_param('TemplateCode', AliYunSMS.SMS_TEMPLATE_ID__ORDER)
+        request.add_query_param('TemplateCode', AliYunSMS.SMS_TEMPLATE_ID_ORDER)
         request.add_query_param('SignName', AliYunSMS.SMS_TEMPLATE_NAME_ORDER)
         request.add_query_param('PhoneNumbers', phone)
         request.add_query_param('TemplateParam', json.dumps({"name": name}))

@@ -4,6 +4,7 @@ import traceback
 from datetime import datetime
 
 from django.db import transaction
+from django.http import HttpResponse
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -85,7 +86,7 @@ class WechatPayNotifyView(APIView):
         data = pay.wechatpay_serve.to_dict(raw_data)
         if not pay.wechatpay_serve.check(data):
             pay_logger.error('wechatpay check failed!')
-            return pay.wechatpay_serve.reply("签名验证失败", False)
+            return HttpResponse(pay.wechatpay_serve.reply("签名验证失败", False))
         pay_logger.info('wechatpay check success')
         # 处理业务逻辑
 
@@ -104,5 +105,5 @@ class WechatPayNotifyView(APIView):
             pay_logger.info('start add record...')
             mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
                                        action_type=mm_InviteRecord.Invite_Action_Buy,  total_fee=order.total_amount)
-        return pay.wechatpay_serve.reply("OK", True)
+        return HttpResponse(pay.wechatpay_serve.reply("OK", True))
 

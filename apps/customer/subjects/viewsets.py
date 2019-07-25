@@ -164,11 +164,11 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
     def alipay_notify(self, request):
         """支付宝回调"""
         pay_logger.info('--------- alipay callback ----------')
-        data = request.data
+        data = request.dict()
         pay_logger.info('type(data) = {}'.format(type(data)) )
         pay_logger.info('CallBack Data: %s' % json.dumps(data))
         # sign 不能参与签名验证
-        data = dict(data)
+        # data = dict(data)
         signature = data.pop("sign")
         pay_logger.info('CallBack signature: %s' % signature)
         pay_logger.info('CallBack Data: %s' % json.dumps(data))

@@ -1,4 +1,6 @@
 import traceback
+import string
+from random import choice, shuffle
 
 from django.contrib.auth.models import User
 from django.db import models, transaction, IntegrityError
@@ -26,12 +28,21 @@ class CommonInfo(models.Model):
     gender = models.IntegerField('性别', choices=GENDER_CHOICE, default=0)
     avatar_url = models.CharField('头像', max_length=300, blank=True)
     create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
+    invite_code = models.CharField(max_length=4, unique=True, blank=True, null=True, db_index=True, verbose_name='邀请码')
 
     class Meta:
         abstract = True
 
 
 class CustomerManager(ModelManager):
+    
+    raw_string = list(string.ascii_letters + string.digits)
+
+    def gen_code(self):
+        code = ''
+        for _ in range(4):
+            code += choice(self.raw_string)
+        return code
 
     def add(self, account, password, **kwargs):
         try:
@@ -73,8 +84,8 @@ class CustomerManager(ModelManager):
         Arguments:
             cid {int} -- 用户id
         """
-        # customer = self.filter(account=account).first()
-        user = User.objects.filter(username=account).first()
+        customer = self.filter(account=account).first()
+        user = User.objects.filter(id=customer.user.id).first()
         if user:
             user.set_password(password)
             user.save()
@@ -87,6 +98,21 @@ class Customer(CommonInfo):
     class Meta:
         db_table = DB_PREFIX + 'customers'
 
+    def __str__(self):
+        return self.account
+    
+    def set_invite_code(self):
+        while True:
+            if self.invite_code:
+                break
+            try:
+                self.invite_code = mm_Customer.gen_code()
+                self.save()
+                break
+            except:
+                continue
+        return self.invite_code
 
+        
 mm_Customer = Customer.objects
 

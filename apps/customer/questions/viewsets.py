@@ -35,6 +35,23 @@ class CustomerQuestionViewSet(CustomerReadOnlyModelViewSet):
         context['marked_list'] = marked_list
         return context
 
+
+    def list(self, request, *args, **kwargs):
+        # list 返回增加 question_count 字段
+        queryset = self.filter_queryset(self.get_queryset())
+        question_count = queryset.count()
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            data = {
+                'question_count': question_count,
+                'results': serializer.data
+            }
+            return self.get_paginated_response(data)
+
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
+
     @action(detail=True, methods=['post'], serializer_class=CustomerQuestionMarkSerializer)
     def add_mark(self, request, pk=None):
         """添加收藏
@@ -84,13 +101,23 @@ class CustomerQuestionRecordViewSet(CustomerModelViewSet):
 
     def perform_create(self, serializer):
         # serrializer.data 在校验之后不能再修改， 不然要重新调用serializer.is_valid()
-        q = serializer.validated_data['question']
+        question = serializer.validated_data['question']
+        exam = serializer.validated_data.get('exam', None)
         answer = serializer.validated_data['answer']
         upper_answer = [choice.upper() for choice in answer]
-        is_correct = q.is_correct_answer(answer)
+        is_correct = question.is_correct_answer(answer)
         serializer.validated_data['is_correct'] = is_correct
         serializer.validated_data['answer'] = upper_answer
-        serializer.save(customer=self.request.user.customer)
+        defaults = {
+            'is_correct': is_correct,
+            'answer': upper_answer
+        }
+        mm_QuestionRecord.update_or_create(customer=self.request.user.customer,
+                                           question=question,
+                                           exam=exam,
+                                           defaults=defaults)
+
+        # serializer.save(customer=self.request.user.customer)
 
 
 class CustomerExamViewSet(CustomerModelViewSet):

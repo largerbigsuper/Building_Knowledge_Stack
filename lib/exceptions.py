@@ -24,3 +24,8 @@ class SMSExcecption(APIException):
     status_code = status.HTTP_400_BAD_REQUEST
     default_detail = _('获取验证码失败')
     default_code = '获取验证码失败'
+
+class CommonException(APIException):
+    status_code = status.HTTP_400_BAD_REQUEST
+    default_detail = _('未知异常')
+    default_code = '未知异常'

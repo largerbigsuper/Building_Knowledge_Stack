@@ -22,3 +22,7 @@ services:
       POSTGRES_USER: building_user
       POSTGRES_DB: building_knowledge_stack_db
 
+  redis:
+    image: redis:5.0
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes

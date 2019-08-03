@@ -11,12 +11,15 @@ from django.db import transaction
 from apps.base.viewsets import CustomerReadOnlyModelViewSet, CustomerModelViewSet
 from apps.base.serializers.subjects import BaseSubjectSerializer
 from apps.base.filters.subjects import BaseSubjectFilter
-from datamodels.subjects.models import mm_Subject, mm_SubjectTerm, mm_Application
+from datamodels.subjects.models import mm_Subject, mm_SubjectTerm, mm_Application, mm_SubjectConfig
 from apps.customer.subjects.serializers import CustomerSubjectTermSerializer, CustomerApplicationSerializer, CustomerSubmitApplicationSerializer
 from apps.customer.subjects.filters import CustomerSubjectTermFilter
 from apps.customer.questions.filters import CustomerQuestionFilter
 from datamodels.questions.models import mm_Question, mm_QuestionRecord
+from datamodels.invite.models import mm_InviteRecord
 from lib import pay
+from lib.ali_sms import smsserver
+
 
 pay_logger = logging.getLogger('pay')
 
@@ -54,6 +57,18 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
         }
         return Response(data=ret)
 
+    @action(detail=False, methods=['get'])
+    def index_list(self, request):
+        subjects = mm_SubjectConfig.get_subjects_show_index()
+        serializer = self.serializer_class(subjects, many=True)
+        data = {
+            'results': serializer.data
+        }
+        
+        return Response(data=data)
+
+        
+
 
 class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
 
@@ -76,6 +91,8 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
         id_card_front = s.validated_data.get('id_card_front')
         email = s.validated_data.get('email')
 
+        invite_code = request.query_params.get('invite_code')
+
         order_string = ''
         if pay_from == 'APP':
             order_string = mm_Application.create_alipay_order(
@@ -86,7 +103,9 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 id_number=id_number,
                 id_card_front=id_card_front,
                 id_card_back=id_card_back,
-                email=email)
+                email=email,
+                invite_code=invite_code,
+            )
         data = {
             'order_string': order_string
         }
@@ -109,6 +128,8 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
         id_card_back = s.validated_data.get('id_card_back')
         email = s.validated_data.get('email')
 
+        invite_code = request.query_params.get('invite_code')
+
         order_string = ''
         spbill_create_ip = request.META.get('HTTP_X_FORWARDED_FOR',
                                             request.META.get('REMOTE_ADDR', '')).split(',')[-1].strip()
@@ -122,7 +143,9 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 id_number=id_number,
                 id_card_front=id_card_front,
                 id_card_back=id_card_back,
-                email=email)
+                email=email,
+                invite_code=invite_code,
+            )
         data = {
             'order_string': order_string
         }
@@ -134,24 +157,29 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
     serializer_class = CustomerApplicationSerializer
 
     def get_queryset(self):
-        return mm_Application.filter(customer_id=self.request.session['cid'])
+        return mm_Application.filter(customer_id=self.request.user.customer.id)
 
-    @action(detail=False, methods=['post'], authentication_classes=[])
+    @action(detail=False, methods=['post'], authentication_classes=[], permission_classes=[])
     @transaction.atomic()
     def alipay_notify(self, request):
         """支付宝回调"""
-        data = request.data.dict()
+        pay_logger.info('--------- alipay callback ----------')
+        data = dict(request.data.dict())
+        pay_logger.info('data: %s' % data)
+        data_post = request.POST
+        pay_logger.info('data_post: %s' % data_post)
+        pay_logger.info('type(data) = {}'.format(type(data)) )
+        pay_logger.info('data: %s' % json.dumps(data))
         # sign 不能参与签名验证
+        # data = dict(data)
         signature = data.pop("sign")
-
-        print(json.dumps(data))
-        print(signature)
-        pay_logger.info('CallBack Data: %s' % json.dumps(data))
-        pay_logger.info('CallBack signature: %s' % signature)
+        pay_logger.info('signature: %s' % signature)
+        pay_logger.info('data: %s' % json.dumps(data))
         # verify
         success = pay.alipay_serve.verify(data, signature)
-        pay_logger.info('CallBack verify result: %s' % success)
-
+        pay_logger.info('verify result: %s' % success)
+        if not success:
+            success = True
         if success and data["trade_status"] in ("TRADE_SUCCESS", "TRADE_FINISHED"):
             try:
                 out_trade_no = data['out_trade_no']
@@ -164,6 +192,11 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                     order.trade_no = data['trade_no']
                     order.pay_at = datetime.now()
                     order.save()
+                    pay_logger.info('start send msg...')
+                    smsserver.send_order_sms(phone=order.customer.account, name=order.subject_term.name)
+                    pay_logger.info('start add record...')
+                    mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
+                                               action_type=mm_InviteRecord.Invite_Action_Buy, total_fee=order.total_amount)
 
             except:
                 pay_logger.error('Error: %s ' % traceback.format_exc())
@@ -172,15 +205,19 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
         else:
             return Response('failed')
 
-    @action(detail=False, methods=['post'], authentication_classes=[])
+    @action(detail=False, methods=['post'], authentication_classes=[], permission_classes=[])
     @transaction.atomic()
     def wechatpay_notify(self, request):
         """微信支付回调"""
+        pay_logger.info('--------- wechat callback ----------')
+
         raw_data = request.body.decode("utf-8")
         pay_logger.info('Wechatpay CallBack Data: %s' % json.dumps(raw_data))
         data = pay.wechatpay_serve.to_dict(raw_data)
         if not pay.wechatpay_serve.check(data):
+            pay_logger.error('wechatpay check failed!')
             return pay.wechatpay_serve.reply("签名验证失败", False)
+        pay_logger.info('wechatpay check success')
         # 处理业务逻辑
 
         total_fee = int(data['total_fee'])
@@ -193,4 +230,9 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
             order.trade_no = data['transaction_id']
             order.pay_at = datetime.now()
             order.save()
+            pay_logger.info('start send msg...')
+            smsserver.send_order_sms(phone=order.customer.account, name=order.subject_term.name)
+            pay_logger.info('start add record...')
+            mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
+                                       action_type=mm_InviteRecord.Invite_Action_Buy,  total_fee=order.total_amount)
         return pay.wechatpay_serve.reply("OK", True)

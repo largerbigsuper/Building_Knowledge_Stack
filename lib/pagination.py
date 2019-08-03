@@ -6,13 +6,19 @@ from rest_framework.response import Response
 
 class CustomPagination(pagination.PageNumberPagination):
     def get_paginated_response(self, data):
-        return Response(OrderedDict([
+        body_list = [
             ('count', self.page.paginator.count),
             ('next', self.get_next_link()),
             ('previous', self.get_previous_link()),
             ('page_count', self.page.paginator.num_pages),
-            ('results', data)
-        ]))
+        ]
+        if 'question_count' in data:
+            body_list.append(('question_count', data['question_count']))
+            body_list.append(('results', data['results']))
+        else:
+            body_list.append(('results', data))
+
+        return Response(OrderedDict(body_list))
 
 
 class PageNumberPagination_10(CustomPagination):

@@ -1,0 +1,3010 @@
+[{
+		"choices": [{
+			"label": "A",
+			"content": "安全生产管理机构负责人"
+		}, {
+			"label": "B",
+			"content": "分管安全工作的副经理"
+		}, {
+			"label": "C",
+			"content": "法定代表人"
+		}, {
+			"label": "D",
+			"content": "企业技术负责人"
+		}],
+		"answer": ["C"],
+		"content": "建筑施工企业必须建立以（ ）为第一责任人的安全生产责任制度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "政府统一领导、部门依法监管、企业全面参与、群众参与监督"
+		}, {
+			"label": "B",
+			"content": "部门统一领导、政府依法监管、企业全面参与、群众参与监督"
+		}, {
+			"label": "C",
+			"content": "政府统一领导、部门依法负责、企业全面监管、群众参与监督"
+		}, {
+			"label": "D",
+			"content": "政府统一领导、部门依法监管、企业全面负责、群众参与监督"
+		}],
+		"answer": ["D"],
+		"content": "安全生产是个系统工程，只有构建（ ）全社会广泛支持的安全生产格局，采取综合措施才能达到安全生产的目的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "群防群治制度"
+		}, {
+			"label": "B",
+			"content": "安全生产责任制度"
+		}, {
+			"label": "C",
+			"content": "安全教育培训制度"
+		}, {
+			"label": "D",
+			"content": "安全生产检查制度"
+		}],
+		"answer": ["B"],
+		"content": "企业中最基本的一项安全制度，也是企业安全生产、劳动保护制度的核心，这是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "群策群力制度"
+		}, {
+			"label": "B",
+			"content": "安全生产责任制度"
+		}, {
+			"label": "C",
+			"content": "安全生产教育培训制度"
+		}, {
+			"label": "D",
+			"content": "安全生产检查制度"
+		}],
+		"answer": ["A"],
+		"content": "建筑生产中的安全管理制度不包括是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "立即"
+		}, {
+			"label": "B",
+			"content": "1小时内"
+		}, {
+			"label": "C",
+			"content": "2小时内"
+		}, {
+			"label": "D",
+			"content": "24小时内"
+		}],
+		"answer": ["A"],
+		"content": "发生事故后，事故现场有关人员应当（ ）向本单位负责人报告"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "立即"
+		}, {
+			"label": "B",
+			"content": "1小时"
+		}, {
+			"label": "C",
+			"content": "2小时"
+		}, {
+			"label": "D",
+			"content": "24小时内"
+		}],
+		"answer": ["B"],
+		"content": "事故发生单位负责人接到事故报告后，应当于（ ）内向事故发生地县级以上有关部门报告"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全文化"
+		}, {
+			"label": "B",
+			"content": "安全投入"
+		}, {
+			"label": "C",
+			"content": "安全法制"
+		}, {
+			"label": "D",
+			"content": "安全责任心"
+		}],
+		"answer": ["D"],
+		"content": "安全生产的核心是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "塔式起重机、施工升降机、物料提升机"
+		}, {
+			"label": "B",
+			"content": "塔式起重机、履带式起重机、施工升降机"
+		}, {
+			"label": "C",
+			"content": "施工升降机、塔式起重机、汽车式起重机"
+		}, {
+			"label": "D",
+			"content": "物料提升机、塔式起重机、履带式起重机"
+		}],
+		"answer": ["A"],
+		"content": "建筑起重机械司机指的是（ ）司机"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "建设主管部门"
+		}, {
+			"label": "B",
+			"content": "所在单位"
+		}, {
+			"label": "C",
+			"content": "行业协会"
+		}, {
+			"label": "D",
+			"content": "劳动主管部门"
+		}],
+		"answer": ["A"],
+		"content": "建筑施工特种作业人员必须经（ ）考核合格，取得建筑施工特种作业人员操作资格证书，方可上岗从事相应作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "证号"
+		}, {
+			"label": "B",
+			"content": "身份证号"
+		}, {
+			"label": "C",
+			"content": "工作单位"
+		}, {
+			"label": "D",
+			"content": "操作类别"
+		}],
+		"answer": ["C"],
+		"content": "《建筑施工特种作业操作资格证书》正本中不包括（ ）的内容"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一个月"
+		}, {
+			"label": "B",
+			"content": "二个月"
+		}, {
+			"label": "C",
+			"content": "三个月"
+		}, {
+			"label": "D",
+			"content": "六个月"
+		}],
+		"answer": ["C"],
+		"content": "特种作业操作资格证书有效期满需要延期的，持证人应当于期满前（ ）向考核发证机关办理延期复核手续"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "12"
+		}, {
+			"label": "B",
+			"content": "18"
+		}, {
+			"label": "C",
+			"content": "24"
+		}, {
+			"label": "D",
+			"content": "26"
+		}],
+		"answer": ["C"],
+		"content": "根据住房和城乡建设部规定，特种作业人员参加年度安全教育培训的时间不少于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "专职安全生产管理人员"
+		}, {
+			"label": "B",
+			"content": "施工员"
+		}, {
+			"label": "C",
+			"content": "项目技术分责任人"
+		}, {
+			"label": "D",
+			"content": "专人"
+		}],
+		"answer": ["D"],
+		"content": "首次取得资格证书的特种作业人员实习期间，用人单位要指定（ ）指导和监督作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "两年"
+		}, {
+			"label": "B",
+			"content": "三年"
+		}, {
+			"label": "C",
+			"content": "四年"
+		}, {
+			"label": "D",
+			"content": "五年"
+		}],
+		"answer": ["A"],
+		"content": "建筑施工特种作业操作资格证书有效期为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "甲发现了安全事故隐患后没有向现场安全管理人员报告，后发生事故"
+		}, {
+			"label": "B",
+			"content": "乙发现脚手架要倒塌，在没有采取其他措施情况下迅速逃离现场"
+		}, {
+			"label": "C",
+			"content": "项目经理强行要求有“恐高症”的丙高空作业"
+		}, {
+			"label": "D",
+			"content": "丁没有按照本单位要求在施工现场戴安全帽"
+		}],
+		"answer": ["B"],
+		"content": "下列行为中没有违反《安全生产法》的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "110"
+		}, {
+			"label": "B",
+			"content": "114"
+		}, {
+			"label": "C",
+			"content": "119"
+		}, {
+			"label": "D",
+			"content": "120"
+		}],
+		"answer": ["C"],
+		"content": "发生火灾时，需要拨打的火警电话是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "企业法定代表人、项目负责人、班组长"
+		}, {
+			"label": "B",
+			"content": "公司、项目、班组"
+		}, {
+			"label": "C",
+			"content": "总公司、总包单位、分包单位"
+		}, {
+			"label": "D",
+			"content": "建设单位、施工单位、监理单位"
+		}],
+		"answer": ["B"],
+		"content": "三级安全教育指的是（ ）级安全教育"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "公司级"
+		}, {
+			"label": "B",
+			"content": "项目级"
+		}, {
+			"label": "C",
+			"content": "班组级"
+		}, {
+			"label": "D",
+			"content": "班前活动"
+		}],
+		"answer": ["B"],
+		"content": "学习施工单位紧急情况和重大事故应急预案属于（ ）安全教育内容"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "24m"
+		}, {
+			"label": "B",
+			"content": "36m"
+		}, {
+			"label": "C",
+			"content": "48m"
+		}, {
+			"label": "D",
+			"content": "50m"
+		}],
+		"answer": ["D"],
+		"content": "搭设高度（ ）2落地式钢管脚手架工程，属于专家论证的安全专项施工方案范围"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "项目负责人"
+		}, {
+			"label": "B",
+			"content": "负责项目管理的技术人员"
+		}, {
+			"label": "C",
+			"content": "专职安全生产管理人员"
+		}, {
+			"label": "D",
+			"content": "企业技术负责人"
+		}],
+		"answer": ["B"],
+		"content": "安全技术交底由施工单位（ ）向施工班组、作业人员进行交底"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "五"
+		}, {
+			"label": "B",
+			"content": "六"
+		}, {
+			"label": "C",
+			"content": "七"
+		}, {
+			"label": "D",
+			"content": "八"
+		}],
+		"answer": ["D"],
+		"content": "安全防护用品按照防护部位分为（ ）类"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "制作材料"
+		}, {
+			"label": "B",
+			"content": "使用时间"
+		}, {
+			"label": "C",
+			"content": "电压等级"
+		}, {
+			"label": "D",
+			"content": "适应环境"
+		}],
+		"answer": ["C"],
+		"content": "绝缘手套要根据（ ）选用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2"
+		}, {
+			"label": "B",
+			"content": "3"
+		}, {
+			"label": "C",
+			"content": "1"
+		}, {
+			"label": "D",
+			"content": "4"
+		}],
+		"answer": ["A"],
+		"content": "安全带在使用（ ）年后应抽检一次"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "淋灰作业"
+		}, {
+			"label": "B",
+			"content": "接触酸碱作业"
+		}, {
+			"label": "C",
+			"content": "筛灰作业"
+		}, {
+			"label": "D",
+			"content": "搅拌混凝土作业"
+		}],
+		"answer": ["B"],
+		"content": "下面哪种作业需要戴防护手套（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3"
+		}, {
+			"label": "B",
+			"content": "2"
+		}, {
+			"label": "C",
+			"content": "1.5"
+		}, {
+			"label": "D",
+			"content": "3."
+		}],
+		"answer": ["B"],
+		"content": "建筑施工处于高处作业状态，高度超过（ ）米的悬空作业，必须系好安全带"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全通道"
+		}, {
+			"label": "B",
+			"content": "防护棚"
+		}, {
+			"label": "C",
+			"content": "安全出口"
+		}, {
+			"label": "D",
+			"content": "联锁装置的安全门"
+		}],
+		"answer": ["B"],
+		"content": "塔式起重机回转半径以内区域的加工作业，应当设置（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "戴防护手套"
+		}, {
+			"label": "B",
+			"content": "系好安全带"
+		}, {
+			"label": "C",
+			"content": "戴防尘口罩"
+		}, {
+			"label": "D",
+			"content": "戴防护眼镜"
+		}],
+		"answer": ["B"],
+		"content": "安装外墙门、窗时，作业人员一定要（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "防滑"
+		}, {
+			"label": "B",
+			"content": "防水"
+		}, {
+			"label": "C",
+			"content": "防晒"
+		}, {
+			"label": "D",
+			"content": "防火"
+		}],
+		"answer": ["A"],
+		"content": "登高用梯踏板应当采用（ ）性能的材料"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "顶部"
+		}, {
+			"label": "B",
+			"content": "低部"
+		}, {
+			"label": "C",
+			"content": "左边"
+		}, {
+			"label": "D",
+			"content": "右边"
+		}],
+		"answer": ["A"],
+		"content": "达到一定高度作业的交叉作业，防护棚、安全通道的（ ）应设置双层防护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "最小值"
+		}, {
+			"label": "B",
+			"content": "平均值"
+		}, {
+			"label": "C",
+			"content": "任意值"
+		}, {
+			"label": "D",
+			"content": "大值"
+		}],
+		"answer": ["D"],
+		"content": "作业区各作业位置至相应坠落高度基准面的垂直距离中的（ ），称为该作业区的高处作业高度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2〜5m"
+		}, {
+			"label": "B",
+			"content": "15〜30m"
+		}, {
+			"label": "C",
+			"content": "5〜15m"
+		}, {
+			"label": "D",
+			"content": "30〜50m"
+		}],
+		"answer": ["B"],
+		"content": "高处作业按作业点可能坠落的坠落高度划分为四个等级，三级高处作业，坠落高度是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3"
+		}, {
+			"label": "B",
+			"content": "1"
+		}, {
+			"label": "C",
+			"content": "2"
+		}, {
+			"label": "D",
+			"content": "5"
+		}],
+		"answer": ["C"],
+		"content": "安全通道附近的各类洞口与场地上深度在（ ）米以上的洞口等处，除设置防护设施与安全标志，夜间还应设红灯警示"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全第一，预防为主"
+		}, {
+			"label": "B",
+			"content": "质量第一，预防为主"
+		}, {
+			"label": "C",
+			"content": "以防为主，防治结合"
+		}, {
+			"label": "D",
+			"content": "预防为主，防消结合"
+		}],
+		"answer": ["D"],
+		"content": "我国消防工作的方针是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2"
+		}, {
+			"label": "B",
+			"content": "3"
+		}, {
+			"label": "C",
+			"content": "4"
+		}, {
+			"label": "D",
+			"content": "5"
+		}],
+		"answer": ["A"],
+		"content": "高层建筑施工安全要求，脚手架内的作业层应畅通，并搭设不少于（ ）处与主体建筑内相衔接的通道"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一"
+		}, {
+			"label": "B",
+			"content": "二"
+		}, {
+			"label": "C",
+			"content": "三"
+		}, {
+			"label": "D",
+			"content": "四"
+		}],
+		"answer": ["B"],
+		"content": "一般临时设施区域，配电室、动火处、食堂、宿舍等重点防火部位，每100m2应当配备（ ）个10L灭火器"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全通道"
+		}, {
+			"label": "B",
+			"content": "检修口"
+		}, {
+			"label": "C",
+			"content": "防护栏杆"
+		}, {
+			"label": "D",
+			"content": "木盖板"
+		}],
+		"answer": ["C"],
+		"content": "边长大于150cm的大洞口应在四周设置（ ），并在洞口下方设置安全平网"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "乙炔瓶应安装回火防止器，防止氧气倒回发生事故"
+		}, {
+			"label": "B",
+			"content": "乙炔瓶应放置在距离明火10m以外的地方，严禁倒放"
+		}, {
+			"label": "C",
+			"content": "使用时乙炔瓶和氧气瓶的距离不得小于3m"
+		}, {
+			"label": "D",
+			"content": "每天操作前都必须对乙炔瓶和氧气瓶进行认真检查"
+		}],
+		"answer": ["C"],
+		"content": "有关焊接作业防火安全要求，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "在建工程阳台、雨棚边缘"
+		}, {
+			"label": "B",
+			"content": "土方开挖形成的基坑周边"
+		}, {
+			"label": "C",
+			"content": "垂直运输设备与各层面街哭的接料平台"
+		}, {
+			"label": "D",
+			"content": "施工升降机吊笼上料通道口"
+		}],
+		"answer": ["D"],
+		"content": "下列不属于施工现场临边作业的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "通道处不得堆放障碍物"
+		}, {
+			"label": "B",
+			"content": "不得在室内配置用于防腐、防水、装饰的危险化学品溶液"
+		}, {
+			"label": "C",
+			"content": "施工人员吸烟和动火应先申请"
+		}, {
+			"label": "D",
+			"content": "不得同时进行水暖、电气安装的金属焊接作业"
+		}],
+		"answer": ["C"],
+		"content": "有关地下工程施工防火安全要求，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "易引起火灾的仓库，应将库房内、外分段设立防火墙，划分防火单位"
+		}, {
+			"label": "B",
+			"content": "根据季节风向的变化，仓库应设在上风的地方"
+		}, {
+			"label": "C",
+			"content": "仓库应设在水源充足、消防车能驶到的地方"
+		}, {
+			"label": "D",
+			"content": "易爆易燃物品仓库应设两以上大门，大门应向外开启"
+		}],
+		"answer": ["B"],
+		"content": "有关易燃易爆物品要求，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "二氧化碳灭火器约为2.5m"
+		}, {
+			"label": "B",
+			"content": "四氯化碳灭火器约为3m"
+		}, {
+			"label": "C",
+			"content": "干粉灭火器约为4.5m"
+		}, {
+			"label": "D",
+			"content": "1211灭火器约为7m"
+		}],
+		"answer": ["C"],
+		"content": "下列有关灭火器射程的说法正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "5"
+		}, {
+			"label": "B",
+			"content": "8"
+		}, {
+			"label": "C",
+			"content": "10"
+		}, {
+			"label": "D",
+			"content": "15"
+		}],
+		"answer": ["C"],
+		"content": "当发现电线坠地或设备漏电时，不得随意跑动或触摸金属物体，并保持（ ）m以上距离"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "必须按规定穿戴绝缘手套和绝缘鞋等安全用品"
+		}, {
+			"label": "B",
+			"content": "电缆长度不应大于50m，并有专人调整电缆"
+		}, {
+			"label": "C",
+			"content": "多台夯土机械工作时，左右间距不得小于10m，前后间距不得小于5m"
+		}, {
+			"label": "D",
+			"content": "操作扶手必须绝缘"
+		}],
+		"answer": ["C"],
+		"content": "有关夯土机械使用时应注意的事项，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1211灭火器"
+		}, {
+			"label": "B",
+			"content": "BC类干粉"
+		}, {
+			"label": "C",
+			"content": "D类干粉"
+		}, {
+			"label": "D",
+			"content": "二氧化碳"
+		}],
+		"answer": ["C"],
+		"content": "适用于扑救金属火灾的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "使用移动梯和折梯"
+		}, {
+			"label": "B",
+			"content": "安装外墙门窗"
+		}, {
+			"label": "C",
+			"content": "交叉作业中拆卸模板、脚手架"
+		}, {
+			"label": "D",
+			"content": "给水平面洞口设置封口盖板"
+		}],
+		"answer": ["D"],
+		"content": "以下操作不需要有专人看管、监护的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "在潮湿场所或金属构架上严禁使用Ⅱ类手持式电动工具"
+		}, {
+			"label": "B",
+			"content": "狭窄场所必须选用由安全隔离变压器供电的Ⅲ类手持式电动工具"
+		}, {
+			"label": "C",
+			"content": "外壳、手柄、插头、开关、负荷线等必须完好无损"
+		}, {
+			"label": "D",
+			"content": "负荷线应采用耐气候的橡皮护套铜芯软电缆，并不得有接头"
+		}],
+		"answer": ["A"],
+		"content": "有关手持式电动工具使用时应注意的事项，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一定要有良好的通风条件"
+		}, {
+			"label": "B",
+			"content": "照明电气设备必须使用防爆灯头"
+		}, {
+			"label": "C",
+			"content": "严禁吸烟"
+		}, {
+			"label": "D",
+			"content": "周围动火作业要距离15m以外"
+		}],
+		"answer": ["D"],
+		"content": "下列有关油漆室内作业时的说法，不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "现金"
+		}, {
+			"label": "B",
+			"content": "货币"
+		}, {
+			"label": "C",
+			"content": "实物"
+		}, {
+			"label": "D",
+			"content": "其他物品"
+		}],
+		"answer": ["C"],
+		"content": "安全防护用品必须以（ ）形式发放"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "36V"
+		}, {
+			"label": "B",
+			"content": "24V"
+		}, {
+			"label": "C",
+			"content": "12V"
+		}, {
+			"label": "D",
+			"content": "6V"
+		}],
+		"answer": ["C"],
+		"content": "在金属容器内施工，照明电源电压不应大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2m"
+		}, {
+			"label": "B",
+			"content": "2.5m"
+		}, {
+			"label": "C",
+			"content": "3.5m"
+		}, {
+			"label": "D",
+			"content": "3m"
+		}],
+		"answer": ["D"],
+		"content": "室外220V灯具距地面不得低于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "200mm"
+		}, {
+			"label": "B",
+			"content": "300mm"
+		}, {
+			"label": "C",
+			"content": "400mmm"
+		}, {
+			"label": "D",
+			"content": "500mm"
+		}],
+		"answer": ["B"],
+		"content": "白炽灯和日光灯等普通灯具距易燃物品不易少于（ ），且不得直接照射易燃物"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "生活区应当建立消防责任制"
+		}, {
+			"label": "B",
+			"content": "生活区内应设置消火栓或不小于20m3"
+		}, {
+			"label": "C",
+			"content": "宿舍内严禁作用电炉等电加热器具"
+		}, {
+			"label": "D",
+			"content": "宿舍内严禁吸烟"
+		}],
+		"answer": ["D"],
+		"content": "有关施工现场生活区消防管理，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "-5℃"
+		}, {
+			"label": "B",
+			"content": "0℃"
+		}, {
+			"label": "C",
+			"content": "5℃"
+		}, {
+			"label": "D",
+			"content": "3℃"
+		}],
+		"answer": ["C"],
+		"content": "根据当地多年气象资料统计，当室外平均气温连续五天低于（ ）即进入冬期施工"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "100mm"
+		}, {
+			"label": "B",
+			"content": "50mm"
+		}, {
+			"label": "C",
+			"content": "30mm"
+		}, {
+			"label": "D",
+			"content": "200mm"
+		}],
+		"answer": ["B"],
+		"content": "落地式钢管脚手架底部，应当高出自然地坪（ ），周围应设置排水设施，防止雨水浸泡脚手架"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "-10℃"
+		}, {
+			"label": "B",
+			"content": "-5℃"
+		}, {
+			"label": "C",
+			"content": "-20℃"
+		}, {
+			"label": "D",
+			"content": "0℃"
+		}],
+		"answer": ["C"],
+		"content": "钢筋混凝土工程冬期施工，当温度低于（ ）时严禁对低合金钢筋进行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "大于"
+		}, {
+			"label": "B",
+			"content": "等于"
+		}, {
+			"label": "C",
+			"content": "小于"
+		}, {
+			"label": "D",
+			"content": "大于等于"
+		}],
+		"answer": ["A"],
+		"content": "上下操作隔断的横向安全距离，应（ ）相应高度的坠落半径"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "10cm"
+		}, {
+			"label": "B",
+			"content": "25"
+		}, {
+			"label": "C",
+			"content": "mB25cmC30cm"
+		}, {
+			"label": "D",
+			"content": "20cm"
+		}],
+		"answer": ["C"],
+		"content": "砖砌火炉壁厚不得小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2.0"
+		}, {
+			"label": "B",
+			"content": "2.5"
+		}, {
+			"label": "C",
+			"content": "3.0"
+		}, {
+			"label": "D",
+			"content": "4."
+		}],
+		"answer": ["B"],
+		"content": "室内明敷主干电线距地面高度不得小于（ ）m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "20cm"
+		}, {
+			"label": "B",
+			"content": "70"
+		}, {
+			"label": "C",
+			"content": "mB70cmC30cm"
+		}, {
+			"label": "D",
+			"content": "60cm"
+		}],
+		"answer": ["B"],
+		"content": "已做防火保护层的火炉距可燃物的距离不得小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "裂缝"
+		}, {
+			"label": "B",
+			"content": "倾斜"
+		}, {
+			"label": "C",
+			"content": "沉降"
+		}, {
+			"label": "D",
+			"content": "积水"
+		}],
+		"answer": ["C"],
+		"content": "为确保冬期施工起重机械设备安全使用，春季冻土融化，应当随时观察设备基础是否发生（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "向内"
+		}, {
+			"label": "B",
+			"content": "向外"
+		}, {
+			"label": "C",
+			"content": "向前"
+		}, {
+			"label": "D",
+			"content": "向东"
+		}],
+		"answer": ["B"],
+		"content": "锅炉房门的开启方向应是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全符号"
+		}, {
+			"label": "B",
+			"content": "安全信息"
+		}, {
+			"label": "C",
+			"content": "安全警告"
+		}, {
+			"label": "D",
+			"content": "安全提示"
+		}],
+		"answer": ["B"],
+		"content": "安全标志由图形符号、安全色、几何图形（边框）或文字构成，是用以表达（ ）的标志"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "人不安全行为"
+		}, {
+			"label": "B",
+			"content": "物不安全状态"
+		}, {
+			"label": "C",
+			"content": "管理严重缺陷"
+		}, {
+			"label": "D",
+			"content": "存在安全隐患"
+		}],
+		"answer": ["A"],
+		"content": "禁止标志的含义是禁止（ ）的图形标志"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "告诫"
+		}, {
+			"label": "B",
+			"content": "提醒"
+		}, {
+			"label": "C",
+			"content": "强制"
+		}, {
+			"label": "D",
+			"content": "通知"
+		}],
+		"answer": ["C"],
+		"content": "指令标志的含义是（ ）人们必须做出某种动作或采用防范措施的图形标志"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "提示"
+		}, {
+			"label": "B",
+			"content": "指令"
+		}, {
+			"label": "C",
+			"content": "警告"
+		}, {
+			"label": "D",
+			"content": "通知"
+		}],
+		"answer": ["D"],
+		"content": "安全色为红色表示（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "红色"
+		}, {
+			"label": "B",
+			"content": "黄色"
+		}, {
+			"label": "C",
+			"content": "绿色"
+		}, {
+			"label": "D",
+			"content": "蓝色"
+		}],
+		"answer": ["B"],
+		"content": "对比色为黑色的安全色是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "红色"
+		}, {
+			"label": "B",
+			"content": "黄色"
+		}, {
+			"label": "C",
+			"content": "绿色"
+		}, {
+			"label": "D",
+			"content": "蓝色"
+		}],
+		"answer": ["D"],
+		"content": "表示必须遵守规定的信息是（ ）与白色相间的条纹"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "硫磺贮存、运输和施工时，严禁与木炭、硝石相混"
+		}, {
+			"label": "B",
+			"content": "乙二胺遇火种、高温和氧化剂有燃烧的危险"
+		}, {
+			"label": "C",
+			"content": "乙二胺贮存、运输时不能盖盖子，应尽量通风"
+		}, {
+			"label": "D",
+			"content": "树脂类防腐材料施工时，要避开高温，不得置于太阳下长时间暴晒"
+		}],
+		"answer": ["C"],
+		"content": "有关防腐作业防火安全要求，下列说法不正确的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "10"
+		}, {
+			"label": "B",
+			"content": "15"
+		}, {
+			"label": "C",
+			"content": "20"
+		}, {
+			"label": "D",
+			"content": "30"
+		}],
+		"answer": ["B"],
+		"content": "适用于潮湿场所开关箱中的漏电保护器，其额定漏电动作电流不应大于（ ）mA动作时间不应大于0,1s"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0℃"
+		}, {
+			"label": "B",
+			"content": "10℃"
+		}, {
+			"label": "C",
+			"content": "3℃"
+		}, {
+			"label": "D",
+			"content": "5℃"
+		}],
+		"answer": ["D"],
+		"content": "根据当地多年气象资料统计，当室外日平均气温连续五天高于（ ）时解除冬期施工"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "110"
+		}, {
+			"label": "B",
+			"content": "114"
+		}, {
+			"label": "C",
+			"content": "119"
+		}, {
+			"label": "D",
+			"content": "120"
+		}],
+		"answer": ["D"],
+		"content": "急救现场申请急救服务，首先要拨打急救电话（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "不要重复"
+		}, {
+			"label": "B",
+			"content": "重复一次"
+		}, {
+			"label": "C",
+			"content": "重复2次"
+		}, {
+			"label": "D",
+			"content": "复述一次"
+		}],
+		"answer": ["B"],
+		"content": "急救现场申请急救服务，拨打急救电话时，要求接听者将内容（ ），确保信息准确无误"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "下风"
+		}, {
+			"label": "B",
+			"content": "积烟"
+		}, {
+			"label": "C",
+			"content": "上风"
+		}, {
+			"label": "D",
+			"content": "上人口"
+		}],
+		"answer": ["C"],
+		"content": "火灾使下行楼梯受阻，疏散通道被大火阻断，确认无法逃生地面时，课撤退至楼顶施工层的（ ）处，求得暂时性的自我保护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "37℃"
+		}, {
+			"label": "B",
+			"content": "38℃"
+		}, {
+			"label": "C",
+			"content": "39℃"
+		}, {
+			"label": "D",
+			"content": "40℃"
+		}],
+		"answer": ["D"],
+		"content": "中暑的医学特征之一是体温上升，可达（ ）或以上"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "半径"
+		}, {
+			"label": "B",
+			"content": "直径"
+		}, {
+			"label": "C",
+			"content": "长度"
+		}, {
+			"label": "D",
+			"content": "周长"
+		}],
+		"answer": ["A"],
+		"content": "金属烟囱一节插入另一节的尺寸不得小于烟囱的（ ），且衔接要牢固"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "家具"
+		}, {
+			"label": "B",
+			"content": "书籍"
+		}, {
+			"label": "C",
+			"content": "带电设备"
+		}, {
+			"label": "D",
+			"content": "服装"
+		}],
+		"answer": ["C"],
+		"content": "水是最常用的灭火剂，取用方便，资源丰富，但要注意水不能用于扑救（ ）的火灾"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "绝缘铜线"
+		}, {
+			"label": "B",
+			"content": "防水橡皮护套铜芯软电缆"
+		}, {
+			"label": "C",
+			"content": "绝缘铝线"
+		}, {
+			"label": "D",
+			"content": "绝缘导线和结构钢筋（作为地线）"
+		}],
+		"answer": ["B"],
+		"content": "交流电焊设备应配装房二次测触电保护器，二次线应采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "脱离电源和正确地实行人工呼吸和心脏按摩"
+		}, {
+			"label": "B",
+			"content": "拖延时间"
+		}, {
+			"label": "C",
+			"content": "动作迟缓"
+		}, {
+			"label": "D",
+			"content": "救护不当"
+		}],
+		"answer": ["A"],
+		"content": "触电者的生命能否获救，在绝大数情况下取决于能否迅速（ ）；否则，都可能造成死亡"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "在无人照料下离开伤病者"
+		}, {
+			"label": "B",
+			"content": "丢弃呕吐物"
+		}, {
+			"label": "C",
+			"content": "丢弃排泄物"
+		}, {
+			"label": "D",
+			"content": "救护不当"
+		}],
+		"answer": ["D"],
+		"content": "消化道出血及需要手术处理的伤病员应当（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "特别重大火灾"
+		}, {
+			"label": "B",
+			"content": "重大火灾"
+		}, {
+			"label": "C",
+			"content": "较大火灾"
+		}, {
+			"label": "D",
+			"content": "一般火灾"
+		}],
+		"answer": ["B"],
+		"content": "造成5500万元直接财产损失的火灾属于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "特别重大事故"
+		}, {
+			"label": "B",
+			"content": "重大事故"
+		}, {
+			"label": "C",
+			"content": "较大事故"
+		}, {
+			"label": "D",
+			"content": "一般事故"
+		}],
+		"answer": ["B"],
+		"content": "造成10人以上30人以下死亡，或者50人以上100人以下重伤，或者5000万元以上1亿元以下直接经济损失的事故是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "禁止标志"
+		}, {
+			"label": "B",
+			"content": "警告标志"
+		}, {
+			"label": "C",
+			"content": "指令标志"
+		}, {
+			"label": "D",
+			"content": "提示标志"
+		}],
+		"answer": ["A"],
+		"content": "白底黑色图案加带斜杠的红色圆环的几何图形，是（ ）的图形"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "5日"
+		}, {
+			"label": "B",
+			"content": "10日"
+		}, {
+			"label": "C",
+			"content": "20日"
+		}, {
+			"label": "D",
+			"content": "30日"
+		}],
+		"answer": ["D"],
+		"content": "自事故发生之日起（ ）内，事故造成的伤亡人数发生变化的，应当及时补报"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "建设单位"
+		}, {
+			"label": "B",
+			"content": "监理单位"
+		}, {
+			"label": "C",
+			"content": "总承包单位"
+		}, {
+			"label": "D",
+			"content": "分包单位"
+		}],
+		"answer": ["C"],
+		"content": "实行施工总承包的建设工程，由（ ）负责上报事故"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "绝缘鞋"
+		}, {
+			"label": "B",
+			"content": "防滑鞋"
+		}, {
+			"label": "C",
+			"content": "帆布鞋"
+		}, {
+			"label": "D",
+			"content": "高跟鞋"
+		}],
+		"answer": ["D"],
+		"content": "进入施工现场严禁穿（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全提示标志"
+		}, {
+			"label": "B",
+			"content": "安全宣传标志"
+		}, {
+			"label": "C",
+			"content": "安全指示标志"
+		}, {
+			"label": "D",
+			"content": "安全警示标志"
+		}],
+		"answer": ["D"],
+		"content": "施工单位应当在施工现场的危险部位设置明显的（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一般事故"
+		}, {
+			"label": "B",
+			"content": "较大事故"
+		}, {
+			"label": "C",
+			"content": "重大事故"
+		}, {
+			"label": "D",
+			"content": "特别重大事故"
+		}],
+		"answer": ["A"],
+		"content": "事故发生单位对事故发生负有责任，发生（ ）的，处10万以上50万以下的罚款"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "购买施工安全防护用具"
+		}, {
+			"label": "B",
+			"content": "安全设施的更新"
+		}, {
+			"label": "C",
+			"content": "安全施工措施的落实"
+		}, {
+			"label": "D",
+			"content": "职工安全事故的赔偿"
+		}],
+		"answer": ["D"],
+		"content": "施工单位的安全生产费用不应该用于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一"
+		}, {
+			"label": "B",
+			"content": "二"
+		}, {
+			"label": "C",
+			"content": "三"
+		}, {
+			"label": "D",
+			"content": "四"
+		}],
+		"answer": ["B"],
+		"content": "用与反作用力是作用在（ ）个物体上的一对等值、反向、共线的力"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "矩形"
+		}, {
+			"label": "B",
+			"content": "平行四边形"
+		}, {
+			"label": "C",
+			"content": "三角形"
+		}, {
+			"label": "D",
+			"content": "正五边形"
+		}],
+		"answer": ["C"],
+		"content": "结构几何不变体系的基本形状是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "永久荷载"
+		}, {
+			"label": "B",
+			"content": "可变荷载"
+		}, {
+			"label": "C",
+			"content": "偶然荷载"
+		}, {
+			"label": "D",
+			"content": "自然荷载"
+		}],
+		"answer": ["B"],
+		"content": "在结构使用期间，荷载值的大小随时间变化，且变化值与平均值相比不可以忽略不计这类荷载属于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "固定支座"
+		}, {
+			"label": "B",
+			"content": "滑动支座"
+		}, {
+			"label": "C",
+			"content": "固定铰支座"
+		}, {
+			"label": "D",
+			"content": "可动铰支座"
+		}],
+		"answer": ["D"],
+		"content": "下图简支梁AB的B端的支座为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "拉伸或压缩"
+		}, {
+			"label": "B",
+			"content": "剪切"
+		}, {
+			"label": "C",
+			"content": "弯曲"
+		}, {
+			"label": "D",
+			"content": "扭转"
+		}],
+		"answer": ["A"],
+		"content": "直杆的两端受到一对等值、反向、作用线沿杆轴线的力，杆件将产生（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "拉伸或压缩"
+		}, {
+			"label": "B",
+			"content": "剪切"
+		}, {
+			"label": "C",
+			"content": "弯曲"
+		}, {
+			"label": "D",
+			"content": "扭转"
+		}],
+		"answer": ["A"],
+		"content": "直杆的两端受到一对等值、反向、作用在杆横截面内的力偶作用，该直杆将产生（ ）变形"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "强度不足破坏"
+		}, {
+			"label": "B",
+			"content": "剪切"
+		}, {
+			"label": "C",
+			"content": "弯曲"
+		}, {
+			"label": "D",
+			"content": "失稳"
+		}],
+		"answer": ["D"],
+		"content": "下图脚手架立杆在轴向压力P的作用下突然破坏，这类破坏属于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "单排脚手架"
+		}, {
+			"label": "B",
+			"content": "双排脚手架"
+		}, {
+			"label": "C",
+			"content": "结构脚手架"
+		}, {
+			"label": "D",
+			"content": "装修排脚手架"
+		}],
+		"answer": ["B"],
+		"content": "由内向外两排立杆和水平杆等构成的脚手架叫（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "立杆"
+		}, {
+			"label": "B",
+			"content": "扫地杆"
+		}, {
+			"label": "C",
+			"content": "横向水平杆"
+		}, {
+			"label": "D",
+			"content": "纵向水平杆"
+		}],
+		"answer": ["D"],
+		"content": "沿脚手架纵向设置的水平杆叫（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "满堂脚手架"
+		}, {
+			"label": "B",
+			"content": "附着升降脚手架"
+		}, {
+			"label": "C",
+			"content": "整体提升脚手架"
+		}, {
+			"label": "D",
+			"content": "悬挑排脚手架"
+		}],
+		"answer": ["A"],
+		"content": "按施工作业和平面满布设置的多排脚手架主要用于模板支架系统的是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2000目\/100cm2"
+		}, {
+			"label": "B",
+			"content": "1000目\/100"
+		}, {
+			"label": "C",
+			"content": "m2B1000目\/100cm2C500目\/100cm2"
+		}, {
+			"label": "D",
+			"content": "250目\/100cm"
+		}],
+		"answer": ["A"],
+		"content": "密目式安全立网的网目密度不低于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "50cm"
+		}, {
+			"label": "B",
+			"content": "80"
+		}, {
+			"label": "C",
+			"content": "mB80cmC100cm"
+		}, {
+			"label": "D",
+			"content": "120cm"
+		}],
+		"answer": ["B"],
+		"content": "所谓临边作业，是指施工现场中在工作面边沿无围护或围护设施高度低于（ ）时的高处作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "上侧"
+		}, {
+			"label": "B",
+			"content": "下侧"
+		}, {
+			"label": "C",
+			"content": "外侧"
+		}, {
+			"label": "D",
+			"content": "内侧"
+		}],
+		"answer": ["D"],
+		"content": "在在脚手架作业上，防护栏杆和挡脚板均应搭设在外立杆的（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "警示灯"
+		}, {
+			"label": "B",
+			"content": "防护栏"
+		}, {
+			"label": "C",
+			"content": "脚手架"
+		}, {
+			"label": "D",
+			"content": "盖板"
+		}],
+		"answer": ["A"],
+		"content": "施工现场通道附近的各类洞口与坑、槽等处，除设置防护设施与安全标示外，夜间均应设置（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "电梯井"
+		}, {
+			"label": "B",
+			"content": "盖板"
+		}, {
+			"label": "C",
+			"content": "栏杆"
+		}, {
+			"label": "D",
+			"content": "安全防护棚"
+		}],
+		"answer": ["D"],
+		"content": "结构施工自二层起，凡人员进出建筑物的通道口，及在施工现场内的地面操作处，均应搭设（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "防火装置"
+		}, {
+			"label": "B",
+			"content": "防雷接地"
+		}, {
+			"label": "C",
+			"content": "防水装置"
+		}, {
+			"label": "D",
+			"content": "防电装置"
+		}],
+		"answer": ["B"],
+		"content": "当脚手架在相邻建筑物、构筑物等设施的防雷装置接闪器的的保护范围以外时，需做（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "审核"
+		}, {
+			"label": "B",
+			"content": "申请"
+		}, {
+			"label": "C",
+			"content": "审批"
+		}, {
+			"label": "D",
+			"content": "报告"
+		}],
+		"answer": ["C"],
+		"content": "在脚手架上进行电、气焊作业时，应办理动火（ ）手续"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "5KN"
+		}, {
+			"label": "B",
+			"content": "7KN"
+		}, {
+			"label": "C",
+			"content": "9KN"
+		}, {
+			"label": "D",
+			"content": "11KN"
+		}],
+		"answer": ["B"],
+		"content": "模板工程中用于钢结构安装等满堂支撑体系，承受单点集中荷载（ ）以上时需要进行专家论证"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "竖杆、纵向水平杆、横向水平"
+		}, {
+			"label": "B",
+			"content": "立杆、横向水平杆、纵向水平杆"
+		}, {
+			"label": "C",
+			"content": "大横杆、小横杆、立杆"
+		}, {
+			"label": "D",
+			"content": "立杆、纵向水平杆、横向水平杆"
+		}],
+		"answer": ["C"],
+		"content": "如图所示，扣件式钢管脚手架1，2，3杆分别是指（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "15m"
+		}, {
+			"label": "B",
+			"content": "25m"
+		}, {
+			"label": "C",
+			"content": "10m"
+		}, {
+			"label": "D",
+			"content": "22m"
+		}],
+		"answer": ["A"],
+		"content": "下图中扣件式钢管脚手架剪刀撑的最大间距是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "10m"
+		}, {
+			"label": "B",
+			"content": "8m"
+		}, {
+			"label": "C",
+			"content": "6m"
+		}, {
+			"label": "D",
+			"content": "5m"
+		}],
+		"answer": ["C"],
+		"content": "每道扣件式钢管脚手架剪刀撑宽度不应小于4跨，且不应小于（ ），斜杆与地面的倾角宜在45°〜60°之间"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "建设"
+		}, {
+			"label": "B",
+			"content": "项目部"
+		}, {
+			"label": "C",
+			"content": "主管"
+		}, {
+			"label": "D",
+			"content": "开发商"
+		}],
+		"answer": ["C"],
+		"content": "不得在脚手架基础及其邻近处进行挖掘作业，否则应采取安全措施，并报（ ）部门批准"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.2kN\/m3"
+		}, {
+			"label": "B",
+			"content": "0.35kN\/m3"
+		}, {
+			"label": "C",
+			"content": "0.4kN\/m3"
+		}, {
+			"label": "D",
+			"content": "2kN\/m"
+		}],
+		"answer": ["D"],
+		"content": "振捣混凝土时产生的荷载标准值对水平模板可采用（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "旋转扣件、直接扣件、对接扣件"
+		}, {
+			"label": "B",
+			"content": "旋转扣件、对接扣件、直角扣件"
+		}, {
+			"label": "C",
+			"content": "直角扣件、对接扣件、旋转扣件"
+		}, {
+			"label": "D",
+			"content": "直角扣件、旋转扣件、对接扣件"
+		}],
+		"answer": ["D"],
+		"content": "扣件式钢管脚手架应采用力学性能符合质量要求的可锻铸铁或铸钢制作的扣件，下列扣件a、b、c名称分别是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "65N?M"
+		}, {
+			"label": "B",
+			"content": "80N?M"
+		}, {
+			"label": "C",
+			"content": "70N?M"
+		}, {
+			"label": "D",
+			"content": "60N?M"
+		}],
+		"answer": ["A"],
+		"content": "扣件式钢管脚手架采用的扣件，在螺栓拧紧扭力矩达（ ）时，不得发生破坏"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "50kg"
+		}, {
+			"label": "B",
+			"content": "30kg"
+		}, {
+			"label": "C",
+			"content": "20kg"
+		}, {
+			"label": "D",
+			"content": "25kg"
+		}],
+		"answer": ["B"],
+		"content": "扣件式钢管脚手架脚手板可采用钢、木、竹材料制作，每块质量不宜大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "脚手架纵向两端立杆外皮间的水平距离"
+		}, {
+			"label": "B",
+			"content": "脚手架纵向两端立杆内皮间的水平距离"
+		}, {
+			"label": "C",
+			"content": "脚手架纵向两端立杆外皮间的横向距离"
+		}, {
+			"label": "D",
+			"content": "脚手架纵向两端立杆内皮间的横向距离"
+		}],
+		"answer": ["A"],
+		"content": "扣件式钢管脚手架的长度是指（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "脚手板→纵向水平杆→横向水平杆→纵向水平杆与立杆连接的扣件→立杆"
+		}, {
+			"label": "B",
+			"content": "脚手板→横向水平杆→纵向水平杆→纵向水平杆与立杆连接的扣件→立杆"
+		}, {
+			"label": "C",
+			"content": "脚手板→横向水平杆→纵向水平杆→纵向水平杆与立杆连接的扣件→地基"
+		}, {
+			"label": "D",
+			"content": "脚手板→横向水平杆→立杆→纵向水平杆与立杆连接的扣件→纵向水平杆"
+		}],
+		"answer": ["A"],
+		"content": "当使用竹笆脚手架时，扣件式钢管脚手架荷载的传递路线是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "先搭的后拆、后搭的后拆、先拆下部、后拆上部、先拆外面、后拆里面、主要杆件先拆、次要杆件后拆，按层次自上而下拆除"
+		}, {
+			"label": "B",
+			"content": "先搭的先拆、后搭的后拆、先拆上部、后拆下部、先拆外面、后拆里面、次要杆件先拆、主要杆件后拆，按层次自上而下拆除"
+		}, {
+			"label": "C",
+			"content": "先搭的后拆、后搭的先拆、先拆下部、后拆上部、先拆外面、后拆里面、次要杆件先拆、主要杆件后拆，按层次自上而下拆除"
+		}, {
+			"label": "D",
+			"content": "先搭的后拆、后搭的先拆、先拆上部、后拆下部、先拆外面、后拆里面、次要杆件先拆、主要杆件后拆，按层次自上而下拆除"
+		}],
+		"answer": ["D"],
+		"content": "扣件式感官脚手架拆除的原则是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1.05m"
+		}, {
+			"label": "B",
+			"content": "1.30m"
+		}, {
+			"label": "C",
+			"content": "1.55m"
+		}, {
+			"label": "D",
+			"content": "1.80m"
+		}],
+		"answer": ["D"],
+		"content": "双排扣件式钢管脚手架布置时，下列（ ）不是立杆横距常见的尺寸"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1.65m"
+		}, {
+			"label": "B",
+			"content": "1.80m"
+		}, {
+			"label": "C",
+			"content": "1.55m"
+		}, {
+			"label": "D",
+			"content": "≤1.50m"
+		}],
+		"answer": ["D"],
+		"content": "扣件式钢管脚手架布置时，立杆的横距是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "3500mm"
+		}, {
+			"label": "B",
+			"content": "4000mm"
+		}, {
+			"label": "C",
+			"content": "2200mm"
+		}, {
+			"label": "D",
+			"content": "500000mm"
+		}],
+		"answer": ["C"],
+		"content": "扣件式钢管脚手架横向水平杆（小横杆）的长度宜为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1.20m"
+		}, {
+			"label": "B",
+			"content": "2.70m"
+		}, {
+			"label": "C",
+			"content": "1.35m"
+		}, {
+			"label": "D",
+			"content": "1.80m"
+		}],
+		"answer": ["B"],
+		"content": "当双排扣件式钢管脚手架布置，立杆横距为1.05m，连墙件三步三跨布置时步距不可能的尺寸是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "≤50m"
+		}, {
+			"label": "B",
+			"content": "≤30m"
+		}, {
+			"label": "C",
+			"content": "≤25m"
+		}, {
+			"label": "D",
+			"content": "≤24m"
+		}],
+		"answer": ["D"],
+		"content": "常用敞开式单排扣件式钢管脚手架的布置二步三跨或三步三跨时，允许搭设高度为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "刚性"
+		}, {
+			"label": "B",
+			"content": "柔性"
+		}, {
+			"label": "C",
+			"content": "刚性或柔性"
+		}, {
+			"label": "D",
+			"content": "钢丝"
+		}],
+		"answer": ["A"],
+		"content": "对高度24m以上的双排扣件式钢管脚手架，必须采用（ ）连墙件与建筑物可靠连接"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "内侧"
+		}, {
+			"label": "B",
+			"content": "外侧"
+		}, {
+			"label": "C",
+			"content": "上侧"
+		}, {
+			"label": "D",
+			"content": "四周"
+		}],
+		"answer": ["B"],
+		"content": "临街搭设脚手架时，（ ）应有防止坠物伤人的防护措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "100"
+		}, {
+			"label": "B",
+			"content": "150"
+		}, {
+			"label": "C",
+			"content": "200"
+		}, {
+			"label": "D",
+			"content": "250"
+		}],
+		"answer": ["C"],
+		"content": "扣件式钢管脚手架纵向扫地杆采用直角扣件固定在立杆上，距底座上皮不大于（ ）mm"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.8〜1.0"
+		}, {
+			"label": "B",
+			"content": "1.1〜1.2"
+		}, {
+			"label": "C",
+			"content": "1.2〜1.4"
+		}, {
+			"label": "D",
+			"content": "1.0〜1,"
+		}],
+		"answer": ["B"],
+		"content": "卸料平台临边应设置防护栏和挡脚板，规定上杆距地高度（ ）m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "24m"
+		}, {
+			"label": "B",
+			"content": "50m"
+		}, {
+			"label": "C",
+			"content": "35m"
+		}, {
+			"label": "D",
+			"content": "40m"
+		}],
+		"answer": ["A"],
+		"content": "高度在（ ）以下的单、双排扣件式钢管脚手架，均必须在外侧里面的两端设置一道剪刀撑，并应由底至顶连续设置"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "典型门架"
+		}, {
+			"label": "B",
+			"content": "调节门架"
+		}, {
+			"label": "C",
+			"content": "连接门架"
+		}, {
+			"label": "D",
+			"content": "扶梯门架"
+		}],
+		"answer": ["C"],
+		"content": "连接上、下宽度不同门架之间的过渡门架是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "小于1.2mm"
+		}, {
+			"label": "B",
+			"content": "大于1.2mm"
+		}, {
+			"label": "C",
+			"content": "小于1.0mm"
+		}, {
+			"label": "D",
+			"content": "大于1.0mm"
+		}],
+		"answer": ["A"],
+		"content": "门式钢管脚手架的脚手板面板和钢梯踏板的厚度不应（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "A类"
+		}, {
+			"label": "B",
+			"content": "B类"
+		}, {
+			"label": "C",
+			"content": "C类"
+		}, {
+			"label": "D",
+			"content": "D类"
+		}],
+		"answer": ["D"],
+		"content": "门市钢管脚手架的构配件周转时，对质量类别为（ ）进行报废处理"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "二步"
+		}, {
+			"label": "B",
+			"content": "三步"
+		}, {
+			"label": "C",
+			"content": "一步"
+		}, {
+			"label": "D",
+			"content": "四步"
+		}],
+		"answer": ["A"],
+		"content": "扣件式钢管脚手架必须配合施工进度搭设，一次搭设高度不应超过相邻连墙件以上（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "140"
+		}, {
+			"label": "B",
+			"content": "160"
+		}, {
+			"label": "C",
+			"content": "180"
+		}, {
+			"label": "D",
+			"content": "200"
+		}],
+		"answer": ["C"],
+		"content": "单排扣件式钢管脚手架的小横杆的一端，应用直角扣件固定在大横杆上，另一端应插入墙内，插入长大衣不应小于（ ）mm"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "50mm"
+		}, {
+			"label": "B",
+			"content": "100mm"
+		}, {
+			"label": "C",
+			"content": "150mm"
+		}, {
+			"label": "D",
+			"content": "200mm"
+		}],
+		"answer": ["C"],
+		"content": "脚手架门架内侧立杆离墙面净距不宜大于（ ），否则应采取内挑架或其他离口防护措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "拉力"
+		}, {
+			"label": "B",
+			"content": "压力"
+		}, {
+			"label": "C",
+			"content": "扭矩"
+		}, {
+			"label": "D",
+			"content": "拉力和压力"
+		}],
+		"answer": ["D"],
+		"content": "门式钢管脚手架的连墙件应能承受（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "立杆"
+		}, {
+			"label": "B",
+			"content": "横杆"
+		}, {
+			"label": "C",
+			"content": "专业斜杆"
+		}, {
+			"label": "D",
+			"content": "碗扣接头"
+		}],
+		"answer": ["D"],
+		"content": "碗扣式钢管脚手架系统的核心部件是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "400mm"
+		}, {
+			"label": "B",
+			"content": "500mm"
+		}, {
+			"label": "C",
+			"content": "600mm"
+		}, {
+			"label": "D",
+			"content": "700mm"
+		}],
+		"answer": ["C"],
+		"content": "单选上碗扣、下碗扣和限位销按（ ）间距设置在钢管立杆之上"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "纵向横杆"
+		}, {
+			"label": "B",
+			"content": "横向横杆"
+		}, {
+			"label": "C",
+			"content": "碗扣节点"
+		}, {
+			"label": "D",
+			"content": "横向纵杆"
+		}],
+		"answer": ["C"],
+		"content": "碗扣式钢管脚手架的专用斜杆应设置在（ ）上"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2跨"
+		}, {
+			"label": "B",
+			"content": "3跨"
+		}, {
+			"label": "C",
+			"content": "4跨"
+		}, {
+			"label": "D",
+			"content": "5跨"
+		}],
+		"answer": ["D"],
+		"content": "碗扣式双排钢管脚手架高度不大于24m时，每隔（ ）应设置一组竖向通高斜杆"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "立杆"
+		}, {
+			"label": "B",
+			"content": "横杆"
+		}, {
+			"label": "C",
+			"content": "专用斜杆"
+		}, {
+			"label": "D",
+			"content": "碗扣节点"
+		}],
+		"answer": ["A"],
+		"content": "碗扣式双排钢管脚手架扣件斜杆每步与（ ）扣接"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "H\/200"
+		}, {
+			"label": "B",
+			"content": "H\/300"
+		}, {
+			"label": "C",
+			"content": "H\/400"
+		}, {
+			"label": "D",
+			"content": "H\/500"
+		}],
+		"answer": ["D"],
+		"content": "碗扣式双排钢管脚手架搭设高度H≤30m时，垂直度偏差应不大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "H\/100"
+		}, {
+			"label": "B",
+			"content": "H\/200"
+		}, {
+			"label": "C",
+			"content": "H\/300"
+		}, {
+			"label": "D",
+			"content": "H\/400"
+		}],
+		"answer": ["A"],
+		"content": "碗扣式双排钢管脚手架搭设高度H≤30m时，垂直度偏差应不大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "2跨"
+		}, {
+			"label": "B",
+			"content": "3跨"
+		}, {
+			"label": "C",
+			"content": "4跨"
+		}, {
+			"label": "D",
+			"content": "5跨"
+		}],
+		"answer": ["B"],
+		"content": "碗扣式双排钢管脚手架高度大于24m时，每隔（ ）应设置一组竖向通高斜杆"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "一步"
+		}, {
+			"label": "B",
+			"content": "两步"
+		}, {
+			"label": "C",
+			"content": "三步"
+		}, {
+			"label": "D",
+			"content": "四步"
+		}],
+		"answer": ["C"],
+		"content": "门式钢管脚手架拆除时，脚手架的自由悬臂高度不得超过（ ），否则应加设临时拉结"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "必须由上而下逐层进行，严禁上下同时作业"
+		}, {
+			"label": "B",
+			"content": "可以上下同时拆除"
+		}, {
+			"label": "C",
+			"content": "由下部往上逐层拆除"
+		}, {
+			"label": "D",
+			"content": "对于不需要的部分，可以随意拆除"
+		}],
+		"answer": ["A"],
+		"content": "竹脚手架拆除时必须是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1.5；3"
+		}, {
+			"label": "B",
+			"content": "1.5；5"
+		}, {
+			"label": "C",
+			"content": "1.0；3"
+		}, {
+			"label": "D",
+			"content": "1.8；5"
+		}],
+		"answer": ["B"],
+		"content": "竹脚手架立杆接头的搭接长度从有效直径起不得小于（ ）m，绑扎不得小于（ ）道"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "严禁抛掷至地面"
+		}, {
+			"label": "B",
+			"content": "可将配件一个个的抛掷到地面"
+		}, {
+			"label": "C",
+			"content": "应在高处将构配件捆绑在一起，一次抛掷到地面"
+		}, {
+			"label": "D",
+			"content": "待下班后，工地上没人时，再将构配件抛掷到地面"
+		}],
+		"answer": ["A"],
+		"content": "脚手架上各构配件拆除时（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "应为双管立杆，副立杆应高出于门洞口的1〜2步"
+		}, {
+			"label": "B",
+			"content": "为单杆"
+		}, {
+			"label": "C",
+			"content": "为双立杆，但副立杆只需搭设一步架的高度"
+		}, {
+			"label": "D",
+			"content": "为双立杆，但双杆中的副立杆，不需要用扣件与主立杆连接"
+		}],
+		"answer": ["A"],
+		"content": "脚手架上门洞桁架下的两侧立杆应（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "脚手架立杆纵向间的距离"
+		}, {
+			"label": "B",
+			"content": "左右水平杆轴线间的距离"
+		}, {
+			"label": "C",
+			"content": "上下水平杆轴线间的距离"
+		}, {
+			"label": "D",
+			"content": "脚手架相邻立杆之间的轴线的距离"
+		}],
+		"answer": ["C"],
+		"content": "扣件式钢管脚手架立杆的步距（步）是指（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "两端各设一道，并从底到下连续设置，中间每道剪刀撑净距不应大于15m"
+		}, {
+			"label": "B",
+			"content": "无论多长的脚手架只需在两端各设一道剪刀撑"
+		}, {
+			"label": "C",
+			"content": "剪刀撑不要从底到上连续设置"
+		}, {
+			"label": "D",
+			"content": "剪刀撑的设置没有规定，可随意设置"
+		}],
+		"answer": ["A"],
+		"content": "高度在24m以下的单、双排脚手架，均必须在外侧立面设剪刀撑，其规定为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.4"
+		}, {
+			"label": "B",
+			"content": "0.5"
+		}, {
+			"label": "C",
+			"content": "1.2"
+		}, {
+			"label": "D",
+			"content": "1."
+		}],
+		"answer": ["D"],
+		"content": ".竹脚手架外排立杆应高出女儿墙上皮和檐口（坡屋顶）（ ）m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "纵向水平杆"
+		}, {
+			"label": "B",
+			"content": "大横杆"
+		}, {
+			"label": "C",
+			"content": "横向水平杆"
+		}, {
+			"label": "D",
+			"content": "立杆"
+		}],
+		"answer": ["C"],
+		"content": "当使用竹笆脚手板时，竹脚手架顶撑应顶在（ ）的下方"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1.5"
+		}, {
+			"label": "B",
+			"content": "1.8"
+		}, {
+			"label": "C",
+			"content": "2.0"
+		}, {
+			"label": "D",
+			"content": "1.0"
+		}],
+		"answer": ["B"],
+		"content": "竹脚手架首层步距不得超过（ ）m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "A类"
+		}, {
+			"label": "B",
+			"content": "B类"
+		}, {
+			"label": "C",
+			"content": "C类"
+		}, {
+			"label": "D",
+			"content": "D类"
+		}],
+		"answer": ["B"],
+		"content": "门式钢管脚手架的构配件周转时，对质量类别为（ ）进行更换修理"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "安全栏杆-剪刀撑-小横杆-大横杆-立杆，自上而下逐步拆除"
+		}, {
+			"label": "B",
+			"content": "安全栏杆-剪刀撑-小横杆-大横杆-立杆，自下而上逐步拆除"
+		}, {
+			"label": "C",
+			"content": "安全栏杆-剪刀撑-大横杆-小横杆-立杆，自上而下逐步拆除"
+		}, {
+			"label": "D",
+			"content": "安全栏杆-剪刀撑-大横杆-小横杆-立杆，自下而上逐步拆除"
+		}],
+		"answer": ["A"],
+		"content": "扣件式钢管脚手架拆除的顺序：先移除堆放的物料，然后拆除冲压钢脚手板（每档留一块，供拆除操作时使用），再依次拆除各杆件，起顺序是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "楼板0.3kN\/m3，梁0.5kN\/m3"
+		}, {
+			"label": "B",
+			"content": "楼板0.5kN\/m3，梁0.8kN\/m3"
+		}, {
+			"label": "C",
+			"content": "楼板1.1kN\/m3，梁1.5kN\/m3"
+		}, {
+			"label": "D",
+			"content": "楼板1.5kN\/m3，梁2.0kN\/m"
+		}],
+		"answer": ["C"],
+		"content": "钢筋自重应根据工程设计图确定，对一般梁板结构每立方米钢筋混凝土的钢筋自重标准（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1\/200"
+		}, {
+			"label": "B",
+			"content": "1\/250"
+		}, {
+			"label": "C",
+			"content": "1\/300"
+		}, {
+			"label": "D",
+			"content": "1\/350"
+		}],
+		"answer": ["B"],
+		"content": "当验算模板及其之间的刚度时，模板结构表面隐蔽的模板，为模板构件计算跨度的（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1\/250"
+		}, {
+			"label": "B",
+			"content": "1\/300"
+		}, {
+			"label": "C",
+			"content": "1\/400"
+		}, {
+			"label": "D",
+			"content": "1\/500"
+		}],
+		"answer": ["D"],
+		"content": "现浇混凝土验算模板及支架刚度时，当组合模板体系的累计变形值超过模板构件计算跨度（ ）是不满足要求的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "上层施工荷载"
+		}, {
+			"label": "B",
+			"content": "上二层施工荷载"
+		}, {
+			"label": "C",
+			"content": "上层楼板永久荷载"
+		}, {
+			"label": "D",
+			"content": "上层楼板活荷载"
+		}],
+		"answer": ["A"],
+		"content": "当立柱支撑在楼面上时，下层楼板应当具有承受（ ）的能力，否则应当支撑支架"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "4"
+		}, {
+			"label": "B",
+			"content": "6"
+		}, {
+			"label": "C",
+			"content": "8"
+		}, {
+			"label": "D",
+			"content": "10"
+		}],
+		"answer": ["A"],
+		"content": "现浇混凝土验算模板及支架的刚度时，其支撑系统的累计变形值不超过（ ）mm是满足要求的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1\/250"
+		}, {
+			"label": "B",
+			"content": "1\/300"
+		}, {
+			"label": "C",
+			"content": "1\/400"
+		}, {
+			"label": "D",
+			"content": "1\/500"
+		}],
+		"answer": ["D"],
+		"content": "现浇混凝土验算模板及支架的刚度时，当支架的压缩变形或弹性挠度的累计变形值超过模板构件跨度（ ）是不满足要求的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "立杆钢管"
+		}, {
+			"label": "B",
+			"content": "水平杆钢管"
+		}, {
+			"label": "C",
+			"content": "扣件的抗滑力"
+		}, {
+			"label": "D",
+			"content": "风荷载"
+		}],
+		"answer": ["C"],
+		"content": "模板及支架的架体的承载能力虽然涉及多项内容，但通常取决于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "支架单元"
+		}, {
+			"label": "B",
+			"content": "地基"
+		}, {
+			"label": "C",
+			"content": "支架单元和地基"
+		}, {
+			"label": "D",
+			"content": "整个支架"
+		}],
+		"answer": ["C"],
+		"content": "在高大复杂或荷载较大的模板支架系统，为了防止施工过程中地基沉降对现浇混凝土结构施工质量和支架稳定的影响，应当对（ ）进行试压"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "底座"
+		}, {
+			"label": "B",
+			"content": "垫板"
+		}, {
+			"label": "C",
+			"content": "底座及垫板"
+		}, {
+			"label": "D",
+			"content": "高度调节装置"
+		}],
+		"answer": ["C"],
+		"content": "模板支架底座应当设置（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "20kN"
+		}, {
+			"label": "B",
+			"content": "40kN"
+		}, {
+			"label": "C",
+			"content": "50kN"
+		}, {
+			"label": "D",
+			"content": "60kN"
+		}],
+		"answer": ["B"],
+		"content": "模支架底座的承载力不应小于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1个立柱距离"
+		}, {
+			"label": "B",
+			"content": "2个立柱距离"
+		}, {
+			"label": "C",
+			"content": "3个立柱距离"
+		}, {
+			"label": "D",
+			"content": "3.6个立柱距离"
+		}],
+		"answer": ["B"],
+		"content": "模板支架木垫板长度一般不少于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "宽度为150mm，厚度不小于20mm"
+		}, {
+			"label": "B",
+			"content": "宽度为200mm，厚度不小于20mm"
+		}, {
+			"label": "C",
+			"content": "宽度为150mm，厚度不小于50mm"
+		}, {
+			"label": "D",
+			"content": "宽度为200mm，厚度不小于50mm"
+		}],
+		"answer": ["D"],
+		"content": "模板支架采用的木垫板的规格要求是（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.6〜0.8m"
+		}, {
+			"label": "B",
+			"content": "0.8〜1.2m"
+		}, {
+			"label": "C",
+			"content": "0.9〜1.5m"
+		}, {
+			"label": "D",
+			"content": "1.5〜1.8m"
+		}],
+		"answer": ["B"],
+		"content": "模板支架立柱的间距通常为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "10mm"
+		}, {
+			"label": "B",
+			"content": "15mm"
+		}, {
+			"label": "C",
+			"content": "20mm"
+		}, {
+			"label": "D",
+			"content": "25mm"
+		}],
+		"answer": ["D"],
+		"content": "当梁模板支架立柱采用单根立柱时，立柱应该设在梁模板中心线处，其偏心距不应大于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "1\/5"
+		}, {
+			"label": "B",
+			"content": "1\/4"
+		}, {
+			"label": "C",
+			"content": "1\/3"
+		}, {
+			"label": "D",
+			"content": "1\/2"
+		}],
+		"answer": ["C"],
+		"content": "模板支架为双立柱时，每层高度内相邻立柱的接头应该错开设置，立柱接头位置应该避开架体中间（ ）高度范围内"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "柔性连接"
+		}, {
+			"label": "B",
+			"content": "弹性连接"
+		}, {
+			"label": "C",
+			"content": "刚性连接"
+		}, {
+			"label": "D",
+			"content": "刚弹性连接"
+		}],
+		"answer": ["C"],
+		"content": "在混凝土框架、剪力墙结构施工中，应该充分利用混凝土框架、剪力墙结构的作用，模板及其支架应该和混凝土框架、剪力墙结构形成（ ）的统一整体"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "端部"
+		}, {
+			"label": "B",
+			"content": "中部"
+		}, {
+			"label": "C",
+			"content": "端部和中部"
+		}, {
+			"label": "D",
+			"content": "底部"
+		}],
+		"answer": ["C"],
+		"content": "模板支架所有水平拉杆的端部均应该与四周建筑结构顶紧顶牢，无处可顶时，应当在水平拉杆（ ）沿竖向设置连续式剪刀撑"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.5"
+		}, {
+			"label": "B",
+			"content": "1"
+		}, {
+			"label": "C",
+			"content": "2"
+		}, {
+			"label": "D",
+			"content": "3"
+		}],
+		"answer": ["C"],
+		"content": "采用方木立柱时，应当采取不少于两根圆顶与立柱钉牢，圆钉长度应该不少于杆件厚度的（ ）倍"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "滑动摩擦原理"
+		}, {
+			"label": "B",
+			"content": "滚动摩擦原"
+		}, {
+			"label": "C",
+			"content": "剪力-摩擦原理"
+		}, {
+			"label": "D",
+			"content": "抗剪原理"
+		}],
+		"answer": ["C"],
+		"content": "模板支架扣件的抗滑力是建立在（ ）基础上的，所以扣件的紧固程度必须掌握恰当"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "10mm"
+		}, {
+			"label": "B",
+			"content": "15mm"
+		}, {
+			"label": "C",
+			"content": "20mm"
+		}, {
+			"label": "D",
+			"content": "25mm"
+		}],
+		"answer": ["B"],
+		"content": "模板支架立柱应当垂直，2m高度的垂直度允许偏差为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "0.6〜0.8m"
+		}, {
+			"label": "B",
+			"content": "0.8〜1.2m"
+		}, {
+			"label": "C",
+			"content": "1.2〜1.8m"
+		}, {
+			"label": "D",
+			"content": "1.8〜2.0m"
+		}],
+		"answer": ["C"],
+		"content": "模板支架水平拉杆的步距通常为（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "技术管理不到位"
+		}, {
+			"label": "B",
+			"content": "材料配件存在质量问题"
+		}, {
+			"label": "C",
+			"content": "搭设不规范"
+		}, {
+			"label": "D",
+			"content": "使用不当"
+		}],
+		"answer": ["C"],
+		"content": "搭在结构上的模板支架，结构承载力不足造成脚手架事故，其原因属于（ ）"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "技术管理不到位"
+		}, {
+			"label": "B",
+			"content": "材料配件存在质量问题"
+		}, {
+			"label": "C",
+			"content": "搭设、拆除不规范"
+		}, {
+			"label": "D",
+			"content": "使用不当"
+		}],
+		"answer": ["B"],
+		"content": "钢管锈蚀严重，造成脚手架事故，其原因属于（ ）"
+	}
+]

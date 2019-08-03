@@ -1,0 +1,1981 @@
+[{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "事故隐患指生产系统中存在的导致事故发生的人的不安全行为、物的不安全状态以及管理上的缺陷"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "安全教育培训制度是企业安全生产、劳动保护制度的核心"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "目前，建设行政主管部门主要对在房屋建筑和装饰装修施工现场从事建筑施工特种作业的人员进行管理"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "从事建筑施工特种作业人员必须要有初中以上学历"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "季节性安全教育主要是指在夏冬季施工中，针对气候特点可能对施工安全带来危害而组织的安全教育"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "《建筑施工特种作业操作资格证书》正本中必须注明证书使用期"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "从事施工升降机安装拆卸的特种作业人员可以从事塔式起重机的安装拆卸作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "建筑施工企业必须根据作业人员的自身素质、施工环境，按照规定配发安全防护用品"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "《安全生产法》属于法律范畴"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全网主要有平网和立网两种"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "引起煤气中毒的主要原因是超量吸入二氧化碳"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "升降吊篮应由专业的、在高空作业的抹灰工担任"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "禁止出租检测不合格的机械设备"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "二氧化碳灭火剂不但能够灭火，还具有一定的冷却作用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "特种作业人员上岗前要接受本工种专门的安全操作技能培训，培训内容为安全技术理论"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "参加安全技术理论考核之前，必须先经医院体检合格"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "建筑施工特种作业操作资格证书有效期为3年"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "各工种的安全技术交底一般与分部分项安全技术交底分开进行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "超过一定规模的危险性较大的分部分项工程专项方案应当由建设单位组织召开专家论证会"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "特种作业操作资格证书有效期满需要延期的，持证人应当于期满前三个月向考核发证机关办理延期复核手续"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "班前安全教育的内容包括岗前安全隐患检查及整改"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全专项施工方案是指在施工过程中，施工单位在编制安全技术措施的时候，对危险性较大的分部分项工程单独编制有针对性的安全技术措施文件"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "为了确保自己和伤病者的安全，急救现场环境评估首先要确认有无危害急救者及伤病员的危险因素"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "有危险因素时应首先将其排除，无法排除时应呼救支援，并立刻设法进入事故现场抢险"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "安全帽使用时，允许在安全帽内再佩戴其他帽子"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全防护用品的发放和管理，坚持“谁用工谁负责”的原则"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全防护用品要专人管理、定期检查、发现不合格产品应及时进行更换"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "如发现员工有集体发烧、咳嗽等不良症状，应立即报告现场负责人和有关部门，对患者进行治疗，同时启动应急救援方案"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "安全带上的各种部件不得任意拆除，更换新绳时要注意加绳套"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "护目镜要专人使用，防止交叉传染眼病"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场集体宿舍禁止使用电炉"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "从事架体搭设、起重机械拆装等高处作业的人员只要体检合格，达到法定劳动年龄，具有一定文化程度，接受安全教育就可以上岗"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "遇浓雾天气不得进行露天高处作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "临边作业的主要防护措施是防护栏杆和移动梯"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "水平面上的洞口，25〜50cm的洞口应在四周设置防护栏杆"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "以作业位置为中心，可能坠落范围半径为半径划成的水平面积，成为可能坠落范围"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "垂直面上的洞口也可采用栏杆加档脚板（笆）防护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "手持式Ⅱ类电动工具，在防止触电的保护方面不仅依靠基本绝缘，而且还提供双重绝缘或者加强绝缘的附加安全预防措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "支模、砌筑、粉刷等立体交叉施工时，有些时间、场合允许在同一垂直方向进行作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "油漆是可燃物质"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "登高用梯踏板应当采用具有防滑性能的材料"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "建筑施工现场动火区域一般可分为两个等级"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "造成10人死亡的火灾属于重大火灾"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "泡沫是一种体积较小，表面被液体围成的气泡群，是扑救易燃、可燃气体火灾的有效灭火剂"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "二氧化碳灭火剂适用于扑救图书档案火灾"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "总平面超过1200┫的大型临时设施，应当配备不少于2套的取水桶、消防铣、消防钩"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "乙二胺一旦发生火灾，要用泡沫、二氧化碳、干粉灭火剂以及砂土、雾状水灭火"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "锅炉正面与墙的距离应不小于3m，锅炉与锅炉之间应保持不小于1m的距离"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场的木工作业场所, 严禁动用明火"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在整个施工现场临时用电工程中, 总配电箱中必须装设漏电保护器, 而开关箱中可以不装设漏电保护器"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "手持式Ⅰ类电动工具，在防止触电的保护方面依靠安全特低电压供电和在工具内部不含产生比安全特低电压高的电压"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "施工现场开挖沟槽边缘与外电埋地电缆沟槽边缘之间的距离不得小于1.0m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "电缆线路必须采用电缆埋地方式引入在建工程内，严禁穿越脚手架引入"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场临时用电工程的接地保护，采用的是保护零线（PE线）与工作零线（N线）分开设置，电源中性点直接接地的三相四线制低压电力系统"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "配电箱、开关箱必须按照开关箱-分配电箱-总配电箱的顺序操作送电，按照总配电箱-分配电箱-开关箱的顺序操作停电"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "总配电箱中漏电保护器的额定漏电动作电流与额定漏电动作时间的乘积不应大于30m对·s"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "通常按照降水强度的大小将降雨划分为小雨、中雨、大雨、暴雨、大暴雨、特大暴雨共六个等级"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "雷暴日数，就是在一月内该地区发生雷暴的天数，用以表示雷电活动频繁程度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "雨量是用来表示降水强度的物理量，用积水的体积来表示"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "雨期施工准备工作包括合理组织施工和做好施工现场排水两项工作"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "大风、大雨后，要组织人员检查脚手架是否牢固，如有倾斜、下沉、松扣、崩扣和安全网脱落、开绳等现象，要及时进行处理"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "为了确保雨期施工用电安全，在潮湿和易触及带电体场所的照明电源电压不得大于20V；在特别潮湿的场所或金属容器内工作的照明电源电压不得大于10V"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "冬期施工与冬季施工是两个相同的概念，都是指寒冷状况下的工程作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "雨期施工中使用的集体宿舍应设专人负责，夜间值班"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "夏季施工卫生保健很重要，应提供符合卫生标准饮用水，高温作业场所要供给含盐饮料，避免多人共用一个饮水器皿"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "冬期爆破施工要离建筑物100m以外，距高压电线100m以外"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "为冬期施工起重机械设备安全使用，缆风绳地锚应当埋置在冻土层以上"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场常用的禁止标志是禁止吸烟和禁止通行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "设置安全标志的目的是提醒、警示施工作业人员，时刻认识到所处环境的危险性"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "警告标志的几何图形为白底黑色图案加三角形黑边"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场常用的指令标志是必须系安全带和必须戴安全帽"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "提示防火的标志图形是以长方形、绿底白线条加文字说明"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "表示危险的信号旗的安全色是红色"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "对比色是使安全色更加醒目的反衬色，包括黑色和白色"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "应在施工现场入口处设置必须戴好安全帽等警告标志"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工现场急救目的是：应用急救知识和最简单的急救技术进行现场初级救生，最大程度地稳定伤病员的伤情病情，维护伤病员的最基本的生命体征，防止伤病恶化，减少并发症"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "对可能出现传染病病因的场所进行隔离、消毒，严格控制疾病的再次传播"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "施工班组的班前活动由项目技术负责人组织实施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "触电紧急救护时，体外心脏挤压法每分钟进行60次，即每秒一次"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在井（地）下施工中有人发生毒气中毒时，必须先向工地负责人和有关部门报告"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "建筑施工现场应当成立以企业负责人为组长、各部门参加的消防安全领导小组"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "事故发生后，有关单位和人员应妥善保护事故现场"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "事故调查处理应当坚持实事求是、公平公正的原则"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "事故调查组有权向有关单位和个人了解与事故有关的情况，并要求其提供相关文件资料，有关单位和个人不得拒绝"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "事故调查组成员可随时发布有关事故的信息"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "事故调查中需要进行技术鉴定的，技术鉴定所需时间不计入事故调查期限"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "强令工人冒险作业，这是违法行为"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "为了保证工程进度，对发生的事故可以采取迟报"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "设置安全标志可引起人们对重大危险源的识别，以防发生事故"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "暂时停止施工的现场，施工单位应当做好现场防护"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "力使物体发生移动的作用效应称为力的内效应"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "力的作用效果与力作用的大小有关"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "机器的工作部分是完成机器预定的动作，处于整个传动的终端"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "对于相同齿数的齿轮，模数越大，齿轮的几何尺寸越大，承载能力也越大"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "齿条传动就是指把齿轮的旋转运动变为齿条的直线往复运动"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "一对齿轮的传动比大小与其齿数成正比"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "在液压系统中，承受压力并传递压力的油液一般为矿物油"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "溢流阀主要作用是稳压、调压或限压"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在液压系统正常工作时，溢流阀应处于开启状态"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "减压阀是一种利用液流流过缝隙产生压降的原理，使出口油压高于进口油压的压力控制阀，以满足执行机构的需要"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "油箱的容积大小是根据机械所需要的动力大小来决定的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "要避免齿面点蚀就必须提高齿面的硬度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "物体的重量就是物体的质量，是完全等值的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "均质物体的重心位置与物体的重量无关"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "钢丝绳具有强度高，自重轻，弹性大等优点"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "链传动是带传动的一种特殊形式"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "钢丝绳的最小破断拉力是钢丝绳最重要的力学性能参数"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "手动起重设备的钢丝绳的安全系数应大于机动起重设备的钢丝绳的安全系数"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "钢丝绳截断时，宜使用专用刀具或砂轮锯"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "起升机构中不得使用编结接长的钢丝绳"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "轴是组成机器最基本的和主要的零件，应用最为广泛的是直轴"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "钢丝绳在使用中一旦出现断丝现象，应立即停止使用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "吊同样重的物体，吊绳间夹角不同，但单根吊索所受的拉力相同"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "捆绑方形物体起吊时，吊绳间的夹角达到170o左右，此时，钢丝绳受到的拉力会达到所吊物体重量的5〜6倍"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "钢丝绳之间的连接采用卸扣或套环，其目的都是为了保证钢丝绳的曲率半径不至于过小"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "液压缸是液压系统中的动力元件"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "吊钩可以补焊后使用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "卸扣出现螺栓滑丝应报废"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "滑车的吊钩中心，应与吊物的重心在一条垂线上"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "链式滑车使用时，拉链方向应与链轮方向相反"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "高温或多层缠绕的场合宜选用金属芯的钢丝绳"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "卷扬机使用前，应先作空载正、反转试验"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "卷扬机使用中，严禁用手拉脚踩钢丝绳，但可以跨越钢丝绳"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "白棕绳捆绑时，在物体的尖锐边角处应垫上保护性软物"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "高温或多层缠绕的场合宜选用石棉芯的钢丝绳"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "钢丝绳在卷筒上缠绕时，要逐圈紧密地排列整齐，不应错叠或离缝"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "起重机械的基本参数，是施工现场选用起重机械的主要技术依据"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "可变幅起重机的起重量随着幅度的增加而相应递增"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "塔式起重机的尾部与周围建筑物及其外围施工设施之间的安全距离不小于0.4m"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "起重机允许起升物料的最大起重量称为额定起重量"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "捆绑物体时钢丝绳的曲率半径大小，不影响起重能力"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "塔式起重机QTZ80C中80表示为起重机的额定起重量，单位为吨"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "塔式起重机的安全设置，其作业是使塔式起重机在允许载荷和工作空间中安全运行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "塔式起重机的力矩限制器仅对水平平面内起重力矩超载时起限制作用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "滑车组能省力也能改变力的方向"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "汽车起重机可以带负荷行驶"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "汽车起重机的稳定性和起重量与起吊方向无关"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "检查工作地点的地面条件，是汽车起重机安全操作规定的内容之一"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "履带起重机本身能回转360度，在平坦坚实的地面上能负荷行驶"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "卷扬机安装位置不必要搭设工作棚"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "履带起重机在工作时，应与沟渠、基坑保持规定的安全距离"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "履带起重机进行双机抬吊作业，并不要求两机性能类似"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "履带起重机通过桥梁、水坝和排水沟等构筑物时，必须查明其允许载荷，决定是否采取防护措施"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "装卸水泥，石灰、石英砂等散货，应将袖口、裤脚扎紧戴好防尘口罩、防尘帽"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "起重机械或受力较大的作业可以使用白棕绳"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "从事装卸、搬运沥青的工人，必须坚持每周洗澡一次"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "通用手势信号中，一只手握拳，小臂向上不动，另一只手伸出，手心轻触前只手的肘关节表示“吊钩水平移动”的意思"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "工程合同不是起重吊装专项施工方案的编制依据"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "明确各个岗位的安全生产责任制，是安全技术措施要求"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "液压千斤顶在高温和低温条件下不得使用"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "起重用吊索与物件的夹角宜采用45°〜60°，且不得小于45°"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "装配式框架结构采用履带起重机吊装方案时，履带起重机起重高度和起重半径均较大，起重臂易碰到已吊装的构件"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "起重作业指挥人员应站在使司机能看清楚指挥信号的安全位置上"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "现场作业人员不得在吊物下停留和行走是起重作业规定，否则是违章的"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "化学纤维绳应远离明火和高温，但可在露天长期曝晒"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在起吊物体时，不论采用几点吊装，都始终要使吊钩或吊索连接的交点的垂线通过被吊物体的中心"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "有一15m长的管桩需要起吊，如起吊用两个吊点，则两个吊点应分别距离管桩两端1.95m处"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "塔式起重机的特点之一是构造较为简单，维修、保养方便"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "物体兜翻时，应根据需要加护绳，护绳的长度应略短于物体不稳定状态时的长度"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "用一个吊点的平行吊装绑扎法常采用单支吊索穿套结索法吊装作业"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "单层工业厂房单机吊装中，采用旋转法吊升柱子震动较大，生产效率较低"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "单层工业厂房单机吊装中，一般中小型柱子多采用滑行法吊升"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "定长臂汽车起重机多为小型机械传动起重机"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "单层工业厂房吊装中，中小型吊车梁的校正工作宜在屋盖吊装后进行"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "单层工业厂房吊装中，屋架吊装时吊索与水平线的夹角不宜大于45°"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "液压传动的汽车起重机开动油泵前，先使发动机高速运转一段时间"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "起重机位于屋架上弦一边，吊钩对准上弦中点，随着起钩、降杆，使屋架绕下弦转动而直立的扶直屋架称为反向扶直法"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在同时指挥臂杆和吊钩时，指挥人员必须分别用右手指挥臂杆，左手指挥吊钩"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "单层工业厂房屋架双机抬吊时，多采用递送法"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "在滚动和移动重物时，要站在重物侧面或前面，这是起重装卸作业要求内容之一"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "装配式框架结构采用分层分段流水安装时，施工层的划分与预制梁的长度有关"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "装卸作业中，多人抬运同一物件时，须有人指挥，协调一致，同起同落"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "一般在高层建筑、大型吊装等指挥距离较远的情况下，为了增大起重机司机对指挥信号的视觉范围，可采用手势信号"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "根据旗语信号应用范围和工作特点，有预备、要主钩、要副钩等14个图谱"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "施工方案实施前，必须逐级进行技术交底"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "前、后、左、右---在指挥语言中，均以指挥人员所在位置为基准"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "旗语信号中，两旗分别拢起，横在两侧，旗头外指表示“伸臂”的意思"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["B"],
+		"content": "单层工业厂房吊装中，当柱子的大面抗剪能力满足吊装要求时，可采用斜吊绑扎法"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "在使用撬的方法是，为了达到省力的目的，垫点应尽量靠近物体，以减少重臂，增大力臂"
+	},
+	{
+		"choices": [{
+			"label": "A",
+			"content": "正确"
+		}, {
+			"label": "B",
+			"content": "错误"
+		}],
+		"answer": ["A"],
+		"content": "行走式塔式起重机在低层装配式框架结构吊装中使用较广"
+	}
+]

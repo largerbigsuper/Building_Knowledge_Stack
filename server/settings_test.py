@@ -16,6 +16,17 @@ DATABASES = {
 }
 
 
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://redis:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+
 # class MinprogramSettings:
 #     APP_ID = 'wx1743dc274cf46871'
 #     APP_SECRET = '648a7ae2cbf66aa7e48992d76f46e621'
@@ -41,6 +52,8 @@ class AliYunSMS:
     ACCESS_KEY_SECRET = "avnP9AWfnoZ0eWvXQku7cwUPagTtNt"
     SMS_TEMPLATE_NAME = '浙江建筑宝典'
     SMS_TEMPLATE_ID = 'SMS_168875146'
+    SMS_TEMPLATE_NAME_ORDER = '报名成功'
+    SMS_TEMPLATE_ID_ORDER = 'SMS_171191442'
 
 
 class AlipaySettings:
@@ -48,7 +61,7 @@ class AlipaySettings:
     APP_ID = '2019061765593239'
     APP_PRIVATE_KEY = os.path.join(_root_dir, 'config/alipay/test_app_private.txt')
     ALIPAY_PUBLIC_KEY = os.path.join(_root_dir, 'config/alipay/test_alipay_public_key_sha256.txt')
-    VIRTUAL_SERVICE_NOTIFY_URI = 'https://tm.lhxq.top/application/alipay_notify/'
+    VIRTUAL_SERVICE_NOTIFY_URI = 'https://tm.lhxq.top/alipay_notify/'
 
 
 class WeChatPaySettings:
@@ -56,7 +69,7 @@ class WeChatPaySettings:
     WEIXIN_APP_SECRET = 'aa920bd33ef6b19c1f30cc424294204c'
     WEIXIN_MCH_ID = '1540995301'
     WEIXIN_MCH_KEY = 'tm012345678901234567890123456789'
-    WEIXIN_NOTIFY_URL = 'https://tm.lhxq.top/application/wechatpay_notify/'
+    WEIXIN_NOTIFY_URL = 'https://tm.lhxq.top/wechatpay_notify/'
 
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

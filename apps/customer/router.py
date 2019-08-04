@@ -7,6 +7,7 @@ from apps.customer.sms.viewsets import CustomerSMSViewSet
 from apps.customer.articles.viewsets import CustomerArticleViewSet, CustomerTagViewSet
 from apps.customer.feedback.viewsets import CustomerFeedbackViewSet
 from apps.customer.invite.viewsets import CustomerInviteRecordViewSet, CustomerBlanceRecordViewSet, CustomerWithDrawRecordViewSet
+from apps.customer.common.viewsets import CustomerAppVersionViewSet
 
 customer_router = routers.DefaultRouter()
 
@@ -24,3 +25,4 @@ customer_router.register('feedback', CustomerFeedbackViewSet, base_name='feedbac
 customer_router.register('invite_record', CustomerInviteRecordViewSet, base_name='invite_record')
 customer_router.register('blance_record', CustomerBlanceRecordViewSet, base_name='blance_record')
 customer_router.register('withdraw_record', CustomerWithDrawRecordViewSet, base_name='withdraw_record')
+customer_router.register('app_version', CustomerAppVersionViewSet, base_name='app_version')

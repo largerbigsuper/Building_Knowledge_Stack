@@ -6,6 +6,7 @@ from mptt.fields import TreeForeignKey
 from mptt.models import MPTTModel
 
 from lib.modelmanager import ModelManager
+from lib.ali_sms import smsserver
 from server.settings import DB_PREFIX, AlipaySettings
 from lib import pay
 
@@ -53,6 +54,9 @@ class SubjectTerm(models.Model):
                                               verbose_name='可以报名/不可以报名')
     update_at = models.DateTimeField(auto_now=True, verbose_name='更新时间')
     create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
+    tel_noticed = models.CharField(max_length=200, default='', verbose_name='需要通知的号码(多个以英文逗号`,`分隔)')
+
+
 
     objects = SubjectTermManager()
 
@@ -145,6 +149,17 @@ class ApplicationManager(ModelManager):
         sign = pay.wechatpay_serve.sign(data)
         data['sign'] = sign
         return data
+
+    def send_sms_to_admin(tel_list=None, **kwargs):
+        """发送报名通知到指定电话
+        
+        Keyword Arguments:
+            tel_list {list} -- 电话列表 (default: {None})
+        """
+        if tel_list:
+            for phone in tel_list:
+                smsserver.send_sms_to_admin(phone=phone, **kwargs)
+
 
 
 class Application(models.Model):

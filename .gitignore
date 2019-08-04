@@ -126,3 +126,6 @@ dmypy.json
 # vscode
 .vscode
 *migrations/
+
+# project
+.qiniu_pythonsdk_hostscache.json

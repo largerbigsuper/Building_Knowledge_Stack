@@ -208,6 +208,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                     order.save()
                     pay_logger.info('start send msg...')
                     smsserver.send_order_sms(phone=order.customer.account, name=order.subject_term.name)
+                    mm_Application.send_sms_to_admin(tel_list=order.tel_noticed.split(','), name=order.subject_term.name)
                     pay_logger.info('start add record...')
                     mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
                                                action_type=mm_InviteRecord.Invite_Action_Buy, total_fee=order.total_amount)
@@ -246,6 +247,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
             order.save()
             pay_logger.info('start send msg...')
             smsserver.send_order_sms(phone=order.customer.account, name=order.subject_term.name)
+            mm_Application.send_sms_to_admin(tel_list=order.tel_noticed.split(','), name=order.subject_term.name)
             pay_logger.info('start add record...')
             mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
                                        action_type=mm_InviteRecord.Invite_Action_Buy,  total_fee=order.total_amount)

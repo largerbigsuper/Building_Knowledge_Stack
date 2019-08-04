@@ -55,7 +55,7 @@ class SubjectTerm(models.Model):
     update_at = models.DateTimeField(auto_now=True, verbose_name='更新时间')
     create_at = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
     tel_noticed = models.CharField(max_length=200, default='', verbose_name='需要通知的号码(多个以英文逗号`,`分隔)')
-
+    rewards = models.FloatField(default=0, verbose_name='提成(元)')
 
 
     objects = SubjectTermManager()

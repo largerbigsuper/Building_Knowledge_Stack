@@ -20,14 +20,13 @@ class InviteRecordManager(ModelManager):
         (Invite_Action_Buy, '购买科目'),
     )
 
-    def add_record(self, customer_id, invite_code=None, action_type=Invite_Action_Enroll, total_fee=None):
+    def add_record(self, customer_id, invite_code=None, action_type=Invite_Action_Enroll, total_fee=None, rewards=0):
         if not invite_code:
             return
         inviter = mm_Customer.get(invite_code=invite_code)
         if action_type == self.Invite_Action_Enroll:
             rewards = 2.0
-        else:
-            rewards = total_fee * 0.1
+
         kwargs = {
             'inviter_id': inviter.id,
             'invited_id': customer_id,

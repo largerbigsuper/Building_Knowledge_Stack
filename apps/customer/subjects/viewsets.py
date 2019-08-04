@@ -66,7 +66,7 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
         data = {
             'results': serializer.data
         }
-        
+
         return Response(data=data)
 
     @action(detail=True, methods=['get'])
@@ -79,9 +79,6 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
         if notice:
             data = CustomerExamNoticeSerializer(notice).data
         return Response(data)
-
-
-        
 
 
 class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
@@ -182,7 +179,7 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
         pay_logger.info('data: %s' % data)
         data_post = request.POST
         pay_logger.info('data_post: %s' % data_post)
-        pay_logger.info('type(data) = {}'.format(type(data)) )
+        pay_logger.info('type(data) = {}'.format(type(data)))
         pay_logger.info('data: %s' % json.dumps(data))
         # sign 不能参与签名验证
         # data = dict(data)
@@ -207,11 +204,16 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                     order.pay_at = datetime.now()
                     order.save()
                     pay_logger.info('start send msg...')
-                    smsserver.send_order_sms(phone=order.customer.account, name=order.subject_term.name)
-                    mm_Application.send_sms_to_admin(tel_list=order.tel_noticed.split(','), name=order.subject_term.name)
+                    smsserver.send_order_sms(
+                        phone=order.customer.account, name=order.subject_term.name)
+                    mm_Application.send_sms_to_admin(
+                        tel_list=order.tel_noticed.split(','), name=order.subject_term.name)
                     pay_logger.info('start add record...')
-                    mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
-                                               action_type=mm_InviteRecord.Invite_Action_Buy, total_fee=order.total_amount)
+                    mm_InviteRecord.add_record(customer_id=order.customer_id,
+                                               invite_code=order.invite_code,
+                                               action_type=mm_InviteRecord.Invite_Action_Buy,
+                                               total_fee=order.total_amount,
+                                               rewards=order.subject_term.rewards)
 
             except:
                 pay_logger.error('Error: %s ' % traceback.format_exc())
@@ -246,9 +248,15 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
             order.pay_at = datetime.now()
             order.save()
             pay_logger.info('start send msg...')
-            smsserver.send_order_sms(phone=order.customer.account, name=order.subject_term.name)
-            mm_Application.send_sms_to_admin(tel_list=order.tel_noticed.split(','), name=order.subject_term.name)
+            smsserver.send_order_sms(
+                phone=order.customer.account,
+                name=order.subject_term.name)
+            mm_Application.send_sms_to_admin(
+                tel_list=order.tel_noticed.split(','), name=order.subject_term.name)
             pay_logger.info('start add record...')
-            mm_InviteRecord.add_record(customer_id=order.customer_id, invite_code=order.invite_code,
-                                       action_type=mm_InviteRecord.Invite_Action_Buy,  total_fee=order.total_amount)
+            mm_InviteRecord.add_record(customer_id=order.customer_id,
+                                       invite_code=order.invite_code,
+                                       action_type=mm_InviteRecord.Invite_Action_Buy,
+                                       total_fee=order.total_amount,
+                                       rewards=order.subject_term.rewards)
         return pay.wechatpay_serve.reply("OK", True)

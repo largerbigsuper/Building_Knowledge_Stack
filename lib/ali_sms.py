@@ -58,7 +58,7 @@ class SMSServer:
 
         return json.loads(response.decode('utf-8'))
 
-    def send_sms_to_admin(self, phone, name):
+    def send_sms_to_admin(self, phone, name, subject_name):
         """发送单个验证码"""
 
         request = CommonRequest()
@@ -69,19 +69,15 @@ class SMSServer:
         request.set_version('2017-05-25')
         request.set_action_name('SendSms')
 
-        request.add_query_param('TemplateCode', AliYunSMS.SMS_TEMPLATE_ID_ORDER)
-        request.add_query_param('SignName', AliYunSMS.SMS_TEMPLATE_NAME_ORDER)
+        request.add_query_param('TemplateCode', AliYunSMS.SMS_TEMPLATE_ID_ORDER_NOTICE_ADMIN)
+        request.add_query_param('SignName', AliYunSMS.SMS_TEMPLATE_NAME_ORDER_NOTICE_ADMIN)
         request.add_query_param('PhoneNumbers', phone)
-        request.add_query_param('TemplateParam', json.dumps({"name": name}))
+        request.add_query_param('TemplateParam', json.dumps({"name": name, "subject_name": subject_name}))
         request.add_body_params('OutId', uuid.uuid1())
         response = self.client.do_action(request)
         # b'{"Message":"OK","RequestId":"97FDD87D-5B50-4BFA-BF9C-CA24768A5FE0","BizId":"419112860178747080^0","Code":"OK"}'
 
         return json.loads(response.decode('utf-8'))
-
-
-
-        
 
 
 smsserver = SMSServer()

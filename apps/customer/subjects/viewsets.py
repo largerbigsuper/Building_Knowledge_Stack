@@ -207,7 +207,9 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                     smsserver.send_order_sms(
                         phone=order.customer.account, name=order.subject_term.name)
                     mm_Application.send_sms_to_admin(
-                        tel_list=order.tel_noticed.split(','), name=order.subject_term.name)
+                        tel_list=order.tel_noticed.split(','),
+                        name=order.customer.account,
+                        subject_name=order.subject_term.name)
                     pay_logger.info('start add record...')
                     mm_InviteRecord.add_record(customer_id=order.customer_id,
                                                invite_code=order.invite_code,
@@ -252,7 +254,9 @@ class CustomerApplicationViewSet(CustomerModelViewSet):
                 phone=order.customer.account,
                 name=order.subject_term.name)
             mm_Application.send_sms_to_admin(
-                tel_list=order.tel_noticed.split(','), name=order.subject_term.name)
+                tel_list=order.tel_noticed.split(','),
+                name=order.customer.account,
+                subject_name=order.subject_term.name)
             pay_logger.info('start add record...')
             mm_InviteRecord.add_record(customer_id=order.customer_id,
                                        invite_code=order.invite_code,

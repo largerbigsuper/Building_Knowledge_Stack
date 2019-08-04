@@ -47,6 +47,8 @@ THIRD_APPS = [
     'django_filters',
     'crispy_forms',
     'mptt',
+    'ckeditor',
+    'ckeditor_uploader',
 ]
 
 APPS = [
@@ -188,6 +190,9 @@ SESSION_COOKIE_AGE = 60 * 60 * 24 * 7 * 2
 CSRF_COOKIE_AGE = 60 * 60 * 24 * 7 * 2
 
 from .logging_config import *
+
+# ckeditor settings
+from .settings_ckeditor import *
 
 # LOGGING = {
 #     'version': 1,

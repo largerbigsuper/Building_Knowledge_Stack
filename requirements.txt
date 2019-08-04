@@ -17,3 +17,4 @@ Pillow==6.0.0
 aliyun-python-sdk-core-v3==2.13.3
 weixin-python==0.5.5
 python-alipay-sdk==1.9.1
+django-ckeditor==5.6.1

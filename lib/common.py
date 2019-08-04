@@ -20,3 +20,6 @@ def common_logout(request):
 
 def strtime(datime):
     return datime.strftime(DATETIME_FORMAT)
+
+def get_filename(filename):
+    return filename.upper()

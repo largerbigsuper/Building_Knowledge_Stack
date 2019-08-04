@@ -15,8 +15,10 @@ from datamodels.subjects.models import mm_Subject, mm_SubjectTerm, mm_Applicatio
 from apps.customer.subjects.serializers import CustomerSubjectTermSerializer, CustomerApplicationSerializer, CustomerSubmitApplicationSerializer
 from apps.customer.subjects.filters import CustomerSubjectTermFilter
 from apps.customer.questions.filters import CustomerQuestionFilter
+from apps.customer.articles.serializers import CustomerExamNoticeSerializer
 from datamodels.questions.models import mm_Question, mm_QuestionRecord
 from datamodels.invite.models import mm_InviteRecord
+from datamodels.articles.models import mm_ExamNotice
 from lib import pay
 from lib.ali_sms import smsserver
 
@@ -66,6 +68,18 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
         }
         
         return Response(data=data)
+
+    @action(detail=True, methods=['get'])
+    def exam_notice(self, request, pk=None):
+        """科目考试须知
+        """
+        subject = self.get_object()
+        notice = mm_ExamNotice.get_subject_notice(subject_id=subject.id)
+        data = {}
+        if notice:
+            data = CustomerExamNoticeSerializer(notice).data
+        return Response(data)
+
 
         
 

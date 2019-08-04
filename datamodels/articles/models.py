@@ -58,6 +58,9 @@ class ExamNoticeManager(ModelManager):
     def published(self):
         return self.filter(status=self.Publish_Published)
 
+    def get_subject_notice(self, subject_id):
+        return self.published().filter(subject_id=subject_id).first()
+
 
 class ExamNotice(models.Model):
 

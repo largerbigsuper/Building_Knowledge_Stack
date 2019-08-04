@@ -20,6 +20,12 @@ class AppVersionManager(ModelManager):
         (STATUS_PUBLISHED, '已发布')
     )
 
+    def published_versions(self):
+        return self.filter(status=self.STATUS_PUBLISHED)
+
+    def get_latest_version(self, os_type):
+        return self.published_versions().filter(os_type=os_type).first()
+
 
 class AppVersion(models.Model):
 
@@ -37,6 +43,7 @@ class AppVersion(models.Model):
 
     class Meta:
         db_table = DB_PREFIX + 'app_version'
+        ordering = ['-create_at']
 
 
 mm_AppVersion = AppVersion.objects

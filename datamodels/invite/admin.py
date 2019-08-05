@@ -1,6 +1,11 @@
 from django.contrib import admin, messages
 
-from datamodels.invite.models import WithDrawRecord, mm_BlanceRecord
+from datamodels.invite.models import WithDrawRecord, mm_BlanceRecord, InviteRecord
+
+
+@admin.register(InviteRecord)
+class InviteRecordAdmin(admin.ModelAdmin):
+    pass
 
 @admin.register(WithDrawRecord)
 class WithDrawRecordAdmin(admin.ModelAdmin):

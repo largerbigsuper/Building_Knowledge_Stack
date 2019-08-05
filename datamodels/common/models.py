@@ -44,6 +44,8 @@ class AppVersion(models.Model):
     class Meta:
         db_table = DB_PREFIX + 'app_version'
         ordering = ['-create_at']
+        verbose_name = 'App版本'
+        verbose_name_plural = 'App版本'
 
 
 mm_AppVersion = AppVersion.objects

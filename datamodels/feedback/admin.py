@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from datamodels.feedback.models import FeedBack
+
+@admin.register(FeedBack)
+class FeedBackAdmin(admin.ModelAdmin):
+    pass

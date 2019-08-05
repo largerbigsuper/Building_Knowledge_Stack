@@ -32,6 +32,8 @@ class Subject(MPTTModel):
 
     class Meta:
         db_table = DB_PREFIX + 'subjects'
+        verbose_name = '报考类型'
+        verbose_name_plural = '报考类型'
 
     def __str__(self):
         return self.name
@@ -62,6 +64,11 @@ class SubjectTerm(models.Model):
 
     class Meta:
         db_table = DB_PREFIX + 'subject_terms'
+
+        verbose_name = '报名批次'
+        verbose_name_plural = '报名批次'
+    
+        
 
     def __str__(self):
         return self.name
@@ -200,6 +207,9 @@ class Application(models.Model):
 
     class Meta:
         db_table = DB_PREFIX + 'applications'
+        verbose_name = '报名记录'
+        verbose_name_plural = '报名记录'
+    
 
     def __str__(self):
         return '<Application {pk}>'.format(pk=self.id)
@@ -234,6 +244,8 @@ class SubjectConfig(models.Model):
     class Meta:
         db_table = DB_PREFIX + 'subject_config'
         ordering = ['-order_number', 'id']
+        verbose_name = '科目配置'
+        verbose_name_plural = '科目配置'
     
     def __str__(self):
         return self.subject.name

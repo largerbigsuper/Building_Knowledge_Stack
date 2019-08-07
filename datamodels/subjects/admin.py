@@ -14,17 +14,18 @@ class SubjectTermAdmin(admin.ModelAdmin):
 
 @admin.register(Application)
 class ApplicationAdmin(admin.ModelAdmin):
-    pass
+    
+    fields = ['id', 'customer', 'name', 'tel', 'id_number', 'total_amount', 'subject_term', 'pay_at', 'status', 'union_trade_no']
 
 
 @admin.register(SubjectConfig)
 class SubjectConfigAdmin(admin.ModelAdmin):
     
-    def formfield_for_foreignkey(self, db_field, request=None, **kwargs):
-        """只返回以及科目"""
-        if db_field.name == 'subject':
-            kwargs["queryset"] = Subject.objects.filter(level=0)
-        return super().formfield_for_foreignkey(db_field, request, **kwargs)
+    # def formfield_for_foreignkey(self, db_field, request=None, **kwargs):
+    #     """只返回以及科目"""
+    #     if db_field.name == 'subject':
+    #         kwargs["queryset"] = Subject.objects.filter(level=0)
+    #     return super().formfield_for_foreignkey(db_field, request, **kwargs)
 
     def save_model(self, request, obj, form, change):
         if not all([obj.danxuan_count, obj.duoxuan_count, obj.panduan_count]):

@@ -15,7 +15,8 @@ class SubjectTermAdmin(admin.ModelAdmin):
 @admin.register(Application)
 class ApplicationAdmin(admin.ModelAdmin):
     
-    fields = ['id', 'customer', 'name', 'tel', 'id_number', 'total_amount', 'subject_term', 'pay_at', 'status', 'union_trade_no']
+    list_display  = [f.name for f in Application._meta.fields]
+    # list_display = ['id', 'customer', 'name', 'tel', 'id_number', 'total_amount', 'subject_term', 'pay_at', 'status', 'union_trade_no']
 
 
 @admin.register(SubjectConfig)

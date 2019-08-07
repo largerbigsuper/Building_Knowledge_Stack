@@ -124,6 +124,9 @@ class ExamManager(ModelManager):
         duoxuan_list = mm_Question.get_random_questions(
             subject_id, self.Question_Type_Duouanti, duoxuan_count)
         questions = panduan_list + danxuan_list + duoxuan_list
+        
+        if not len(questions):
+            raise CommonException('当前科目题目无题目')
 
         exam = self.create(customer_id=customer_id,
                            subject_id=subject_id, questions=questions)

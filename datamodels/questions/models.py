@@ -108,8 +108,8 @@ class ExamManager(ModelManager):
     def _gen_an_exam(self, customer_id, subject_id):
         """生成试卷题目"""
         subject = mm_Subject.get(pk=subject_id)
-        p_subject = subject.parent
-        subject_config = mm_SubjectConfig.filter(subject=p_subject).first()
+        # p_subject = subject.parent
+        subject_config = mm_SubjectConfig.filter(subject=subject).first()
         if not subject_config:
             raise CommonException('科目未设置题目数量')
 
@@ -139,6 +139,9 @@ class ExamManager(ModelManager):
             _exam = exam
         else:
             _exam = self.get(pk=exam_id)
+        subject_config = mm_SubjectConfig.filter(subject=_exam.subject).first()
+        if not subject_config:
+            raise CommonException('科目未设置题目数量')
         questions = _exam.questions
         questions_list = mm_QuestionRecord.filter(question_id__in=questions, exam_id=_exam.id).select_related('question')
         correct_count = 0
@@ -148,11 +151,11 @@ class ExamManager(ModelManager):
             if q.is_correct:
                 correct_count += 1
                 if q.question.qtype == mm_Question.Question_Type_Panduanti:
-                    total_score += 1
+                    total_score += subject_config.panduan_score
                 elif q.question.qtype == mm_Question.Question_Type_Danxuanti:
-                    total_score += 1
+                    total_score += subject_config.danxuan_score
                 elif q.question.qtype == mm_Question.Question_Type_Duouanti:
-                    total_score += 2
+                    total_score += subject_config.duoxuan_score
                 else:
                     pass
             else:

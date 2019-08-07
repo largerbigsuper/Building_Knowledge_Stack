@@ -2,17 +2,15 @@
 
 from django.conf import settings
 
-from datamodels.subjects.models import mm_Subject
+from datamodels.subjects.models import mm_Subject, mm_SubjectConfig, mm_SubjectTerm, mm_Application
+from datamodels.questions.models import mm_Question, mm_QuestionRecord, mm_Exam
+from datamodels.articles.models import mm_ExamNotice
+
 
 GROUP_MAPPING = [
     {
         'name': '技工证',
         'child': [
-            {
-                # 砌筑工 瓦工 钢筋工 架子工 混凝土工 模板工 防水工 木工
-                # 测量工
-                'name': '土建类技工',
-                'child': [
                     {
                         'name': '砌筑工',
 
@@ -48,14 +46,8 @@ GROUP_MAPPING = [
                     {
                         'name': '测量工',
 
-                    }
-                ]
-            },
-            {
-                # 机械设备安装工 通风工 焊工 电气安装调试工 电工管道工
-                # 起重信号司索工 建筑起重机械安装拆卸工 起重工
-                'name': '安装类技工',
-                'child': [
+                    },
+
                     {
                         'name': '机械设备安装工',
 
@@ -87,14 +79,7 @@ GROUP_MAPPING = [
                     {
                         'name': '起重工',
 
-                    }
-
-                ]
-            },
-            {
-                # 	抹灰工 镶贴工 油漆工 石作业工 水电工 除尘工
-                'name': '装饰类技工',
-                'child': [
+                    },
                     {
                         'name': '抹灰工',
                     },
@@ -112,14 +97,7 @@ GROUP_MAPPING = [
                     },
                     {
                         'name': '除尘工',
-                    }
-                ]
-            },
-            {
-                # 泥塑工 砧细工 彩绘工 匾额工 推光漆工 砌花街工 石雕工
-                # 木雕工 砧刻工
-                'name': '古建筑类技工',
-                'child': [
+                    },
                     {
                         'name': '泥塑工',
                     },
@@ -146,14 +124,7 @@ GROUP_MAPPING = [
                     },
                     {
                         'name': '砧刻工',
-                    }
-                ]
-            },
-            {
-                # 下水道工 下水道养护工 道路养护工 中小型机械操作工 筑路工 沥青工
-                # 沥青混凝土摊铺机操作工
-                'name': '市政类技工',
-                'child': [
+                    },
                     {
                         'name': '下水道工',
                     },
@@ -174,13 +145,7 @@ GROUP_MAPPING = [
                     },
                     {
                         'name': '沥青混凝土摊铺机操作工',
-                    }
-                ]
-            },
-            {
-                # 绿化工 花卉工 假山工 盆景工 植保工 草坪建值工
-                'name': '园林技工',
-                'child': [
+                    },
                     {
                         'name': '绿化工',
                     },
@@ -200,8 +165,6 @@ GROUP_MAPPING = [
                         'name': '草坪建值工',
                     }
                 ]
-            },
-        ]
     },
     {
         # 施工员 质量员 资料员 材料员 劳务员 机械员 标准员
@@ -336,8 +299,8 @@ def print_excute_time(func):
 
 
 @print_excute_time
-def truncate_table():
-    sql = 'DELETE FROM {table};'.format(table= mm_Subject.model._meta.db_table  ) 
+def truncate_table(table):
+    sql = 'DELETE FROM {table};'.format(table=table) 
     from django.db import connection
     cursor = connection.cursor()
     cursor.execute(sql)
@@ -355,5 +318,12 @@ def migrate_db():
 
 
 def run():
-    truncate_table()
+    truncate_table(mm_SubjectConfig.model._meta.db_table)
+    truncate_table(mm_ExamNotice.model._meta.db_table)
+    truncate_table(mm_Exam.model._meta.db_table)
+    truncate_table(mm_Application.model._meta.db_table)
+    truncate_table(mm_SubjectTerm.model._meta.db_table)
+    truncate_table(mm_QuestionRecord.model._meta.db_table)
+    truncate_table(mm_Question.model._meta.db_table)
+    truncate_table(mm_Subject.model._meta.db_table)
     migrate_db()

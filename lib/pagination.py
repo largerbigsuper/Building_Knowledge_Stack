@@ -29,6 +29,9 @@ class PageNumberPagination_10(CustomPagination):
 class PageNumberPagination_20(CustomPagination):
     page_size = 20
 
+class PageNumberPagination_100(CustomPagination):
+    page_size = 100
+
 
 class CustomLimitOffsetPagination(pagination.LimitOffsetPagination):
     

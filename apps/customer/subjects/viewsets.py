@@ -21,6 +21,7 @@ from datamodels.invite.models import mm_InviteRecord
 from datamodels.articles.models import mm_ExamNotice
 from lib import pay
 from lib.ali_sms import smsserver
+from lib.pagination import PageNumberPagination_100
 
 
 pay_logger = logging.getLogger('pay')
@@ -31,6 +32,8 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
     serializer_class = BaseSubjectSerializer
     queryset = mm_Subject.all()
     filter_class = BaseSubjectFilter
+    
+    pagination_class = PageNumberPagination_100
 
     @action(detail=True, methods=['get'], queryset=mm_Subject.all())
     def question_list(self, request, pk=None, format=None):

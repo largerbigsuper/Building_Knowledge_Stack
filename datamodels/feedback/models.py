@@ -18,6 +18,7 @@ class FeedBack(models.Model):
 
     class Meta:
         db_table = DB_PREFIX + 'feedback'
+        ordering = ['-id']
         verbose_name = '反馈管理'
         verbose_name_plural = '反馈管理'
 

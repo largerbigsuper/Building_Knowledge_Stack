@@ -194,6 +194,7 @@ class Exam(models.Model):
 
     class Meta:
         db_table = DB_PREFIX + 'exams'
+        ordering = ['-id']
 
 
 class QuestionRecordManager(ModelManager):
@@ -242,6 +243,7 @@ class QuestionRecord(models.Model):
 
     class Meta:
         db_table = DB_PREFIX + 'question_records'
+        ordering = ['-update_at']
 
 
 mm_Question = Question.objects

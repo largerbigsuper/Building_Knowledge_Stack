@@ -38,6 +38,9 @@ class CustomerManager(ModelManager):
     
     raw_string = list(string.ascii_letters + string.digits)
 
+    # def create(self, **kwargs):
+    #     pass
+
     def gen_code(self):
         code = ''
         for _ in range(4):
@@ -97,8 +100,12 @@ class Customer(CommonInfo):
 
     class Meta:
         db_table = DB_PREFIX + 'customers'
-        verbose_name = '用户管理'
-        verbose_name_plural = '用户管理'
+        ordering = ['-id']
+        verbose_name = '用户'
+        verbose_name_plural = '用户'
+
+    def save(self, force_insert=False, force_update=False, using=None, update_fields=None):
+        return super().save(force_insert=force_insert, force_update=force_update, using=using, update_fields=update_fields)
 
     def __str__(self):
         return self.account

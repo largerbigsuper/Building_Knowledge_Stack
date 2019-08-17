@@ -55,6 +55,7 @@ class InviteRecord(models.Model):
 
     class Meta:
         db_table = DB_PREFIX + 'invite_record'
+        verbose_name = verbose_name_plural = '邀请记录管理'
 
 
 class CustomerBlanceManager(ModelManager):

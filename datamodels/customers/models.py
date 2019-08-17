@@ -97,6 +97,8 @@ class Customer(CommonInfo):
 
     class Meta:
         db_table = DB_PREFIX + 'customers'
+        verbose_name = '用户管理'
+        verbose_name_plural = '用户管理'
 
     def __str__(self):
         return self.account

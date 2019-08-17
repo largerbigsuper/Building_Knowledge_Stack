@@ -5,7 +5,8 @@ from datamodels.invite.models import WithDrawRecord, mm_BlanceRecord, InviteReco
 
 @admin.register(InviteRecord)
 class InviteRecordAdmin(admin.ModelAdmin):
-    pass
+    
+    list_display = [f.name for f in InviteRecord._meta.fields]
 
 @admin.register(WithDrawRecord)
 class WithDrawRecordAdmin(admin.ModelAdmin):

@@ -72,7 +72,8 @@ class Question(models.Model):
     class Meta:
         db_table = DB_PREFIX + 'questions'
         ordering = ['-id']
-
+        verbose_name = verbose_name_plural = '题目管理'
+        
     def __str__(self):
         return '<{qid}: {content}>'.format(qid=self.id, content=self.content[:10])
 

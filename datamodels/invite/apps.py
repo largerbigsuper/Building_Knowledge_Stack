@@ -2,4 +2,5 @@ from django.apps import AppConfig
 
 
 class InviteConfig(AppConfig):
-    name = 'invite'
+    name = 'datamodels.invite'
+    verbose_name = '邀请管理'

@@ -4,4 +4,4 @@ from datamodels.feedback.models import FeedBack
 
 @admin.register(FeedBack)
 class FeedBackAdmin(admin.ModelAdmin):
-    pass
+    list_display = [f.name for f in FeedBack._meta.fields]

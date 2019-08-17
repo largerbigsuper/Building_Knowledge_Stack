@@ -1,0 +1,1 @@
+default_app_config = 'datamodels.subjects.apps.SubjectsConfig'

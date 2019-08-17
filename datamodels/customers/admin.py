@@ -4,6 +4,8 @@ from django.contrib.auth.models import User, Group
 from rest_framework.authtoken.models import Token
 
 from datamodels.customers.models import Customer
+from datamodels.customers.forms import CustomerForm
+
 
 admin.site.unregister(User)
 admin.site.unregister(Group)
@@ -26,4 +28,4 @@ class CustomerAdmin(admin.ModelAdmin):
     
     list_display  = [f.name for f in Customer._meta.fields]
     actions = [set_inviter, unset_inviter]
-
+    form = CustomerForm

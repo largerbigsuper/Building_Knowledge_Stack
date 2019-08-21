@@ -103,6 +103,7 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
         id_number = s.validated_data['id_number']
         id_card_back = s.validated_data.get('id_card_back')
         id_card_front = s.validated_data.get('id_card_front')
+        xxx_image = s.validated_data.get('xxx_image')
         email = s.validated_data.get('email')
 
         invite_code = request.query_params.get('invite_code')
@@ -119,6 +120,7 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 id_card_back=id_card_back,
                 email=email,
                 invite_code=invite_code,
+                xxx_image=xxx_image,
             )
         data = {
             'order_string': order_string
@@ -140,6 +142,7 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
         id_number = s.validated_data['id_number']
         id_card_front = s.validated_data.get('id_card_front')
         id_card_back = s.validated_data.get('id_card_back')
+        xxx_image = s.validated_data.get('xxx_image')
         email = s.validated_data.get('email')
 
         invite_code = request.query_params.get('invite_code')
@@ -159,6 +162,7 @@ class CustomerSubjectermViewSet(CustomerReadOnlyModelViewSet):
                 id_card_back=id_card_back,
                 email=email,
                 invite_code=invite_code,
+                xxx_image=xxx_image,
             )
         data = {
             'order_string': order_string

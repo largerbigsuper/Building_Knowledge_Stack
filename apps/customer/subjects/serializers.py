@@ -22,6 +22,7 @@ class CustomerSubmitApplicationSerializer(serializers.Serializer):
     id_number = serializers.CharField(required=True)
     id_card_front = serializers.CharField(required=False)
     id_card_back = serializers.CharField(required=False)
+    xxx_image = serializers.CharField(required=False)
     email = serializers.CharField(required=False)
 
 
@@ -35,4 +36,4 @@ class CustomerApplicationSerializer(serializers.ModelSerializer):
         'pay_type', 'status', 
         'union_trade_no', 'subject_term_name', 'total_amount', 
         'name', 'tel', 'id_number',
-        'id_card_front', 'id_card_back', 'email']
+        'id_card_front', 'id_card_back', 'email', 'xxx_image']

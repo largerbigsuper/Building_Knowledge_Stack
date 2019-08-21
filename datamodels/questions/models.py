@@ -196,6 +196,14 @@ class Exam(models.Model):
         db_table = DB_PREFIX + 'exams'
         ordering = ['-id']
 
+    def get_question_list(self):
+        """获取题目详情
+        """
+        questions = []
+        for q in self.questions:
+            questions.append(mm_Question.get_question(q))
+        return questions
+
 
 class QuestionRecordManager(ModelManager):
 

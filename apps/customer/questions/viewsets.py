@@ -163,3 +163,22 @@ class CustomerExamViewSet(CustomerModelViewSet):
         data = serializer.data.copy()
         data['questions'] = questions
         return Response(data=data)
+
+    @action(detail=True)
+    def my_result(self, request, pk=None):
+        exam = self.get_object()
+        serializer = self.serializer_class(exam)
+        data = serializer.data.copy()
+        questions = exam.get_question_list()
+        records = mm_QuestionRecord.my_records(customer_id=exam.customer_id, exam_id=exam.id)
+        answer_dict = {}
+        answer_result_dict = {}
+        for record in records:
+            answer_dict[record.question_id] = record.answer
+            answer_result_dict[record.question_id] = record.is_correct
+        for q in questions:
+            q['my_answer'] = answer_dict.get(q['id'], [])
+            q['is_correct'] = answer_result_dict.get(q['id'], -1)
+        data['questions'] = questions
+        return Response(data=data)
+        

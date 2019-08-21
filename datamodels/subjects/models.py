@@ -199,6 +199,7 @@ class Application(models.Model):
     id_number = models.CharField(max_length=40, verbose_name='身份证号码')
     id_card_front = models.ImageField(blank=True, verbose_name='身份证正面')
     id_card_back = models.ImageField(blank=True, verbose_name='身份证反面')
+    xxx_image = models.ImageField(blank=True, verbose_name='证件照')
     email = models.CharField(blank=True, null=True,
                              max_length=40, verbose_name='邮箱')
     invite_code = models.CharField(max_length=4, null=True, blank=True, verbose_name='邀请码')

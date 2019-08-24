@@ -210,6 +210,7 @@ class Application(models.Model):
         db_table = DB_PREFIX + 'applications'
         verbose_name = '报名记录'
         verbose_name_plural = '报名记录'
+        ordering = ['-id']
     
 
     def __str__(self):

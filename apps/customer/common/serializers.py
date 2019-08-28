@@ -7,7 +7,7 @@ class AppVersionSerializer(serializers.ModelSerializer):
 
     os_type = serializers.SerializerMethodField()
     
-    def get_os_type(seld, obj):
+    def get_os_type(self, obj):
         return obj.get_os_type_display()
 
 

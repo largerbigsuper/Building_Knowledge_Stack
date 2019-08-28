@@ -124,7 +124,15 @@ class ExamManager(ModelManager):
             subject_id, self.Question_Type_Danxuanti, danxuan_count)
         duoxuan_list = mm_Question.get_random_questions(
             subject_id, self.Question_Type_Duouanti, duoxuan_count)
-        questions = panduan_list + danxuan_list + duoxuan_list
+        qtype_questions_dict = {
+            self.Question_Type_Panduanti: panduan_list,
+            self.Question_Type_Danxuanti: danxuan_list,
+            self.Question_Type_Duouanti: duoxuan_list,
+        }
+        # questions = panduan_list + danxuan_list + duoxuan_list
+        questions = []
+        for qtype in subject_config.qtype_order_config:
+            questions += qtype_questions_dict[qtype]
         
         if not len(questions):
             raise CommonException('当前科目题目无题目')

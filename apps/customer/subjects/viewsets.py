@@ -67,7 +67,8 @@ class CustomerSubjectViewSet(CustomerReadOnlyModelViewSet):
         subjects = mm_SubjectConfig.get_subjects_show_index()
         serializer = self.serializer_class(subjects, many=True)
         data = {
-            'results': serializer.data
+            'results': serializer.data,
+            'can_click': False
         }
 
         return Response(data=data)

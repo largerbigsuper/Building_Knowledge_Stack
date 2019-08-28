@@ -4,6 +4,7 @@ import time
 from django.db import models
 from mptt.fields import TreeForeignKey
 from mptt.models import MPTTModel
+from django_extensions.db.fields.json import JSONField
 
 from lib.modelmanager import ModelManager
 from lib.ali_sms import smsserver
@@ -234,15 +235,17 @@ class SubjectConfig(models.Model):
     """科目配置"""
 
     subject = models.OneToOneField(Subject, on_delete=models.CASCADE, verbose_name='科目')
-    danxuan_count = models.PositiveSmallIntegerField(default=0, verbose_name='试卷单选题个数')
+    danxuan_count = models.PositiveSmallIntegerField(default=40, verbose_name='试卷单选题个数')
     danxuan_score = models.FloatField(default=1, verbose_name='试卷单选题分数')
-    duoxuan_count = models.PositiveSmallIntegerField(default=0, verbose_name='试卷多选选题个数')
+    duoxuan_count = models.PositiveSmallIntegerField(default=20, verbose_name='试卷多选选题个数')
     duoxuan_score = models.FloatField(default=2, verbose_name='试卷多选选题分数')
-    panduan_count = models.PositiveSmallIntegerField(default=0, verbose_name='试卷判断题个数')
+    panduan_count = models.PositiveSmallIntegerField(default=20, verbose_name='试卷判断题个数')
     panduan_score = models.FloatField(default=1, verbose_name='试卷判断题分数')
     show_index = models.BooleanField(default=True, verbose_name='首页显示')
     order_number = models.PositiveIntegerField(default=0, verbose_name='排序值（越到越靠前）')
-    # terms = models.ManyToManyField(SubjectTerm, verbose_name='报名科目')
+    qtype_order_config = JSONField(default='[0, 1, 2]', verbose_name='试卷题目顺序(0:单选， 1:多选，2:判断）')
+    # can_click = models.BooleanField(default=True, verbose_name='可点击|不可点击')
+
 
     objects = SubjectConfigManager()
 

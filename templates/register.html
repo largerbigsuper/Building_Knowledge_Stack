@@ -143,110 +143,121 @@
             width: 100%;
             top: 0px;
         }
-      .register-people-area{
-        text-align: center;
-        position: relative;
-        width: 100%;
-      }
-      .register-people-title{
-        position: absolute;
-        z-index: 1000;
-        color: #ffffff;
-        width:160px;
-        text-align: center;
-        left: calc(50% - 80px);
-        top:8%;
-        font-size: 14px;
-      }
+        .register-people-area{
+            text-align: center;
+            position: relative;
+            width: 100%;
+        }
+        .register-people-title{
+            position: absolute;
+            z-index: 1000;
+            color: #ffffff;
+            width:160px;
+            text-align: center;
+            left: calc(50% - 80px);
+            top:8%;
+            font-size: 14px;
+        }
 
-      .register-people-text{
-        position: absolute;
-        font-family: 'SourceHanSansCN-Bold';
-        color:#333333;
-        width: 80%;
-        left:10%;
-        top:25%;
-        font-size: 12px;
-      }
+        .register-people-text{
+            position: absolute;
+            font-family: 'SourceHanSansCN-Bold';
+            color:#333333;
+            width: 80%;
+            left:10%;
+            top:25%;
+            font-size: 12px;
+        }
 
-      .register-people-text-span{
-        display: block;
-        width: 100%;
-        text-align: left;
-        font-weight: 600;
-        margin-top: 10px;
-      }
+        .register-people-text-span{
+            display: block;
+            width: 100%;
+            text-align: left;
+            font-weight: 600;
+            margin-top: 10px;
+        }
 
-      .register-down{
-        width: 100%;
-        display: block;
-        text-align: center;
-        padding-top: 30rpx;
+        .register-down{
+            width: 100%;
+            display: block;
+            text-align: center;
+            padding-top: 30px;
 
-      }
-      .register-down-btn{
-        width: 60%;
-        height: 50px;
-        line-height: 50px;
-        display: inline-block;
-        text-align: center;
-        margin-top: 30rpx;
-        background: #4691D5;
-        border-radius: 50px;
-        color:#fff;
-        font-size: 14px;
-        margin-bottom: 20px;
-      }
+        }
+        .register-down-btn{
+            width: 60%;
+            height: 50px;
+            line-height: 50px;
+            display: inline-block;
+            text-align: center;
+            margin-top: 30px;
+            background: #4691D5;
+            border-radius: 50px;
+            color:#fff;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
 
     </style>
 </head>
 <body>
 <div class="main">
+
     <div class="invite-info">
 
-      <img src="{{STATIC_URL}}register/banner-tm.jpg">
+        <img src="{{STATIC_URL}}static/register/banner-tm.jpg">
 
-      <div class="register-down" style="margin-top: 40px">
+        <div class="register-down" style="margin-top: 40px">
 
-      <div style="width: 100%;height: 30rpx;"></div>
-        <a class="register-down-btn" href="https://itunes.apple.com/app/1475728661">
-          <img src="{{STATIC_URL}}register/ios.png" style="width: 15px;vertical-align: middle;margin-right: 20px">
-          IOS版本下载
-        </a>
-        <a class="register-down-btn" href="https://www.pgyer.com/jn3D">
-          <img src="{{STATIC_URL}}register/android.png" style="width: 15px;vertical-align: middle;margin-right: 20px">
-          Android版本下载
-        </a>
-      </div>
+            <div style="width: 100%;height: 30px;"></div>
+
+            <a class="register-down-btn" href="itms-apps://itunes.apple.com/app/id1475728661">
+                <img src="{{STATIC_URL}}static/register/ios.png" style="width: 15px;vertical-align: middle;margin-right: 20px">
+                IOS版本下载
+            </a>
+            <a class="register-down-btn" href="https://www.pgyer.com/jn3D">
+                <img src="{{STATIC_URL}}static/register/android.png" style="width: 15px;vertical-align: middle;margin-right: 20px">
+                Android版本下载
+            </a>
+        </div>
 
     </div>
+
     <div style="display: flex;">
-<span class="submit">
-<p class="submit_item">
-<input id='phone' placeholder="请输入手机号" type="text">
-</p>
-<p class="submit_item">
-<input id='verf' placeholder="请输入短信验证码" type="number">
-<button onclick="getverf()" class="submit_but" id="indenty">获取验证码</button>
-</p>
-<p class="submit_item">
-<input id='passwd' placeholder="设置密码（6-20位字母或数字）" type="password">
-</p>
-<p id='inviteItem' class="submit_item">
-<input id='invite_code' placeholder="请输入邀请码" type="text" readonly="readonly">
-</p>
-</span>
+
+        <span class="submit">
+            <p class="submit_item">
+            <input id='phone' placeholder="请输入手机号" type="text">
+            </p>
+
+            <p class="submit_item">
+                 <input id='verf' placeholder="请输入短信验证码" type="text">
+                <button onclick="getverf()" class="submit_but" id="indenty">获取验证码</button>
+            </p>
+
+            <p class="submit_item">
+                <input id='passwd' placeholder="设置密码（6-20位字母或数字）" type="password">
+            </p>
+
+            <p id='inviteItem' class="submit_item">
+                <input id='invite_code' placeholder="请输入邀请码" type="text" readonly="readonly">
+            </p>
+        </span>
     </div>
+
+    <div>
+        <p class="protocol">
+            <input id='prot' checked="checked" type="checkbox">
+            <span>已阅读并同意</span>
+            <a style="color:#f69c4a" href="https://www.tianminghz.cn/protocol/">注册必读</a>
+        </p>
+        <div style='display: flex'>
+            <button class="bottom_but" onclick="submit()">马上注册</button>
+        </div>
+    </div>
+
 </div>
-<p class="protocol">
-    <input id='prot' checked="checked" type="checkbox">
-    <span>已阅读并同意</span>
-    <a style="color:#f69c4a" id="home_register">注册必读</a>
-</p>
-<div style='display: flex'>
-    <button class="bottom_but" onclick="submit()">马上注册</button>
-</div>
-</div>
+
 <script>
 
     var nums = 60;
@@ -255,10 +266,11 @@
     //手机号码正则
     function checkPhone(){
         var phone = document.getElementById('phone').value;
-        if(!(/^1[34578]\d{9}$/.test(phone))){
+        if (phone.length !== 11){
             alert("手机号码有误，请重填。");
             return false;
         }
+        return true;
     }
 
 
@@ -332,8 +344,6 @@
 
 
     $(document).ready(function () {
-        var url = location.host + '/protocol/'
-        $('#home_register').attr('href',url);
 
         var hash = location.search;
         var code = hash.split('=')[1];

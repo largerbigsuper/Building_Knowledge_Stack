@@ -8,3 +8,6 @@ def register(request):
 
 def protocol(request):
     return render(request, 'protocol.html')
+
+def hello(request):
+    return render(request, 'hello.html')

@@ -10,6 +10,7 @@ from datamodels.subjects import views as pay_views
 
 urlpatterns = [
     path('', views.about_us),
+    path('hello/', views.hello),
     path('register/', views.register),
     path('protocol/', views.protocol),
     path('api-auth/', include('rest_framework.urls')),

@@ -7,4 +7,6 @@ from datamodels.questions.models import Question
 class QuestionAdmin(admin.ModelAdmin):
     list_display = [f.name for f in Question._meta.fields]
 
+    search_fields = ['content']
+
 
